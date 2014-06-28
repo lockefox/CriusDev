@@ -1,5 +1,6 @@
-{
-    "systemCostIndices": [
+{"totalCount_str": "5431",
+    "items": [
+    {"systemCostIndices": [
         {
             "costIndex": 0.024407267060097586,
             "activityID": 1,
@@ -44,3 +45,142 @@
         "name": "Jouvulen"
     }
 },
+{
+    "systemCostIndices": [
+        {
+            "costIndex": 0.04848289533934745,
+            "activityID": 1,
+            "activityID_str": "1",
+            "activityName": "Manufacturing"
+        },
+        {
+            "costIndex": 0.03056920663045507,
+            "activityID": 3,
+            "activityID_str": "3",
+            "activityName": "Researching Time Efficiency"
+        },
+        {
+            "costIndex": 0.01900893158766276,
+            "activityID": 4,
+            "activityID_str": "4",
+            "activityName": "Researching Material Efficiency"
+        },
+        {
+            "costIndex": 0.04182225275118211,
+            "activityID": 5,
+            "activityID_str": "5",
+            "activityName": "Copying"
+        },
+        {
+            "costIndex": 0.0008858423808639999,
+            "activityID": 7,
+            "activityID_str": "7",
+            "activityName": "Reverse Engineering"
+        },
+        {
+            "costIndex": 0.060364992747339766,
+            "activityID": 8,
+            "activityID_str": "8",
+            "activityName": "Invention"
+        }
+    ],
+    "solarSystem": {
+        "id_str": "30002771",
+        "href": "http://public-crest-sisi.testeveonline.com/solarsystems/30002771/",
+        "id": 30002771,
+        "name": "Kulelen"
+    }
+},
+{
+    "systemCostIndices": [
+        {
+            "costIndex": 0.04210225592524663,
+            "activityID": 1,
+            "activityID_str": "1",
+            "activityName": "Manufacturing"
+        },
+        {
+            "costIndex": 0.03197825385004549,
+            "activityID": 3,
+            "activityID_str": "3",
+            "activityName": "Researching Time Efficiency"
+        },
+        {
+            "costIndex": 0.031847172091624174,
+            "activityID": 4,
+            "activityID_str": "4",
+            "activityName": "Researching Material Efficiency"
+        },
+        {
+            "costIndex": 0.04218715446157312,
+            "activityID": 5,
+            "activityID_str": "5",
+            "activityName": "Copying"
+        },
+        {
+            "costIndex": 0.0008941324,
+            "activityID": 7,
+            "activityID_str": "7",
+            "activityName": "Reverse Engineering"
+        },
+        {
+            "costIndex": 0.03912647395085882,
+            "activityID": 8,
+            "activityID_str": "8",
+            "activityName": "Invention"
+        }
+    ],
+    "solarSystem": {
+        "id_str": "30002772",
+        "href": "http://public-crest-sisi.testeveonline.com/solarsystems/30002772/",
+        "id": 30002772,
+        "name": "Rairomon"
+    }
+},
+{
+    "systemCostIndices": [
+        {
+            "costIndex": 0.0008858423808639999,
+            "activityID": 1,
+            "activityID_str": "1",
+            "activityName": "Manufacturing"
+        },
+        {
+            "costIndex": 0.04104078296693909,
+            "activityID": 3,
+            "activityID_str": "3",
+            "activityName": "Researching Time Efficiency"
+        },
+        {
+            "costIndex": 0.027601605082737037,
+            "activityID": 4,
+            "activityID_str": "4",
+            "activityName": "Researching Material Efficiency"
+        },
+        {
+            "costIndex": 0.040544542991995114,
+            "activityID": 5,
+            "activityID_str": "5",
+            "activityName": "Copying"
+        },
+        {
+            "costIndex": 0.0008587247569599998,
+            "activityID": 7,
+            "activityID_str": "7",
+            "activityName": "Reverse Engineering"
+        },
+        {
+            "costIndex": 0.04111367084418731,
+            "activityID": 8,
+            "activityID_str": "8",
+            "activityName": "Invention"
+        }
+    ],
+    "solarSystem": {
+        "id_str": "30002773",
+        "href": "http://public-crest-sisi.testeveonline.com/solarsystems/30002773/",
+        "id": 30002773,
+        "name": "Hogimo"
+    }
+}
+]}
