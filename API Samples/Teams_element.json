@@ -1,0 +1,72 @@
+{
+            "solarSystem": {
+                "id_str": "30002187",
+                "href": "http://public-crest-sisi.testeveonline.com/solarsystems/30002187/",
+                "id": 30002187,
+                "name": "Amarr"
+            },
+            "specialization": {
+                "href": "http://public-crest-sisi.testeveonline.com/industry/specialities/1/",
+                "id": 1,
+                "id_str": "1"
+            },
+            "creationTime": "2014-06-18T14:23:12",
+            "workers": [
+                {
+                    "bonus": {
+                        "bonusType": "TE",
+                        "id": 0,
+                        "value": -1.0,
+                        "id_str": "0"
+                    },
+                    "specialization": {
+                        "href": "http://public-crest-sisi.testeveonline.com/industry/specialities/10/",
+                        "id": 10,
+                        "id_str": "10"
+                    }
+                },
+                {
+                    "bonus": {
+                        "bonusType": "TE",
+                        "id": 0,
+                        "value": -1.0,
+                        "id_str": "0"
+                    },
+                    "specialization": {
+                        "href": "http://public-crest-sisi.testeveonline.com/industry/specialities/7/",
+                        "id": 7,
+                        "id_str": "7"
+                    }
+                },
+                {
+                    "bonus": {
+                        "bonusType": "TE",
+                        "id": 0,
+                        "value": -4.0,
+                        "id_str": "0"
+                    },
+                    "specialization": {
+                        "href": "http://public-crest-sisi.testeveonline.com/industry/specialities/49/",
+                        "id": 49,
+                        "id_str": "49"
+                    }
+                },
+                {
+                    "bonus": {
+                        "bonusType": "TE",
+                        "id": 0,
+                        "value": -16.0,
+                        "id_str": "0"
+                    },
+                    "specialization": {
+                        "href": "http://public-crest-sisi.testeveonline.com/industry/specialities/47/",
+                        "id": 47,
+                        "id_str": "47"
+                    }
+                }
+            ],
+            "expiryTime": "2014-07-23T14:23:12",
+            "costModifier": 5.0,
+            "id_str": "7",
+            "id": 7
+        },

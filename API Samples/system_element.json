@@ -1,0 +1,46 @@
+{
+    "systemCostIndices": [
+        {
+            "costIndex": 0.024407267060097586,
+            "activityID": 1,
+            "activityID_str": "1",
+            "activityName": "Manufacturing"
+        },
+        {
+            "costIndex": 0.00098,
+            "activityID": 3,
+            "activityID_str": "3",
+            "activityName": "Researching Time Efficiency"
+        },
+        {
+            "costIndex": 0.00098,
+            "activityID": 4,
+            "activityID_str": "4",
+            "activityName": "Researching Material Efficiency"
+        },
+        {
+            "costIndex": 0.00098,
+            "activityID": 5,
+            "activityID_str": "5",
+            "activityName": "Copying"
+        },
+        {
+            "costIndex": 0.00098,
+            "activityID": 7,
+            "activityID_str": "7",
+            "activityName": "Reverse Engineering"
+        },
+        {
+            "costIndex": 0.00098,
+            "activityID": 8,
+            "activityID_str": "8",
+            "activityName": "Invention"
+        }
+    ],
+    "solarSystem": {
+        "id_str": "30011392",
+        "href": "http://public-crest-sisi.testeveonline.com/solarsystems/30011392/",
+        "id": 30011392,
+        "name": "Jouvulen"
+    }
+},
