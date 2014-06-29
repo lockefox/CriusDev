@@ -1,0 +1,30 @@
+<eveapi version="2">
+<currentTime>2014-06-29 04:22:02</currentTime>
+<result>
+<rowset name="facilities" key="facilityID" columns="facilityID,typeID,typeName,solarSystemID,solarSystemName,regionID,regionName,starbaseModifier,tax">
+<row facilityID="1015061849081" typeID="28351" typeName="Design Laboratory" solarSystemID="30002797" solarSystemName="Kaunokka" regionID="10000033" regionName="The Citadel" starbaseModifier="0.94" tax="0"/>
+<row facilityID="1015061849087" typeID="24567" typeName="Experimental Laboratory" solarSystemID="30002797" solarSystemName="Kaunokka" regionID="10000033" regionName="The Citadel" starbaseModifier="0.985" tax="0"/>
+<row facilityID="1015061849092" typeID="32245" typeName="Hyasyoda Research Laboratory" solarSystemID="30002797" solarSystemName="Kaunokka" regionID="10000033" regionName="The Citadel" starbaseModifier="0.985" tax="0"/>
+<row facilityID="1015061849125" typeID="16216" typeName="Research Laboratory" solarSystemID="30002797" solarSystemName="Kaunokka" regionID="10000033" regionName="The Citadel" starbaseModifier="0.94" tax="0"/>
+<row facilityID="1015061849185" typeID="29613" typeName="Large Ship Assembly Array" solarSystemID="30002797" solarSystemName="Kaunokka" regionID="10000033" regionName="The Citadel" starbaseModifier="0" tax="0"/>
+<row facilityID="1015061849241" typeID="24660" typeName="Component Assembly Array" solarSystemID="30002797" solarSystemName="Kaunokka" regionID="10000033" regionName="The Citadel" starbaseModifier="0.98" tax="0"/>
+<row facilityID="1015061849294" typeID="24653" typeName="Advanced Small Ship Assembly Array" solarSystemID="30002797" solarSystemName="Kaunokka" regionID="10000033" regionName="The Citadel" starbaseModifier="0.98" tax="0"/>
+<row facilityID="1015061849436" typeID="13780" typeName="Equipment Assembly Array" solarSystemID="30002797" solarSystemName="Kaunokka" regionID="10000033" regionName="The Citadel" starbaseModifier="0.98" tax="0"/>
+<row facilityID="1015061849493" typeID="16216" typeName="Research Laboratory" solarSystemID="30002797" solarSystemName="Kaunokka" regionID="10000033" regionName="The Citadel" starbaseModifier="0.94" tax="0"/>
+<row facilityID="1015061849497" typeID="16216" typeName="Research Laboratory" solarSystemID="30002797" solarSystemName="Kaunokka" regionID="10000033" regionName="The Citadel" starbaseModifier="0.94" tax="0"/>
+<row facilityID="1015061849500" typeID="16216" typeName="Research Laboratory" solarSystemID="30002797" solarSystemName="Kaunokka" regionID="10000033" regionName="The Citadel" starbaseModifier="0.94" tax="0"/>
+<row facilityID="1015061849537" typeID="32245" typeName="Hyasyoda Research Laboratory" solarSystemID="30002797" solarSystemName="Kaunokka" regionID="10000033" regionName="The Citadel" starbaseModifier="0.985" tax="0"/>
+<row facilityID="1015061849540" typeID="28351" typeName="Design Laboratory" solarSystemID="30002797" solarSystemName="Kaunokka" regionID="10000033" regionName="The Citadel" starbaseModifier="0.94" tax="0"/>
+<row facilityID="1015061849542" typeID="28351" typeName="Design Laboratory" solarSystemID="30002797" solarSystemName="Kaunokka" regionID="10000033" regionName="The Citadel" starbaseModifier="0.94" tax="0"/>
+<row facilityID="1015061849545" typeID="28351" typeName="Design Laboratory" solarSystemID="30002797" solarSystemName="Kaunokka" regionID="10000033" regionName="The Citadel" starbaseModifier="0.94" tax="0"/>
+<row facilityID="1015061849557" typeID="13780" typeName="Equipment Assembly Array" solarSystemID="30002797" solarSystemName="Kaunokka" regionID="10000033" regionName="The Citadel" starbaseModifier="0.98" tax="0"/>
+<row facilityID="1015061849566" typeID="13780" typeName="Equipment Assembly Array" solarSystemID="30002797" solarSystemName="Kaunokka" regionID="10000033" regionName="The Citadel" starbaseModifier="0.98" tax="0"/>
+<row facilityID="1015061849581" typeID="13780" typeName="Equipment Assembly Array" solarSystemID="30002797" solarSystemName="Kaunokka" regionID="10000033" regionName="The Citadel" starbaseModifier="0.98" tax="0"/>
+<row facilityID="1015061849585" typeID="24660" typeName="Component Assembly Array" solarSystemID="30002797" solarSystemName="Kaunokka" regionID="10000033" regionName="The Citadel" starbaseModifier="0.98" tax="0"/>
+<row facilityID="1015061849589" typeID="24660" typeName="Component Assembly Array" solarSystemID="30002797" solarSystemName="Kaunokka" regionID="10000033" regionName="The Citadel" starbaseModifier="0.98" tax="0"/>
+<row facilityID="1015061849590" typeID="24660" typeName="Component Assembly Array" solarSystemID="30002797" solarSystemName="Kaunokka" regionID="10000033" regionName="The Citadel" starbaseModifier="0.98" tax="0"/>
+<row facilityID="1015061849594" typeID="24653" typeName="Advanced Small Ship Assembly Array" solarSystemID="30002797" solarSystemName="Kaunokka" regionID="10000033" regionName="The Citadel" starbaseModifier="0.98" tax="0"/>
+</rowset>
+</result>
+<cachedUntil>2014-06-29 04:37:02</cachedUntil>
+</eveapi>
