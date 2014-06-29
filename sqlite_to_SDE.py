@@ -35,12 +35,6 @@ def SQLite_fetch():
 		
 	return data
 	
-if csvdump:
-	csv_file.write("key,value,time,\n")	
-	for row in data:
-		csv_file.write("%s,%s,%s,\n" %(row[0],row[1],row[2]))
-	
-
 def parseargs():
 	global csvdump, mySQL_enabled, sqlite_defaultPath
 	
@@ -53,9 +47,10 @@ def parseargs():
 	for opt, arg in opts:
 		if opt == "-h":
 			print "--csv, --noSQL, --sqlsource="
-		if opt == "--csv":
+		elif opt == "--csv":
 			csvdump = True
-
+		elif opt == "--sqlsource":
+			sqlite_defaultPath = arg
 
 def main():
 	parseargs()
