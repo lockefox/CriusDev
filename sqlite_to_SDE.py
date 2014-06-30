@@ -119,6 +119,7 @@ def configMySQL():
 			`activityID`  int(32) NOT NULL,
 			`proudctID`   int(32) NOT NULL,
 			`quantity`    int(32) NOT NULL DEFAULT 0,
+			`probability` int(32) DEFAULT NULL,
 			PRIMARY KEY (blueprintID,activityID,proudctID))
 		ENGINE=InnoDB DEFAULT CHARSET=latin1''' % prods_table)
 	mysql_con.commit()
@@ -183,10 +184,14 @@ def main():
 					elif data_type == "products":
 						for itemID,result_obj in data_payload.iteritems():
 							prod_yield = result_obj["quantity"]
+							try:
+								probability = result_obj["probability"]
+							except KeyError:
+								probability = "NULL"
 							#SQL_str = "%sINSERT INTO %s (blueprintID,activityID,proudctID,quantity) VALUES (%s,%s,%s,%s);\n"\
 							#	% (SQL_str,prods_table,blueprintID,activityID,itemID,prod_yield)
-							mysql_cur.execute('''INSERT INTO %s (blueprintID,activityID,proudctID,quantity) 
-								VALUES (%s,%s,%s,%s)''' % (prods_table,blueprintID,activityID,itemID,prod_yield))
+							mysql_cur.execute('''INSERT INTO %s (blueprintID,activityID,proudctID,quantity,probability) 
+								VALUES (%s,%s,%s,%s,%s)''' % (prods_table,blueprintID,activityID,itemID,prod_yield,probability))
 							mysql_con.commit()
 			#TODO: write to SQL per-BPO	
 			#print SQL_str
