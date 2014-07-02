@@ -7,7 +7,8 @@ SELECT it1.typeid baseid
 	,it4.typeid t2bpid
 	,it4.typename t2bpname
 	,(IF (grp1.groupID IN (419,27) OR it1.typeid=17476,0.2,IF(grp1.groupID IN (26,28) OR it1.typeid=17476,0.25,IF(grp1.groupID IN (25,420,513) OR it1.typeid=17480,0.3,0.4))))*(1.05)*(1+10*(.1/5)) baseProb5
-	,(IF(grp1.categoryID = 6, 1, IF(grp1.groupID = 86, 40, IF(grp1.categoryID = 8, 10000, 10) ))) T2BPO_yld
+	-- ,(IF(grp1.categoryID = 6, 1, IF(grp1.groupID = 86, 40, IF(grp1.categoryID = 8, 10000, 10) ))) T2BPO_yld
+	,IF(grp1.groupID = 86, 40, IF(grp1.categoryID = 8, 10000, invent.quantity)) T2_runs
 	,(IF(grp1.categoryID = 6, 1, IF(grp1.categoryID = 8, 1500, 300) ))*ibt1.researchCopyTime old_copytime
 	,ibt1.researchTechTime old_inventtime
 	,ibt2.productionTime old_buildtime
@@ -20,5 +21,7 @@ JOIN invTypes it3 ON imt.typeid=it3.typeid
 JOIN invBlueprintTypes ibt2 ON it3.typeid=ibt2.producttypeid
 JOIN invTypes it4 ON it4.typeid=ibt2.blueprinttypeid
 JOIN invGroups grp1 ON it1.groupID = grp1.groupID
+RIGHT JOIN crius_bpoproducts invent ON (invent.blueprintID = it2.typeid AND invent.activityID=8)
 -- JOIN invCategories cat1 ON grp1.categoryID = cat1.categoryID
-WHERE imt.metaGroupID=2;
+WHERE imt.metaGroupID=2
+GROUP BY it3.typeid 

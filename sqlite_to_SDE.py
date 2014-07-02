@@ -119,7 +119,7 @@ def configMySQL():
 			`activityID`  int(32) NOT NULL,
 			`proudctID`   int(32) NOT NULL,
 			`quantity`    int(32) NOT NULL DEFAULT 0,
-			`probability` int(32) DEFAULT NULL,
+			`probability` float(4,3) DEFAULT NULL,
 			PRIMARY KEY (blueprintID,activityID,proudctID))
 		ENGINE=InnoDB DEFAULT CHARSET=latin1''' % prods_table)
 	mysql_con.commit()
