@@ -1,7 +1,7 @@
 <eveapi version="2">
-<currentTime>2014-06-29 04:59:59</currentTime>
-<result>
-<rowset name="jobs" key="jobID" columns="jobID,installerID,installerName,facilityID,solarSystemID,solarSystemName,stationID,activityID,blueprintID,blueprintTypeID,blueprintTypeName,blueprintLocationID,outputLocationID,runs,cost,teamID,licensedRuns,probability,productTypeID,productTypeName,status,timeInSeconds,startDate,endDate,pauseDate,completedDate,completedCharacterID"/>
-</result>
-<cachedUntil>2014-06-29 10:59:59</cachedUntil>
+	<currentTime>2014-06-29 04:59:59</currentTime>
+	<result>
+		<rowset name="jobs" key="jobID" columns="jobID,installerID,installerName,facilityID,solarSystemID,solarSystemName,stationID,activityID,blueprintID,blueprintTypeID,blueprintTypeName,blueprintLocationID,outputLocationID,runs,cost,teamID,licensedRuns,probability,productTypeID,productTypeName,status,timeInSeconds,startDate,endDate,pauseDate,completedDate,completedCharacterID"/>
+	</result>
+	<cachedUntil>2014-06-29 10:59:59</cachedUntil>
 </eveapi>
