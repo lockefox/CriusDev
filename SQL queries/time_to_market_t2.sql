@@ -10,7 +10,8 @@ SELECT it1.typeid baseid
 	,invent.probability*(1.05)*(1+10*(.1/5)) baseProb5
 	-- ,(IF(grp1.categoryID = 6, 1, IF(grp1.groupID = 86, 40, IF(grp1.categoryID = 8, 10000, 10) ))) T2BPO_yld
 	,IF(grp1.groupID = 86, 40, IF(grp1.categoryID = 8, 10000, invent.quantity)) T2_runs
-	,(IF(grp1.categoryID = 6, 1, IF(grp1.categoryID = 8, 1500, 300) ))*ibt1.researchCopyTime old_copytime
+	-- ,ibt1.researchCopyTime*(.75)/(IF(grp1.categoryID = 6, 1, IF(grp1.categoryID = 8, 1500, 300) )) old_copytime
+	,(ibt1.researchCopyTime*(.75))/(IF(grp1.categoryID = 6,ibt1.maxProductionLimit,1)) old_copytime
 	,ibt1.researchTechTime old_inventtime
 	,ibt2.productionTime old_buildtime
 	,ibt2.productivityModifier old_prodmod
