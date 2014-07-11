@@ -1,0 +1,157 @@
+{
+    "totalCount_str": "999",
+    "items": [
+        {
+            "solarSystem": {
+                "id_str": "30001710",
+                "href": "http://public-crest-sisi.testeveonline.com/solarsystems/30001710/",
+                "id": 30001710,
+                "name": "Yeder"
+            },
+            "specialization": {
+                "href": "http://public-crest-sisi.testeveonline.com/industry/specialities/6/",
+                "id": 6,
+                "id_str": "6"
+            },
+            "creationTime": "2014-07-04T02:36:17",
+            "workers": [
+                {
+                    "bonus": {
+                        "bonusType": "ME",
+                        "id": 1,
+                        "value": -1.5,
+                        "id_str": "1"
+                    },
+                    "specialization": {
+                        "href": "http://public-crest-sisi.testeveonline.com/industry/specialities/32/",
+                        "id": 32,
+                        "id_str": "32"
+                    }
+                },
+                {
+                    "bonus": {
+                        "bonusType": "TE",
+                        "id": 0,
+                        "value": -5.0,
+                        "id_str": "0"
+                    },
+                    "specialization": {
+                        "href": "http://public-crest-sisi.testeveonline.com/industry/specialities/38/",
+                        "id": 38,
+                        "id_str": "38"
+                    }
+                },
+                {
+                    "bonus": {
+                        "bonusType": "TE",
+                        "id": 0,
+                        "value": -6.0,
+                        "id_str": "0"
+                    },
+                    "specialization": {
+                        "href": "http://public-crest-sisi.testeveonline.com/industry/specialities/103/",
+                        "id": 103,
+                        "id_str": "103"
+                    }
+                },
+                {
+                    "bonus": {
+                        "bonusType": "TE",
+                        "id": 0,
+                        "value": -1.0,
+                        "id_str": "0"
+                    },
+                    "specialization": {
+                        "href": "http://public-crest-sisi.testeveonline.com/industry/specialities/43/",
+                        "id": 43,
+                        "id_str": "43"
+                    }
+                }
+            ],
+            "expiryTime": "2014-08-08T02:36:17",
+            "solarSystemBids": [
+                
+            ],
+            "auctionExpiryTime": "2014-07-11T02:36:17",
+            "id_str": "2234",
+            "costModifier": 10.0,
+            "id": 2234
+        },
+        {
+            "solarSystem": {
+                "id_str": "30002643",
+                "href": "http://public-crest-sisi.testeveonline.com/solarsystems/30002643/",
+                "id": 30002643,
+                "name": "Faurent"
+            },
+            "specialization": {
+                "href": "http://public-crest-sisi.testeveonline.com/industry/specialities/6/",
+                "id": 6,
+                "id_str": "6"
+            },
+            "creationTime": "2014-07-04T02:45:50",
+            "workers": [
+                {
+                    "bonus": {
+                        "bonusType": "TE",
+                        "id": 0,
+                        "value": -1.0,
+                        "id_str": "0"
+                    },
+                    "specialization": {
+                        "href": "http://public-crest-sisi.testeveonline.com/industry/specialities/38/",
+                        "id": 38,
+                        "id_str": "38"
+                    }
+                },
+                {
+                    "bonus": {
+                        "bonusType": "TE",
+                        "id": 0,
+                        "value": -3.0,
+                        "id_str": "0"
+                    },
+                    "specialization": {
+                        "href": "http://public-crest-sisi.testeveonline.com/industry/specialities/36/",
+                        "id": 36,
+                        "id_str": "36"
+                    }
+                },
+                {
+                    "bonus": {
+                        "bonusType": "TE",
+                        "id": 0,
+                        "value": -16.0,
+                        "id_str": "0"
+                    },
+                    "specialization": {
+                        "href": "http://public-crest-sisi.testeveonline.com/industry/specialities/122/",
+                        "id": 122,
+                        "id_str": "122"
+                    }
+                },
+                {
+                    "bonus": {
+                        "bonusType": "TE",
+                        "id": 0,
+                        "value": -1.0,
+                        "id_str": "0"
+                    },
+                    "specialization": {
+                        "href": "http://public-crest-sisi.testeveonline.com/industry/specialities/41/",
+                        "id": 41,
+                        "id_str": "41"
+                    }
+                }
+            ],
+            "expiryTime": "2014-08-08T02:45:50",
+            "solarSystemBids": [
+                
+            ],
+            "auctionExpiryTime": "2014-07-11T02:45:50",
+            "id_str": "2235",
+            "costModifier": 7.0,
+            "id": 2235
+        }
+	]
+}
