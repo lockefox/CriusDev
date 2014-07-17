@@ -1,7 +1,5 @@
 #!/Python27/python.exe
 
-import json
-
 activity_conversion = {
 	#activityID,activitySTR
 	"0":"None",
