@@ -2,7 +2,7 @@ var base_CREST_URL = "http://public-crest.eveonline.com/";
 var test_CREST_URL = "http://public-crest-sisi.testeveonline.com/";
 var base_API_URL = "https://api.eveonline.com/char/AssetList.xml.aspx?";
 
-
+////	UTILITIES	////
 function date_array(days)
 {
   var daterange = [];
@@ -31,6 +31,7 @@ function date_array(days)
   return daterange;
 }
 
+////	FETCH FUNCS		////
 function __fetchCrest_market(region_id,item_id)
 {
   var parameters = {
@@ -49,6 +50,28 @@ function __fetchCrest_market(region_id,item_id)
   var volumes = []
 }
 
+function __fetchSystemIndexes(test_server)
+{
+  var base_url="";
+  
+  if(test_server) base_url = test_CREST_URL;
+  else base_url = base_CREST_URL;
+//  if(test_server === undefined) base_url = base_CREST_URL; //allow switching between test/live server (for debug)
+//  else base_url = test_CREST_URL;
+//  
+  var parameters = {
+    method : "get",
+    user_agent : "Lockefox @HLIBindustry GDOC scripts",
+  }
+  var url = base_url+"industry/systems/";
+  Utilities.sleep(1000);
+  var text = UrlFetchApp.fetch(url,parameters);
+  var json_obj = JSON.parse(text);
+  
+  return json_obj;
+}
+
+////	GDOC FUNCS		////
 function getAvgVolume(days,item_id,region_id)
 {
   var market_obj = {};
@@ -99,57 +122,6 @@ function getVolumes(days,item_id,region_id)
   }
 
   return volumes;
-}
-
-function dump(item_id,region_id,headerBool)
-{
-  var market_obj = {};
-  market_obj = __fetchCrest_market(item_id,region_id);
-  
-  var obj_dump = [];
-
-  if(headerBool)
-  {
-    var header = [];
-    header = ["date","lowPrice","highPrice","avgPrice","volume","orders"];
-    obj_dump.push(header);
-  }
- 
-  for (var index = 0; index < market_obj["items"].length; index ++)
-  {
-    var tmp_dump = [];
-    tmp_dump.push(market_obj["items"][index]["date"]);
-    tmp_dump.push(market_obj["items"][index]["lowPrice"]);
-    tmp_dump.push(market_obj["items"][index]["highPrice"]);
-    tmp_dump.push(market_obj["items"][index]["avgPrice"]);
-    tmp_dump.push(market_obj["items"][index]["volume"]);
-    tmp_dump.push(market_obj["items"][index]["orderCount"]);
-    
-    obj_dump.push(tmp_dump);
-  }
-  
-  return obj_dump;
-}
-
-function __fetchSystemIndexes(test_server)
-{
-  var base_url="";
-  
-  if(test_server) base_url = test_CREST_URL;
-  else base_url = base_CREST_URL;
-//  if(test_server === undefined) base_url = base_CREST_URL; //allow switching between test/live server (for debug)
-//  else base_url = test_CREST_URL;
-//  
-  var parameters = {
-    method : "get",
-    user_agent : "Lockefox @HLIBindustry GDOC scripts",
-  }
-  var url = base_url+"industry/systems/";
-  Utilities.sleep(1000);
-  var text = UrlFetchApp.fetch(url,parameters);
-  var json_obj = JSON.parse(text);
-  
-  return json_obj;
 }
 
 function AllSystemIndexes(header_bool, test_server)
