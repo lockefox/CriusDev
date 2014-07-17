@@ -1,0 +1,35 @@
+{
+    "totalCount_str": "6074",
+    "items": [
+        {
+            "adjustedPrice": 646870.5087,
+            "averagePrice": 644812.1329,
+            "type": {
+                "id_str": "32772",
+                "href": "http://public-crest-sisi.testeveonline.com/types/32772/",
+                "id": 32772,
+                "name": "Medium Ancillary Shield Booster"
+            }
+        },
+        {
+            "adjustedPrice": 44424.0517,
+            "averagePrice": 41978.8171,
+            "type": {
+                "id_str": "32774",
+                "href": "http://public-crest-sisi.testeveonline.com/types/32774/",
+                "id": 32774,
+                "name": "Small Ancillary Shield Booster"
+            }
+        },
+        {
+            "adjustedPrice": 726734.3661,
+            "averagePrice": 688428.3964,
+            "type": {
+                "id_str": "32780",
+                "href": "http://public-crest-sisi.testeveonline.com/types/32780/",
+                "id": 32780,
+                "name": "X-Large Ancillary Shield Booster"
+            }
+        }
+	]
+}
