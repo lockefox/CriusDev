@@ -71,6 +71,27 @@ function __fetchSystemIndexes(test_server)
   return json_obj;
 }
 
+function __fetchMarketPrices(test_server)
+{
+  var base_url="";
+  
+  if(test_server) base_url = test_CREST_URL;
+  else base_url = base_CREST_URL;
+//  if(test_server === undefined) base_url = base_CREST_URL; //allow switching between test/live server (for debug)
+//  else base_url = test_CREST_URL;
+//  
+  var parameters = {
+    method : "get",
+    user_agent : "Lockefox @HLIBindustry GDOC scripts",
+  }
+  var url = base_url+"market/prices/";
+  Utilities.sleep(1000);
+  var text = UrlFetchApp.fetch(url,parameters);
+  var json_obj = JSON.parse(text);
+  
+  return json_obj;
+}
+
 ////	GDOC FUNCS		////
 function getAvgVolume(days,item_id,region_id)
 {
@@ -124,6 +145,33 @@ function getVolumes(days,item_id,region_id)
   return volumes;
 }
 
+function AllItemPrices(header_bool, test_server)
+{
+	var market_prices_obj = {};
+	
+	market_prices_obj = __fetchMarketPrices(test_server);
+	var return_array = [];
+	
+	if (header_bool)
+	{
+		var header = [];
+		header = ["TypeName","TypeID","adjustedPrice","averagePrice"];
+		return_array.push(header);
+	}
+	
+	for (var index = 0; index < market_prices_obj["items"].length; index ++)
+	{ 
+		priceLine = []
+		priceLine.push(market_prices_obj["items"][index]["type"]["name"]);
+		priceLine.push(Number(market_prices_obj["items"][index]["type"]["id"]));
+		priceLine.push(Number(market_prices_obj["items"][index]["adjustedPrice"]));
+		priceLine.push(Number(market_prices_obj["items"][index]["averagePrice"]));
+		
+		return_array.push(priceLine);
+	}
+	
+	return return_array;
+}
 function AllSystemIndexes(header_bool, test_server)
 {
   var system_index_obj = {};
