@@ -105,29 +105,36 @@ function __fetchMarketPrices(test_server)
   return json_obj;
 }
 
-function API_validateKey(keyID, vCode, expected_type, CAK_mask){
+function API_validateKey(keyID, vCode, expected_type, CAK_mask, test_server){
    //Takes API info and throws errors if bad
   
   var parameters = {
-      method : "post",
-      payload :
-      "keyID=" + encodeURIComponent(keyID) +
-      "&vCode=" + encodeURIComponent(vCode)
-   };
+    method : "post",
+    payload :
+    "keyID=" + encodeURIComponent(keyID) +
+    "&vCode=" + encodeURIComponent(vCode)
+  };
+  
+  var API_addr = "";
+  if(test_server) API_addr = "https://api.testeveonline.com/";
+  else API_addr = "https://api.eveonline.com/";
+  
+  var info = ""
   try{//generic query error
-      Utilities.sleep(1000);
-    var info = UrlFetchApp.fetch("https://api.eveonline.com/account/APIKeyInfo.xml.aspx",parameters).getContentText();
+    Utilities.sleep(1000);
+    var info = UrlFetchApp.fetch(API_addr+"account/APIKeyInfo.xml.aspx?",parameters).getContentText();
   }catch (e){
     throw e;
   }
+  
   var infoXML = Xml.parse(info,true);
   var accessMask = infoXML.eveapi.result.key.getAttribute("accessmask").getValue();
   var keytype = infoXML.eveapi.result.key.getAttribute("type").getValue();
 
-  
   if (keytype != expected_type){
     throw "Invalid key type:" +  keytype + "Expected: " + expected_type;
   }
+
   if ((Number(accessMask) & CAK_mask) == 0){
     throw "Invalid access mask: " + accessMask + "Expected: " + CAK_mask; 
   }
@@ -137,17 +144,18 @@ function API_validateKey(keyID, vCode, expected_type, CAK_mask){
 function getFacilities(keyID, vCode, header_bool, verbose_bool, test_server)
 {
   /////Check if key can do the ID->name conversion/////
+  
   try{
     var can_Locations = true;
-    API_validateKey(keyID, vCode, "Corporation", 16777216);
-  }catch(badkey){
+    API_validateKey(keyID, vCode, "Corporation", 16777216, test_server);
+  }catch(err){
     can_Locations = false;
   }
   
   try{
-    API_validateKey(keyID, vCode, "Corporation", 2);//foxfour says says accessMask corp/facilities = /corp/assets
-  }catch(badkey){
-    return badkey;
+    API_validateKey(keyID, vCode, "Corporation", 2, test_server);//foxfour says says accessMask corp/facilities = /corp/assets
+  }catch(err){
+    return err;
   }
   
   ////SET UP ADDRESS CALL////	
@@ -167,12 +175,12 @@ function getFacilities(keyID, vCode, header_bool, verbose_bool, test_server)
   else API_addr = "https://api.eveonline.com/";
   
   var api_query = API_addr+"corp/Facilities.xml.aspx?"//keyID="+keyID+"&vCode="+vCode;
-  var fac_api = UrlFetchApp.fetch(api_query, parameters).getContentText();;
+  var fac_api = UrlFetchApp.fetch(api_query, parameters).getContentText();
   var facXML = Xml.parse(fac_api,true);
-  
   var facList = facXML.eveapi.result.rowset.getElements("row");
-  
+
   var return_array = [];
+
   if(header_bool)
   {
     var header = []
@@ -193,33 +201,34 @@ function getFacilities(keyID, vCode, header_bool, verbose_bool, test_server)
   }
   
   var facName_conv = {};
+
   if(can_Locations)
   {//process whole list, and pull names all at once.
     var ID_list = "";
     for (var rowNum = 0; rowNum < facList.length; rowNum++)
     {//get all facility id's
-      ID_list = ID_list+facList.getAttribute("facilityid").getValue()+",";
+      ID_list = ID_list+facList[rowNum].getAttribute("facilityid").getValue()+",";
     }
-    facName_conv = getLocations(keyID, vCode, ID_list, true);
+    facName_conv = getLocations(keyID, vCode, ID_list, API_addr, test_server);
   }
   
   for (var rowNum = 0; rowNum < facList.length; rowNum++)
   {
     var fac_line = [];
     
-    var facID = facList.getAttribute("facilityid").getValue();
+    var facID = facList[rowNum].getAttribute("facilityid").getValue();
     var facName = facName_conv[facID];
     
     if (verbose_bool)	fac_line.push(Number(facID));
     if (can_Locations)	fac_line.push(       facName);
-    if (verbose_bool)	fac_line.push(Number(facList.getAttribute("typeid").getValue()));
-						fac_line.push(       facList.getAttribute("typename").getValue());
-    if (verbose_bool)	fac_line.push(Number(facList.getAttribute("solarsystemid").getValue()));
-						fac_line.push(       facList.getAttribute("solarSystemName").getValue());
-    if (verbose_bool)	fac_line.push(Number(facList.getAttribute("regionid").getValue()));
-						fac_line.push(       facList.getAttribute("regionname").getValue());
-    if (verbose_bool)	fac_line.push(Number(facList.getAttribute("starbasemodifier").getValue()));
-    if (verbose_bool)	fac_line.push(Number(facList.getAttribute("tax").getValue()));
+    if (verbose_bool)	fac_line.push(Number(facList[rowNum].getAttribute("typeid").getValue()));
+						fac_line.push(       facList[rowNum].getAttribute("typename").getValue());
+    if (verbose_bool)	fac_line.push(Number(facList[rowNum].getAttribute("solarsystemid").getValue()));
+						fac_line.push(       facList[rowNum].getAttribute("solarSystemName").getValue());
+    if (verbose_bool)	fac_line.push(Number(facList[rowNum].getAttribute("regionid").getValue()));
+						fac_line.push(       facList[rowNum].getAttribute("regionname").getValue());
+    if (verbose_bool)	fac_line.push(Number(facList[rowNum].getAttribute("starbasemodifier").getValue()));
+    if (verbose_bool)	fac_line.push(Number(facList[rowNum].getAttribute("tax").getValue()));
     
 	/*--TODO: publish facility bonuses?--*/
     return_array.push(fac_line);
@@ -227,31 +236,32 @@ function getFacilities(keyID, vCode, header_bool, verbose_bool, test_server)
   return return_array;
 }
 
-function getLocations(keyID, vCode, csv_ID_list, skip_validation)
+function getLocations(keyID, vCode, csv_ID_list, API_addr, test_server)
 {
   var id_to_name = {};
   
-  if(!skip_validation)
-  {
-    try{
-      API_validateKey(keyID, vCode, "Corporation", 16777216);
-    }catch(badkey){
-      throw badkey;
-    }
+  try{
+    API_validateKey(keyID, vCode, "Corporation", 16777216, test_server);
+  }catch(badkey){
+    throw badkey;
   }
+
   parameters = {
     method : "post",
     payload :
     "keyID=" + encodeURIComponent(keyID) +
     "&vCode=" + encodeURIComponent(vCode) +
-    "&IDs=" + encodeURIComponent(ID_list)
+    "&IDs=" + encodeURIComponent(csv_ID_list)
   };
   Utilities.sleep(1000);
+  
+  if(test_server) API_addr = "https://api.testeveonline.com/";
+  else API_addr = "https://api.eveonline.com/";
   
   var name_query = API_addr+"corp/Locations.xml.aspx?";
   var name_api = UrlFetchApp.fetch(name_query, parameters).getContentText();;
   var nameXML = Xml.parse(name_api,true);
-  
+
   var nameList = nameXML.eveapi.result.rowset.getElements("row");
   
   for (var itemNum = 0; itemNum < nameList.length; itemNum ++)
@@ -267,17 +277,17 @@ function getLocations(keyID, vCode, csv_ID_list, skip_validation)
 }
 function getIndustryJobs(keyID, vCode, header_bool, verbose_bool, test_server)
 {
-	var personal_or_corp = 0;	//0=personal, 1=corp
-	try{
-		API_validateKey(keyID, vCode, "Account", 128);
-	}catch(err){
-		personal_or_corp = 1;
-		try{
-		API_validateKey(keyID, vCode, "Corporation", 128);
-		}catch(badkey){
-			return badkey;
-		}
-	}
+  var personal_or_corp = 0;	//0=personal, 1=corp
+  try{
+    API_validateKey(keyID, vCode, "Account", 128, test_server);
+  }catch(err){
+    personal_or_corp = 1;
+    try{
+      API_validateKey(keyID, vCode, "Corporation", 128, test_server);
+    }catch(badkey){
+      return badkey;
+    }
+  }
 ////SET UP ADDRESS CALL////	
   parameters = {
     method : "post",
