@@ -173,25 +173,26 @@ function getFacilities(keyID, vCode, header_bool, verbose_bool, test_server)
   var facList = facXML.eveapi.result.rowset.getElements("row");
   
   var return_array = [];
-	if(header_bool)
-	{
-		var header = []
-		
-        if (verbose_bool)	header.push("facilityID");
-		if (can_Locations)	header.push("facilityName");
-		if (verbose_bool)	header.push("typeID");
-							header.push("typeName");
-		if (verbose_bool)	header.push("solarSystemID");
-							header.push("solarSystemName");
-		if (verbose_bool)	header.push("regionID");
-							header.push("regionName");
-		if (verbose_bool)	header.push("starbaseModifier");
-		if (verbose_bool)	header.push("tax");
-      /*--TODO: publish facility bonuses?--*/
-		return_array.push(header);
-	}
+  if(header_bool)
+  {
+    var header = []
+    
+    if (verbose_bool)	header.push("facilityID");
+    if (can_Locations)	header.push("facilityName");
+    if (verbose_bool)	header.push("typeID");
+						header.push("typeName");
+    if (verbose_bool)	header.push("solarSystemID");
+						header.push("solarSystemName");
+    if (verbose_bool)	header.push("regionID");
+						header.push("regionName");
+    if (verbose_bool)	header.push("starbaseModifier");
+    if (verbose_bool)	header.push("tax");
+    
+	/*--TODO: publish facility bonuses?--*/
+    return_array.push(header);
+  }
   
-  var facName = {};
+  var facName_conv = {};
   if(can_Locations)
   {//process whole list, and pull names all at once.
     var ID_list = "";
@@ -199,10 +200,31 @@ function getFacilities(keyID, vCode, header_bool, verbose_bool, test_server)
     {//get all facility id's
       ID_list = ID_list+facList.getAttribute("facilityid").getValue()+",";
     }
-   facName = getLocations(keyID, vCode, ID_list, true);
+    facName_conv = getLocations(keyID, vCode, ID_list, true);
   }
   
-  
+  for (var rowNum = 0; rowNum < facList.length; rowNum++)
+  {
+    var fac_line = [];
+    
+    var facID = facList.getAttribute("facilityid").getValue();
+    var facName = facName_conv[facID];
+    
+    if (verbose_bool)	fac_line.push(Number(facID));
+    if (can_Locations)	fac_line.push(       facName);
+    if (verbose_bool)	fac_line.push(Number(facList.getAttribute("typeid").getValue()));
+						fac_line.push(       facList.getAttribute("typename").getValue());
+    if (verbose_bool)	fac_line.push(Number(facList.getAttribute("solarsystemid").getValue()));
+						fac_line.push(       facList.getAttribute("solarSystemName").getValue());
+    if (verbose_bool)	fac_line.push(Number(facList.getAttribute("regionid").getValue()));
+						fac_line.push(       facList.getAttribute("regionname").getValue());
+    if (verbose_bool)	fac_line.push(Number(facList.getAttribute("starbasemodifier").getValue()));
+    if (verbose_bool)	fac_line.push(Number(facList.getAttribute("tax").getValue()));
+    
+	/*--TODO: publish facility bonuses?--*/
+    return_array.push(fac_line);
+  }
+  return return_array;
 }
 
 function getLocations(keyID, vCode, csv_ID_list, skip_validation)
