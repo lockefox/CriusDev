@@ -2,12 +2,19 @@ var base_CREST_URL = "http://public-crest.eveonline.com/";
 var test_CREST_URL = "http://public-crest-sisi.testeveonline.com/";
 var base_API_URL = "https://api.eveonline.com/char/AssetList.xml.aspx?";
 var jobType ={};
-JobType = {"1":"Manufacturing",
-		"3":"Researching Time Efficiency",
-		"4":"Researching Material Efficiency",
-		"5":"Copying",
-		"7":"Reverse Engineering",
-		"8":"Invention"}
+JobType = {1:"Manufacturing",
+		3:"Researching Time Efficiency",
+		4:"Researching Material Efficiency",
+		5:"Copying",
+		7:"Reverse Engineering",
+		8:"Invention"};
+
+var jobType_arr = [];
+jobType_arr = ["NOT VALID", "Manufacturing", "NOT VALID", "Researching Time Efficiency", "Researching Material Efficiency", "Copying", "NOT VALID", "Reverse Engineering", "Invention"];
+
+//TODO: verify status values//
+var status_arr = [];
+status_arr = ["Failed", "Delivered", "Aborted", "GM Aborted", "Inflight Unachored", "Destroyed"];
 ////	UTILITIES	////
 function date_array(days)
 {
@@ -127,6 +134,115 @@ function API_validateKey(keyID, vCode, expected_type, CAK_mask){
   //make "EXPIRED" case
 }
 ////	GDOC FUNCS		////
+function getFacilities(keyID, vCode, header_bool, verbose_bool, test_server)
+{
+  /////Check if key can do the ID->name conversion/////
+  try{
+    var can_Locations = true;
+    API_validateKey(keyID, vCode, "Corporation", 16777216);
+  }catch(badkey){
+    can_Locations = false;
+  }
+  
+  try{
+    API_validateKey(keyID, vCode, "Corporation", 2);//foxfour says says accessMask corp/facilities = /corp/assets
+  }catch(badkey){
+    return badkey;
+  }
+  
+  ////SET UP ADDRESS CALL////	
+  parameters = {
+    method : "post",
+    payload :
+    "keyID=" + encodeURIComponent(keyID) +
+    "&vCode=" + encodeURIComponent(vCode)
+  };
+  Utilities.sleep(1000);
+  var API_addr = "";
+  var call_mod = "";
+  
+  
+  //switch call for test/live server
+  if(test_server) API_addr = "https://api.testeveonline.com/";
+  else API_addr = "https://api.eveonline.com/";
+  
+  var api_query = API_addr+"corp/Facilities.xml.aspx?"//keyID="+keyID+"&vCode="+vCode;
+  var fac_api = UrlFetchApp.fetch(api_query, parameters).getContentText();;
+  var facXML = Xml.parse(fac_api,true);
+  
+  var facList = facXML.eveapi.result.rowset.getElements("row");
+  
+  var return_array = [];
+	if(header_bool)
+	{
+		var header = []
+		
+        if (verbose_bool)	header.push("facilityID");
+		if (can_Locations)	header.push("facilityName");
+		if (verbose_bool)	header.push("typeID");
+							header.push("typeName");
+		if (verbose_bool)	header.push("solarSystemID");
+							header.push("solarSystemName");
+		if (verbose_bool)	header.push("regionID");
+							header.push("regionName");
+		if (verbose_bool)	header.push("starbaseModifier");
+		if (verbose_bool)	header.push("tax");
+      /*--TODO: publish facility bonuses?--*/
+		return_array.push(header);
+	}
+  
+  var facName = {};
+  if(can_Locations)
+  {//process whole list, and pull names all at once.
+    var ID_list = "";
+    for (var rowNum = 0; rowNum < facList.length; rowNum++)
+    {//get all facility id's
+      ID_list = ID_list+facList.getAttribute("facilityid").getValue()+",";
+    }
+   facName = getLocations(keyID, vCode, ID_list, true);
+  }
+  
+  
+}
+
+function getLocations(keyID, vCode, csv_ID_list, skip_validation)
+{
+  var id_to_name = {};
+  
+  if(!skip_validation)
+  {
+    try{
+      API_validateKey(keyID, vCode, "Corporation", 16777216);
+    }catch(badkey){
+      throw badkey;
+    }
+  }
+  parameters = {
+    method : "post",
+    payload :
+    "keyID=" + encodeURIComponent(keyID) +
+    "&vCode=" + encodeURIComponent(vCode) +
+    "&IDs=" + encodeURIComponent(ID_list)
+  };
+  Utilities.sleep(1000);
+  
+  var name_query = API_addr+"corp/Locations.xml.aspx?";
+  var name_api = UrlFetchApp.fetch(name_query, parameters).getContentText();;
+  var nameXML = Xml.parse(name_api,true);
+  
+  var nameList = nameXML.eveapi.result.rowset.getElements("row");
+  
+  for (var itemNum = 0; itemNum < nameList.length; itemNum ++)
+  {
+    var itemID   = nameList.getAttribute("itemid").getValue();
+    var itemName = nameList.getAttribute("itemName").getValue();
+    
+    //NOTE: itemID is a string!!
+    id_to_name[itemID] = itemName;
+  }
+  
+  return id_to_name;
+}
 function getIndustryJobs(keyID, vCode, header_bool, verbose_bool, test_server)
 {
 	var personal_or_corp = 0;	//0=personal, 1=corp
@@ -141,12 +257,12 @@ function getIndustryJobs(keyID, vCode, header_bool, verbose_bool, test_server)
 		}
 	}
 ////SET UP ADDRESS CALL////	
-	parameters = {
+  parameters = {
     method : "post",
     payload :
     "keyID=" + encodeURIComponent(keyID) +
     "&vCode=" + encodeURIComponent(vCode)
-	};
+  };
 	Utilities.sleep(1000);
 	var API_addr = "";
 	var call_mod = "";
@@ -159,9 +275,11 @@ function getIndustryJobs(keyID, vCode, header_bool, verbose_bool, test_server)
 	if(test_server) API_addr = "https://api.testeveonline.com/";
 	else API_addr = "https://api.eveonline.com/";
 	
-	var job_api = UrlFetchApp.fetch(API_addr+call_mod+"/IndustryJobs.xml.aspx", parameters);
+  var api_query = API_addr+call_mod+"/IndustryJobs.xml.aspx?"//keyID="+keyID+"&vCode="+vCode;
+  var job_api = UrlFetchApp.fetch(api_query, parameters).getContentText();;
 	var jobXML = Xml.parse(job_api,true);
-	var jobList = jobXML.eveapi.result.rowset.getElements("row");
+
+  var jobList = jobXML.eveapi.result.rowset.getElements("row");
 	
 	var return_array = [];
 	if(header_bool)
@@ -201,43 +319,43 @@ function getIndustryJobs(keyID, vCode, header_bool, verbose_bool, test_server)
 	{
 		job_line = [];
 		
-		var activityID   = jobList[jobNum].getAttribute("activityID").getValue();	
+		var activityID   = Number(jobList[jobNum].getAttribute("activityid").getValue());	
 		var activityName = "";
 		try{
-			activityName = jobType[activityID];
+			activityName = jobType_arr[activityID];
 		}catch (err){
 			activityName = "UKN ACTIVITYID";
 		}
-		
-		if (verbose_bool)	job_line.push(Number(jobList[jobNum].getAttribute("jobID").getValue()));
-		if (verbose_bool)	job_line.push(Number(jobList[jobNum].getAttribute("installerID").getValue()));
-							job_line.push(		 jobList[jobNum].getAttribute("installerName").getValue());
-							job_line.push(Number(jobList[jobNum].getAttribute("facilityID").getValue()));
-		if (verbose_bool)	job_line.push(Number(jobList[jobNum].getAttribute("solarSystemID").getValue()));
-							job_line.push(		 jobList[jobNum].getAttribute("solarSystemName").getValue());
-							job_line.push(Number(jobList[jobNum].getAttribute("stationID").getValue()));
+		//no smart casing, lower case only for attribute ID's//
+		if (verbose_bool)	job_line.push(Number(jobList[jobNum].getAttribute("jobid").getValue()));
+		if (verbose_bool)	job_line.push(Number(jobList[jobNum].getAttribute("installerid").getValue()));
+							job_line.push(		 jobList[jobNum].getAttribute("installername").getValue());
+							job_line.push(Number(jobList[jobNum].getAttribute("facilityid").getValue()));
+		if (verbose_bool)	job_line.push(Number(jobList[jobNum].getAttribute("solarsystemid").getValue()));
+							job_line.push(		 jobList[jobNum].getAttribute("solarsystemname").getValue());
+							job_line.push(Number(jobList[jobNum].getAttribute("stationid").getValue()));
 		/*------------*/
 		if (verbose_bool)	job_line.push(Number(activityID));				
 							job_line.push(activityName);
 		/*------------*/					
-		if (verbose_bool)	job_line.push(Number(jobList[jobNum].getAttribute("blueprintID").getValue()));
-							job_line.push(Number(jobList[jobNum].getAttribute("blueprintTypeID").getValue()));
-							job_line.push(		 jobList[jobNum].getAttribute("blueprintTypeName").getValue());
-		if (verbose_bool)	job_line.push(Number(jobList[jobNum].getAttribute("blueprintLocationID").getValue()));						
-		if (verbose_bool)	job_line.push(Number(jobList[jobNum].getAttribute("outputLocationID").getValue()));
+		if (verbose_bool)	job_line.push(Number(jobList[jobNum].getAttribute("blueprintid").getValue()));
+							job_line.push(Number(jobList[jobNum].getAttribute("blueprinttypeid").getValue()));
+							job_line.push(		 jobList[jobNum].getAttribute("blueprinttypename").getValue());
+		if (verbose_bool)	job_line.push(Number(jobList[jobNum].getAttribute("blueprintlocationid").getValue()));						
+		if (verbose_bool)	job_line.push(Number(jobList[jobNum].getAttribute("outputlocationid").getValue()));
 							job_line.push(Number(jobList[jobNum].getAttribute("runs").getValue()));
 							job_line.push(Number(jobList[jobNum].getAttribute("cost").getValue()));
-							job_line.push(Number(jobList[jobNum].getAttribute("teamID").getValue()));
-		if (verbose_bool)	job_line.push(Number(jobList[jobNum].getAttribute("licensedRuns").getValue()));	
+							job_line.push(Number(jobList[jobNum].getAttribute("teamid").getValue()));
+		if (verbose_bool)	job_line.push(Number(jobList[jobNum].getAttribute("licensedruns").getValue()));	
 		if (verbose_bool)	job_line.push(Number(jobList[jobNum].getAttribute("probability").getValue()));	
-		if (verbose_bool)	job_line.push(		 jobList[jobNum].getAttribute("productTypeName").getValue());
+		if (verbose_bool)	job_line.push(		 jobList[jobNum].getAttribute("producttypename").getValue());
 		/*TODO ID->STR*/	job_line.push(Number(jobList[jobNum].getAttribute("status").getValue()));
-							job_line.push(Number(jobList[jobNum].getAttribute("timeInSeconds").getValue()));
-							job_line.push(		 jobList[jobNum].getAttribute("startDate").getValue());
-							job_line.push(		 jobList[jobNum].getAttribute("endDate").getValue());
-		if (verbose_bool)	job_line.push(		 jobList[jobNum].getAttribute("pauseDate").getValue());
-		if (verbose_bool)	job_line.push(		 jobList[jobNum].getAttribute("completedDate").getValue());
-		if (verbose_bool)	job_line.push(Number(jobList[jobNum].getAttribute("completedCharacterID").getValue()));	
+							job_line.push(Number(jobList[jobNum].getAttribute("timeinseconds").getValue()));
+							job_line.push(		 jobList[jobNum].getAttribute("startdate").getValue());
+							job_line.push(		 jobList[jobNum].getAttribute("enddate").getValue());
+		if (verbose_bool)	job_line.push(		 jobList[jobNum].getAttribute("pausedate").getValue());
+		if (verbose_bool)	job_line.push(		 jobList[jobNum].getAttribute("completeddate").getValue());
+		if (verbose_bool)	job_line.push(Number(jobList[jobNum].getAttribute("completedcharacterid").getValue()));	
 		
 		return_array.push(job_line);
 	}
@@ -351,29 +469,34 @@ function AllSystemIndexes(header_bool, test_server)
 	
 	for (var cost_index = 0; cost_index < system_index_obj["items"][index]["systemCostIndices"].length; cost_index++)
 	{
-		if		(1 == Number(system_index_obj["items"][index]["systemCostIndices"][cost_index]["activityID"]))
+		
+		var activityID = Number(system_index_obj["items"][index]["systemCostIndices"][cost_index]["activityID"]);
+		var costIndex  = Number(system_index_obj["items"][index]["systemCostIndices"][cost_index]["costIndex"]);
+      
+      /*--Could replace with a costIndicies[activityID]=costIndex--*/
+		if		(1 == activityID)
 		{//Manufacturing
-			manufacturing = Number(system_index_obj["items"][index]["systemCostIndices"][cost_index]["costIndex"]);
+			manufacturing = costIndex;
 		}
-		else if (3 == Number(system_index_obj["items"][index]["systemCostIndices"][cost_index]["activityID"]))
+		else if (3 == activityID)
 		{//Time Efficiency Research
-			TE = Number(system_index_obj["items"][index]["systemCostIndices"][cost_index]["costIndex"]);
+			TE = costIndex;
 		}
-		else if (4 == Number(system_index_obj["items"][index]["systemCostIndices"][cost_index]["activityID"]))
+		else if (4 == activityID)
 		{//Material Efficiency Research
-			ME = Number(system_index_obj["items"][index]["systemCostIndices"][cost_index]["costIndex"]);
+			ME = costIndex;
 		}
-		else if (5 == Number(system_index_obj["items"][index]["systemCostIndices"][cost_index]["activityID"]))
+		else if (5 == activityID)
 		{//Material Efficiency Research
-			copying = Number(system_index_obj["items"][index]["systemCostIndices"][cost_index]["costIndex"]);
+			copying = costIndex;
 		}
-		else if (7 == Number(system_index_obj["items"][index]["systemCostIndices"][cost_index]["activityID"]))
+		else if (7 == activityID)
 		{//Reverse Engineering
-			reverseEng = Number(system_index_obj["items"][index]["systemCostIndices"][cost_index]["costIndex"]);
+			reverseEng = costIndex;
 		}
-		else if (8 == Number(system_index_obj["items"][index]["systemCostIndices"][cost_index]["activityID"]))
+		else if (8 == activityID)
 		{//Invention
-			invention = Number(system_index_obj["items"][index]["systemCostIndices"][cost_index]["costIndex"]);
+			invention = costIndex;
 		}
 	}
 	
