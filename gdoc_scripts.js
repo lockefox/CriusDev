@@ -173,50 +173,6 @@ function getPOS(keyID, vCode, header_bool, verbose_bool, test_server)
   var can_Locations = true;
   var can_POSDetails= true;
   
-  var fuel_perhour_conv = {
-    "12235":40,
-    "12236":40,
-    "16213":40,
-    "16214":40,
-    "20059":20,
-    "20060":10,
-    "20061":20,
-    "20062":10,
-    "20063":20,
-    "20064":10,
-    "20065":20,
-    "20066":10,
-    "27530":36,
-    "27532":32,
-    "27533":36,
-    "27535":32,
-    "27536":36,
-    "27538":32,
-    "27539":36,
-    "27540":32,
-    "27589":18,
-    "27591":16,
-    "27592": 9,
-    "27594": 8,
-    "27595":18,
-    "27597":16,
-    "27598": 9,
-    "27600": 8,
-    "27601":18,
-    "27603":16,
-    "27604": 9,
-    "27606": 8,
-    "27607":18,
-    "27609":16,
-    "27610": 9,
-    "27612": 8,
-    "27780":36,
-    "27782":18,
-    "27784": 9,
-    "27786":32,
-    "27788":16,
-    "27790": 8
-  };
   
   try{
     var can_Locations = true;
@@ -278,7 +234,7 @@ function getPOS(keyID, vCode, header_bool, verbose_bool, test_server)
     if (verbose_bool)	header.push("stateTimestamp");
     if (verbose_bool)	header.push("onlineTimestamp");
     if (verbose_bool)	header.push("standingOwnerID");
-						header.push("standingOwner");
+	if (verbose_bool)	header.push("standingOwner");
     if (can_POSDetails)	header.push("fuelRemaining");
     if (can_POSDetails)	header.push("chartersRemaining");
     if (can_POSDetails)	header.push("strontiumRemaining");
@@ -303,12 +259,83 @@ function getPOS(keyID, vCode, header_bool, verbose_bool, test_server)
   
   for(var towerNum; towerNum < POSList.length; towerNum++)
   {
-    var towerID   = POSList[towerNum].getAttribute("itemID");
+    var tower_line = [];
+	
+	var towerID   = POSList[towerNum].getAttribute("itemid").getValue();
     var towerName = "";
     if(can_Locations)
-      towerName = towerName_conv[towerID];
-    
-    
+		towerName = towerName_conv[towerID];
+	
+	var towerTypeID = POSList[towerNum].getAttribute("typeid").getValue();
+	
+	var solarSystemID = POSList[towerNum].getAttribute("locationid").getValue();
+	var moonID = POSList[towerNum].getAttribute("moonid").getValue();
+	var solarSystemLookup = UrlFetchApp.fetch("https://www.fuzzwork.co.uk/api/mapdata.php?itemid="+moonID+"&format=xml").getContentText();
+	var SS_XML = Xml.parse(solarSystemLookup,true);
+	
+	var solarSystemName = SS_XML.eveapi.row.getElements("solarsystemname")[0].getText()
+	var moonName = SS_XML.eveapi.row.getElements("itemname")[0].getText();
+	
+	
+	var fuel_remain = 0;
+	var chrt_remain = 0;
+	var strt_remain = 0;
+	var fuel_time_h = 0;
+	var strt_time_h = 0;
+    if(can_POSDetails)
+	{
+		parameters = {
+			method : "post",
+			payload :
+			"keyID=" + encodeURIComponent(keyID) +
+			"&vCode=" + encodeURIComponent(vCode) +
+			"&itemID=" + encodeURIComponent(towerID)
+		};
+		
+		api_query = API_addr+"corp/StarbaseDetail.xml.aspx?";
+		var det_api = UrlFetchApp.fetch(api_query, parameters).getContentText();
+		var detXML = Xml.parse(POS_api,true);
+		var detList = POSXML.eveapi.result.rowset.getElements("row"); 
+		
+		for(var invRow = 0; invRow < detList.length; invRow++)
+		{
+			var contents_id = detList[invRow].getAttribute("itemid").getValue();
+			var quantity    = detList[invRow].getAttribute("quantity").getValue();
+			
+			if		(contents_id == stront)
+				strt_remain = quantity;
+			else if (charters.indexOf(contents_id) > -1)
+				chrt_remain = quantity;
+			else if (fuelBlocks.indexOf(contents_id) > -1)
+				fuel_remain = quantity;
+		}
+		
+		var fuel_hours = Math.floor(fuel_remain/(fuel_perhour_conv[towerTypeID]));
+		
+		fuel_time_h = fuel_hours;
+		strt_time_h = Math.floor(strt_remain/(stront_perhour_conv[towerTypeID]))
+		/*--TODO: DO SOV lookup and charter Fuel Math--*/	
+	}
+	
+	if (verbose_bool)	tower_line.push(Number(towerID));
+    if (can_Locations)	tower_line.push(       towerName);
+    if (verbose_bool)	tower_line.push(Number(towerTypeID));
+						tower_line.push(       POS_typeID_conv[towerTypeID]);
+    if (verbose_bool)	tower_line.push(Number(solarSystemID));
+						tower_line.push(       solarSystemName);
+    if (verbose_bool)	tower_line.push(Number(moonID));
+						tower_line.push(       moonName);
+						tower_line.push(       POS_status[Number(POSList[towerNum].getAttribute("state").getValue())]);
+    if (verbose_bool)	tower_line.push(       POSList[towerNum].getAttribute("statetimestamp"));
+    if (verbose_bool)	tower_line.push(       POSList[towerNum].getAttribute("onlinetimestamp"));
+    if (verbose_bool)	tower_line.push(       POSList[towerNum].getAttribute("standingownerid"));
+	if (verbose_bool)	tower_line.push(       POSList[towerNum].getAttribute("standingownerid"));
+    if (can_POSDetails)	tower_line.push(       fuel_remain);
+    if (can_POSDetails)	tower_line.push(       chrt_remain);
+    if (can_POSDetails)	tower_line.push(       strt_remain);
+    if (can_POSDetails)	tower_line.push(       fuel_time_h);
+    if (can_POSDetails)	tower_line.push(       strt_time_h);
+	
   }
   
 
@@ -366,7 +393,7 @@ function getFacilities(keyID, vCode, header_bool, verbose_bool, test_server)
     if (verbose_bool)	header.push("regionID");
 						header.push("regionName");
     if (verbose_bool)	header.push("starbaseModifier");
-    if (verbose_bool)	header.push("tax");
+    					header.push("tax");
     
 	/*--TODO: publish facility bonuses?--*/
     return_array.push(header);
@@ -402,7 +429,7 @@ function getFacilities(keyID, vCode, header_bool, verbose_bool, test_server)
     if (verbose_bool)	fac_line.push(Number(facList[rowNum].getAttribute("regionid").getValue()));
 						fac_line.push(       facList[rowNum].getAttribute("regionname").getValue());
     if (verbose_bool)	fac_line.push(Number(facList[rowNum].getAttribute("starbasemodifier").getValue()));
-    if (verbose_bool)	fac_line.push(Number(facList[rowNum].getAttribute("tax").getValue()));
+    					fac_line.push(Number(facList[rowNum].getAttribute("tax").getValue()));
     
 	/*--TODO: publish facility bonuses?--*/
     return_array.push(fac_line);
@@ -719,3 +746,159 @@ function AllSystemIndexes(header_bool, test_server)
   }
   return return_array;
 }
+
+var fuel_perhour_conv = {
+    "12235":40,
+    "12236":40,
+    "16213":40,
+    "16214":40,
+    "20059":20,
+    "20060":10,
+    "20061":20,
+    "20062":10,
+    "20063":20,
+    "20064":10,
+    "20065":20,
+    "20066":10,
+    "27530":36,
+    "27532":32,
+    "27533":36,
+    "27535":32,
+    "27536":36,
+    "27538":32,
+    "27539":36,
+    "27540":32,
+    "27589":18,
+    "27591":16,
+    "27592": 9,
+    "27594": 8,
+    "27595":18,
+    "27597":16,
+    "27598": 9,
+    "27600": 8,
+    "27601":18,
+    "27603":16,
+    "27604": 9,
+    "27606": 8,
+    "27607":18,
+    "27609":16,
+    "27610": 9,
+    "27612": 8,
+    "27780":36,
+    "27782":18,
+    "27784": 9,
+    "27786":32,
+    "27788":16,
+    "27790": 8
+  };
+var stront_perhour_conv = {
+    "12235":400,
+    "12236":400,
+    "16213":400,
+    "16214":400,
+    "20059":200,
+    "20060":100,
+    "20061":200,
+    "20062":100,
+    "20063":200,
+    "20064":100,
+    "20065":200,
+    "20066":100,
+    "27530":400,
+    "27532":400,
+    "27533":400,
+    "27535":400,
+    "27536":400,
+    "27538":400,
+    "27539":400,
+    "27540":400,
+    "27589":200,
+    "27591":200,
+    "27592":100,
+    "27594":100,
+    "27595":200,
+    "27597":200,
+    "27598":100,
+    "27600":100,
+    "27601":200,
+    "27603":200,
+    "27604":100,
+    "27606":100,
+    "27607":200,
+    "27609":200,
+    "27610":100,
+    "27612":100,
+    "27780":400,
+    "27782":200,
+    "27784":100,
+    "27786":400,
+    "27788":200,
+    "27790":100
+};
+var POS_typeID_conv = {
+	"12235":"Amarr Control Tower",
+	"12236":"Gallente Control Tower",
+	"16213":"Caldari Control Tower",
+	"16214":"Minmatar Control Tower",
+	"20059":"Amarr Control Tower Medium",
+	"20060":"Amarr Control Tower Small",
+	"20061":"Caldari Control Tower Medium",
+	"20062":"Caldari Control Tower Small",
+	"20063":"Gallente Control Tower Medium",
+	"20064":"Gallente Control Tower Small",
+	"20065":"Minmatar Control Tower Medium",
+	"20066":"Minmatar Control Tower Small",
+	"27530":"Blood Control Tower",
+	"27532":"Dark Blood Control Tower",
+	"27533":"Guristas Control Tower",
+	"27535":"Dread Guristas Control Tower",
+	"27536":"Serpentis Control Tower",
+	"27538":"Shadow Control Tower",
+	"27539":"Angel Control Tower",
+	"27540":"Domination Control Tower",
+	"27589":"Blood Control Tower Medium",
+	"27591":"Dark Blood Control Tower Medium",
+	"27592":"Blood Control Tower Small",
+	"27594":"Dark Blood Control Tower Small",
+	"27595":"Guristas Control Tower Medium",
+	"27597":"Dread Guristas Control Tower Medium",
+	"27598":"Guristas Control Tower Small",
+	"27600":"Dread Guristas Control Tower Small",
+	"27601":"Serpentis Control Tower Medium",
+	"27603":"Shadow Control Tower Medium",
+	"27604":"Serpentis Control Tower Small",
+	"27606":"Shadow Control Tower Small",
+	"27607":"Angel Control Tower Medium",
+	"27609":"Domination Control Tower Medium",
+	"27610":"Angel Control Tower Small",
+	"27612":"Domination Control Tower Small",
+	"27780":"Sansha Control Tower",
+	"27782":"Sansha Control Tower Medium",
+	"27784":"Sansha Control Tower Small",
+	"27786":"True Sansha Control Tower",
+	"27788":"True Sansha Control Tower Medium",
+	"27790":"True Sansha Control Tower Small"
+};
+var POS_status = [
+	"Unanchored",
+	"Anchored - Offline",
+	"Onlining",
+	"Reinforced",
+	"Online"
+];
+
+var fuelBlocks = [
+	"4051",
+	"4246",
+	"4247",
+	"4312"
+];
+var charters = [
+	"24592",
+	"24593",
+	"24594",
+	"24595",
+	"24596",
+	"24597"
+];
+var stront = 16275;
