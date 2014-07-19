@@ -130,6 +130,69 @@ function __fetchMarketPrices(test_server)
   return json_obj;
 }
 
+function __fetchTeams(test_server)
+{
+  var base_url="";
+  
+  if(test_server) base_url = test_CREST_URL;
+  else base_url = base_CREST_URL;
+//  if(test_server === undefined) base_url = base_CREST_URL; //allow switching between test/live server (for debug)
+//  else base_url = test_CREST_URL;
+//  
+  var parameters = {
+    method : "get",
+    user_agent : "Lockefox @HLIBindustry GDOC scripts",
+  }
+  var url = base_url+"industry/teams/";
+  Utilities.sleep(1000);
+  var text = UrlFetchApp.fetch(url,parameters);
+  var json_obj = JSON.parse(text);
+  
+  return json_obj;
+}
+
+function __fetchTeamDetails(teamID, test_server)
+{
+  var base_url="";
+  
+  if(test_server) base_url = test_CREST_URL;
+  else base_url = base_CREST_URL;
+//  if(test_server === undefined) base_url = base_CREST_URL; //allow switching between test/live server (for debug)
+//  else base_url = test_CREST_URL;
+//  
+  var parameters = {
+    method : "get",
+    user_agent : "Lockefox @HLIBindustry GDOC scripts",
+  }
+  var url = base_url+"industry/teams/"+teamID+"/";
+  Utilities.sleep(1000);
+  var text = UrlFetchApp.fetch(url,parameters);
+  var json_obj = JSON.parse(text);
+  
+  return json_obj;
+}
+
+function __fetchTeamSpecialities(specID, test_server)
+{
+  var base_url="";
+  
+  if(test_server) base_url = test_CREST_URL;
+  else base_url = base_CREST_URL;
+//  if(test_server === undefined) base_url = base_CREST_URL; //allow switching between test/live server (for debug)
+//  else base_url = test_CREST_URL;
+//  
+  var parameters = {
+    method : "get",
+    user_agent : "Lockefox @HLIBindustry GDOC scripts",
+  }
+  var url = base_url+"industry/specialities/"+specID+"/";
+  Utilities.sleep(1000);
+  var text = UrlFetchApp.fetch(url,parameters);
+  var json_obj = JSON.parse(text);
+  
+  return json_obj;
+}
+
 function API_validateKey(keyID, vCode, expected_type, CAK_mask, test_server){
    //Takes API info and throws errors if bad
   
