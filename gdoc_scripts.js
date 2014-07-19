@@ -44,6 +44,31 @@ function date_array(days)
   return daterange;
 }
 
+function getAllianceID(keyID, vCode, systemList)
+{
+  parameters = {
+    method : "post",
+    payload :
+    "keyID=" + encodeURIComponent(keyID) +
+    "&vCode=" + encodeURIComponent(vCode)
+  };
+  Utilities.sleep(1000);
+  
+  var info = ""
+  try{//generic query error
+    Utilities.sleep(1000);
+    var info = UrlFetchApp.fetch("https://api.eveonline.com/account/APIKeyInfo.xml.aspx?",parameters).getContentText();
+  }catch (e){
+    throw e;
+  }
+  
+  var infoXML = Xml.parse(info,true);
+  var KeyOwnerInfo = infoXML.eveapi.result.key.rowset.row.getElements();
+  
+  var allianceID = Number(KeyOwnerInfo.getAttribute("allianceID").getValue());
+  
+  return allianceID;
+}
 ////	FETCH FUNCS		////
 function __fetchCrest_market(region_id,item_id)
 {
@@ -140,7 +165,154 @@ function API_validateKey(keyID, vCode, expected_type, CAK_mask, test_server){
   }
   //make "EXPIRED" case
 }
+
 ////	GDOC FUNCS		////
+
+function getPOS(keyID, vCode, header_bool, verbose_bool, test_server)
+{
+  var can_Locations = true;
+  var can_POSDetails= true;
+  
+  var fuel_perhour_conv = {
+    "12235":40,
+    "12236":40,
+    "16213":40,
+    "16214":40,
+    "20059":20,
+    "20060":10,
+    "20061":20,
+    "20062":10,
+    "20063":20,
+    "20064":10,
+    "20065":20,
+    "20066":10,
+    "27530":36,
+    "27532":32,
+    "27533":36,
+    "27535":32,
+    "27536":36,
+    "27538":32,
+    "27539":36,
+    "27540":32,
+    "27589":18,
+    "27591":16,
+    "27592": 9,
+    "27594": 8,
+    "27595":18,
+    "27597":16,
+    "27598": 9,
+    "27600": 8,
+    "27601":18,
+    "27603":16,
+    "27604": 9,
+    "27606": 8,
+    "27607":18,
+    "27609":16,
+    "27610": 9,
+    "27612": 8,
+    "27780":36,
+    "27782":18,
+    "27784": 9,
+    "27786":32,
+    "27788":16,
+    "27790": 8
+  };
+  
+  try{
+    var can_Locations = true;
+    API_validateKey(keyID, vCode, "Corporation", 16777216, test_server);
+  }catch(err){
+    can_Locations = false;
+  }
+  
+  try{
+    var can_POSDetails= true;
+    API_validateKey(keyID, vCode, "Corporation", 131072, test_server);
+  }catch(err){
+    can_POSDetails = false;
+  }
+  
+  try{
+    API_validateKey(keyID, vCode, "Corporation", 524288, test_server);//foxfour says says accessMask corp/facilities = /corp/assets
+  }catch(err){
+    return err;
+  }
+  
+  var allianceID = getAllianceID(keyID, vCode);
+  
+  parameters = {
+    method : "post",
+    payload :
+    "keyID=" + encodeURIComponent(keyID) +
+    "&vCode=" + encodeURIComponent(vCode)
+  };
+  Utilities.sleep(1000);
+  var API_addr = "";
+  var call_mod = "";
+  
+  //switch call for test/live server
+  if(test_server) API_addr = "https://api.testeveonline.com/";
+  else API_addr = "https://api.eveonline.com/";
+  
+  var api_query = API_addr+"corp/StarbaseList.xml.aspx?"//keyID="+keyID+"&vCode="+vCode;
+  var POS_api = UrlFetchApp.fetch(api_query, parameters).getContentText();
+  var POSXML = Xml.parse(POS_api,true);
+  var POSList = POSXML.eveapi.result.rowset.getElements("row");
+  
+  var standings_owner = POSList[0].getAttribute("standingOwnerID");
+  var return_array = [];
+
+  if(header_bool)
+  {
+    var header = []
+    
+    if (verbose_bool)	header.push("itemID");
+    if (can_Locations)	header.push("towerName");
+    if (verbose_bool)	header.push("typeID");
+						header.push("typeName");
+    if (verbose_bool)	header.push("solarSystemID");
+						header.push("solarSystemName");
+    if (verbose_bool)	header.push("moonID");
+						header.push("Location");
+						header.push("Status");
+    if (verbose_bool)	header.push("stateTimestamp");
+    if (verbose_bool)	header.push("onlineTimestamp");
+    if (verbose_bool)	header.push("standingOwnerID");
+						header.push("standingOwner");
+    if (can_POSDetails)	header.push("fuelRemaining");
+    if (can_POSDetails)	header.push("chartersRemaining");
+    if (can_POSDetails)	header.push("strontiumRemaining");
+    if (can_POSDetails)	header.push("fuelTimeHours");
+    if (can_POSDetails)	header.push("strontTimeHours");
+
+    return_array.push(header);
+  }
+  
+  var towerIDs = [];
+  var towerName_conv = {};
+  if(can_Locations || can_POSDetails)
+  {//get a towerID list
+    for (var towerNum = 0; towerNum < POSList.length; towerNum++)
+    {
+      towerIDs.push(POSList[towerNum].getAttribute("itemid").getValue());
+    }
+    
+    if(can_Locations && (POSList.length > 0))
+      towerName_conv = getLocations(keyID, vCode, towerIDs.join(), API_addr, test_server);
+  }
+  
+  for(var towerNum; towerNum < POSList.length; towerNum++)
+  {
+    var towerID   = POSList[towerNum].getAttribute("itemID");
+    var towerName = "";
+    if(can_Locations)
+      towerName = towerName_conv[towerID];
+    
+    
+  }
+  
+
+}
 function getFacilities(keyID, vCode, header_bool, verbose_bool, test_server)
 {
   /////Check if key can do the ID->name conversion/////
@@ -204,12 +376,14 @@ function getFacilities(keyID, vCode, header_bool, verbose_bool, test_server)
 
   if(can_Locations)
   {//process whole list, and pull names all at once.
-    var ID_list = "";
+    var ID_list = [];
     for (var rowNum = 0; rowNum < facList.length; rowNum++)
     {//get all facility id's
-      ID_list = ID_list+facList[rowNum].getAttribute("facilityid").getValue()+",";
+      //ID_list = ID_list+facList[rowNum].getAttribute("facilityid").getValue()+",";
+      ID_list.push(facList[rowNum].getAttribute("facilityid").getValue());
     }
-    facName_conv = getLocations(keyID, vCode, ID_list, API_addr, test_server);
+    if (facList.length > 0)
+      facName_conv = getLocations(keyID, vCode, ID_list.join(), test_server);
   }
   
   for (var rowNum = 0; rowNum < facList.length; rowNum++)
@@ -224,7 +398,7 @@ function getFacilities(keyID, vCode, header_bool, verbose_bool, test_server)
     if (verbose_bool)	fac_line.push(Number(facList[rowNum].getAttribute("typeid").getValue()));
 						fac_line.push(       facList[rowNum].getAttribute("typename").getValue());
     if (verbose_bool)	fac_line.push(Number(facList[rowNum].getAttribute("solarsystemid").getValue()));
-						fac_line.push(       facList[rowNum].getAttribute("solarSystemName").getValue());
+						fac_line.push(       facList[rowNum].getAttribute("solarsystemname").getValue());
     if (verbose_bool)	fac_line.push(Number(facList[rowNum].getAttribute("regionid").getValue()));
 						fac_line.push(       facList[rowNum].getAttribute("regionname").getValue());
     if (verbose_bool)	fac_line.push(Number(facList[rowNum].getAttribute("starbasemodifier").getValue()));
@@ -236,7 +410,7 @@ function getFacilities(keyID, vCode, header_bool, verbose_bool, test_server)
   return return_array;
 }
 
-function getLocations(keyID, vCode, csv_ID_list, API_addr, test_server)
+function getLocations(keyID, vCode, csv_ID_list, test_server)
 {
   var id_to_name = {};
   
@@ -254,7 +428,7 @@ function getLocations(keyID, vCode, csv_ID_list, API_addr, test_server)
     "&IDs=" + encodeURIComponent(csv_ID_list)
   };
   Utilities.sleep(1000);
-  
+  var API_addr="";
   if(test_server) API_addr = "https://api.testeveonline.com/";
   else API_addr = "https://api.eveonline.com/";
   
@@ -266,8 +440,8 @@ function getLocations(keyID, vCode, csv_ID_list, API_addr, test_server)
   
   for (var itemNum = 0; itemNum < nameList.length; itemNum ++)
   {
-    var itemID   = nameList.getAttribute("itemid").getValue();
-    var itemName = nameList.getAttribute("itemName").getValue();
+    var itemID   = nameList[itemNum].getAttribute("itemid").getValue();
+    var itemName = nameList[itemNum].getAttribute("itemname").getValue();
     
     //NOTE: itemID is a string!!
     id_to_name[itemID] = itemName;
