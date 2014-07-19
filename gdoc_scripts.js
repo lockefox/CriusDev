@@ -194,7 +194,7 @@ function getPOS(keyID, vCode, header_bool, verbose_bool, test_server)
     return err;
   }
   
-  var allianceID = getAllianceID(keyID, vCode);
+  //var allianceID = getAllianceID(keyID, vCode);
   
   parameters = {
     method : "post",
@@ -215,7 +215,7 @@ function getPOS(keyID, vCode, header_bool, verbose_bool, test_server)
   var POSXML = Xml.parse(POS_api,true);
   var POSList = POSXML.eveapi.result.rowset.getElements("row");
   
-  var standings_owner = POSList[0].getAttribute("standingOwnerID");
+  //var standings_owner = POSList[0].getAttribute("standingOwnerID");
   var return_array = [];
 
   if(header_bool)
@@ -256,8 +256,9 @@ function getPOS(keyID, vCode, header_bool, verbose_bool, test_server)
     if(can_Locations && (POSList.length > 0))
       towerName_conv = getLocations(keyID, vCode, towerIDs.join(), API_addr, test_server);
   }
+
   
-  for(var towerNum; towerNum < POSList.length; towerNum++)
+  for(var towerNum = 0; towerNum < POSList.length; towerNum++)
   {
     var tower_line = [];
 	
@@ -294,14 +295,13 @@ function getPOS(keyID, vCode, header_bool, verbose_bool, test_server)
 		
 		api_query = API_addr+"corp/StarbaseDetail.xml.aspx?";
 		var det_api = UrlFetchApp.fetch(api_query, parameters).getContentText();
-		var detXML = Xml.parse(POS_api,true);
-		var detList = POSXML.eveapi.result.rowset.getElements("row"); 
-		
+		var detXML = Xml.parse(det_api,true);
+		var detList = detXML.eveapi.result.rowset.getElements("row"); 
+
 		for(var invRow = 0; invRow < detList.length; invRow++)
 		{
-			var contents_id = detList[invRow].getAttribute("itemid").getValue();
-			var quantity    = detList[invRow].getAttribute("quantity").getValue();
-			
+			var contents_id = detList[invRow].getAttribute("typeid").getValue();
+			var quantity    = Number(detList[invRow].getAttribute("quantity").getValue());
 			if		(contents_id == stront)
 				strt_remain = quantity;
 			else if (charters.indexOf(contents_id) > -1)
@@ -335,9 +335,11 @@ function getPOS(keyID, vCode, header_bool, verbose_bool, test_server)
     if (can_POSDetails)	tower_line.push(       strt_remain);
     if (can_POSDetails)	tower_line.push(       fuel_time_h);
     if (can_POSDetails)	tower_line.push(       strt_time_h);
-	
+    
+    return_array.push(tower_line);
   }
   
+  return return_array;
 
 }
 function getFacilities(keyID, vCode, header_bool, verbose_bool, test_server)
