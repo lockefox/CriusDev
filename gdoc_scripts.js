@@ -549,6 +549,7 @@ function getLocation (keyID, vCode, itemID, test_server)
 	locations_obj = getLocations(keyID, vCode, itemID, test_server);
 	return locations_obj[itemID];
 }
+
 function getIndustryJobs(keyID, vCode, header_bool, verbose_bool, test_server)
 {
   try{
@@ -823,6 +824,7 @@ function AllItemPrices(header_bool, test_server)
 	
 	return return_array;
 }
+
 function AllSystemIndexes(header_bool, test_server)
 {
   var system_index_obj = {};
@@ -897,8 +899,94 @@ function AllSystemIndexes(header_bool, test_server)
 
 function AllTeams(header_bool, verbose_bool, test_server)
 {
-	var return_array=[]
+	var return_array=[];
+  var now_time = new Date().getTime()
+	if(header_bool)
+	{
+		var header_array = [];
+		
+							header_array.push("solarSystemName");
+		if(verbose_bool)	header_array.push("solarSystemID");
+		if(verbose_bool)	header_array.push("teamID");
+							header_array.push("teamName-XX");
+							header_array.push("Activity");
+		if(verbose_bool)	header_array.push("bonusGroups");
+							header_array.push("bonusGroupName");
+							header_array.push("bonusType");
+							header_array.push("bonusValue");
+							header_array.push("teamSalary");
+		if(verbose_bool)	header_array.push("expireDate");
+      						header_array.push("timeRemaining (D:H:M)");
+		
+		return_array.push(header_array);
+	}
+	
+	var teams_obj = {};
+  teams_obj = __fetchTeams(test_server);
+  var spec_lookup = {}
+	for(var teamIndx = 0; teamIndx < teams_obj["items"].length; teamIndx++)
+	{
+		var solarSystemName = teams_obj["items"][teamIndx]["solarSystem"]["name"];
+		var solarSystemID   = teams_obj["items"][teamIndx]["solarSystem"]["id"];
+		var teamID			= teams_obj["items"][teamIndx]["id"];
+		var expiryTime		= teams_obj["items"][teamIndx]["expiryTime"];
+		var teamSalary		= teams_obj["items"][teamIndx]["costModifier"];
+		
+		var teamActivity	= "TODO"; //NOT REPORTED IN CREST FEED
+		var teamName		= "TODO"; //NOT REPORTED IN CREST FEED	
+		for(var workerIndx = 0; workerIndx < teams_obj["items"][teamIndx]["workers"].length; workerIndx++)
+		{
+			var worker_line = [];
+			var bonusType  = teams_obj["items"][teamIndx]["workers"][workerIndx]["bonus"]["bonusType"];
+			var bonusValue = teams_obj["items"][teamIndx]["workers"][workerIndx]["bonus"]["value"];
+			var specID	   = teams_obj["items"][teamIndx]["workers"][workerIndx]["specialization"]["id"];
+			var specialty_obj = {};
+			
+			if (specID in spec_lookup)
+				specialty_obj = spec_lookup[specID]
+			else
+				specialty_obj = __fetchTeamSpecialities(specID, test_server);
+			
+			var bonusGroups = [];
+			var bonusGroupName = specialty_obj["name"];
+			
+			for(var idNum = 0; idNum < specialty_obj["groups"].length; idNum++)
+			{
+				bonusGroups.push(specialty_obj["groups"][idNum]["id"])
+			}
+			/*--JAVASCRIPT IS AN ASSHOLE--*/
+			var timeString = expiryTime.replace(/-/g, "/");
+			timeString = timeString.replace(/T/g," ");
+			timeString = timeString + " GMT";
+			/*--UTC->JS time string --*/
+          
+			var exp_time = new Date(timeString);
+
+			var dif_time = exp_time.getTime() - now_time; //ms difference in times
+			var dif_days = Math.round(  dif_time / 86400000);
+			var dif_hrs  = Math.round(( dif_time % 86400000) / 3600000);
+			var dif_mins = Math.round(((dif_time % 86400000) % 3600000) / 60000);
+          
+								worker_line.push(       solarSystemName);
+			if(verbose_bool)	worker_line.push(Number(solarSystemID));
+			if(verbose_bool)	worker_line.push(teamID);
+								worker_line.push(teamName);
+								worker_line.push(teamActivity);
+			if(verbose_bool)	worker_line.push(bonusGroups.join());
+								worker_line.push(bonusGroupName);
+								worker_line.push(bonusType);
+								worker_line.push(Number(bonusValue));
+								worker_line.push(Number(teamSalary));
+			if(verbose_bool)	worker_line.push(expiryTime+"Z");
+								worker_line.push(dif_days+":"+dif_hrs+":"+dif_mins);
+			return_array.push(worker_line)
+        
+        }
+     
+	}
+	return return_array
 }
+
 var fuel_perhour_conv = {
     "12235":40,
     "12236":40,
