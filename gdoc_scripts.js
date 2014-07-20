@@ -405,6 +405,7 @@ function getPOS(keyID, vCode, header_bool, verbose_bool, test_server)
   return return_array;
 
 }
+
 function getFacilities(keyID, vCode, header_bool, verbose_bool, test_server)
 {
   /////Check if key can do the ID->name conversion/////
@@ -541,8 +542,22 @@ function getLocations(keyID, vCode, csv_ID_list, test_server)
   
   return id_to_name;
 }
+
+function getLocation (keyID, vCode, itemID, test_server)
+{
+	var locations_obj = {};
+	locations_obj = getLocations(keyID, vCode, itemID, test_server);
+	return locations_obj[itemID];
+}
 function getIndustryJobs(keyID, vCode, header_bool, verbose_bool, test_server)
 {
+  try{
+    var can_Locations = true;
+    API_validateKey(keyID, vCode, "Corporation", 16777216, test_server);
+  }catch(err){
+    can_Locations = false;
+  }
+  
   var personal_or_corp = 0;	//0=personal, 1=corp
   try{
     API_validateKey(keyID, vCode, "Account", 128, test_server);
@@ -586,10 +601,12 @@ function getIndustryJobs(keyID, vCode, header_bool, verbose_bool, test_server)
 		if (verbose_bool)	header.push("jobID");
 		if (verbose_bool)	header.push("installerID");
 							header.push("installerName");
-							header.push("facilityID");
+		if (verbose_bool)	header.push("facilityID");
+							header.push("facilityName");
 		if (verbose_bool)	header.push("solarSystemID");
 							header.push("solarSystemName");
-							header.push("stationID");
+		if (verbose_bool)	header.push("stationID");
+							header.push("stationName");
 		if (verbose_bool)	header.push("activityID");
 							header.push("activity");
 		if (verbose_bool)	header.push("blueprintID");	
@@ -613,6 +630,8 @@ function getIndustryJobs(keyID, vCode, header_bool, verbose_bool, test_server)
 
 		return_array.push(header);
 	}
+	
+	var location_lookup = {};
 	for (var jobNum = 0; jobNum < jobList.length; jobNum++)
 	{
 		job_line = [];
@@ -624,14 +643,78 @@ function getIndustryJobs(keyID, vCode, header_bool, verbose_bool, test_server)
 		}catch (err){
 			activityName = "UKN ACTIVITYID";
 		}
+		
+		var facilityID = jobList[jobNum].getAttribute("facilityid").getValue();
+		var stationID  = jobList[jobNum].getAttribute("stationid").getValue();
+		
+		var facilityName = "";
+		var stationName  = "";
+		
+		if (facilityID in location_lookup)
+			facilityName = location_lookup[facilityID]
+		else
+		{
+			var facilityName_lookup = "";
+			try{
+				var NPCfac_lookup = UrlFetchApp.fetch("https://www.fuzzwork.co.uk/api/mapdata.php?itemid="+facilityID+"&format=xml").getContentText();
+				var NPCfacXML = Xml.parse(NPCfac_lookup,true);
+				
+				facilityName_lookup = NPCfacXML.eveapi.row.getElements("itemname")[0].getText();
+			}catch (err1){
+				//Value wasn't an NPC space
+				//THIS PROBABLY WON'T WORK FOR OUTPOSTS
+				if(can_Locations)
+				{
+					facilityName_lookup = getLocation(keyID, vCode, facilityID, test_server);
+				}
+				else
+				{//BLANK rather than spam
+					facilityName_lookup = ""
+				}
+			}
+          location_lookup[facilityID] = facilityName_lookup;
+          facilityName = facilityName_lookup;
+		}		
+		
+		if (stationID in location_lookup)
+			stationName = location_lookup[stationID]
+		else
+		{
+			var stationID_lookup = "";
+			try{
+				var NPCfac_lookup = UrlFetchApp.fetch("https://www.fuzzwork.co.uk/api/mapdata.php?itemid="+stationID+"&format=xml").getContentText();
+				var NPCfacXML = Xml.parse(NPCfac_lookup,true);
+				
+				stationID_lookup = NPCfacXML.eveapi.row.getElements("itemname")[0].getText();
+			}catch (err1){
+				//Value wasn't an NPC space
+				//THIS PROBABLY WON'T WORK FOR OUTPOSTS
+				if(can_Locations)
+				{
+					stationID_lookup = getLocation(keyID, vCode, stationID, test_server);
+				}
+				else
+				{//BLANK rather than spam
+					stationID_lookup = "NO LOOKUP"
+				}
+				
+				
+				
+			}
+          location_lookup[stationID] = stationID_lookup;
+          stationName = stationID_lookup;
+		}
+		
 		//no smart casing, lower case only for attribute ID's//
 		if (verbose_bool)	job_line.push(Number(jobList[jobNum].getAttribute("jobid").getValue()));
 		if (verbose_bool)	job_line.push(Number(jobList[jobNum].getAttribute("installerid").getValue()));
 							job_line.push(		 jobList[jobNum].getAttribute("installername").getValue());
-							job_line.push(Number(jobList[jobNum].getAttribute("facilityid").getValue()));
+		if (verbose_bool)	job_line.push(Number(facilityID));
+							job_line.push(		 facilityName);
 		if (verbose_bool)	job_line.push(Number(jobList[jobNum].getAttribute("solarsystemid").getValue()));
 							job_line.push(		 jobList[jobNum].getAttribute("solarsystemname").getValue());
-							job_line.push(Number(jobList[jobNum].getAttribute("stationid").getValue()));
+		if (verbose_bool)	job_line.push(Number(stationID));
+							job_line.push(		 stationName);
 		/*------------*/
 		if (verbose_bool)	job_line.push(Number(activityID));				
 							job_line.push(activityName);
@@ -812,6 +895,10 @@ function AllSystemIndexes(header_bool, test_server)
   return return_array;
 }
 
+function AllTeams(header_bool, verbose_bool, test_server)
+{
+	var return_array=[]
+}
 var fuel_perhour_conv = {
     "12235":40,
     "12236":40,
