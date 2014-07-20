@@ -151,7 +151,7 @@ function __fetchTeams(test_server)
   return json_obj;
 }
 
-function __fetchTeamDetails(teamID, test_server)
+function __fetchAllTeamSpecialities(test_server)
 {
   var base_url="";
   
@@ -164,12 +164,19 @@ function __fetchTeamDetails(teamID, test_server)
     method : "get",
     user_agent : "Lockefox @HLIBindustry GDOC scripts",
   }
-  var url = base_url+"industry/teams/"+teamID+"/";
+  var url = base_url+"industry/specialities/";
   Utilities.sleep(1000);
   var text = UrlFetchApp.fetch(url,parameters);
   var json_obj = JSON.parse(text);
   
-  return json_obj;
+  
+  var spec_lookup = {};
+  for(var teamNum = 0; teamNum < json_obj["items"].length; teamNum++)
+  {
+	var teamID = json_obj["items"][teamNum]["id"];
+	spec_lookup[teamID] = json_obj["items"][teamNum];
+  }
+  return spec_lookup;
 }
 
 function __fetchTeamSpecialities(specID, test_server)
@@ -924,7 +931,9 @@ function AllTeams(header_bool, verbose_bool, test_server)
 	var teams_obj = {};
   teams_obj = __fetchTeams(test_server);
   var spec_lookup = {}
-	for(var teamIndx = 0; teamIndx < teams_obj["items"].length; teamIndx++)
+  spec_lookup = __fetchAllTeamSpecialities(test_server);
+  
+  for(var teamIndx = 0; teamIndx < teams_obj["items"].length; teamIndx++)
 	{
 		var solarSystemName = teams_obj["items"][teamIndx]["solarSystem"]["name"];
 		var solarSystemID   = teams_obj["items"][teamIndx]["solarSystem"]["id"];
