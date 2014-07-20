@@ -1127,7 +1127,7 @@ function AllAuctions(header_bool, verbose_bool, test_server)
 								worker_line.push(Number(teamSalary));
 								worker_line.push(Number(topBidValue));
 			if(verbose_bool)	worker_line.push(Number(topBidSystemID));
-								worker_line.push(Number(topBidSystemName));
+								worker_line.push(       topBidSystemName);
 			if(verbose_bool)	worker_line.push(       expiryTime+"Z");
 								worker_line.push(       dif_days+":"+dif_hrs+":"+dif_mins);
 			return_array.push(worker_line)
