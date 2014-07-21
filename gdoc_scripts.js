@@ -126,6 +126,17 @@ function API_validateKey(keyID, vCode, expected_type, CAK_mask){
   }
   //make "EXPIRED" case
 }
+
+function getAttribute(thing, attribute_name)
+{
+	return thing.getAttribute(attribute_name).getValue();
+}
+
+function getAttributeNumber(thing, attribute_name)
+{
+	return Number(getAttribute(thing, attribute_name));
+}
+
 ////	GDOC FUNCS		////
 function getIndustryJobs(keyID, vCode, header_bool, verbose_bool, test_server)
 {
@@ -208,36 +219,36 @@ function getIndustryJobs(keyID, vCode, header_bool, verbose_bool, test_server)
 		}catch (err){
 			activityName = "UKN ACTIVITYID";
 		}
-		
-		if (verbose_bool)	job_line.push(Number(jobList[jobNum].getAttribute("jobID").getValue()));
-		if (verbose_bool)	job_line.push(Number(jobList[jobNum].getAttribute("installerID").getValue()));
-							job_line.push(		 jobList[jobNum].getAttribute("installerName").getValue());
-							job_line.push(Number(jobList[jobNum].getAttribute("facilityID").getValue()));
-		if (verbose_bool)	job_line.push(Number(jobList[jobNum].getAttribute("solarSystemID").getValue()));
-							job_line.push(		 jobList[jobNum].getAttribute("solarSystemName").getValue());
-							job_line.push(Number(jobList[jobNum].getAttribute("stationID").getValue()));
+		var job = jobList[jobNum];
+		if (verbose_bool)	job_line.push(getAttributeNumber(job, "jobID"));
+		if (verbose_bool)	job_line.push(getAttributeNumber(job, "installerID"));
+					job_line.push(getAttribute(job, "installerName"));
+					job_line.push(getAttributeNumber(job, "facilityID"));
+		if (verbose_bool)	job_line.push(getAttributeNumber(job, "solarSystemID"));
+					job_line.push(getAttribute(job, "solarSystemName"));
+					job_line.push(getAttributeNumber(job, "stationID"));
 		/*------------*/
 		if (verbose_bool)	job_line.push(Number(activityID));				
-							job_line.push(activityName);
+					job_line.push(activityName);
 		/*------------*/					
-		if (verbose_bool)	job_line.push(Number(jobList[jobNum].getAttribute("blueprintID").getValue()));
-							job_line.push(Number(jobList[jobNum].getAttribute("blueprintTypeID").getValue()));
-							job_line.push(		 jobList[jobNum].getAttribute("blueprintTypeName").getValue());
-		if (verbose_bool)	job_line.push(Number(jobList[jobNum].getAttribute("blueprintLocationID").getValue()));						
-		if (verbose_bool)	job_line.push(Number(jobList[jobNum].getAttribute("outputLocationID").getValue()));
-							job_line.push(Number(jobList[jobNum].getAttribute("runs").getValue()));
-							job_line.push(Number(jobList[jobNum].getAttribute("cost").getValue()));
-							job_line.push(Number(jobList[jobNum].getAttribute("teamID").getValue()));
-		if (verbose_bool)	job_line.push(Number(jobList[jobNum].getAttribute("licensedRuns").getValue()));	
-		if (verbose_bool)	job_line.push(Number(jobList[jobNum].getAttribute("probability").getValue()));	
-		if (verbose_bool)	job_line.push(		 jobList[jobNum].getAttribute("productTypeName").getValue());
-		/*TODO ID->STR*/	job_line.push(Number(jobList[jobNum].getAttribute("status").getValue()));
-							job_line.push(Number(jobList[jobNum].getAttribute("timeInSeconds").getValue()));
-							job_line.push(		 jobList[jobNum].getAttribute("startDate").getValue());
-							job_line.push(		 jobList[jobNum].getAttribute("endDate").getValue());
-		if (verbose_bool)	job_line.push(		 jobList[jobNum].getAttribute("pauseDate").getValue());
-		if (verbose_bool)	job_line.push(		 jobList[jobNum].getAttribute("completedDate").getValue());
-		if (verbose_bool)	job_line.push(Number(jobList[jobNum].getAttribute("completedCharacterID").getValue()));	
+		if (verbose_bool)	job_line.push(getAttributeNumber(job, "blueprintID"));
+					job_line.push(getAttributeNumber(job, "blueprintTypeID"));
+					job_line.push(getAttribute(job, "blueprintTypeName"));
+		if (verbose_bool)	job_line.push(getAttributeNumber(job, "blueprintLocationID"));						
+		if (verbose_bool)	job_line.push(getAttributeNumber(job, "outputLocationID"));
+					job_line.push(getAttributeNumber(job, "runs"));
+					job_line.push(getAttributeNumber(job, "cost"));
+					job_line.push(getAttributeNumber(job, "teamID"));
+		if (verbose_bool)	job_line.push(getAttributeNumber(job, "licensedRuns"));	
+		if (verbose_bool)	job_line.push(getAttributeNumber(job, "probability"));	
+		if (verbose_bool)	job_line.push(getAttribute(job, "productTypeName"));
+		/*TODO ID->STR*/	job_line.push(getAttributeNumber(job, "status"));
+					job_line.push(getAttributeNumber(job, "timeInSeconds"));
+					job_line.push(getAttribute(job, "startDate"));
+					job_line.push(getAttribute(job, "endDate"));
+		if (verbose_bool)	job_line.push(getAttribute(job, "pauseDate"));
+		if (verbose_bool)	job_line.push(getAttribute(job, "completedDate"));
+		if (verbose_bool)	job_line.push(getAttributeNumber(job, "completedCharacterID"));	
 		
 		return_array.push(job_line);
 	}
