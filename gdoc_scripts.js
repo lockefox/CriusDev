@@ -1,3 +1,18 @@
+/*-------------------
+	Developed by: John Purcell
+	Contact info
+		- Twitter: @HLIBindustry
+		- Blog: eve-prosper.blogspot.com
+	Purpose:
+		A suite of API/CREST scraping tools for use in Google sheets for EVE Online data
+		
+	Legal:
+		API/CREST is property of CCP hf. 
+		Code is distributed free-of-charge, and should not be used for commercial gain
+		Code is open source, but notification is appreciated on any modifications
+		
+		Developed as part of the CriusDev project: https://github.com/lockefox/CriusDev
+*/
 var base_CREST_URL = "http://public-crest.eveonline.com/";
 var test_CREST_URL = "http://public-crest-sisi.testeveonline.com/";
 var base_API_URL = "https://api.eveonline.com/char/AssetList.xml.aspx?";
@@ -228,7 +243,8 @@ function API_validateKey(keyID, vCode, expected_type, CAK_mask, test_server){
     method : "post",
     payload :
     "keyID=" + encodeURIComponent(keyID) +
-    "&vCode=" + encodeURIComponent(vCode)
+    "&vCode=" + encodeURIComponent(vCode),
+	user_agent : "Lockefox @HLIBindustry GDOC scripts",
   };
   
   var API_addr = "";
@@ -291,7 +307,8 @@ function getPOS(keyID, vCode, header_bool, verbose_bool, test_server)
     method : "post",
     payload :
     "keyID=" + encodeURIComponent(keyID) +
-    "&vCode=" + encodeURIComponent(vCode)
+    "&vCode=" + encodeURIComponent(vCode),
+	user_agent : "Lockefox @HLIBindustry GDOC scripts",
   };
   Utilities.sleep(1000);
   var API_addr = "";
@@ -381,7 +398,8 @@ function getPOS(keyID, vCode, header_bool, verbose_bool, test_server)
 			payload :
 			"keyID=" + encodeURIComponent(keyID) +
 			"&vCode=" + encodeURIComponent(vCode) +
-			"&itemID=" + encodeURIComponent(towerID)
+			"&itemID=" + encodeURIComponent(towerID),
+			user_agent : "Lockefox @HLIBindustry GDOC scripts",
 		};
 		
 		api_query = API_addr+"corp/StarbaseDetail.xml.aspx?";
@@ -456,7 +474,8 @@ function getFacilities(keyID, vCode, header_bool, verbose_bool, test_server)
     method : "post",
     payload :
     "keyID=" + encodeURIComponent(keyID) +
-    "&vCode=" + encodeURIComponent(vCode)
+    "&vCode=" + encodeURIComponent(vCode),
+	user_agent : "Lockefox @HLIBindustry GDOC scripts",
   };
   Utilities.sleep(1000);
   var API_addr = "";
@@ -546,7 +565,8 @@ function getLocations(keyID, vCode, csv_ID_list, test_server)
     payload :
     "keyID=" + encodeURIComponent(keyID) +
     "&vCode=" + encodeURIComponent(vCode) +
-    "&IDs=" + encodeURIComponent(csv_ID_list)
+    "&IDs=" + encodeURIComponent(csv_ID_list),
+	user_agent : "Lockefox @HLIBindustry GDOC scripts",
   };
   Utilities.sleep(1000);
   var API_addr="";
@@ -603,7 +623,8 @@ function getIndustryJobs(keyID, vCode, header_bool, verbose_bool, test_server)
     method : "post",
     payload :
     "keyID=" + encodeURIComponent(keyID) +
-    "&vCode=" + encodeURIComponent(vCode)
+    "&vCode=" + encodeURIComponent(vCode),
+	user_agent : "Lockefox @HLIBindustry GDOC scripts",
   };
 	Utilities.sleep(1000);
 	var API_addr = "";
