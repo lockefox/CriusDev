@@ -180,28 +180,28 @@ function getIndustryJobs(keyID, vCode, header_bool, verbose_bool, test_server)
 		var header = []
 		if (verbose_bool)	header.push("jobID");
 		if (verbose_bool)	header.push("installerID");
-							header.push("installerName");
-							header.push("facilityID");
+					header.push("installerName");
+					header.push("facilityID");
 		if (verbose_bool)	header.push("solarSystemID");
-							header.push("solarSystemName");
-							header.push("stationID");
+					header.push("solarSystemName");
+					header.push("stationID");
 		if (verbose_bool)	header.push("activityID");
-							header.push("activity");
+					header.push("activity");
 		if (verbose_bool)	header.push("blueprintID");	
-							header.push("blueprintTypeID");
-							header.push("blueprintTypeName");
+					header.push("blueprintTypeID");
+					header.push("blueprintTypeName");
 		if (verbose_bool)	header.push("blueprintLocationID");						
 		if (verbose_bool)	header.push("outputLocationID");
-							header.push("runs");
-							header.push("cost");
-							header.push("teamID");
+					header.push("runs");
+					header.push("cost");
+					header.push("teamID");
 		if (verbose_bool)	header.push("licensedRuns");	
 		if (verbose_bool)	header.push("probability");	
 		if (verbose_bool)	header.push("productTypeName");
-							header.push("status");
-							header.push("timeInSeconds");
-							header.push("startDate");
-							header.push("endDate");
+					header.push("status");
+					header.push("timeInSeconds");
+					header.push("startDate");
+					header.push("endDate");
 		if (verbose_bool)	header.push("pauseDate");
 		if (verbose_bool)	header.push("completedDate");
 		if (verbose_bool)	header.push("completedCharacterID");	
@@ -362,29 +362,31 @@ function AllSystemIndexes(header_bool, test_server)
 	
 	for (var cost_index = 0; cost_index < system_index_obj["items"][index]["systemCostIndices"].length; cost_index++)
 	{
-		if		(1 == Number(system_index_obj["items"][index]["systemCostIndices"][cost_index]["activityID"]))
+		var activityID = Number(system_index_obj["items"][index]["systemCostIndices"][cost_index]["activityID"]);
+		var costID = Number(system_index_obj["items"][index]["systemCostIndices"][cost_index]["costIndex"]);
+		if		(1 == activityID)
 		{//Manufacturing
-			manufacturing = Number(system_index_obj["items"][index]["systemCostIndices"][cost_index]["costIndex"]);
+			manufacturing = costID;
 		}
-		else if (3 == Number(system_index_obj["items"][index]["systemCostIndices"][cost_index]["activityID"]))
+		else if (3 == activityID)
 		{//Time Efficiency Research
-			TE = Number(system_index_obj["items"][index]["systemCostIndices"][cost_index]["costIndex"]);
+			TE = costID;
 		}
-		else if (4 == Number(system_index_obj["items"][index]["systemCostIndices"][cost_index]["activityID"]))
+		else if (4 == activityID)
 		{//Material Efficiency Research
-			ME = Number(system_index_obj["items"][index]["systemCostIndices"][cost_index]["costIndex"]);
+			ME = costID;
 		}
-		else if (5 == Number(system_index_obj["items"][index]["systemCostIndices"][cost_index]["activityID"]))
+		else if (5 == activityID)
 		{//Material Efficiency Research
-			copying = Number(system_index_obj["items"][index]["systemCostIndices"][cost_index]["costIndex"]);
+			copying = costID;
 		}
-		else if (7 == Number(system_index_obj["items"][index]["systemCostIndices"][cost_index]["activityID"]))
+		else if (7 == activityID)
 		{//Reverse Engineering
-			reverseEng = Number(system_index_obj["items"][index]["systemCostIndices"][cost_index]["costIndex"]);
+			reverseEng = costID;
 		}
-		else if (8 == Number(system_index_obj["items"][index]["systemCostIndices"][cost_index]["activityID"]))
+		else if (8 == activityID)
 		{//Invention
-			invention = Number(system_index_obj["items"][index]["systemCostIndices"][cost_index]["costIndex"]);
+			invention = costID;
 		}
 	}
 	
