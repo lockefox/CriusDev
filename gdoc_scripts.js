@@ -91,16 +91,12 @@ function __fetchCrest_market(region_id,item_id)
     method : "get",
     user_agent : "Lockefox @HLIBindustry GDOC scripts",
   }
+
   var url = base_CREST_URL+"market/"+region_id+"/types/"+item_id+"/history/"
-  Utilities.sleep(1000);
   var text = UrlFetchApp.fetch(url,parameters);
   var json_obj = JSON.parse(text);
   
   return json_obj;
-  var valid_dates = []
-  valid_dates = date_array(15);
-  
-  var volumes = []
 }
 
 function __fetchSystemIndexes(test_server)
@@ -797,7 +793,7 @@ function getIndustryJobs(keyID, vCode, header_bool, verbose_bool, test_server)
 function getAvgVolume(days,item_id,region_id)
 {
   var market_obj = {};
-  market_obj = __fetchCrest_market(item_id,region_id);
+  market_obj = __fetchCrest_market(region_id,item_id);
   
   var date_range = [];
   date_range = date_array(days);
