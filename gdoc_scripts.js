@@ -84,6 +84,77 @@ function getAllianceID(keyID, vCode, systemList)
   
   return allianceID;
 }
+
+function fetchRawAPI(keyID,vCode,API_string,add_args,test_server)
+{
+  if(add_args)
+  {
+    var parameters = {
+      method : "post",
+      payload :
+      "keyID=" + encodeURIComponent(keyID) +
+      "&vCode=" + encodeURIComponent(vCode) +
+      add_args,
+      user_agent : "Lockefox @HLIBindustry GDOC scripts",
+    };
+  }
+  else
+  {
+    var parameters = {
+      method : "post",
+      payload :
+      "keyID=" + encodeURIComponent(keyID) +
+      "&vCode=" + encodeURIComponent(vCode),
+      user_agent : "Lockefox @HLIBindustry GDOC scripts",
+    };
+  }
+  
+  var API_addr = "";
+  if(test_server) API_addr = "https://api.testeveonline.com/";
+  else API_addr = "https://api.eveonline.com/";
+  
+  var info = ""
+  var ret_arr = []
+  try{//generic query error
+    Utilities.sleep(1000);
+    var info = UrlFetchApp.fetch(API_addr+API_string,parameters).getContentText();
+  }catch (e){
+    ret_arr.push(e);
+    try{
+      if(add_args)
+      {
+        var parameters = {
+          method : "post",
+          payload :
+          "keyID=" + encodeURIComponent(keyID) +
+          "&vCode=" + encodeURIComponent(vCode) +
+          add_args,
+          user_agent : "Lockefox @HLIBindustry GDOC scripts",
+          muteHttpExceptions : true
+        };
+      }
+      else
+      {
+        var parameters = {
+          method : "post",
+          payload :
+          "keyID=" + encodeURIComponent(keyID) +
+          "&vCode=" + encodeURIComponent(vCode),
+          user_agent : "Lockefox @HLIBindustry GDOC scripts",
+          muteHttpExceptions : true
+        };
+      }
+      Utilities.sleep(1000);
+      info = UrlFetchApp.fetch(API_addr+API_string,parameters).getContentText()
+      ret_arr.push(info)
+    }
+    catch (er){
+      throw er
+    }
+    return ret_arr
+  }
+  return info
+}
 ////	FETCH FUNCS		////
 function __fetchCrest_market(region_id,item_id)
 {
@@ -91,16 +162,12 @@ function __fetchCrest_market(region_id,item_id)
     method : "get",
     user_agent : "Lockefox @HLIBindustry GDOC scripts",
   }
+
   var url = base_CREST_URL+"market/"+region_id+"/types/"+item_id+"/history/"
-  Utilities.sleep(1000);
   var text = UrlFetchApp.fetch(url,parameters);
   var json_obj = JSON.parse(text);
   
   return json_obj;
-  var valid_dates = []
-  valid_dates = date_array(15);
-  
-  var volumes = []
 }
 
 function __fetchSystemIndexes(test_server)
@@ -296,7 +363,7 @@ function getPOS(keyID, vCode, header_bool, verbose_bool, test_server)
   }
   
   try{
-    API_validateKey(keyID, vCode, "Corporation", 524288, test_server);//foxfour says says accessMask corp/facilities = /corp/assets
+    API_validateKey(keyID, vCode, "Corporation", 524288, test_server);
   }catch(err){
     return err;
   }
@@ -354,6 +421,7 @@ function getPOS(keyID, vCode, header_bool, verbose_bool, test_server)
   
   var towerIDs = [];
   var towerName_conv = {};
+
   if(can_Locations || can_POSDetails)
   {//get a towerID list
     for (var towerNum = 0; towerNum < POSList.length; towerNum++)
@@ -362,7 +430,7 @@ function getPOS(keyID, vCode, header_bool, verbose_bool, test_server)
     }
     
     if(can_Locations && (POSList.length > 0))
-      towerName_conv = getLocations(keyID, vCode, towerIDs.join(), API_addr, test_server);
+      towerName_conv = getLocations(keyID, vCode, towerIDs.join(), test_server);
   }
 
   
@@ -609,7 +677,7 @@ function getIndustryJobs(keyID, vCode, header_bool, verbose_bool, test_server)
   
   var personal_or_corp = 0;	//0=personal, 1=corp
   try{
-    API_validateKey(keyID, vCode, "Account", 128, test_server);
+    API_validateKey(keyID, vCode, "Character", 128, test_server);
   }catch(err){
     personal_or_corp = 1;
     try{
@@ -797,7 +865,7 @@ function getIndustryJobs(keyID, vCode, header_bool, verbose_bool, test_server)
 function getAvgVolume(days,item_id,region_id)
 {
   var market_obj = {};
-  market_obj = __fetchCrest_market(item_id,region_id);
+  market_obj = __fetchCrest_market(region_id,item_id);
   
   var date_range = [];
   date_range = date_array(days);
