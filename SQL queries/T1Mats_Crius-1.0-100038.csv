@@ -1860,6 +1860,57 @@ Providence,1500000,21009,873,"Capital Propulsion Engine",22
 Providence,1500000,21017,873,"Capital Armor Plates",17
 Providence,1500000,21027,873,"Capital Cargo Bay",83
 Providence,1500000,21037,873,"Capital Construction Parts",53
+"Capital Propulsion Engine",16000,34,18,Tritanium,457050
+"Capital Propulsion Engine",16000,35,18,Pyerite,110416
+"Capital Propulsion Engine",16000,36,18,Mexallon,41994
+"Capital Propulsion Engine",16000,37,18,Isogen,6938
+"Capital Propulsion Engine",16000,38,18,Nocxium,2110
+"Capital Propulsion Engine",16000,39,18,Zydrine,302
+"Capital Propulsion Engine",16000,40,18,Megacyte,151
+"Capital Turret Hardpoint",16000,34,18,Tritanium,546912
+"Capital Turret Hardpoint",16000,35,18,Pyerite,113826
+"Capital Turret Hardpoint",16000,36,18,Mexallon,45010
+"Capital Turret Hardpoint",16000,37,18,Isogen,7760
+"Capital Turret Hardpoint",16000,38,18,Nocxium,2358
+"Capital Turret Hardpoint",16000,39,18,Zydrine,438
+"Capital Turret Hardpoint",16000,40,18,Megacyte,193
+"Capital Sensor Cluster",16000,34,18,Tritanium,443591
+"Capital Sensor Cluster",16000,35,18,Pyerite,101026
+"Capital Sensor Cluster",16000,36,18,Mexallon,40877
+"Capital Sensor Cluster",16000,37,18,Isogen,6659
+"Capital Sensor Cluster",16000,38,18,Nocxium,1804
+"Capital Sensor Cluster",16000,39,18,Zydrine,333
+"Capital Sensor Cluster",16000,40,18,Megacyte,149
+"Capital Armor Plates",16000,34,18,Tritanium,473141
+"Capital Armor Plates",16000,35,18,Pyerite,111118
+"Capital Armor Plates",16000,36,18,Mexallon,43324
+"Capital Armor Plates",16000,37,18,Isogen,7109
+"Capital Armor Plates",16000,38,18,Nocxium,2141
+"Capital Armor Plates",16000,39,18,Zydrine,341
+"Capital Armor Plates",16000,40,18,Megacyte,152
+"Capital Capacitor Battery",16000,34,18,Tritanium,326973
+"Capital Capacitor Battery",16000,35,18,Pyerite,107842
+"Capital Capacitor Battery",16000,36,18,Mexallon,39547
+"Capital Capacitor Battery",16000,37,18,Isogen,6440
+"Capital Capacitor Battery",16000,38,18,Nocxium,1841
+"Capital Capacitor Battery",16000,39,18,Zydrine,330
+"Capital Capacitor Battery",16000,40,18,Megacyte,140
+"Capital Power Generator",16000,34,18,Tritanium,510149
+"Capital Power Generator",16000,35,18,Pyerite,110413
+"Capital Power Generator",16000,36,18,Mexallon,45621
+"Capital Power Generator",16000,37,18,Isogen,7491
+"Capital Power Generator",16000,38,18,Nocxium,2191
+"Capital Power Generator",16000,39,18,Zydrine,364
+"Capital Power Generator",16000,40,18,Megacyte,167
+"Capital Shield Emitter",16000,34,18,Tritanium,498880
+"Capital Shield Emitter",16000,35,18,Pyerite,104957
+"Capital Shield Emitter",16000,36,18,Mexallon,43194
+"Capital Shield Emitter",16000,37,18,Isogen,7269
+"Capital Shield Emitter",16000,38,18,Nocxium,2033
+"Capital Shield Emitter",16000,39,18,Zydrine,348
+"Capital Shield Emitter",16000,40,18,Megacyte,166
+"Capital Jump Drive",16000,34,18,Tritanium,749916
+"Capital Jump Drive",16000,35,18,Pyerite,142710
 "Small Tractor Beam I",900,34,18,Tritanium,27778
 "Small Tractor Beam I",900,35,18,Pyerite,12222
 "Small Tractor Beam I",900,36,18,Mexallon,10000
@@ -2028,6 +2079,53 @@ Providence,1500000,21037,873,"Capital Construction Parts",53
 "Data Analyzer I",1800,36,18,Mexallon,470
 "Data Analyzer I",1800,37,18,Isogen,4
 "Data Analyzer I",1800,40,18,Megacyte,2
+"Capital Jump Drive",16000,36,18,Mexallon,49913
+"Capital Jump Drive",16000,37,18,Isogen,8617
+"Capital Jump Drive",16000,38,18,Nocxium,2249
+"Capital Jump Drive",16000,39,18,Zydrine,454
+"Capital Jump Drive",16000,40,18,Megacyte,222
+"Capital Cargo Bay",16000,34,18,Tritanium,874902
+"Capital Cargo Bay",16000,35,18,Pyerite,72154
+"Capital Cargo Bay",16000,36,18,Mexallon,24616
+"Capital Cargo Bay",16000,37,18,Isogen,3504
+"Capital Cargo Bay",16000,38,18,Nocxium,998
+"Capital Cargo Bay",16000,39,18,Zydrine,143
+"Capital Cargo Bay",16000,40,18,Megacyte,32
+"Capital Drone Bay",16000,34,18,Tritanium,347163
+"Capital Drone Bay",16000,35,18,Pyerite,83248
+"Capital Drone Bay",16000,36,18,Mexallon,33332
+"Capital Drone Bay",16000,37,18,Isogen,4499
+"Capital Drone Bay",16000,38,18,Nocxium,1258
+"Capital Drone Bay",16000,39,18,Zydrine,243
+"Capital Drone Bay",16000,40,18,Megacyte,86
+"Capital Computer System",16000,34,18,Tritanium,427708
+"Capital Computer System",16000,35,18,Pyerite,111110
+"Capital Computer System",16000,36,18,Mexallon,44110
+"Capital Computer System",16000,37,18,Isogen,6581
+"Capital Computer System",16000,38,18,Nocxium,1858
+"Capital Computer System",16000,39,18,Zydrine,324
+"Capital Computer System",16000,40,18,Megacyte,148
+"Capital Construction Parts",16000,34,18,Tritanium,388208
+"Capital Construction Parts",16000,35,18,Pyerite,93777
+"Capital Construction Parts",16000,36,18,Mexallon,37729
+"Capital Construction Parts",16000,37,18,Isogen,5104
+"Capital Construction Parts",16000,38,18,Nocxium,1530
+"Capital Construction Parts",16000,39,18,Zydrine,269
+"Capital Construction Parts",16000,40,18,Megacyte,106
+"Capital Siege Array",16000,34,18,Tritanium,555658
+"Capital Siege Array",16000,35,18,Pyerite,125277
+"Capital Siege Array",16000,36,18,Mexallon,47249
+"Capital Siege Array",16000,37,18,Isogen,7916
+"Capital Siege Array",16000,38,18,Nocxium,2438
+"Capital Siege Array",16000,39,18,Zydrine,454
+"Capital Siege Array",16000,40,18,Megacyte,214
+"Capital Launcher Hardpoint",16000,34,18,Tritanium,471653
+"Capital Launcher Hardpoint",16000,35,18,Pyerite,110370
+"Capital Launcher Hardpoint",16000,36,18,Mexallon,44713
+"Capital Launcher Hardpoint",16000,37,18,Isogen,7692
+"Capital Launcher Hardpoint",16000,38,18,Nocxium,2359
+"Capital Launcher Hardpoint",16000,39,18,Zydrine,430
+"Capital Launcher Hardpoint",16000,40,18,Megacyte,172
 "Scourge Heavy Assault Missile",600,34,18,Tritanium,820
 "Scourge Heavy Assault Missile",600,35,18,Pyerite,2
 "Scourge Heavy Assault Missile",600,38,18,Nocxium,2
@@ -2145,6 +2243,41 @@ Drake,15000,40,18,Megacyte,944
 "Salvager I",2700,36,18,Mexallon,470
 "Salvager I",2700,37,18,Isogen,4
 "Salvager I",2700,40,18,Megacyte,2
+"Capital Jump Bridge Array",16000,34,18,Tritanium,1121659
+"Capital Jump Bridge Array",16000,35,18,Pyerite,278776
+"Capital Jump Bridge Array",16000,36,18,Mexallon,75379
+"Capital Jump Bridge Array",16000,37,18,Isogen,17669
+"Capital Jump Bridge Array",16000,38,18,Nocxium,4176
+"Capital Jump Bridge Array",16000,39,18,Zydrine,744
+"Capital Jump Bridge Array",16000,40,18,Megacyte,567
+"Capital Clone Vat Bay",16000,34,18,Tritanium,640393
+"Capital Clone Vat Bay",16000,35,18,Pyerite,139591
+"Capital Clone Vat Bay",16000,36,18,Mexallon,48471
+"Capital Clone Vat Bay",16000,37,18,Isogen,8888
+"Capital Clone Vat Bay",16000,38,18,Nocxium,2612
+"Capital Clone Vat Bay",16000,39,18,Zydrine,541
+"Capital Clone Vat Bay",16000,40,18,Megacyte,222
+"Capital Doomsday Weapon Mount",16000,34,18,Tritanium,841877
+"Capital Doomsday Weapon Mount",16000,35,18,Pyerite,207776
+"Capital Doomsday Weapon Mount",16000,36,18,Mexallon,61980
+"Capital Doomsday Weapon Mount",16000,37,18,Isogen,11132
+"Capital Doomsday Weapon Mount",16000,38,18,Nocxium,3317
+"Capital Doomsday Weapon Mount",16000,39,18,Zydrine,554
+"Capital Doomsday Weapon Mount",16000,40,18,Megacyte,286
+"Capital Ship Maintenance Bay",16000,34,18,Tritanium,576759
+"Capital Ship Maintenance Bay",16000,35,18,Pyerite,189942
+"Capital Ship Maintenance Bay",16000,36,18,Mexallon,53312
+"Capital Ship Maintenance Bay",16000,37,18,Isogen,9010
+"Capital Ship Maintenance Bay",16000,38,18,Nocxium,2461
+"Capital Ship Maintenance Bay",16000,39,18,Zydrine,457
+"Capital Ship Maintenance Bay",16000,40,18,Megacyte,208
+"Capital Corporate Hangar Bay",16000,34,18,Tritanium,583442
+"Capital Corporate Hangar Bay",16000,35,18,Pyerite,145664
+"Capital Corporate Hangar Bay",16000,36,18,Mexallon,51297
+"Capital Corporate Hangar Bay",16000,37,18,Isogen,9321
+"Capital Corporate Hangar Bay",16000,38,18,Nocxium,2678
+"Capital Corporate Hangar Bay",16000,39,18,Zydrine,469
+"Capital Corporate Hangar Bay",16000,40,18,Megacyte,218
 "Small Salvage Tackle I",1500,25590,754,"Contaminated Nanite Compound",3
 "Small Salvage Tackle I",1500,25601,754,"Fried Interface Circuit",4
 "Small Salvage Tackle I",1500,25605,754,"Armor Plates",4
