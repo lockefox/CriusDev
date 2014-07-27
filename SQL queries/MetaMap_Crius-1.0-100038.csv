@@ -1,0 +1,783 @@
+"T2 TypeName","T2 typeID","T1 TypeName","T1 TypeID",InventionProb,InventionBaseYield,InventionQtyPerRun
+"Tremor S",12633,"Carbonized Lead S",178,0.40,10,100
+"Barrage S",12625,"Nuclear S",179,0.40,10,100
+"Hail S",12608,"Depleted Uranium S",181,0.40,10,100
+"Quake S",12631,"Titanium Sabot S",182,0.40,10,100
+"Tremor M",12771,"Carbonized Lead M",186,0.40,10,100
+"Barrage M",12773,"Nuclear M",187,0.40,10,100
+"Hail M",12777,"Depleted Uranium M",189,0.40,10,100
+"Quake M",12767,"Titanium Sabot M",190,0.40,10,100
+"Tremor L",12765,"Carbonized Lead L",194,0.40,10,100
+"Barrage L",12775,"Nuclear L",195,0.40,10,100
+"Hail L",12779,"Depleted Uranium L",197,0.40,10,100
+"Quake L",12761,"Titanium Sabot L",198,0.40,10,100
+"Mjolnir Fury Cruise Missile",24535,"Mjolnir Cruise Missile",202,0.40,10,100
+"Mjolnir Precision Cruise Missile",24539,"Mjolnir Cruise Missile",202,0.40,10,100
+"Scourge Fury Cruise Missile",24533,"Scourge Cruise Missile",203,0.40,10,100
+"Scourge Precision Cruise Missile",24541,"Scourge Cruise Missile",203,0.40,10,100
+"Inferno Fury Cruise Missile",2621,"Inferno Cruise Missile",204,0.40,10,100
+"Inferno Precision Cruise Missile",2637,"Inferno Cruise Missile",204,0.40,10,100
+"Nova Fury Cruise Missile",24531,"Nova Cruise Missile",205,0.40,10,100
+"Nova Precision Cruise Missile",24537,"Nova Cruise Missile",205,0.40,10,100
+"Nova Precision Heavy Missile",2655,"Nova Heavy Missile",206,0.40,10,100
+"Nova Fury Heavy Missile",24507,"Nova Heavy Missile",206,0.40,10,100
+"Mjolnir Fury Heavy Missile",24509,"Mjolnir Heavy Missile",207,0.40,10,100
+"Mjolnir Precision Heavy Missile",24517,"Mjolnir Heavy Missile",207,0.40,10,100
+"Inferno Fury Heavy Missile",24511,"Inferno Heavy Missile",208,0.40,10,100
+"Inferno Precision Heavy Missile",24515,"Inferno Heavy Missile",208,0.40,10,100
+"Scourge Fury Heavy Missile",2629,"Scourge Heavy Missile",209,0.40,10,100
+"Scourge Precision Heavy Missile",24513,"Scourge Heavy Missile",209,0.40,10,100
+"Scourge Fury Light Missile",24495,"Scourge Light Missile",210,0.40,10,100
+"Scourge Precision Light Missile",24501,"Scourge Light Missile",210,0.40,10,100
+"Inferno Precision Light Missile",2647,"Inferno Light Missile",211,0.40,10,100
+"Inferno Fury Light Missile",24499,"Inferno Light Missile",211,0.40,10,100
+"Mjolnir Fury Light Missile",2613,"Mjolnir Light Missile",212,0.40,10,100
+"Mjolnir Precision Light Missile",24505,"Mjolnir Light Missile",212,0.40,10,100
+"Nova Fury Light Missile",24497,"Nova Light Missile",213,0.40,10,100
+"Nova Precision Light Missile",24503,"Nova Light Missile",213,0.40,10,100
+"Javelin S",12620,"Iridium Charge S",217,0.40,10,100
+"Null S",12614,"Thorium Charge S",219,0.40,10,100
+"Spike S",12618,"Plutonium Charge S",221,0.40,10,100
+"Void S",12612,"Antimatter Charge S",222,0.40,10,100
+"Javelin M",12801,"Iridium Charge M",225,0.40,10,100
+"Null M",12785,"Thorium Charge M",227,0.40,10,100
+"Spike M",12805,"Plutonium Charge M",229,0.40,10,100
+"Void M",12789,"Antimatter Charge M",230,0.40,10,100
+"Javelin L",12803,"Iridium Charge L",233,0.40,10,100
+"Null L",12787,"Thorium Charge L",235,0.40,10,100
+"Spike L",12807,"Plutonium Charge L",237,0.40,10,100
+"Void L",12791,"Antimatter Charge L",238,0.40,10,100
+"Aurora S",12559,"Radio S",239,0.40,10,1
+"Scorch S",12563,"Ultraviolet S",243,0.40,10,1
+"Conflagration S",12565,"Xray S",244,0.40,10,1
+"Gleam S",12557,"Multifrequency S",246,0.40,10,1
+"Aurora M",12822,"Radio M",247,0.40,10,1
+"Scorch M",12818,"Ultraviolet M",251,0.40,10,1
+"Conflagration M",12814,"Xray M",252,0.40,10,1
+"Gleam M",12826,"Multifrequency M",254,0.40,10,1
+"Aurora L",12824,"Radio L",255,0.40,10,1
+"Scorch L",12820,"Ultraviolet L",259,0.40,10,1
+"Conflagration L",12816,"Xray L",260,0.40,10,1
+"Gleam L",12828,"Multifrequency L",262,0.40,10,1
+"Scourge Rage Rocket",24471,"Scourge Rocket",266,0.40,10,100
+"Scourge Javelin Rocket",24477,"Scourge Rocket",266,0.40,10,100
+"Scourge Rage Torpedo",24521,"Scourge Torpedo",267,0.40,10,100
+"Scourge Javelin Torpedo",24529,"Scourge Torpedo",267,0.40,10,100
+"Small Shield Extender II",380,"Small Shield Extender I",377,0.40,10,1
+"Shield Recharger II",394,"Shield Recharger I",393,0.40,10,1
+"Small Shield Booster II",400,"Small Shield Booster I",399,0.40,10,1
+"1MN Microwarpdrive II",440,"1MN Microwarpdrive I",434,0.40,10,1
+"1MN Afterburner II",438,"1MN Afterburner I",439,0.40,10,1
+"Cargo Scanner II",2038,"Cargo Scanner I",442,0.40,10,1
+"Ship Scanner II",1855,"Ship Scanner I",443,0.40,10,1
+"Survey Scanner II",2333,"Survey Scanner I",444,0.40,10,1
+"Warp Scrambler II",448,"Warp Scrambler I",447,0.40,10,1
+"Gatling Pulse Laser II",3017,"Gatling Pulse Laser I",450,0.40,10,1
+"Dual Light Pulse Laser II",3001,"Dual Light Pulse Laser I",451,0.40,10,1
+"Dual Light Beam Laser II",2993,"Dual Light Beam Laser I",452,0.40,10,1
+"Small Focused Pulse Laser II",3041,"Small Focused Pulse Laser I",453,0.40,10,1
+"Small Focused Beam Laser II",3033,"Small Focused Beam Laser I",454,0.40,10,1
+"Quad Light Beam Laser II",3285,"Quad Light Beam Laser I",455,0.40,10,1
+"Focused Medium Pulse Laser II",3512,"Focused Medium Pulse Laser I",456,0.40,10,1
+"Focused Medium Beam Laser II",3009,"Focused Medium Beam Laser I",457,0.40,10,1
+"Heavy Pulse Laser II",3520,"Heavy Pulse Laser I",458,0.40,10,1
+"Heavy Beam Laser II",3025,"Heavy Beam Laser I",459,0.40,10,1
+"Dual Heavy Pulse Laser II",4147,"Dual Heavy Pulse Laser I",460,0.40,10,1
+"Dual Heavy Beam Laser II",2985,"Dual Heavy Beam Laser I",461,0.40,10,1
+"Mega Pulse Laser II",3057,"Mega Pulse Laser I",462,0.40,10,1
+"Mega Beam Laser II",3049,"Mega Beam Laser I",463,0.40,10,1
+"Tachyon Beam Laser II",3065,"Tachyon Beam Laser I",464,0.40,10,1
+"Miner II",482,"Miner I",483,0.40,10,1
+"125mm Gatling AutoCannon II",2873,"125mm Gatling AutoCannon I",484,0.40,10,1
+"150mm Light AutoCannon II",2881,"150mm Light AutoCannon I",485,0.40,10,1
+"200mm AutoCannon II",2889,"200mm AutoCannon I",486,0.40,10,1
+"250mm Light Artillery Cannon II",2905,"250mm Light Artillery Cannon I",487,0.40,10,1
+"280mm Howitzer Artillery II",2977,"280mm Howitzer Artillery I",488,0.40,10,1
+"Dual 180mm AutoCannon II",2937,"Dual 180mm AutoCannon I",489,0.40,10,1
+"220mm Vulcan AutoCannon II",2897,"220mm Vulcan AutoCannon I",490,0.40,10,1
+"425mm AutoCannon II",2913,"425mm AutoCannon I",491,0.40,10,1
+"650mm Artillery Cannon II",2921,"650mm Artillery Cannon I",492,0.40,10,1
+"720mm Howitzer Artillery II",2969,"720mm Howitzer Artillery I",493,0.40,10,1
+"Dual 425mm AutoCannon II",2945,"Dual 425mm AutoCannon I",494,0.40,10,1
+"Dual 650mm Repeating Cannon II",2953,"Dual 650mm Repeating Cannon I",495,0.40,10,1
+"800mm Repeating Cannon II",2929,"800mm Repeating Cannon I",496,0.40,10,1
+"1200mm Artillery Cannon II",2865,"1200mm Artillery Cannon I",497,0.40,10,1
+"1400mm Howitzer Artillery II",2961,"1400mm Howitzer Artillery I",498,0.40,10,1
+"Light Missile Launcher II",2404,"Light Missile Launcher I",499,0.40,10,1
+"Heavy Missile Launcher II",2410,"Heavy Missile Launcher I",501,0.40,10,1
+"Torpedo Launcher II",2420,"Torpedo Launcher I",503,0.40,10,1
+"Gyrostabilizer II",519,"Gyrostabilizer I",520,0.40,10,1
+"Small Armor Repairer II",1183,"Small Armor Repairer I",523,0.40,10,1
+"Small Hull Repairer II",2355,"Small Hull Repairer I",524,0.40,10,1
+"Stasis Webifier II",527,"Stasis Webifier I",526,0.40,10,1
+"Small Remote Capacitor Transmitter II",1190,"Small Remote Capacitor Transmitter I",529,0.40,10,1
+"Small Nosferatu II",13001,"Small Nosferatu I",530,0.40,10,1
+"Small Energy Neutralizer II",13003,"Small Energy Neutralizer I",533,0.40,10,1
+"75mm Gatling Rail II",3098,"75mm Gatling Rail I",561,0.40,10,1
+"Light Electron Blaster II",3162,"Light Electron Blaster I",562,0.40,10,1
+"Light Ion Blaster II",3170,"Light Ion Blaster I",563,0.40,10,1
+"Light Neutron Blaster II",3178,"Light Neutron Blaster I",564,0.40,10,1
+"150mm Railgun II",3074,"150mm Railgun I",565,0.40,10,1
+"Heavy Electron Blaster II",3130,"Heavy Electron Blaster I",566,0.40,10,1
+"Dual 150mm Railgun II",3106,"Dual 150mm Railgun I",567,0.40,10,1
+"Heavy Neutron Blaster II",3146,"Heavy Neutron Blaster I",568,0.40,10,1
+"Heavy Ion Blaster II",3138,"Heavy Ion Blaster I",569,0.40,10,1
+"250mm Railgun II",3082,"250mm Railgun I",570,0.40,10,1
+"Electron Blaster Cannon II",3122,"Electron Blaster Cannon I",571,0.40,10,1
+"Dual 250mm Railgun II",3114,"Dual 250mm Railgun I",572,0.40,10,1
+"Neutron Blaster Cannon II",3186,"Neutron Blaster Cannon I",573,0.40,10,1
+"425mm Railgun II",3090,"425mm Railgun I",574,0.40,10,1
+"Ion Blaster Cannon II",3154,"Ion Blaster Cannon I",575,0.40,10,1
+"Medium Capacitor Booster II",2024,"Medium Capacitor Booster I",577,0.40,10,1
+"Adaptive Invulnerability Field II",2281,"Adaptive Invulnerability Field I",578,0.40,10,1
+"ECM Burst II",2117,"ECM Burst I",580,0.40,10,1
+"Passive Targeter II",2341,"Passive Targeter I",581,0.40,10,1
+Crow,11176,Condor,583,0.30,1,1
+Raptor,11178,Condor,583,0.30,1,1
+Kitsune,11194,Griffin,584,0.30,1,1
+Claw,11196,Slasher,585,0.30,1,1
+Stiletto,11198,Slasher,585,0.30,1,1
+Cheetah,11182,Probe,586,0.30,1,1
+Wolf,11371,Rifter,587,0.30,1,1
+Jaguar,11400,Rifter,587,0.30,1,1
+Crusader,11184,Executioner,589,0.30,1,1
+Malediction,11186,Executioner,589,0.30,1,1
+Purifier,12038,Inquisitor,590,0.30,1,1
+Nemesis,11377,Tristan,593,0.30,1,1
+Ishkur,12042,Incursus,594,0.30,1,1
+Enyo,12044,Incursus,594,0.30,1,1
+Vengeance,11365,Punisher,597,0.30,1,1
+Retribution,11393,Punisher,597,0.30,1,1
+Hound,12034,Breacher,598,0.30,1,1
+Manticore,12032,Kestrel,602,0.30,1,1
+Hawk,11379,Merlin,603,0.30,1,1
+Harpy,11381,Merlin,603,0.30,1,1
+Buzzard,11192,Heron,605,0.30,1,1
+Helios,11172,Imicus,607,0.30,1,1
+Taranis,11200,Atron,608,0.30,1,1
+Ares,11202,Atron,608,0.30,1,1
+Keres,11174,Maulus,609,0.30,1,1
+Basilisk,11985,Osprey,620,0.25,1,1
+Cerberus,11993,Caracal,621,0.25,1,1
+Vagabond,11999,Stabber,622,0.25,1,1
+Onyx,11995,Moa,623,0.25,1,1
+Eagle,12011,Moa,623,0.25,1,1
+Devoter,12017,Maller,624,0.25,1,1
+Sacrilege,12019,Maller,624,0.25,1,1
+Guardian,11987,Augoror,625,0.25,1,1
+Ishtar,12005,Vexor,626,0.25,1,1
+Phobos,12021,Thorax,627,0.25,1,1
+Deimos,12023,Thorax,627,0.25,1,1
+Pilgrim,11965,Arbitrator,628,0.25,1,1
+Curse,20125,Arbitrator,628,0.25,1,1
+Broadsword,12013,Rupture,629,0.25,1,1
+Muninn,12015,Rupture,629,0.25,1,1
+Huginn,11961,Bellicose,630,0.25,1,1
+Rapier,11963,Bellicose,630,0.25,1,1
+Scimitar,11978,Scythe,631,0.25,1,1
+Falcon,11957,Blackbird,632,0.25,1,1
+Rook,11959,Blackbird,632,0.25,1,1
+Arazu,11969,Celestis,633,0.25,1,1
+Lachesis,11971,Celestis,633,0.25,1,1
+Oneiros,11989,Exequror,634,0.25,1,1
+Golem,28710,Raven,638,0.20,1,1
+Vargur,28665,Tempest,639,0.20,1,1
+Widow,22436,Scorpion,640,0.20,1,1
+Kronos,28661,Megathron,641,0.20,1,1
+Paladin,28659,Apocalypse,642,0.20,1,1
+Redeemer,22428,Armageddon,643,0.20,1,1
+Panther,22440,Typhoon,644,0.20,1,1
+Sin,22430,Dominix,645,0.20,1,1
+Crane,12729,Badger,648,0.25,1,1
+Bustard,12731,Tayra,649,0.25,1,1
+Viator,12743,Nereus,650,0.25,1,1
+Mastodon,12747,Mammoth,652,0.25,1,1
+Prowler,12735,Wreathe,653,0.25,1,1
+Occator,12745,Epithal,655,0.25,1,1
+"Auto Targeting System II",1436,"Auto Targeting System I",1182,0.40,10,1
+"Small Capacitor Battery II",3488,"Small Capacitor Battery I",1185,0.40,10,1
+"Cap Recharger II",2032,"Cap Recharger I",1195,0.40,10,1
+"EM Plating II",1198,"EM Plating I",1197,0.40,10,1
+"Wasp II",2436,"Wasp I",1201,0.40,10,1
+"Overdrive Injector System II",1236,"Overdrive Injector System I",1244,0.40,10,1
+"Capacitor Flux Coil II",1248,"Capacitor Flux Coil I",1246,0.40,10,1
+"Shield Flux Coil II",1256,"Shield Flux Coil I",1254,0.40,10,1
+"Explosive Plating II",1266,"Explosive Plating I",1264,0.40,10,1
+"Layered Plating II",1276,"Layered Plating I",1274,0.40,10,1
+"Kinetic Plating II",1286,"Kinetic Plating I",1284,0.40,10,1
+"Thermic Plating II",1296,"Thermic Plating I",1294,0.40,10,1
+"Adaptive Nano Plating II",1306,"Adaptive Nano Plating I",1304,0.40,10,1
+"Expanded Cargohold II",1319,"Expanded Cargohold I",1317,0.40,10,1
+"Reinforced Bulkheads II",1335,"Reinforced Bulkheads I",1333,0.40,10,1
+"Reactor Control Unit II",1355,"Reactor Control Unit I",1353,0.40,10,1
+"Inertia Stabilizers II",1405,"Inertia Stabilizers I",1403,0.40,10,1
+"Capacitor Power Relay II",1447,"Capacitor Power Relay I",1445,0.40,10,1
+"Power Diagnostic System II",1541,"Power Diagnostic System I",1539,0.40,10,1
+"Small Proton Smartbomb II",1549,"Small Proton Smartbomb I",1547,0.40,10,1
+"Small Graviton Smartbomb II",1553,"Small Graviton Smartbomb I",1551,0.40,10,1
+"Small Plasma Smartbomb II",1559,"Small Plasma Smartbomb I",1557,0.40,10,1
+"Small EMP Smartbomb II",1565,"Small EMP Smartbomb I",1563,0.40,10,1
+"EM Ward Amplifier II",2553,"EM Ward Amplifier I",1808,0.40,10,1
+"Rapid Light Missile Launcher II",1877,"Rapid Light Missile Launcher I",1875,0.40,10,1
+Impel,12753,Bestower,1944,0.25,1,1
+"ECCM - Radar II",2262,"ECCM - Radar I",1947,0.40,10,1
+"ECM - Ion Field Projector II",2563,"ECM - Ion Field Projector I",1948,0.40,10,1
+"ECM - Spatial Destabilizer II",2571,"ECM - Spatial Destabilizer I",1955,0.40,10,1
+"ECM - White Noise Generator II",2575,"ECM - White Noise Generator I",1956,0.40,10,1
+"ECM - Multispectral Jammer II",2567,"ECM - Multispectral Jammer I",1957,0.40,10,1
+"ECM - Phase Inverter II",2559,"ECM - Phase Inverter I",1958,0.40,10,1
+"ECCM Projector II",1960,"ECCM Projector I",1959,0.40,10,1
+"Remote Sensor Booster II",1964,"Remote Sensor Booster I",1963,0.40,10,1
+"Remote Sensor Dampener II",1969,"Remote Sensor Dampener I",1968,0.40,10,1
+"Sensor Booster II",1952,"Sensor Booster I",1973,0.40,10,1
+"Tracking Computer II",1978,"Tracking Computer I",1977,0.40,10,1
+"Signal Amplifier II",1987,"Signal Amplifier I",1986,0.40,10,1
+"Tracking Enhancer II",1999,"Tracking Enhancer I",1998,0.40,10,1
+"ECCM - Ladar II",2260,"ECCM - Ladar I",2002,0.40,10,1
+"ECCM - Magnetometric II",2261,"ECCM - Magnetometric I",2003,0.40,10,1
+"ECCM - Gravimetric II",2259,"ECCM - Gravimetric I",2004,0.40,10,1
+"ECCM - Omni II",2258,"ECCM - Omni I",2005,0.40,10,1
+Zealot,12003,Omen,2006,0.25,1,1
+"Medium Capacitor Battery II",3496,"Medium Capacitor Battery I",2018,0.40,10,1
+"Large Capacitor Battery II",3504,"Large Capacitor Battery I",2020,0.40,10,1
+"X-Large Capacitor Battery II",3472,"X-Large Capacitor Battery I",2022,0.40,10,1
+"Damage Control II",2048,"Damage Control I",2046,0.40,10,1
+"Remote Tracking Computer II",2104,"Remote Tracking Computer I",2103,0.40,10,1
+"Tracking Disruptor II",2109,"Tracking Disruptor I",2108,0.40,10,1
+Sentinel,11190,Crucifier,2161,0.30,1,1
+"Infiltrator II",2175,"Infiltrator I",2173,0.40,10,1
+"Hammerhead II",2185,"Hammerhead I",2183,0.40,10,1
+"Praetor II",2195,"Praetor I",2193,0.40,10,1
+"Acolyte II",2205,"Acolyte I",2203,0.40,10,1
+"Explosive Deflection Field II",2297,"Explosive Deflection Field I",2289,0.40,10,1
+"Kinetic Deflection Field II",2299,"Kinetic Deflection Field I",2291,0.40,10,1
+"EM Ward Field II",2301,"EM Ward Field I",2293,0.40,10,1
+"Thermic Dissipation Field II",2303,"Thermic Dissipation Field I",2295,0.40,10,1
+"Shield Power Relay II",1422,"Shield Power Relay I",2331,0.40,10,1
+"Heat Sink II",2364,"Heat Sink I",2363,0.40,10,1
+"Ogre II",2446,"Ogre I",2444,0.40,10,1
+"Hobgoblin II",2456,"Hobgoblin I",2454,0.40,10,1
+"Hornet II",2466,"Hornet I",2464,0.40,10,1
+"Berserker II",2478,"Berserker I",2476,0.40,10,1
+"Warrior II",2488,"Warrior I",2486,0.40,10,1
+"Mjolnir Rage Torpedo",24523,"Mjolnir Torpedo",2506,0.40,10,100
+"Mjolnir Javelin Torpedo",24527,"Mjolnir Torpedo",2506,0.40,10,100
+"Nova Javelin Torpedo",2801,"Nova Torpedo",2508,0.40,10,100
+"Nova Rage Torpedo",24519,"Nova Torpedo",2508,0.40,10,100
+"Inferno Rage Torpedo",2811,"Inferno Torpedo",2510,0.40,10,100
+"Inferno Javelin Torpedo",24525,"Inferno Torpedo",2510,0.40,10,100
+"Mjolnir Rage Rocket",2817,"Mjolnir Rocket",2512,0.40,10,100
+"Mjolnir Javelin Rocket",13119,"Mjolnir Rocket",2512,0.40,10,100
+"Inferno Rage Rocket",24475,"Inferno Rocket",2514,0.40,10,100
+"Inferno Javelin Rocket",24479,"Inferno Rocket",2514,0.40,10,100
+"Nova Rage Rocket",24473,"Nova Rocket",2516,0.40,10,100
+"Nova Javelin Rocket",24478,"Nova Rocket",2516,0.40,10,100
+"Explosive Deflection Amplifier II",2531,"Explosive Deflection Amplifier I",2529,0.40,10,1
+"Thermic Dissipation Amplifier II",2539,"Thermic Dissipation Amplifier I",2537,0.40,10,1
+"Kinetic Deflection Amplifier II",2547,"Kinetic Deflection Amplifier I",2545,0.40,10,1
+"Gravimetric Backup Array II",2580,"Gravimetric Backup Array I",2579,0.40,10,1
+"LADAR Backup Array II",2584,"LADAR Backup Array I",2583,0.40,10,1
+"Magnetometric Backup Array II",2588,"Magnetometric Backup Array I",2587,0.40,10,1
+"Multi Sensor Backup Array II",2592,"Multi Sensor Backup Array I",2591,0.40,10,1
+"Nanofiber Internal Structure II",2605,"Nanofiber Internal Structure I",2603,0.40,10,1
+"Warp Disruptor II",3244,"Warp Disruptor I",3242,0.40,10,1
+"Medium Armor Repairer II",3530,"Medium Armor Repairer I",3528,0.40,10,1
+"Large Armor Repairer II",3540,"Large Armor Repairer I",3538,0.40,10,1
+"Small Capacitor Booster II",3568,"Small Capacitor Booster I",3566,0.40,10,1
+"Heavy Capacitor Booster II",3578,"Heavy Capacitor Booster I",3576,0.40,10,1
+"Small Remote Shield Booster II",3588,"Small Remote Shield Booster I",3586,0.40,10,1
+"Medium Remote Shield Booster II",3598,"Medium Remote Shield Booster I",3596,0.40,10,1
+"Large Remote Shield Booster II",3608,"Large Remote Shield Booster I",3606,0.40,10,1
+"Medium Hull Repairer II",3655,"Medium Hull Repairer I",3653,0.40,10,1
+"Large Hull Repairer II",3665,"Large Hull Repairer I",3663,0.40,10,1
+Hyena,11387,Vigil,3766,0.30,1,1
+"Medium Shield Extender II",3831,"Medium Shield Extender I",3829,0.40,10,1
+"Large Shield Extender II",3841,"Large Shield Extender I",3839,0.40,10,1
+"Co-Processor II",3888,"Co-Processor I",3887,0.40,10,1
+"Medium Proton Smartbomb II",3939,"Medium Proton Smartbomb I",3937,0.40,10,1
+"Medium Graviton Smartbomb II",3943,"Medium Graviton Smartbomb I",3941,0.40,10,1
+"Medium Plasma Smartbomb II",3949,"Medium Plasma Smartbomb I",3947,0.40,10,1
+"Medium EMP Smartbomb II",3955,"Medium EMP Smartbomb I",3953,0.40,10,1
+"Large Proton Smartbomb II",3979,"Large Proton Smartbomb I",3977,0.40,10,1
+"Large Graviton Smartbomb II",3983,"Large Graviton Smartbomb I",3981,0.40,10,1
+"Large Plasma Smartbomb II",3989,"Large Plasma Smartbomb I",3987,0.40,10,1
+"Large EMP Smartbomb II",3995,"Large EMP Smartbomb I",3993,0.40,10,1
+"RADAR Backup Array II",4014,"RADAR Backup Array I",4013,0.40,10,1
+"Drone Damage Amplifier II",4405,"Drone Damage Amplifier I",4393,0.40,10,1
+"Medium Processor Overclocking Unit II",4399,"Medium Processor Overclocking Unit I",4395,0.40,1,1
+"Large Processor Overclocking Unit II",4401,"Large Processor Overclocking Unit I",4397,0.40,1,1
+"Magnetic Field Stabilizer II",10190,"Magnetic Field Stabilizer I",9944,0.40,10,1
+"Mining Drone II",10250,"Mining Drone I",10246,0.40,10,1
+"Rocket Launcher II",10631,"Rocket Launcher I",10629,0.40,10,1
+"125mm Railgun II",10680,"125mm Railgun I",10678,0.40,10,1
+"Medium Shield Booster II",10850,"Medium Shield Booster I",10836,0.40,10,1
+"Large Shield Booster II",10858,"Large Shield Booster I",10838,0.40,10,1
+"X-Large Shield Booster II",10842,"X-Large Shield Booster I",10840,0.40,10,1
+"Warp Core Stabilizer II",11640,"Warp Core Stabilizer I",10998,0.40,10,1
+"Skirmish Warfare Link - Interdiction Maneuvers II",4288,"Skirmish Warfare Link - Interdiction Maneuvers I",11017,0.40,10,1
+"Information Warfare Link - Sensor Integrity II",4272,"Information Warfare Link - Sensor Integrity I",11052,0.40,10,1
+"Energized EM Membrane II",11219,"Energized EM Membrane I",11217,0.40,10,1
+"Energized Explosive Membrane II",11229,"Energized Explosive Membrane I",11227,0.40,10,1
+"Energized Armor Layering Membrane II",11239,"Energized Armor Layering Membrane I",11237,0.40,10,1
+"Energized Kinetic Membrane II",11249,"Energized Kinetic Membrane I",11247,0.40,10,1
+"Energized Thermic Membrane II",11259,"Energized Thermic Membrane I",11257,0.40,10,1
+"Energized Adaptive Nano Membrane II",11269,"Energized Adaptive Nano Membrane I",11267,0.40,10,1
+"Armor Thermic Hardener II",11648,"Armor Thermic Hardener I",11277,0.40,10,1
+"1600mm Reinforced Steel Plates II",20353,"1600mm Reinforced Steel Plates I",11279,0.40,10,1
+"50mm Reinforced Steel Plates II",20343,"50mm Reinforced Steel Plates I",11291,0.40,10,1
+"100mm Reinforced Steel Plates II",20345,"100mm Reinforced Steel Plates I",11293,0.40,10,1
+"200mm Reinforced Steel Plates II",20347,"200mm Reinforced Steel Plates I",11295,0.40,10,1
+"400mm Reinforced Steel Plates II",20349,"400mm Reinforced Steel Plates I",11297,0.40,10,1
+"800mm Reinforced Steel Plates II",20351,"800mm Reinforced Steel Plates I",11299,0.40,10,1
+"Armor EM Hardener II",11642,"Armor EM Hardener I",11301,0.40,10,1
+"Armor Explosive Hardener II",11646,"Armor Explosive Hardener I",11303,0.40,10,1
+"Armor Kinetic Hardener II",11644,"Armor Kinetic Hardener I",11305,0.40,10,1
+"Small Remote Armor Repairer II",26912,"Small Remote Armor Repairer I",11355,0.40,10,1
+"Medium Remote Armor Repairer II",26913,"Medium Remote Armor Repairer I",11357,0.40,10,1
+"Large Remote Armor Repairer II",26914,"Large Remote Armor Repairer I",11359,0.40,10,1
+"Improved Cloaking Device II",11577,"Prototype Cloaking Device I",11370,0.40,10,1
+"Covert Ops Cloaking Device II",11578,"Prototype Cloaking Device I",11370,0.40,10,1
+"Shield Boost Amplifier II",24443,"Shield Boost Amplifier I",11561,0.40,10,1
+"Micro Auxiliary Power Core II",4254,"Micro Auxiliary Power Core I",11563,0.40,10,1
+"10MN Microwarpdrive II",12076,"10MN Microwarpdrive I",12052,0.40,10,1
+"100MN Microwarpdrive II",12084,"100MN Microwarpdrive I",12054,0.40,10,1
+"10MN Afterburner II",12058,"10MN Afterburner I",12056,0.40,10,1
+"100MN Afterburner II",12068,"100MN Afterburner I",12066,0.40,10,1
+"Modulated Deep Core Miner II",18068,"Deep Core Mining Laser I",12108,0.40,10,1
+"Mobile Small Warp Disruptor II",26892,"Mobile Small Warp Disruptor I",12198,0.40,10,1
+"Mobile Medium Warp Disruptor II",26890,"Mobile Medium Warp Disruptor I",12199,0.40,10,1
+"Mobile Large Warp Disruptor II",26888,"Mobile Large Warp Disruptor I",12200,0.40,10,1
+"Medium Remote Capacitor Transmitter II",12221,"Medium Remote Capacitor Transmitter I",12217,0.40,10,1
+"Large Remote Capacitor Transmitter II",12102,"Large Remote Capacitor Transmitter I",12225,0.40,10,1
+"Medium Nosferatu II",12259,"Medium Nosferatu I",12257,0.40,10,1
+"Heavy Nosferatu II",12263,"Heavy Nosferatu I",12261,0.40,10,1
+"Medium Energy Neutralizer II",12267,"Medium Energy Neutralizer I",12265,0.40,10,1
+"Heavy Energy Neutralizer II",12271,"Heavy Energy Neutralizer I",12269,0.40,10,1
+"Ballistic Control System II",22291,"Ballistic Control System I",12274,0.40,10,1
+"200mm Railgun II",12346,"200mm Railgun I",12344,0.40,10,1
+"350mm Railgun II",12356,"350mm Railgun I",12354,0.40,10,1
+"Target Painter II",19806,"Target Painter I",12709,0.40,10,1
+"Cruise Missile Launcher II",19739,"Cruise Missile Launcher I",13320,0.40,10,1
+"Vespa II",21638,"Vespa I",15508,0.40,10,1
+"Valkyrie II",21640,"Valkyrie I",15510,0.40,10,1
+Vulture,22446,Ferox,16227,0.20,1,1
+Astarte,22466,Brutix,16229,0.20,1,1
+Claymore,22468,Cyclone,16231,0.20,1,1
+Damnation,22474,Prophecy,16233,0.20,1,1
+Heretic,22452,Coercer,16236,0.30,1,1
+Flycatcher,22464,Cormorant,16238,0.30,1,1
+Eris,22460,Catalyst,16240,0.30,1,1
+Sabre,22456,Thrasher,16242,0.30,1,1
+"Ice Harvester II",22229,"Ice Harvester I",16278,0.40,10,1
+Hulk,22544,Covetor,17476,0.20,1,1
+Mackinaw,22548,Retriever,17478,0.25,1,1
+Skiff,22546,Procurer,17480,0.30,1,1
+"Modulated Strip Miner II",17912,"Strip Miner I",17482,0.40,10,1
+"Modulated Deep Core Strip Miner II",24305,"Strip Miner I",17482,0.40,10,1
+"Core Probe Launcher II",4258,"Core Probe Launcher I",17938,0.40,10,1
+"Arkonor Mining Crystal II",18590,"Arkonor Mining Crystal I",18036,0.40,10,1
+"Bistot Mining Crystal II",18592,"Bistot Mining Crystal I",18038,0.40,10,1
+"Crokite Mining Crystal II",18594,"Crokite Mining Crystal I",18040,0.40,10,1
+"Dark Ochre Mining Crystal II",18596,"Dark Ochre Mining Crystal I",18042,0.40,10,1
+"Gneiss Mining Crystal II",18598,"Gneiss Mining Crystal I",18044,0.40,10,1
+"Hedbergite Mining Crystal II",18600,"Hedbergite Mining Crystal I",18046,0.40,10,1
+"Hemorphite Mining Crystal II",18602,"Hemorphite Mining Crystal I",18048,0.40,10,1
+"Jaspet Mining Crystal II",18604,"Jaspet Mining Crystal I",18050,0.40,10,1
+"Kernite Mining Crystal II",18606,"Kernite Mining Crystal I",18052,0.40,10,1
+"Mercoxit Mining Crystal II",18608,"Mercoxit Mining Crystal I",18054,0.40,10,1
+"Omber Mining Crystal II",18610,"Omber Mining Crystal I",18056,0.40,10,1
+"Plagioclase Mining Crystal II",18612,"Plagioclase Mining Crystal I",18058,0.40,10,1
+"Pyroxeres Mining Crystal II",18614,"Pyroxeres Mining Crystal I",18060,0.40,10,1
+"Scordite Mining Crystal II",18616,"Scordite Mining Crystal I",18062,0.40,10,1
+"Spodumain Mining Crystal II",18624,"Spodumain Mining Crystal I",18064,0.40,1,1
+"Veldspar Mining Crystal II",18618,"Veldspar Mining Crystal I",18066,0.40,10,1
+"Expanded Probe Launcher II",4260,"Expanded Probe Launcher I",18639,0.40,10,1
+Prorator,12733,Sigil,19744,0.25,1,1
+"Armored Warfare Link - Damage Control II",4262,"Armored Warfare Link - Damage Control I",20069,0.40,10,1
+"Skirmish Warfare Link - Evasive Maneuvers II",4286,"Skirmish Warfare Link - Evasive Maneuvers I",20070,0.40,10,1
+"Siege Warfare Link - Active Shielding II",4280,"Siege Warfare Link - Active Shielding I",20124,0.40,10,1
+"Heavy Assault Missile Launcher II",25715,"Heavy Assault Missile Launcher I",20138,0.40,10,1
+Ark,28850,Providence,20183,0.30,1,1
+Rhea,28844,Charon,20185,0.30,1,1
+Anshar,28848,Obelisk,20187,0.30,1,1
+Nomad,28846,Fenrir,20189,0.30,1,1
+"Siege Module II",4292,"Siege Module I",20280,0.40,10,1
+"Mjolnir Rage Heavy Assault Missile",24490,"Mjolnir Heavy Assault Missile",20306,0.40,10,100
+"Mjolnir Javelin Heavy Assault Missile",24493,"Mjolnir Heavy Assault Missile",20306,0.40,10,100
+"Scourge Rage Heavy Assault Missile",2679,"Scourge Heavy Assault Missile",20307,0.40,10,100
+"Scourge Javelin Heavy Assault Missile",24492,"Scourge Heavy Assault Missile",20307,0.40,10,100
+"Inferno Rage Heavy Assault Missile",24486,"Inferno Heavy Assault Missile",20308,0.40,10,100
+"Inferno Javelin Heavy Assault Missile",24494,"Inferno Heavy Assault Missile",20308,0.40,10,100
+"Information Warfare Link - Recon Operation II",4270,"Information Warfare Link - Recon Operation I",20405,0.40,10,1
+"Information Warfare Link - Electronic Superiority II",4268,"Information Warfare Link - Electronic Superiority I",20406,0.40,10,1
+"Skirmish Warfare Link - Rapid Deployment II",4290,"Skirmish Warfare Link - Rapid Deployment I",20408,0.40,10,1
+"Armored Warfare Link - Passive Defense II",4264,"Armored Warfare Link - Passive Defense I",20409,0.40,10,1
+"Siege Warfare Link - Shield Harmonizing II",4284,"Siege Warfare Link - Shield Harmonizing I",20514,0.40,10,1
+"Nova Javelin Heavy Assault Missile",13856,"Nova Heavy Assault Missile",21867,0.40,10,100
+"Nova Rage Heavy Assault Missile",24488,"Nova Heavy Assault Missile",21867,0.40,10,100
+"Data Analyzer II",30834,"Data Analyzer I",22175,0.40,10,1
+"Relic Analyzer II",30832,"Relic Analyzer I",22177,0.40,10,1
+"Armored Warfare Link - Rapid Repair II",4266,"Armored Warfare Link - Rapid Repair I",22227,0.40,10,1
+"Siege Warfare Link - Shield Efficiency II",4282,"Siege Warfare Link - Shield Efficiency I",22228,0.40,10,1
+"Mining Laser Upgrade II",28576,"Mining Laser Upgrade I",22542,0.40,10,1
+"Mining Foreman Link - Harvester Capacitor Efficiency II",4274,"Mining Foreman Link - Harvester Capacitor Efficiency I",22553,0.40,10,1
+"Mining Foreman Link - Mining Laser Field Enhancement II",4278,"Mining Foreman Link - Mining Laser Field Enhancement I",22555,0.40,10,1
+"Mining Foreman Link - Laser Optimization II",4276,"Mining Foreman Link - Laser Optimization I",22557,0.40,10,1
+"Ice Harvester Upgrade II",28578,"Ice Harvester Upgrade I",22576,0.40,10,1
+"Heavy Shield Maintenance Bot II",28199,"Heavy Shield Maintenance Bot I",22765,0.40,10,1
+"Heavy Armor Maintenance Bot II",28197,"Heavy Armor Maintenance Bot I",23523,0.40,10,1
+"Curator II",28213,"Curator I",23525,0.40,10,1
+"Drone Link Augmentor II",24427,"Drone Link Augmentor I",23527,0.40,10,1
+"Omnidirectional Tracking Link II",24438,"Omnidirectional Tracking Link I",23533,0.40,10,1
+"Warden II",28209,"Warden I",23559,0.40,10,1
+"Garde II",28211,"Garde I",23561,0.40,10,1
+"Bouncer II",28215,"Bouncer I",23563,0.40,10,1
+"Medium Armor Maintenance Bot II",28205,"Medium Armor Maintenance Bot I",23709,0.40,10,1
+"Light Armor Maintenance Bot II",28201,"Light Armor Maintenance Bot I",23711,0.40,10,1
+"Medium Shield Maintenance Bot II",28207,"Medium Shield Maintenance Bot I",23717,0.40,10,1
+"Light Shield Maintenance Bot II",28203,"Light Shield Maintenance Bot I",23719,0.40,10,1
+"Small Tractor Beam II",4250,"Small Tractor Beam I",24348,0.40,10,1
+"Drone Navigation Computer II",24417,"Drone Navigation Computer I",24395,0.40,10,1
+"Capital Tractor Beam II",4252,"Capital Tractor Beam I",24644,0.40,10,1
+Absolution,22448,Harbinger,24696,0.20,1,1
+Nighthawk,22470,Drake,24698,0.20,1,1
+Eos,22442,Myrmidon,24700,0.20,1,1
+Sleipnir,22444,Hurricane,24702,0.20,1,1
+"Gas Cloud Harvester II",25812,"Gas Cloud Harvester I",25266,0.40,10,1
+"Signal Distortion Amplifier II",25563,"Signal Distortion Amplifier I",25561,0.40,10,1
+"Large Anti-EM Pump II",26286,"Large Anti-EM Pump I",25736,0.40,1,1
+"Salvager II",30836,"Salvager I",25861,0.40,10,1
+"Large Anti-Explosive Pump II",26288,"Large Anti-Explosive Pump I",25888,0.40,1,1
+"Large Anti-Kinetic Pump II",26290,"Large Anti-Kinetic Pump I",25890,0.40,1,1
+"Large Anti-Thermic Pump II",26292,"Large Anti-Thermic Pump I",25892,0.40,1,1
+"Large Trimark Armor Pump II",26302,"Large Trimark Armor Pump I",25894,0.40,1,1
+"Large Auxiliary Nano Pump II",26294,"Large Auxiliary Nano Pump I",25896,0.40,1,1
+"Large Nanobot Accelerator II",26296,"Large Nanobot Accelerator I",25898,0.40,1,1
+"Large Remote Repair Augmentor II",26298,"Large Remote Repair Augmentor I",25900,0.40,1,1
+"Large Salvage Tackle II",26300,"Large Salvage Tackle I",25902,0.40,1,1
+"Large Core Defense Capacitor Safeguard II",26444,"Large Core Defense Capacitor Safeguard I",25906,0.40,1,1
+"Large Drone Control Range Augmentor II",26324,"Large Drone Control Range Augmentor I",25908,0.40,1,1
+"Large Drone Repair Augmentor II",26330,"Large Drone Repair Augmentor I",25910,0.40,1,1
+"Large Drone Scope Chip II",26332,"Large Drone Scope Chip I",25912,0.40,1,1
+"Large Drone Speed Augmentor II",26334,"Large Drone Speed Augmentor I",25914,0.40,1,1
+"Large Drone Durability Enhancer II",26326,"Large Drone Durability Enhancer I",25916,0.40,1,1
+"Large Drone Mining Augmentor II",26328,"Large Drone Mining Augmentor I",25918,0.40,1,1
+"Large Sentry Damage Augmentor II",26338,"Large Sentry Damage Augmentor I",25920,0.40,1,1
+"Large Stasis Drone Augmentor II",26340,"Large Stasis Drone Augmentor I",25924,0.40,1,1
+"Large Signal Disruption Amplifier II",26344,"Large Signal Disruption Amplifier I",25928,0.40,1,1
+"Large Emission Scope Sharpener II",26342,"Large Emission Scope Sharpener I",25930,0.40,1,1
+"Large Memetic Algorithm Bank II",26346,"Large Memetic Algorithm Bank I",25932,0.40,1,1
+"Large Liquid Cooled Electronics II",26348,"Large Liquid Cooled Electronics I",25934,0.40,1,1
+"Large Gravity Capacitor Upgrade II",26350,"Large Gravity Capacitor Upgrade I",25936,0.40,1,1
+"Large Capacitor Control Circuit II",26374,"Large Capacitor Control Circuit I",25948,0.40,1,1
+"Large Egress Port Maximizer II",26368,"Large Egress Port Maximizer I",25950,0.40,1,1
+"Large Powergrid Subroutine Maximizer II",26372,"Large Powergrid Subroutine Maximizer I",25952,0.40,1,1
+"Large Semiconductor Memory Cell II",26376,"Large Semiconductor Memory Cell I",25954,0.40,1,1
+"Large Ancillary Current Router II",26370,"Large Ancillary Current Router I",25956,0.40,1,1
+"Large Energy Discharge Elutriation II",26378,"Large Energy Discharge Elutriation I",25968,0.40,1,1
+"Large Energy Ambit Extension II",26386,"Large Energy Ambit Extension I",25970,0.40,1,1
+"Large Energy Locus Coordinator II",26388,"Large Energy Locus Coordinator I",25972,0.40,1,1
+"Large Energy Metastasis Adjuster II",26390,"Large Energy Metastasis Adjuster I",25974,0.40,1,1
+"Large Algid Energy Administrations Unit II",26384,"Large Algid Energy Administrations Unit I",25976,0.40,1,1
+"Large Energy Burst Aerator II",26380,"Large Energy Burst Aerator I",25978,0.40,1,1
+"Large Energy Collision Accelerator II",26382,"Large Energy Collision Accelerator I",25980,0.40,1,1
+"Large Hybrid Discharge Elutriation II",26392,"Large Hybrid Discharge Elutriation I",25996,0.40,1,1
+"Large Hybrid Ambit Extension II",26400,"Large Hybrid Ambit Extension I",25998,0.40,1,1
+"Large Hybrid Locus Coordinator II",26402,"Large Hybrid Locus Coordinator I",26000,0.40,1,1
+"Large Hybrid Metastasis Adjuster II",26404,"Large Hybrid Metastasis Adjuster I",26002,0.40,1,1
+"Large Algid Hybrid Administrations Unit II",26398,"Large Algid Hybrid Administrations Unit I",26004,0.40,1,1
+"Large Hybrid Burst Aerator II",26394,"Large Hybrid Burst Aerator I",26006,0.40,1,1
+"Large Hybrid Collision Accelerator II",26396,"Large Hybrid Collision Accelerator I",26008,0.40,1,1
+"Large Hydraulic Bay Thrusters II",26416,"Large Hydraulic Bay Thrusters I",26016,0.40,1,1
+"Launcher Processor Rig II",26408,"Launcher Processor Rig I",26018,0.40,1,1
+"Large Warhead Rigor Catalyst II",26414,"Large Warhead Rigor Catalyst I",26020,0.40,1,1
+"Large Rocket Fuel Cache Partition II",26418,"Large Rocket Fuel Cache Partition I",26022,0.40,1,1
+"Missile Guidance System Rig II",26410,"Missile Guidance System Rig I",26024,0.40,1,1
+"Large Bay Loading Accelerator II",26406,"Large Bay Loading Accelerator I",26026,0.40,1,1
+"Large Warhead Flare Catalyst II",26412,"Large Warhead Flare Catalyst I",26028,0.40,1,1
+"Large Warhead Calefaction Catalyst II",26420,"Large Warhead Calefaction Catalyst I",26030,0.40,1,1
+"Large Projectile Ambit Extension II",26428,"Large Projectile Ambit Extension I",26038,0.40,1,1
+"Large Projectile Locus Coordinator II",26432,"Large Projectile Locus Coordinator I",26040,0.40,1,1
+"Large Projectile Metastasis Adjuster II",26434,"Large Projectile Metastasis Adjuster I",26042,0.40,1,1
+"Large Projectile Burst Aerator II",26430,"Large Projectile Burst Aerator I",26046,0.40,1,1
+"Large Projectile Collision Accelerator II",26424,"Large Projectile Collision Accelerator I",26048,0.40,1,1
+"Large Dynamic Fuel Valve II",26306,"Large Dynamic Fuel Valve I",26056,0.40,1,1
+"Large Low Friction Nozzle Joints II",26310,"Large Low Friction Nozzle Joints I",26058,0.40,1,1
+"Large Auxiliary Thrusters II",26318,"Large Auxiliary Thrusters I",26060,0.40,1,1
+"Large Engine Thermal Shielding II",26308,"Large Engine Thermal Shielding I",26062,0.40,1,1
+"Propellant Injection Vent II",26314,"Propellant Injection Vent I",26064,0.40,1,1
+"Large Warp Core Optimizer II",26320,"Large Warp Core Optimizer I",26066,0.40,1,1
+"Large Hyperspatial Velocity Optimizer II",26322,"Large Hyperspatial Velocity Optimizer I",26068,0.40,1,1
+"Large Polycarbon Engine Housing II",26312,"Large Polycarbon Engine Housing I",26070,0.40,1,1
+"Large Cargohold Optimization II",26304,"Large Cargohold Optimization I",26072,0.40,1,1
+"Large Anti-EM Screen Reinforcer II",26436,"Large Anti-EM Screen Reinforcer I",26076,0.40,1,1
+"Large Anti-Explosive Screen Reinforcer II",26438,"Large Anti-Explosive Screen Reinforcer I",26078,0.40,1,1
+"Large Anti-Kinetic Screen Reinforcer II",26440,"Large Anti-Kinetic Screen Reinforcer I",26080,0.40,1,1
+"Large Anti-Thermal Screen Reinforcer II",26442,"Large Anti-Thermal Screen Reinforcer I",26082,0.40,1,1
+"Large Core Defense Field Purger II",26450,"Large Core Defense Field Purger I",26084,0.40,1,1
+"Large Core Defense Operational Solidifier II",26452,"Large Core Defense Operational Solidifier I",26086,0.40,1,1
+"Large Core Defense Field Extender II",26448,"Large Core Defense Field Extender I",26088,0.40,1,1
+"Large Core Defense Charge Economizer II",26446,"Large Core Defense Charge Economizer I",26090,0.40,1,1
+"Large Targeting Systems Stabilizer II",26366,"Large Targeting Systems Stabilizer I",26096,0.40,1,1
+"Large Targeting System Subcontroller II",26364,"Large Targeting System Subcontroller I",26100,0.40,1,1
+"Large Ionic Field Projector II",26358,"Large Ionic Field Projector I",26102,0.40,1,1
+"Large Signal Focusing Kit II",26362,"Large Signal Focusing Kit I",26104,0.40,1,1
+"Large Particle Dispersion Augmentor II",26352,"Large Particle Dispersion Augmentor I",26106,0.40,1,1
+"Large Particle Dispersion Projector II",26360,"Large Particle Dispersion Projector I",26108,0.40,1,1
+"Large Inverted Signal Field Projector II",26354,"Large Inverted Signal Field Projector I",26110,0.40,1,1
+"Large Tracking Diagnostic Subroutines II",26356,"Large Tracking Diagnostic Subroutines I",26112,0.40,1,1
+"Small Processor Overclocking Unit II",26931,"Small Processor Overclocking Unit I",26929,0.40,1,1
+"Perpetual Motion Unit II",27023,"Perpetual Motion Unit I",27021,1.00,1,1
+"Capital Auxiliary Nano Pump II",31049,"Capital Auxiliary Nano Pump I",27064,0.40,1,1
+"Small Remote Repair Augmentor II",31077,"Small Remote Repair Augmentor I",27068,0.40,1,1
+"Large Remote Hull Repairer II",3986,"Large Remote Hull Repairer I",27904,0.40,10,1
+"Bomb Launcher II",4256,"Bomb Launcher I",27914,0.40,10,1
+"Medium Remote Hull Repairer II",4296,"Medium Remote Hull Repairer I",27930,0.40,10,1
+"Small Remote Hull Repairer II",4299,"Small Remote Hull Repairer I",27932,0.40,10,1
+"Triage Module II",4294,"Triage Module I",27951,0.40,10,1
+"Warp Disruption Field Generator II",4248,"Warp Disruption Field Generator I",28654,0.40,10,1
+Anathema,11188,Magnate,29248,0.30,1,1
+"Small Trimark Armor Pump II",31057,"Small Trimark Armor Pump I",30987,0.40,1,1
+"Capital Trimark Armor Pump II",31061,"Capital Trimark Armor Pump I",30993,0.40,1,1
+"Small Anti-EM Pump II",31003,"Small Anti-EM Pump I",30997,0.40,1,1
+"Medium Anti-EM Pump II",31005,"Medium Anti-EM Pump I",30999,0.40,1,1
+"Capital Anti-EM Pump II",31007,"Capital Anti-EM Pump I",31001,0.40,1,1
+"Small Anti-Explosive Pump II",31015,"Small Anti-Explosive Pump I",31009,0.40,1,1
+"Medium Anti-Explosive Pump II",31017,"Medium Anti-Explosive Pump I",31011,0.40,1,1
+"Capital Anti-Explosive Pump II",31019,"Capital Anti-Explosive Pump I",31013,0.40,1,1
+"Small Anti-Kinetic Pump II",31027,"Small Anti-Kinetic Pump I",31021,0.40,1,1
+"Medium Anti-Kinetic Pump II",31029,"Medium Anti-Kinetic Pump I",31023,0.40,1,1
+"Capital Anti-Kinetic Pump II",31031,"Capital Anti-Kinetic Pump I",31025,0.40,1,1
+"Small Anti-Thermic Pump II",31039,"Small Anti-Thermic Pump I",31033,0.40,1,1
+"Medium Anti-Thermic Pump II",31041,"Medium Anti-Thermic Pump I",31035,0.40,1,1
+"Capital Anti-Thermic Pump II",31043,"Capital Anti-Thermic Pump I",31037,0.40,1,1
+"Small Auxiliary Nano Pump II",31051,"Small Auxiliary Nano Pump I",31045,0.40,1,1
+"Medium Auxiliary Nano Pump II",31053,"Medium Auxiliary Nano Pump I",31047,0.40,1,1
+"Medium Trimark Armor Pump II",31059,"Medium Trimark Armor Pump I",31055,0.40,1,1
+"Small Nanobot Accelerator II",31069,"Small Nanobot Accelerator I",31063,0.40,1,1
+"Medium Nanobot Accelerator II",31071,"Medium Nanobot Accelerator I",31065,0.40,1,1
+"Capital Nanobot Accelerator II",27066,"Capital Nanobot Accelerator I",31067,0.40,1,1
+"Medium Remote Repair Augmentor II",31079,"Medium Remote Repair Augmentor I",31073,0.40,1,1
+"Capital Remote Repair Augmentor II",31081,"Capital Remote Repair Augmentor I",31075,0.40,1,1
+"Small Salvage Tackle II",31089,"Small Salvage Tackle I",31083,0.40,1,1
+"Medium Salvage Tackle II",31091,"Medium Salvage Tackle I",31085,0.40,1,1
+"Capital Salvage Tackle II",31093,"Capital Salvage Tackle I",31087,0.40,1,1
+"Small Auxiliary Thrusters II",31111,"Small Auxiliary Thrusters I",31105,0.40,1,1
+"Medium Auxiliary Thrusters II",31113,"Medium Auxiliary Thrusters I",31107,0.40,1,1
+"Capital Auxiliary Thrusters II",31115,"Capital Auxiliary Thrusters I",31109,0.40,1,1
+"Small Cargohold Optimization II",31123,"Small Cargohold Optimization I",31117,0.40,1,1
+"Medium Cargohold Optimization II",31125,"Medium Cargohold Optimization I",31119,0.40,1,1
+"Capital Cargohold Optimization II",31127,"Capital Cargohold Optimization I",31121,0.40,1,1
+"Small Dynamic Fuel Valve II",31135,"Small Dynamic Fuel Valve I",31129,0.40,1,1
+"Medium Dynamic Fuel Valve II",31137,"Medium Dynamic Fuel Valve I",31131,0.40,1,1
+"Capital Dynamic Fuel Valve II",31139,"Capital Dynamic Fuel Valve I",31133,0.40,1,1
+"Small Engine Thermal Shielding II",31147,"Small Engine Thermal Shielding I",31141,0.40,1,1
+"Medium Engine Thermal Shielding II",31149,"Medium Engine Thermal Shielding I",31143,0.40,1,1
+"Capital Engine Thermal Shielding II",31151,"Capital Engine Thermal Shielding I",31145,0.40,1,1
+"Small Low Friction Nozzle Joints II",31171,"Small Low Friction Nozzle Joints I",31153,0.40,1,1
+"Medium Low Friction Nozzle Joints II",31173,"Medium Low Friction Nozzle Joints I",31155,0.40,1,1
+"Capital Low Friction Nozzle Joints II",31175,"Capital Low Friction Nozzle Joints I",31157,0.40,1,1
+"Small Hyperspatial Velocity Optimizer II",31165,"Small Hyperspatial Velocity Optimizer I",31159,0.40,1,1
+"Medium Hyperspatial Velocity Optimizer II",31167,"Medium Hyperspatial Velocity Optimizer I",31161,0.40,1,1
+"Capital Hyperspatial Velocity Optimizer II",31169,"Capital Hyperspatial Velocity Optimizer I",31163,0.40,1,1
+"Small Polycarbon Engine Housing II",31183,"Small Polycarbon Engine Housing I",31177,0.40,1,1
+"Medium Polycarbon Engine Housing II",31185,"Medium Polycarbon Engine Housing I",31179,0.40,1,1
+"Capital Polycarbon Engine Housing II",31187,"Capital Polycarbon Engine Housing I",31181,0.40,1,1
+"Small Warp Core Optimizer II",31195,"Small Warp Core Optimizer I",31189,0.40,1,1
+"Medium Warp Core Optimizer II",31197,"Medium Warp Core Optimizer I",31191,0.40,1,1
+"Capital Warp Core Optimizer II",31199,"Capital Warp Core Optimizer I",31193,0.40,1,1
+"Small Emission Scope Sharpener II",31207,"Small Emission Scope Sharpener I",31201,0.40,1,1
+"Medium Emission Scope Sharpener II",31209,"Medium Emission Scope Sharpener I",31203,0.40,1,1
+"Capital Emission Scope Sharpener II",31211,"Capital Emission Scope Sharpener I",31205,0.40,1,1
+"Small Gravity Capacitor Upgrade II",31220,"Small Gravity Capacitor Upgrade I",31213,0.40,1,1
+"Medium Gravity Capacitor Upgrade II",31222,"Medium Gravity Capacitor Upgrade I",31215,0.40,1,1
+"Capital Gravity Capacitor Upgrade II",31224,"Capital Gravity Capacitor Upgrade I",31217,0.40,1,1
+"Small Liquid Cooled Electronics II",31232,"Small Liquid Cooled Electronics I",31226,0.40,1,1
+"Medium Liquid Cooled Electronics II",31234,"Medium Liquid Cooled Electronics I",31228,0.40,1,1
+"Capital Liquid Cooled Electronics II",31236,"Capital Liquid Cooled Electronics I",31230,0.40,1,1
+"Small Memetic Algorithm Bank II",31244,"Small Memetic Algorithm Bank I",31238,0.40,1,1
+"Medium Memetic Algorithm Bank II",31246,"Medium Memetic Algorithm Bank I",31240,0.40,1,1
+"Capital Memetic Algorithm Bank II",31248,"Capital Memetic Algorithm Bank I",31242,0.40,1,1
+"Small Signal Disruption Amplifier II",31256,"Small Signal Disruption Amplifier I",31250,0.40,1,1
+"Medium Signal Disruption Amplifier II",31258,"Medium Signal Disruption Amplifier I",31252,0.40,1,1
+"Capital Signal Disruption Amplifier II",31260,"Capital Signal Disruption Amplifier I",31254,0.40,1,1
+"Small Inverted Signal Field Projector II",31268,"Small Inverted Signal Field Projector I",31262,0.40,1,1
+"Medium Inverted Signal Field Projector II",31270,"Medium Inverted Signal Field Projector I",31264,0.40,1,1
+"Capital Inverted Signal Field Projector II",31272,"Capital Inverted Signal Field Projector I",31266,0.40,1,1
+"Small Ionic Field Projector II",31280,"Small Ionic Field Projector I",31274,0.40,1,1
+"Medium Ionic Field Projector II",31282,"Medium Ionic Field Projector I",31276,0.40,1,1
+"Capital Ionic Field Projector II",31284,"Capital Ionic Field Projector I",31278,0.40,1,1
+"Small Particle Dispersion Augmentor II",31292,"Small Particle Dispersion Augmentor I",31286,0.40,1,1
+"Medium Particle Dispersion Augmentor II",31294,"Medium Particle Dispersion Augmentor I",31288,0.40,1,1
+"Capital Particle Dispersion Augmentor II",31296,"Capital Particle Dispersion Augmentor I",31290,0.40,1,1
+"Small Particle Dispersion Projector II",31304,"Small Particle Dispersion Projector I",31298,0.40,1,1
+"Medium Particle Dispersion Projector II",31306,"Medium Particle Dispersion Projector I",31300,0.40,1,1
+"Capital Particle Dispersion Projector II",31308,"Capital Particle Dispersion Projector I",31302,0.40,1,1
+"Small Signal Focusing Kit II",31316,"Small Signal Focusing Kit I",31310,0.40,1,1
+"Medium Signal Focusing Kit II",31318,"Medium Signal Focusing Kit I",31312,0.40,1,1
+"Capital Signal Focusing Kit II",31320,"Capital Signal Focusing Kit I",31314,0.40,1,1
+"Small Targeting System Subcontroller II",31328,"Small Targeting System Subcontroller I",31322,0.40,1,1
+"Medium Targeting System Subcontroller II",31330,"Medium Targeting System Subcontroller I",31324,0.40,1,1
+"Capital Targeting System Subcontroller II",31332,"Capital Targeting System Subcontroller I",31326,0.40,1,1
+"Small Targeting Systems Stabilizer II",31340,"Small Targeting Systems Stabilizer I",31334,0.40,1,1
+"Medium Targeting Systems Stabilizer II",31342,"Medium Targeting Systems Stabilizer I",31336,0.40,1,1
+"Capital Targeting Systems Stabilizer II",31344,"Capital Targeting Systems Stabilizer I",31338,0.40,1,1
+"Small Tracking Diagnostic Subroutines II",31352,"Small Tracking Diagnostic Subroutines I",31346,0.40,1,1
+"Medium Tracking Diagnostic Subroutines II",31354,"Medium Tracking Diagnostic Subroutines I",31348,0.40,1,1
+"Capital Tracking Diagnostic Subroutines II",31356,"Capital Tracking Diagnostic Subroutines I",31350,0.40,1,1
+"Small Ancillary Current Router II",31364,"Small Ancillary Current Router I",31358,0.40,1,1
+"Medium Ancillary Current Router II",31366,"Medium Ancillary Current Router I",31360,0.40,1,1
+"Capital Ancillary Current Router II",31368,"Capital Ancillary Current Router I",31362,0.40,1,1
+"Small Capacitor Control Circuit II",31376,"Small Capacitor Control Circuit I",31370,0.40,1,1
+"Medium Capacitor Control Circuit II",31378,"Medium Capacitor Control Circuit I",31372,0.40,1,1
+"Capital Capacitor Control Circuit II",31380,"Capital Capacitor Control Circuit I",31374,0.40,1,1
+"Small Egress Port Maximizer II",31388,"Small Egress Port Maximizer I",31382,0.40,1,1
+"Medium Egress Port Maximizer II",31390,"Medium Egress Port Maximizer I",31384,0.40,1,1
+"Capital Egress Port Maximizer II",31392,"Capital Egress Port Maximizer I",31386,0.40,1,1
+"Small Powergrid Subroutine Maximizer II",31400,"Small Powergrid Subroutine Maximizer I",31394,0.40,1,1
+"Medium Powergrid Subroutine Maximizer II",31402,"Medium Powergrid Subroutine Maximizer I",31396,0.40,1,1
+"Capital Powergrid Subroutine Maximizer II",31404,"Capital Powergrid Subroutine Maximizer I",31398,0.40,1,1
+"Small Semiconductor Memory Cell II",31412,"Small Semiconductor Memory Cell I",31406,0.40,1,1
+"Medium Semiconductor Memory Cell II",31414,"Medium Semiconductor Memory Cell I",31408,0.40,1,1
+"Capital Semiconductor Memory Cell II",31416,"Capital Semiconductor Memory Cell I",31410,0.40,1,1
+"Small Algid Energy Administrations Unit II",31424,"Small Algid Energy Administrations Unit I",31418,0.40,1,1
+"Medium Algid Energy Administrations Unit II",31426,"Medium Algid Energy Administrations Unit I",31420,0.40,1,1
+"Capital Algid Energy Administrations Unit II",31428,"Capital Algid Energy Administrations Unit I",31422,0.40,1,1
+"Small Energy Ambit Extension II",31436,"Small Energy Ambit Extension I",31430,0.40,1,1
+"Medium Energy Ambit Extension II",31438,"Medium Energy Ambit Extension I",31432,0.40,1,1
+"Capital Energy Ambit Extension II",31440,"Capital Energy Ambit Extension I",31434,0.40,1,1
+"Small Energy Burst Aerator II",31448,"Small Energy Burst Aerator I",31442,0.40,1,1
+"Medium Energy Burst Aerator II",31450,"Medium Energy Burst Aerator I",31444,0.40,1,1
+"Capital Energy Burst Aerator II",31452,"Capital Energy Burst Aerator I",31446,0.40,1,1
+"Small Energy Collision Accelerator II",31460,"Small Energy Collision Accelerator I",31454,0.40,1,1
+"Medium Energy Collision Accelerator II",31462,"Medium Energy Collision Accelerator I",31456,0.40,1,1
+"Capital Energy Collision Accelerator II",31464,"Capital Energy Collision Accelerator I",31458,0.40,1,1
+"Small Energy Discharge Elutriation II",31472,"Small Energy Discharge Elutriation I",31466,0.40,1,1
+"Medium Energy Discharge Elutriation II",31474,"Medium Energy Discharge Elutriation I",31468,0.40,1,1
+"Capital Energy Discharge Elutriation II",31476,"Capital Energy Discharge Elutriation I",31470,0.40,1,1
+"Small Energy Locus Coordinator II",31484,"Small Energy Locus Coordinator I",31478,0.40,1,1
+"Medium Energy Locus Coordinator II",31486,"Medium Energy Locus Coordinator I",31480,0.40,1,1
+"Capital Energy Locus Coordinator II",31488,"Capital Energy Locus Coordinator I",31482,0.40,1,1
+"Small Energy Metastasis Adjuster II",31496,"Small Energy Metastasis Adjuster I",31490,0.40,1,1
+"Medium Energy Metastasis Adjuster II",31498,"Medium Energy Metastasis Adjuster I",31492,0.40,1,1
+"Capital Energy Metastasis Adjuster II",31500,"Capital Energy Metastasis Adjuster I",31494,0.40,1,1
+"Small Algid Hybrid Administrations Unit II",31508,"Small Algid Hybrid Administrations Unit I",31502,0.40,1,1
+"Medium Algid Hybrid Administrations Unit II",31510,"Medium Algid Hybrid Administrations Unit I",31504,0.40,1,1
+"Capital Algid Hybrid Administrations Unit II",31512,"Capital Algid Hybrid Administrations Unit I",31506,0.40,1,1
+"Small Hybrid Ambit Extension II",31520,"Small Hybrid Ambit Extension I",31514,0.40,1,1
+"Medium Hybrid Ambit Extension II",31522,"Medium Hybrid Ambit Extension I",31516,0.40,1,1
+"Capital Hybrid Ambit Extension II",31524,"Capital Hybrid Ambit Extension I",31518,0.40,1,1
+"Small Hybrid Burst Aerator II",31532,"Small Hybrid Burst Aerator I",31526,0.40,1,1
+"Medium Hybrid Burst Aerator II",31534,"Medium Hybrid Burst Aerator I",31528,0.40,1,1
+"Capital Hybrid Burst Aerator II",31536,"Capital Hybrid Burst Aerator I",31530,0.40,1,1
+"Small Hybrid Collision Accelerator II",31544,"Small Hybrid Collision Accelerator I",31538,0.40,1,1
+"Medium Hybrid Collision Accelerator II",31546,"Medium Hybrid Collision Accelerator I",31540,0.40,1,1
+"Capital Hybrid Collision Accelerator II",31548,"Capital Hybrid Collision Accelerator I",31542,0.40,1,1
+"Small Hybrid Discharge Elutriation II",31556,"Small Hybrid Discharge Elutriation I",31550,0.40,1,1
+"Medium Hybrid Discharge Elutriation II",31558,"Medium Hybrid Discharge Elutriation I",31552,0.40,1,1
+"Capital Hybrid Discharge Elutriation II",31560,"Capital Hybrid Discharge Elutriation I",31554,0.40,1,1
+"Small Hybrid Locus Coordinator II",31568,"Small Hybrid Locus Coordinator I",31562,0.40,1,1
+"Medium Hybrid Locus Coordinator II",31570,"Medium Hybrid Locus Coordinator I",31564,0.40,1,1
+"Capital Hybrid Locus Coordinator II",31572,"Capital Hybrid Locus Coordinator I",31566,0.40,1,1
+"Small Hybrid Metastasis Adjuster II",31580,"Small Hybrid Metastasis Adjuster I",31574,0.40,1,1
+"Medium Hybrid Metastasis Adjuster II",31582,"Medium Hybrid Metastasis Adjuster I",31576,0.40,1,1
+"Capital Hybrid Metastasis Adjuster II",31584,"Capital Hybrid Metastasis Adjuster I",31578,0.40,1,1
+"Small Bay Loading Accelerator II",31592,"Small Bay Loading Accelerator I",31586,0.40,1,1
+"Medium Bay Loading Accelerator II",31594,"Medium Bay Loading Accelerator I",31588,0.40,1,1
+"Capital Bay Loading Accelerator II",31596,"Capital Bay Loading Accelerator I",31590,0.40,1,1
+"Small Hydraulic Bay Thrusters II",31604,"Small Hydraulic Bay Thrusters I",31598,0.40,1,1
+"Medium Hydraulic Bay Thrusters II",31606,"Medium Hydraulic Bay Thrusters I",31600,0.40,1,1
+"Capital Hydraulic Bay Thrusters II",33301,"Capital Hydraulic Bay Thrusters I",31602,0.40,1,1
+"Small Rocket Fuel Cache Partition II",31614,"Small Rocket Fuel Cache Partition I",31608,0.40,1,1
+"Medium Rocket Fuel Cache Partition II",31616,"Medium Rocket Fuel Cache Partition I",31610,0.40,1,1
+"Capital Rocket Fuel Cache Partition II",31618,"Capital Rocket Fuel Cache Partition I",31612,0.40,1,1
+"Small Warhead Calefaction Catalyst II",31626,"Small Warhead Calefaction Catalyst I",31620,0.40,1,1
+"Medium Warhead Calefaction Catalyst II",31628,"Medium Warhead Calefaction Catalyst I",31622,0.40,1,1
+"Capital Warhead Calefaction Catalyst II",31630,"Capital Warhead Calefaction Catalyst I",31624,0.40,1,1
+"Small Warhead Flare Catalyst II",31638,"Small Warhead Flare Catalyst I",31632,0.40,1,1
+"Medium Warhead Flare Catalyst II",31640,"Medium Warhead Flare Catalyst I",31634,0.40,1,1
+"Capital Warhead Flare Catalyst II",31642,"Capital Warhead Flare Catalyst I",31636,0.40,1,1
+"Small Warhead Rigor Catalyst II",31650,"Small Warhead Rigor Catalyst I",31644,0.40,1,1
+"Medium Warhead Rigor Catalyst II",31652,"Medium Warhead Rigor Catalyst I",31646,0.40,1,1
+"Capital Warhead Rigor Catalyst II",31654,"Capital Warhead Rigor Catalyst I",31648,0.40,1,1
+"Small Projectile Ambit Extension II",31662,"Small Projectile Ambit Extension I",31656,0.40,1,1
+"Medium Projectile Ambit Extension II",31664,"Medium Projectile Ambit Extension I",31658,0.40,1,1
+"Capital Projectile Ambit Extension II",31666,"Capital Projectile Ambit Extension I",31660,0.40,1,1
+"Small Projectile Burst Aerator II",31674,"Small Projectile Burst Aerator I",31668,0.40,1,1
+"Medium Projectile Burst Aerator II",31676,"Medium Projectile Burst Aerator I",31670,0.40,1,1
+"Capital Projectile Burst Aerator II",31678,"Capital Projectile Burst Aerator I",31672,0.40,1,1
+"Small Projectile Collision Accelerator II",31686,"Small Projectile Collision Accelerator I",31680,0.40,1,1
+"Medium Projectile Collision Accelerator II",31688,"Medium Projectile Collision Accelerator I",31682,0.40,1,1
+"Capital Projectile Collision Accelerator II",31690,"Capital Projectile Collision Accelerator I",31684,0.40,1,1
+"Small Projectile Locus Coordinator II",31698,"Small Projectile Locus Coordinator I",31692,0.40,1,1
+"Medium Projectile Locus Coordinator II",31700,"Medium Projectile Locus Coordinator I",31694,0.40,1,1
+"Capital Projectile Locus Coordinator II",31702,"Capital Projectile Locus Coordinator I",31696,0.40,1,1
+"Small Projectile Metastasis Adjuster II",31710,"Small Projectile Metastasis Adjuster I",31704,0.40,1,1
+"Medium Projectile Metastasis Adjuster II",31712,"Medium Projectile Metastasis Adjuster I",31706,0.40,1,1
+"Capital Projectile Metastasis Adjuster II",31714,"Capital Projectile Metastasis Adjuster I",31708,0.40,1,1
+"Small Anti-EM Screen Reinforcer II",31722,"Small Anti-EM Screen Reinforcer I",31716,0.40,1,1
+"Medium Anti-EM Screen Reinforcer II",31724,"Medium Anti-EM Screen Reinforcer I",31718,0.40,1,1
+"Capital Anti-EM Screen Reinforcer II",31726,"Capital Anti-EM Screen Reinforcer I",31720,0.40,1,1
+"Small Anti-Explosive Screen Reinforcer II",31734,"Small Anti-Explosive Screen Reinforcer I",31728,0.40,1,1
+"Medium Anti-Explosive Screen Reinforcer II",31736,"Medium Anti-Explosive Screen Reinforcer I",31730,0.40,1,1
+"Capital Anti-Explosive Screen Reinforcer II",31738,"Capital Anti-Explosive Screen Reinforcer I",31732,0.40,1,1
+"Small Anti-Kinetic Screen Reinforcer II",31746,"Small Anti-Kinetic Screen Reinforcer I",31740,0.40,1,1
+"Medium Anti-Kinetic Screen Reinforcer II",31748,"Medium Anti-Kinetic Screen Reinforcer I",31742,0.40,1,1
+"Capital Anti-Kinetic Screen Reinforcer II",31750,"Capital Anti-Kinetic Screen Reinforcer I",31744,0.40,1,1
+"Small Anti-Thermal Screen Reinforcer II",31758,"Small Anti-Thermal Screen Reinforcer I",31752,0.40,1,1
+"Medium Anti-Thermal Screen Reinforcer II",31760,"Medium Anti-Thermal Screen Reinforcer I",31754,0.40,1,1
+"Capital Anti-Thermal Screen Reinforcer II",31762,"Capital Anti-Thermal Screen Reinforcer I",31756,0.40,1,1
+"Small Core Defense Capacitor Safeguard II",31770,"Small Core Defense Capacitor Safeguard I",31764,0.40,1,1
+"Medium Core Defense Capacitor Safeguard II",31772,"Medium Core Defense Capacitor Safeguard I",31766,0.40,1,1
+"Capital Core Defense Capacitor Safeguard II",31774,"Capital Core Defense Capacitor Safeguard I",31768,0.40,1,1
+"Small Core Defense Charge Economizer II",31782,"Small Core Defense Charge Economizer I",31776,0.40,1,1
+"Medium Core Defense Charge Economizer II",31784,"Medium Core Defense Charge Economizer I",31778,0.40,1,1
+"Capital Core Defense Charge Economizer II",31786,"Capital Core Defense Charge Economizer I",31780,0.40,1,1
+"Small Core Defense Field Extender II",31794,"Small Core Defense Field Extender I",31788,0.40,1,1
+"Medium Core Defense Field Extender II",31796,"Medium Core Defense Field Extender I",31790,0.40,1,1
+"Capital Core Defense Field Extender II",31798,"Capital Core Defense Field Extender I",31792,0.40,1,1
+"Small Core Defense Field Purger II",31810,"Small Core Defense Field Purger I",31800,0.40,1,1
+"Medium Core Defense Field Purger II",31812,"Medium Core Defense Field Purger I",31802,0.40,1,1
+"Capital Core Defense Field Purger II",31814,"Capital Core Defense Field Purger I",31804,0.40,1,1
+"Small Core Defense Operational Solidifier II",31822,"Small Core Defense Operational Solidifier I",31816,0.40,1,1
+"Medium Core Defense Operational Solidifier II",31824,"Medium Core Defense Operational Solidifier I",31818,0.40,1,1
+"Capital Core Defense Operational Solidifier II",31826,"Capital Core Defense Operational Solidifier I",31820,0.40,1,1
+"Small Drone Control Range Augmentor II",32029,"Small Drone Control Range Augmentor I",32025,0.40,1,1
+"Medium Drone Control Range Augmentor II",32031,"Medium Drone Control Range Augmentor I",32027,0.40,1,1
+"Small Drone Durability Enhancer II",32037,"Small Drone Durability Enhancer I",32033,0.40,1,1
+"Medium Drone Durability Enhancer II",32039,"Medium Drone Durability Enhancer I",32035,0.40,1,1
+"Small Drone Mining Augmentor II",32045,"Small Drone Mining Augmentor I",32041,0.40,1,1
+"Medium Drone Mining Augmentor II",32047,"Medium Drone Mining Augmentor I",32043,0.40,1,1
+"Small Drone Repair Augmentor II",32053,"Small Drone Repair Augmentor I",32049,0.40,1,1
+"Medium Drone Repair Augmentor II",32055,"Medium Drone Repair Augmentor I",32051,0.40,1,1
+"Small Drone Speed Augmentor II",32061,"Small Drone Speed Augmentor I",32057,0.40,1,1
+"Medium Drone Speed Augmentor II",32063,"Medium Drone Speed Augmentor I",32059,0.40,1,1
+"Small Drone Scope Chip II",32073,"Small Drone Scope Chip I",32069,0.40,1,1
+"Medium Drone Scope Chip II",32075,"Medium Drone Scope Chip I",32071,0.40,1,1
+"Small Sentry Damage Augmentor II",32085,"Small Sentry Damage Augmentor I",32081,0.40,1,1
+"Medium Sentry Damage Augmentor II",32087,"Medium Sentry Damage Augmentor I",32083,0.40,1,1
+"Small Stasis Drone Augmentor II",32093,"Small Stasis Drone Augmentor I",32089,0.40,1,1
+"Medium Stasis Drone Augmentor II",32095,"Medium Stasis Drone Augmentor I",32091,0.40,1,1
+Prospect,33697,Venture,32880,0.30,1,1
+"Scan Acquisition Array II",33197,"Scan Acquisition Array I",33176,0.40,10,1
+"Scan Pinpointing Array II",33199,"Scan Pinpointing Array I",33178,0.40,10,1
+"Scan Rangefinding Array II",33201,"Scan Rangefinding Array I",33180,0.40,10,1
+"Survey Probe Launcher II",33272,"Survey Probe Launcher I",33270,0.40,10,1
+"Capital Drone Control Range Augmentor II",33279,"Capital Drone Control Range Augmentor I",33277,0.40,1,1
+"Capital Drone Durability Enhancer II",33283,"Capital Drone Durability Enhancer I",33281,0.40,1,1
+"Capital Drone Mining Augmentor II",33287,"Capital Drone Mining Augmentor I",33285,0.40,1,1
+"Capital Drone Repair Augmentor II",33291,"Capital Drone Repair Augmentor I",33289,0.40,1,1
+"Capital Drone Scope Chip II",33295,"Capital Drone Scope Chip I",33293,0.40,1,1
+"Capital Drone Speed Augmentor II",33298,"Capital Drone Speed Augmentor I",33297,0.40,1,1
+"Capital Processor Overclocking Unit II",33305,"Capital Processor Overclocking Unit I",33303,0.40,1,1
+"Capital Sentry Damage Augmentor II",33309,"Capital Sentry Damage Augmentor I",33307,0.40,1,1
+"Capital Stasis Drone Augmentor II",33313,"Capital Stasis Drone Augmentor I",33311,0.40,1,1
+"Rapid Heavy Missile Launcher II",33450,"Rapid Heavy Missile Launcher I",33448,0.40,20,1
+"Heavy Hull Maintenance Bot II",33708,"Heavy Hull Maintenance Bot I",33671,0.40,10,1
+"Medium Hull Maintenance Bot II",33710,"Medium Hull Maintenance Bot I",33704,0.40,10,1
+"Light Hull Maintenance Bot II",33712,"Light Hull Maintenance Bot I",33706,0.40,10,1
+"Omnidirectional Tracking Enhancer II",33824,"Omnidirectional Tracking Enhancer I",33822,0.40,10,1
+"Small Transverse Bulkhead II",33892,"Small Transverse Bulkhead I",33890,0.40,10,1
+"Medium Transverse Bulkhead II",33896,"Medium Transverse Bulkhead I",33894,0.40,10,1
+"Large Transverse Bulkhead II",33900,"Large Transverse Bulkhead I",33898,0.40,1,1
+"Capital Transverse Bulkhead II",33904,"Capital Transverse Bulkhead I",33902,0.40,1,1

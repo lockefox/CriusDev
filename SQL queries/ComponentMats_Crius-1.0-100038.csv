@@ -1,0 +1,221 @@
+typeName,time,materialtypeID,groupID,typeName,quantity
+"Thermonuclear Trigger Unit",150,16673,429,"Fernite Carbide",31
+"Thermonuclear Trigger Unit",150,16679,429,Fullerides,11
+"Thermonuclear Trigger Unit",150,16682,429,"Hypersynaptic Fibers",1
+"Crystalline Carbonide Armor Plate",25,16670,429,"Crystalline Carbonide",44
+"Crystalline Carbonide Armor Plate",25,16678,429,"Sylramic Fibers",11
+"Plasma Thruster",150,16673,429,"Fernite Carbide",13
+"Plasma Thruster",150,16680,429,"Phenolic Composites",3
+"Plasma Thruster",150,16683,429,Ferrogel,1
+"Nanomechanical Microprocessor",75,16673,429,"Fernite Carbide",17
+"Nanomechanical Microprocessor",75,16680,429,"Phenolic Composites",6
+"Nanomechanical Microprocessor",75,16681,429,Nanotransistors,2
+"Nanomechanical Microprocessor",75,33361,429,"Plasmonic Metamaterials",2
+"Nuclear Pulse Generator",150,16673,429,"Fernite Carbide",22
+"Nuclear Pulse Generator",150,16680,429,"Phenolic Composites",7
+"Nuclear Pulse Generator",150,16681,429,Nanotransistors,2
+"Scalar Capacitor Unit",150,16671,429,"Titanium Carbide",27
+"Scalar Capacitor Unit",150,16679,429,Fullerides,11
+"Scalar Capacitor Unit",150,16681,429,Nanotransistors,1
+"Scalar Capacitor Unit",150,33362,429,"Nonlinear Metamaterials",2
+"Titanium Diborite Armor Plate",25,16671,429,"Titanium Carbide",44
+"Titanium Diborite Armor Plate",25,16678,429,"Sylramic Fibers",11
+"Ion Thruster",150,16670,429,"Crystalline Carbonide",13
+"Ion Thruster",150,16680,429,"Phenolic Composites",3
+"Ion Thruster",150,16683,429,Ferrogel,1
+"Nanoelectrical Microprocessor",75,16672,429,"Tungsten Carbide",17
+"Nanoelectrical Microprocessor",75,16680,429,"Phenolic Composites",6
+"Nanoelectrical Microprocessor",75,16681,429,Nanotransistors,2
+"Nanoelectrical Microprocessor",75,33360,429,"Terahertz Metamaterials",2
+"Fusion Reactor Unit",300,16670,429,"Crystalline Carbonide",9
+"Fusion Reactor Unit",300,17317,429,"Fermionic Condensates",2
+"Graviton Pulse Generator",150,16671,429,"Titanium Carbide",22
+"Graviton Pulse Generator",150,16680,429,"Phenolic Composites",7
+"Graviton Pulse Generator",150,16681,429,Nanotransistors,2
+"Ladar Sensor Cluster",150,16673,429,"Fernite Carbide",22
+"Ladar Sensor Cluster",150,16681,429,Nanotransistors,1
+"Ladar Sensor Cluster",150,16682,429,"Hypersynaptic Fibers",2
+"Tesseract Capacitor Unit",150,16672,429,"Tungsten Carbide",27
+"Tesseract Capacitor Unit",150,16679,429,Fullerides,11
+"Tesseract Capacitor Unit",150,16681,429,Nanotransistors,1
+"Tesseract Capacitor Unit",150,33360,429,"Terahertz Metamaterials",2
+"EM Pulse Generator",150,16672,429,"Tungsten Carbide",22
+"EM Pulse Generator",150,16680,429,"Phenolic Composites",7
+"EM Pulse Generator",150,16681,429,Nanotransistors,2
+"Radar Sensor Cluster",150,16672,429,"Tungsten Carbide",22
+"Radar Sensor Cluster",150,16681,429,Nanotransistors,1
+"Radar Sensor Cluster",150,16682,429,"Hypersynaptic Fibers",2
+"Oscillator Capacitor Unit",150,16670,429,"Crystalline Carbonide",27
+"Oscillator Capacitor Unit",150,16679,429,Fullerides,11
+"Oscillator Capacitor Unit",150,16681,429,Nanotransistors,1
+"Oscillator Capacitor Unit",150,33359,429,"Photonic Metamaterials",2
+"Antimatter Reactor Unit",300,16672,429,"Tungsten Carbide",9
+"Antimatter Reactor Unit",300,17317,429,"Fermionic Condensates",2
+"Plasma Pulse Generator",150,16670,429,"Crystalline Carbonide",22
+"Plasma Pulse Generator",150,16680,429,"Phenolic Composites",7
+"Plasma Pulse Generator",150,16681,429,Nanotransistors,2
+"Gravimetric Sensor Cluster",150,16671,429,"Titanium Carbide",22
+"Gravimetric Sensor Cluster",150,16681,429,Nanotransistors,1
+"Gravimetric Sensor Cluster",150,16682,429,"Hypersynaptic Fibers",2
+"Pulse Shield Emitter",150,16670,429,"Crystalline Carbonide",22
+"Pulse Shield Emitter",150,16678,429,"Sylramic Fibers",9
+"Pulse Shield Emitter",150,16683,429,Ferrogel,1
+"Nuclear Reactor Unit",300,16673,429,"Fernite Carbide",9
+"Nuclear Reactor Unit",300,17317,429,"Fermionic Condensates",2
+"Particle Accelerator Unit",150,16670,429,"Crystalline Carbonide",31
+"Particle Accelerator Unit",150,16679,429,Fullerides,11
+"Particle Accelerator Unit",150,16682,429,"Hypersynaptic Fibers",1
+"Magnetometric Sensor Cluster",150,16670,429,"Crystalline Carbonide",22
+"Magnetometric Sensor Cluster",150,16681,429,Nanotransistors,1
+"Magnetometric Sensor Cluster",150,16682,429,"Hypersynaptic Fibers",2
+"Deflection Shield Emitter",150,16673,429,"Fernite Carbide",22
+"Deflection Shield Emitter",150,16678,429,"Sylramic Fibers",9
+"Deflection Shield Emitter",150,16683,429,Ferrogel,1
+"Electrolytic Capacitor Unit",150,16673,429,"Fernite Carbide",27
+"Electrolytic Capacitor Unit",150,16679,429,Fullerides,11
+"Electrolytic Capacitor Unit",150,16681,429,Nanotransistors,1
+"Electrolytic Capacitor Unit",150,33361,429,"Plasmonic Metamaterials",2
+"Laser Focusing Crystals",150,16672,429,"Tungsten Carbide",31
+"Laser Focusing Crystals",150,16679,429,Fullerides,11
+"Laser Focusing Crystals",150,16682,429,"Hypersynaptic Fibers",1
+"Fusion Thruster",150,16672,429,"Tungsten Carbide",13
+"Fusion Thruster",150,16680,429,"Phenolic Composites",3
+"Fusion Thruster",150,16683,429,Ferrogel,1
+"Tungsten Carbide Armor Plate",25,16672,429,"Tungsten Carbide",44
+"Tungsten Carbide Armor Plate",25,16678,429,"Sylramic Fibers",11
+"Quantum Microprocessor",75,16671,429,"Titanium Carbide",17
+"Quantum Microprocessor",75,16680,429,"Phenolic Composites",6
+"Quantum Microprocessor",75,16681,429,Nanotransistors,2
+"Quantum Microprocessor",75,33362,429,"Nonlinear Metamaterials",2
+"Sustained Shield Emitter",150,16671,429,"Titanium Carbide",22
+"Sustained Shield Emitter",150,16678,429,"Sylramic Fibers",9
+"Sustained Shield Emitter",150,16683,429,Ferrogel,1
+"Graviton Reactor Unit",300,16671,429,"Titanium Carbide",9
+"Graviton Reactor Unit",300,17317,429,"Fermionic Condensates",2
+"Superconductor Rails",150,16671,429,"Titanium Carbide",31
+"Superconductor Rails",150,16679,429,Fullerides,11
+"Superconductor Rails",150,16682,429,"Hypersynaptic Fibers",1
+"Fernite Carbide Composite Armor Plate",25,16673,429,"Fernite Carbide",44
+"Fernite Carbide Composite Armor Plate",25,16678,429,"Sylramic Fibers",11
+"Magpulse Thruster",150,16671,429,"Titanium Carbide",13
+"Magpulse Thruster",150,16680,429,"Phenolic Composites",3
+"Magpulse Thruster",150,16683,429,Ferrogel,1
+"Photon Microprocessor",75,16670,429,"Crystalline Carbonide",17
+"Photon Microprocessor",75,16680,429,"Phenolic Composites",6
+"Photon Microprocessor",75,16681,429,Nanotransistors,2
+"Photon Microprocessor",75,33359,429,"Photonic Metamaterials",2
+"Linear Shield Emitter",150,16672,429,"Tungsten Carbide",22
+"Linear Shield Emitter",150,16678,429,"Sylramic Fibers",9
+"Linear Shield Emitter",150,16683,429,Ferrogel,1
+"Capital Antimatter Reactor Unit",1500,16672,429,"Tungsten Carbide",889
+"Capital Antimatter Reactor Unit",1500,17317,429,"Fermionic Condensates",22
+"Capital Crystalline Carbonide Armor Plate",750,16670,429,"Crystalline Carbonide",2222
+"Capital Crystalline Carbonide Armor Plate",750,16678,429,"Sylramic Fibers",1667
+"Capital Deflection Shield Emitter",750,16673,429,"Fernite Carbide",2222
+"Capital Deflection Shield Emitter",750,16678,429,"Sylramic Fibers",889
+"Capital Deflection Shield Emitter",750,16683,429,Ferrogel,11
+"Capital Electrolytic Capacitor Unit",750,16673,429,"Fernite Carbide",2222
+"Capital Electrolytic Capacitor Unit",750,16679,429,Fullerides,1111
+"Capital Electrolytic Capacitor Unit",750,16681,429,Nanotransistors,11
+"Capital Electrolytic Capacitor Unit",750,33361,429,"Plasmonic Metamaterials",22
+"Capital EM Pulse Generator",750,16672,429,"Tungsten Carbide",2222
+"Capital EM Pulse Generator",750,16680,429,"Phenolic Composites",67
+"Capital EM Pulse Generator",750,16681,429,Nanotransistors,22
+"Capital Fernite Carbide Composite Armor Plate",750,16673,429,"Fernite Carbide",2222
+"Capital Fernite Carbide Composite Armor Plate",750,16678,429,"Sylramic Fibers",1667
+"Capital Fusion Reactor Unit",1500,16670,429,"Crystalline Carbonide",889
+"Capital Fusion Reactor Unit",1500,17317,429,"Fermionic Condensates",22
+"Capital Fusion Thruster",750,16672,429,"Tungsten Carbide",1333
+"Capital Fusion Thruster",750,16680,429,"Phenolic Composites",33
+"Capital Fusion Thruster",750,16683,429,Ferrogel,11
+"Capital Gravimetric Sensor Cluster",750,16671,429,"Titanium Carbide",2222
+"Capital Gravimetric Sensor Cluster",750,16681,429,Nanotransistors,11
+"Capital Gravimetric Sensor Cluster",750,16682,429,"Hypersynaptic Fibers",22
+"Capital Graviton Pulse Generator",750,16671,429,"Titanium Carbide",2222
+"Capital Graviton Pulse Generator",750,16680,429,"Phenolic Composites",67
+"Capital Graviton Pulse Generator",750,16681,429,Nanotransistors,22
+"Capital Graviton Reactor Unit",1500,16671,429,"Titanium Carbide",889
+"Capital Graviton Reactor Unit",1500,17317,429,"Fermionic Condensates",22
+"Capital Ion Thruster",750,16670,429,"Crystalline Carbonide",1333
+"Capital Ion Thruster",750,16680,429,"Phenolic Composites",33
+"Capital Ion Thruster",750,16683,429,Ferrogel,11
+"Capital Laser Focusing Crystals",750,16672,429,"Tungsten Carbide",2556
+"Capital Laser Focusing Crystals",750,16679,429,Fullerides,778
+"Capital Laser Focusing Crystals",750,16682,429,"Hypersynaptic Fibers",11
+"Capital Ladar Sensor Cluster",750,16673,429,"Fernite Carbide",2222
+"Capital Ladar Sensor Cluster",750,16681,429,Nanotransistors,11
+"Capital Ladar Sensor Cluster",750,16682,429,"Hypersynaptic Fibers",22
+"Capital Linear Shield Emitter",750,16672,429,"Tungsten Carbide",2222
+"Capital Linear Shield Emitter",750,16678,429,"Sylramic Fibers",889
+"Capital Linear Shield Emitter",750,16683,429,Ferrogel,11
+"Capital Magnetometric Sensor Cluster",750,16670,429,"Crystalline Carbonide",2222
+"Capital Magnetometric Sensor Cluster",750,16681,429,Nanotransistors,11
+"Capital Magnetometric Sensor Cluster",750,16682,429,"Hypersynaptic Fibers",22
+"Capital Magpulse Thruster",750,16671,429,"Titanium Carbide",1333
+"Capital Magpulse Thruster",750,16680,429,"Phenolic Composites",33
+"Capital Magpulse Thruster",750,16683,429,Ferrogel,11
+"Capital Nanoelectrical Microprocessor",750,16672,429,"Tungsten Carbide",1667
+"Capital Nanoelectrical Microprocessor",750,16680,429,"Phenolic Composites",56
+"Capital Nanoelectrical Microprocessor",750,16681,429,Nanotransistors,22
+"Capital Nanoelectrical Microprocessor",750,33360,429,"Terahertz Metamaterials",22
+"Capital Nanomechanical Microprocessor",750,16673,429,"Fernite Carbide",1667
+"Capital Nanomechanical Microprocessor",750,16680,429,"Phenolic Composites",56
+"Capital Nanomechanical Microprocessor",750,16681,429,Nanotransistors,22
+"Capital Nanomechanical Microprocessor",750,33361,429,"Plasmonic Metamaterials",22
+"Capital Nuclear Pulse Generator",750,16673,429,"Fernite Carbide",2222
+"Capital Nuclear Pulse Generator",750,16680,429,"Phenolic Composites",67
+"Capital Nuclear Pulse Generator",750,16681,429,Nanotransistors,22
+"Capital Nuclear Reactor Unit",1500,16673,429,"Fernite Carbide",889
+"Capital Nuclear Reactor Unit",1500,17317,429,"Fermionic Condensates",22
+"Capital Oscillator Capacitor Unit",750,16670,429,"Crystalline Carbonide",2222
+"Capital Oscillator Capacitor Unit",750,16679,429,Fullerides,1111
+"Capital Oscillator Capacitor Unit",750,16681,429,Nanotransistors,11
+"Capital Oscillator Capacitor Unit",750,33359,429,"Photonic Metamaterials",22
+"Capital Particle Accelerator Unit",750,16670,429,"Crystalline Carbonide",2556
+"Capital Particle Accelerator Unit",750,16679,429,Fullerides,778
+"Capital Particle Accelerator Unit",750,16682,429,"Hypersynaptic Fibers",11
+"Capital Photon Microprocessor",750,16670,429,"Crystalline Carbonide",1667
+"Capital Photon Microprocessor",750,16680,429,"Phenolic Composites",56
+"Capital Photon Microprocessor",750,16681,429,Nanotransistors,22
+"Capital Photon Microprocessor",750,33359,429,"Photonic Metamaterials",22
+"Capital Plasma Pulse Generator",750,16670,429,"Crystalline Carbonide",2222
+"Capital Plasma Pulse Generator",750,16680,429,"Phenolic Composites",67
+"Capital Plasma Pulse Generator",750,16681,429,Nanotransistors,22
+"Capital Plasma Thruster",750,16673,429,"Fernite Carbide",1333
+"Capital Plasma Thruster",750,16680,429,"Phenolic Composites",33
+"Capital Plasma Thruster",750,16683,429,Ferrogel,11
+"Capital Pulse Shield Emitter",750,16670,429,"Crystalline Carbonide",2222
+"Capital Pulse Shield Emitter",750,16678,429,"Sylramic Fibers",889
+"Capital Pulse Shield Emitter",750,16683,429,Ferrogel,11
+"Capital Quantum Microprocessor",750,16671,429,"Titanium Carbide",1667
+"Capital Quantum Microprocessor",750,16680,429,"Phenolic Composites",56
+"Capital Quantum Microprocessor",750,16681,429,Nanotransistors,22
+"Capital Quantum Microprocessor",750,33362,429,"Nonlinear Metamaterials",22
+"Capital Radar Sensor Cluster",750,16672,429,"Tungsten Carbide",2222
+"Capital Radar Sensor Cluster",750,16681,429,Nanotransistors,11
+"Capital Radar Sensor Cluster",750,16682,429,"Hypersynaptic Fibers",22
+"Capital Scalar Capacitor Unit",750,16671,429,"Titanium Carbide",2222
+"Capital Scalar Capacitor Unit",750,16679,429,Fullerides,1111
+"Capital Scalar Capacitor Unit",750,16681,429,Nanotransistors,11
+"Capital Scalar Capacitor Unit",750,33362,429,"Nonlinear Metamaterials",22
+"Capital Superconductor Rails",750,16671,429,"Titanium Carbide",2556
+"Capital Superconductor Rails",750,16679,429,Fullerides,778
+"Capital Superconductor Rails",750,16682,429,"Hypersynaptic Fibers",11
+"Capital Sustained Shield Emitter",750,16671,429,"Titanium Carbide",2222
+"Capital Sustained Shield Emitter",750,16678,429,"Sylramic Fibers",889
+"Capital Sustained Shield Emitter",750,16683,429,Ferrogel,11
+"Capital Tesseract Capacitor Unit",750,16672,429,"Tungsten Carbide",2222
+"Capital Tesseract Capacitor Unit",750,16679,429,Fullerides,1111
+"Capital Tesseract Capacitor Unit",750,16681,429,Nanotransistors,11
+"Capital Tesseract Capacitor Unit",750,33360,429,"Terahertz Metamaterials",22
+"Capital Thermonuclear Trigger Unit",750,16673,429,"Fernite Carbide",2556
+"Capital Thermonuclear Trigger Unit",750,16679,429,Fullerides,778
+"Capital Thermonuclear Trigger Unit",750,16682,429,"Hypersynaptic Fibers",11
+"Capital Titanium Diborite Armor Plate",750,16671,429,"Titanium Carbide",2222
+"Capital Titanium Diborite Armor Plate",750,16678,429,"Sylramic Fibers",1667
+"Capital Tungsten Carbide Armor Plate",750,16672,429,"Tungsten Carbide",2222
+"Capital Tungsten Carbide Armor Plate",750,16678,429,"Sylramic Fibers",1667
+"Spatial Attunement Unit",75,16673,429,"Fernite Carbide",18
+"Spatial Attunement Unit",75,16678,429,"Sylramic Fibers",2
+"Spatial Attunement Unit",75,16681,429,Nanotransistors,2
+"Spatial Attunement Unit",75,16682,429,"Hypersynaptic Fibers",2

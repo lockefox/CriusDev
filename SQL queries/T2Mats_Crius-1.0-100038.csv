@@ -1,0 +1,3131 @@
+typeName,time,materialtypeID,groupID,typeName,quantity
+"Miner II",2340,38,18,Nocxium,31
+"Miner II",2340,40,18,Megacyte,2
+"Miner II",2340,3689,1034,"Mechanical Parts",6
+"Miner II",2340,11399,18,Morphite,2
+"Miner II",2340,11482,332,"R.A.M.- Energy Tech",2
+"Miner II",2340,11541,334,"Photon Microprocessor",5
+"Miner II",2340,11689,334,"Laser Focusing Crystals",2
+"Small Shield Extender II",2340,3685,280,"Hydrogen Batteries",3
+"Small Shield Extender II",2340,11399,18,Morphite,2
+"Small Shield Extender II",2340,11484,332,"R.A.M.- Shield Tech",2
+"Small Shield Extender II",2340,11558,334,"Sustained Shield Emitter",3
+"Shield Recharger II",4680,3685,280,"Hydrogen Batteries",2
+"Shield Recharger II",4680,9838,1034,Superconductors,3
+"Shield Recharger II",4680,11399,18,Morphite,2
+"Shield Recharger II",4680,11484,332,"R.A.M.- Shield Tech",2
+"Small Shield Booster II",2340,9838,1034,Superconductors,2
+"Small Shield Booster II",2340,11399,18,Morphite,2
+"Small Shield Booster II",2340,11484,332,"R.A.M.- Shield Tech",2
+"Small Shield Booster II",2340,11556,334,"Pulse Shield Emitter",3
+"1MN Afterburner II",2340,11399,18,Morphite,2
+"1MN Afterburner II",2340,11475,332,"R.A.M.- Armor/Hull Tech",2
+"1MN Afterburner II",2340,11530,334,"Plasma Thruster",3
+"1MN Afterburner II",2340,11531,334,"Ion Thruster",15
+"1MN Afterburner II",2340,11549,334,"Antimatter Reactor Unit",8
+"1MN Microwarpdrive II",2340,11399,18,Morphite,17
+"1MN Microwarpdrive II",2340,11475,332,"R.A.M.- Armor/Hull Tech",2
+"1MN Microwarpdrive II",2340,11530,334,"Plasma Thruster",24
+"1MN Microwarpdrive II",2340,11531,334,"Ion Thruster",15
+"1MN Microwarpdrive II",2340,11549,334,"Antimatter Reactor Unit",8
+"Warp Scrambler II",4680,9840,1034,Transmitter,6
+"Warp Scrambler II",4680,9842,1034,"Miniature Electronics",11
+"Warp Scrambler II",4680,11399,18,Morphite,8
+"Warp Scrambler II",4680,11483,332,"R.A.M.- Electronics",2
+"Warp Scrambler II",4680,11534,334,"Gravimetric Sensor Cluster",3
+"Warp Scrambler II",4680,11540,334,"Quantum Microprocessor",9
+"Gyrostabilizer II",2340,3689,1034,"Mechanical Parts",6
+"Gyrostabilizer II",2340,9842,1034,"Miniature Electronics",2
+"Gyrostabilizer II",2340,11399,18,Morphite,8
+"Gyrostabilizer II",2340,11483,332,"R.A.M.- Electronics",2
+"Gyrostabilizer II",2340,11538,334,"Nanomechanical Microprocessor",8
+"Stasis Webifier II",4680,9840,1034,Transmitter,9
+"Stasis Webifier II",4680,9842,1034,"Miniature Electronics",6
+"Stasis Webifier II",4680,11399,18,Morphite,8
+"Stasis Webifier II",4680,11483,332,"R.A.M.- Electronics",2
+"Stasis Webifier II",4680,11538,334,"Nanomechanical Microprocessor",3
+"Small Armor Repairer II",2340,9848,1040,Robotics,2
+"Small Armor Repairer II",2340,11399,18,Morphite,2
+"Small Armor Repairer II",2340,11475,332,"R.A.M.- Armor/Hull Tech",2
+"Small Armor Repairer II",2340,11539,334,"Nanoelectrical Microprocessor",2
+"Small Remote Capacitor Transmitter II",2340,9838,1034,Superconductors,15
+"Small Remote Capacitor Transmitter II",2340,11399,18,Morphite,5
+"Small Remote Capacitor Transmitter II",2340,11482,332,"R.A.M.- Energy Tech",2
+"Small Remote Capacitor Transmitter II",2340,11539,334,"Nanoelectrical Microprocessor",5
+"Small Remote Capacitor Transmitter II",2340,11554,334,"Tesseract Capacitor Unit",8
+"EM Plating II",2340,11399,18,Morphite,2
+"EM Plating II",2340,11475,332,"R.A.M.- Armor/Hull Tech",2
+"EM Plating II",2340,11543,334,"Tungsten Carbide Armor Plate",2
+"EM Plating II",2340,11544,334,"Titanium Diborite Armor Plate",2
+"EM Plating II",2340,11545,334,"Crystalline Carbonide Armor Plate",3
+"Overdrive Injector System II",2340,40,18,Megacyte,11
+"Overdrive Injector System II",2340,3689,1034,"Mechanical Parts",2
+"Overdrive Injector System II",2340,11399,18,Morphite,2
+"Overdrive Injector System II",2340,11475,332,"R.A.M.- Armor/Hull Tech",2
+"Overdrive Injector System II",2340,11530,334,"Plasma Thruster",5
+"Capacitor Flux Coil II",2340,9838,1034,Superconductors,5
+"Capacitor Flux Coil II",2340,11399,18,Morphite,2
+"Capacitor Flux Coil II",2340,11482,332,"R.A.M.- Energy Tech",2
+"Capacitor Flux Coil II",2340,11539,334,"Nanoelectrical Microprocessor",2
+"Capacitor Flux Coil II",2340,11554,334,"Tesseract Capacitor Unit",5
+"Shield Flux Coil II",2340,9838,1034,Superconductors,5
+"Shield Flux Coil II",2340,11399,18,Morphite,2
+"Shield Flux Coil II",2340,11482,332,"R.A.M.- Energy Tech",2
+"Shield Flux Coil II",2340,11539,334,"Nanoelectrical Microprocessor",2
+"Shield Flux Coil II",2340,11554,334,"Tesseract Capacitor Unit",5
+"Explosive Plating II",2340,11399,18,Morphite,2
+"Explosive Plating II",2340,11475,332,"R.A.M.- Armor/Hull Tech",2
+"Explosive Plating II",2340,11542,334,"Fernite Carbide Composite Armor Plate",3
+"Explosive Plating II",2340,11543,334,"Tungsten Carbide Armor Plate",3
+"Layered Plating II",2340,11399,18,Morphite,2
+"Layered Plating II",2340,11475,332,"R.A.M.- Armor/Hull Tech",2
+"Layered Plating II",2340,11543,334,"Tungsten Carbide Armor Plate",3
+"Layered Plating II",2340,11544,334,"Titanium Diborite Armor Plate",3
+"Kinetic Plating II",2340,11399,18,Morphite,2
+"Kinetic Plating II",2340,11475,332,"R.A.M.- Armor/Hull Tech",2
+"Kinetic Plating II",2340,11542,334,"Fernite Carbide Composite Armor Plate",2
+"Kinetic Plating II",2340,11544,334,"Titanium Diborite Armor Plate",3
+"Kinetic Plating II",2340,11545,334,"Crystalline Carbonide Armor Plate",2
+"Thermic Plating II",2340,11399,18,Morphite,2
+"Thermic Plating II",2340,11475,332,"R.A.M.- Armor/Hull Tech",2
+"Thermic Plating II",2340,11542,334,"Fernite Carbide Composite Armor Plate",3
+"Thermic Plating II",2340,11545,334,"Crystalline Carbonide Armor Plate",3
+"Adaptive Nano Plating II",2340,11399,18,Morphite,2
+"Adaptive Nano Plating II",2340,11475,332,"R.A.M.- Armor/Hull Tech",2
+"Adaptive Nano Plating II",2340,11542,334,"Fernite Carbide Composite Armor Plate",2
+"Adaptive Nano Plating II",2340,11543,334,"Tungsten Carbide Armor Plate",2
+"Adaptive Nano Plating II",2340,11544,334,"Titanium Diborite Armor Plate",2
+"Adaptive Nano Plating II",2340,11545,334,"Crystalline Carbonide Armor Plate",2
+"Expanded Cargohold II",2340,3828,1034,"Construction Blocks",8
+"Expanded Cargohold II",2340,11399,18,Morphite,2
+"Expanded Cargohold II",2340,11475,332,"R.A.M.- Armor/Hull Tech",2
+"Expanded Cargohold II",2340,11538,334,"Nanomechanical Microprocessor",2
+"Expanded Cargohold II",2340,11545,334,"Crystalline Carbonide Armor Plate",2
+"Reinforced Bulkheads II",2340,3828,1034,"Construction Blocks",8
+"Reinforced Bulkheads II",2340,11399,18,Morphite,2
+"Reinforced Bulkheads II",2340,11475,332,"R.A.M.- Armor/Hull Tech",2
+"Reactor Control Unit II",2340,38,18,Nocxium,2
+"Reactor Control Unit II",2340,40,18,Megacyte,1
+"Reactor Control Unit II",2340,9838,1034,Superconductors,3
+"Reactor Control Unit II",2340,11399,18,Morphite,2
+"Reactor Control Unit II",2340,11482,332,"R.A.M.- Energy Tech",2
+"Reactor Control Unit II",2340,11539,334,"Nanoelectrical Microprocessor",5
+"Reactor Control Unit II",2340,11554,334,"Tesseract Capacitor Unit",3
+"Inertia Stabilizers II",2340,3689,1034,"Mechanical Parts",3
+"Inertia Stabilizers II",2340,11399,18,Morphite,2
+"Inertia Stabilizers II",2340,11475,332,"R.A.M.- Armor/Hull Tech",2
+"Inertia Stabilizers II",2340,11530,334,"Plasma Thruster",3
+"Shield Power Relay II",2340,9838,1034,Superconductors,8
+"Shield Power Relay II",2340,11399,18,Morphite,2
+"Shield Power Relay II",2340,11482,332,"R.A.M.- Energy Tech",2
+"Shield Power Relay II",2340,11539,334,"Nanoelectrical Microprocessor",2
+"Shield Power Relay II",2340,11554,334,"Tesseract Capacitor Unit",2
+"Auto Targeting System II",7020,9840,1034,Transmitter,3
+"Auto Targeting System II",7020,9842,1034,"Miniature Electronics",8
+"Auto Targeting System II",7020,11399,18,Morphite,3
+"Auto Targeting System II",7020,11483,332,"R.A.M.- Electronics",2
+"Auto Targeting System II",7020,11536,334,"Ladar Sensor Cluster",3
+"Auto Targeting System II",7020,11540,334,"Quantum Microprocessor",2
+"Auto Targeting System II",7020,11551,334,"Electrolytic Capacitor Unit",2
+"Capacitor Power Relay II",2340,9838,1034,Superconductors,8
+"Capacitor Power Relay II",2340,11399,18,Morphite,2
+"Capacitor Power Relay II",2340,11482,332,"R.A.M.- Energy Tech",2
+"Capacitor Power Relay II",2340,11539,334,"Nanoelectrical Microprocessor",2
+"Capacitor Power Relay II",2340,11554,334,"Tesseract Capacitor Unit",2
+"Power Diagnostic System II",2340,9838,1034,Superconductors,2
+"Power Diagnostic System II",2340,11399,18,Morphite,2
+"Power Diagnostic System II",2340,11482,332,"R.A.M.- Energy Tech",2
+"Power Diagnostic System II",2340,11539,334,"Nanoelectrical Microprocessor",8
+"Power Diagnostic System II",2340,11554,334,"Tesseract Capacitor Unit",2
+"Small Proton Smartbomb II",2340,11399,18,Morphite,3
+"Small Proton Smartbomb II",2340,11482,332,"R.A.M.- Energy Tech",2
+"Small Proton Smartbomb II",2340,11692,334,"Nuclear Pulse Generator",6
+"Small Graviton Smartbomb II",2340,39,18,Zydrine,4
+"Small Graviton Smartbomb II",2340,11399,18,Morphite,3
+"Small Graviton Smartbomb II",2340,11482,332,"R.A.M.- Energy Tech",2
+"Small Graviton Smartbomb II",2340,11693,334,"Graviton Pulse Generator",6
+"Small Plasma Smartbomb II",2340,39,18,Zydrine,4
+"Small Plasma Smartbomb II",2340,11399,18,Morphite,3
+"Small Plasma Smartbomb II",2340,11482,332,"R.A.M.- Energy Tech",2
+"Small Plasma Smartbomb II",2340,11695,334,"Plasma Pulse Generator",6
+"Small EMP Smartbomb II",2340,38,18,Nocxium,6
+"Small EMP Smartbomb II",2340,11399,18,Morphite,3
+"Small EMP Smartbomb II",2340,11482,332,"R.A.M.- Energy Tech",2
+"Small EMP Smartbomb II",2340,11694,334,"EM Pulse Generator",6
+"Ship Scanner II",4680,35,18,Pyerite,258
+"Ship Scanner II",4680,37,18,Isogen,6
+"Ship Scanner II",4680,9840,1034,Transmitter,2
+"Ship Scanner II",4680,9842,1034,"Miniature Electronics",3
+"Ship Scanner II",4680,11399,18,Morphite,2
+"Ship Scanner II",4680,11483,332,"R.A.M.- Electronics",2
+"Ship Scanner II",4680,11539,334,"Nanoelectrical Microprocessor",5
+"Rapid Light Missile Launcher II",4680,9848,1040,Robotics,2
+"Rapid Light Missile Launcher II",4680,11399,18,Morphite,3
+"Rapid Light Missile Launcher II",4680,11486,332,"R.A.M.- Weapon Tech",2
+"Rapid Light Missile Launcher II",4680,11540,334,"Quantum Microprocessor",5
+"Medium Capacitor Booster II",4680,9838,1034,Superconductors,12
+"Medium Capacitor Booster II",4680,11399,18,Morphite,3
+"Medium Capacitor Booster II",4680,11482,332,"R.A.M.- Energy Tech",2
+"Medium Capacitor Booster II",4680,11539,334,"Nanoelectrical Microprocessor",5
+"Medium Capacitor Booster II",4680,11554,334,"Tesseract Capacitor Unit",6
+"Cap Recharger II",4680,9838,1034,Superconductors,5
+"Cap Recharger II",4680,11399,18,Morphite,3
+"Cap Recharger II",4680,11482,332,"R.A.M.- Energy Tech",2
+"Cap Recharger II",4680,11539,334,"Nanoelectrical Microprocessor",2
+"Cap Recharger II",4680,11554,334,"Tesseract Capacitor Unit",2
+"Cargo Scanner II",4680,37,18,Isogen,7
+"Cargo Scanner II",4680,9840,1034,Transmitter,2
+"Cargo Scanner II",4680,9842,1034,"Miniature Electronics",3
+"Cargo Scanner II",4680,11399,18,Morphite,2
+"Cargo Scanner II",4680,11483,332,"R.A.M.- Electronics",2
+"Cargo Scanner II",4680,11539,334,"Nanoelectrical Microprocessor",5
+"Damage Control II",2340,38,18,Nocxium,4
+"Damage Control II",2340,3689,1034,"Mechanical Parts",3
+"Damage Control II",2340,3828,1034,"Construction Blocks",3
+"Damage Control II",2340,11399,18,Morphite,2
+"Damage Control II",2340,11475,332,"R.A.M.- Armor/Hull Tech",2
+"Damage Control II",2340,11540,334,"Quantum Microprocessor",2
+"Damage Control II",2340,11542,334,"Fernite Carbide Composite Armor Plate",2
+"Damage Control II",2340,11553,334,"Oscillator Capacitor Unit",2
+"Damage Control II",2340,11695,334,"Plasma Pulse Generator",2
+"ECM Burst II",4680,9840,1034,Transmitter,6
+"ECM Burst II",4680,9842,1034,"Miniature Electronics",7
+"ECM Burst II",4680,11399,18,Morphite,6
+"ECM Burst II",4680,11483,332,"R.A.M.- Electronics",2
+"ECM Burst II",4680,11534,334,"Gravimetric Sensor Cluster",3
+"ECM Burst II",4680,11535,334,"Magnetometric Sensor Cluster",3
+"ECM Burst II",4680,11536,334,"Ladar Sensor Cluster",3
+"ECM Burst II",4680,11537,334,"Radar Sensor Cluster",3
+"ECM Burst II",4680,11541,334,"Photon Microprocessor",5
+"Infiltrator II",3000,9834,1040,"Guidance Systems",2
+"Infiltrator II",3000,9848,1040,Robotics,2
+"Infiltrator II",3000,11399,18,Morphite,3
+"Infiltrator II",3000,11481,332,"R.A.M.- Robotics",2
+"Infiltrator II",3000,11689,334,"Laser Focusing Crystals",1
+"Hammerhead II",3000,9834,1040,"Guidance Systems",2
+"Hammerhead II",3000,9848,1040,Robotics,2
+"Hammerhead II",3000,11399,18,Morphite,3
+"Hammerhead II",3000,11481,332,"R.A.M.- Robotics",2
+"Hammerhead II",3000,11688,334,"Particle Accelerator Unit",1
+"Praetor II",4500,9834,1040,"Guidance Systems",4
+"Praetor II",4500,9848,1040,Robotics,4
+"Praetor II",4500,11399,18,Morphite,6
+"Praetor II",4500,11481,332,"R.A.M.- Robotics",2
+"Praetor II",4500,11689,334,"Laser Focusing Crystals",2
+"Acolyte II",1500,9834,1040,"Guidance Systems",1
+"Acolyte II",1500,9848,1040,Robotics,1
+"Acolyte II",1500,11399,18,Morphite,2
+"Acolyte II",1500,11481,332,"R.A.M.- Robotics",2
+"Acolyte II",1500,11689,334,"Laser Focusing Crystals",1
+"Adaptive Invulnerability Field II",4680,40,18,Megacyte,6
+"Adaptive Invulnerability Field II",4680,9838,1034,Superconductors,15
+"Adaptive Invulnerability Field II",4680,11399,18,Morphite,11
+"Adaptive Invulnerability Field II",4680,11484,332,"R.A.M.- Shield Tech",2
+"Adaptive Invulnerability Field II",4680,11555,334,"Deflection Shield Emitter",8
+"Adaptive Invulnerability Field II",4680,11556,334,"Pulse Shield Emitter",8
+"Adaptive Invulnerability Field II",4680,11557,334,"Linear Shield Emitter",8
+"Adaptive Invulnerability Field II",4680,11558,334,"Sustained Shield Emitter",8
+"Explosive Deflection Field II",4680,38,18,Nocxium,3
+"Explosive Deflection Field II",4680,40,18,Megacyte,3
+"Explosive Deflection Field II",4680,9838,1034,Superconductors,9
+"Explosive Deflection Field II",4680,11399,18,Morphite,8
+"Explosive Deflection Field II",4680,11484,332,"R.A.M.- Shield Tech",2
+"Explosive Deflection Field II",4680,11555,334,"Deflection Shield Emitter",24
+"Kinetic Deflection Field II",4680,40,18,Megacyte,3
+"Kinetic Deflection Field II",4680,9838,1034,Superconductors,9
+"Kinetic Deflection Field II",4680,11399,18,Morphite,8
+"Kinetic Deflection Field II",4680,11484,332,"R.A.M.- Shield Tech",2
+"Kinetic Deflection Field II",4680,11558,334,"Sustained Shield Emitter",24
+"EM Ward Field II",4680,40,18,Megacyte,3
+"EM Ward Field II",4680,9838,1034,Superconductors,9
+"EM Ward Field II",4680,11399,18,Morphite,8
+"EM Ward Field II",4680,11484,332,"R.A.M.- Shield Tech",2
+"EM Ward Field II",4680,11557,334,"Linear Shield Emitter",24
+"Thermic Dissipation Field II",4680,40,18,Megacyte,3
+"Thermic Dissipation Field II",4680,9838,1034,Superconductors,9
+"Thermic Dissipation Field II",4680,11399,18,Morphite,8
+"Thermic Dissipation Field II",4680,11484,332,"R.A.M.- Shield Tech",2
+"Thermic Dissipation Field II",4680,11556,334,"Pulse Shield Emitter",24
+"Survey Scanner II",4680,35,18,Pyerite,146
+"Survey Scanner II",4680,9840,1034,Transmitter,2
+"Survey Scanner II",4680,9842,1034,"Miniature Electronics",3
+"Survey Scanner II",4680,11399,18,Morphite,2
+"Survey Scanner II",4680,11483,332,"R.A.M.- Electronics",2
+"Survey Scanner II",4680,11539,334,"Nanoelectrical Microprocessor",5
+"Passive Targeter II",4680,35,18,Pyerite,200
+"Passive Targeter II",4680,36,18,Mexallon,3
+"Passive Targeter II",4680,37,18,Isogen,2
+"Passive Targeter II",4680,38,18,Nocxium,2
+"Passive Targeter II",4680,39,18,Zydrine,1
+"Passive Targeter II",4680,9840,1034,Transmitter,6
+"Passive Targeter II",4680,9842,1034,"Miniature Electronics",4
+"Passive Targeter II",4680,11399,18,Morphite,2
+"Passive Targeter II",4680,11483,332,"R.A.M.- Electronics",2
+"Passive Targeter II",4680,11536,334,"Ladar Sensor Cluster",2
+"Passive Targeter II",4680,11538,334,"Nanomechanical Microprocessor",5
+"Small Hull Repairer II",2340,9848,1040,Robotics,2
+"Small Hull Repairer II",2340,11399,18,Morphite,2
+"Small Hull Repairer II",2340,11475,332,"R.A.M.- Armor/Hull Tech",2
+"Small Hull Repairer II",2340,11538,334,"Nanomechanical Microprocessor",2
+"Light Missile Launcher II",2340,9848,1040,Robotics,2
+"Light Missile Launcher II",2340,11399,18,Morphite,3
+"Light Missile Launcher II",2340,11486,332,"R.A.M.- Weapon Tech",2
+"Light Missile Launcher II",2340,11540,334,"Quantum Microprocessor",6
+"Heavy Missile Launcher II",4680,9848,1040,Robotics,4
+"Heavy Missile Launcher II",4680,11399,18,Morphite,6
+"Heavy Missile Launcher II",4680,11486,332,"R.A.M.- Weapon Tech",2
+"Heavy Missile Launcher II",4680,11540,334,"Quantum Microprocessor",3
+"Torpedo Launcher II",7020,9848,1040,Robotics,18
+"Torpedo Launcher II",7020,11399,18,Morphite,24
+"Torpedo Launcher II",7020,11486,332,"R.A.M.- Weapon Tech",2
+"Torpedo Launcher II",7020,11540,334,"Quantum Microprocessor",24
+"Wasp II",4500,9834,1040,"Guidance Systems",4
+"Wasp II",4500,9848,1040,Robotics,4
+"Wasp II",4500,11399,18,Morphite,6
+"Wasp II",4500,11481,332,"R.A.M.- Robotics",2
+"Wasp II",4500,11690,334,"Superconductor Rails",2
+"Ogre II",4500,9834,1040,"Guidance Systems",4
+"Ogre II",4500,9848,1040,Robotics,4
+"Ogre II",4500,11399,18,Morphite,6
+"Ogre II",4500,11481,332,"R.A.M.- Robotics",2
+"Ogre II",4500,11688,334,"Particle Accelerator Unit",2
+"Hobgoblin II",1500,9834,1040,"Guidance Systems",1
+"Hobgoblin II",1500,9848,1040,Robotics,1
+"Hobgoblin II",1500,11399,18,Morphite,2
+"Hobgoblin II",1500,11481,332,"R.A.M.- Robotics",2
+"Hobgoblin II",1500,11688,334,"Particle Accelerator Unit",1
+"Hornet II",1500,9834,1040,"Guidance Systems",1
+"Hornet II",1500,9848,1040,Robotics,1
+"Hornet II",1500,11399,18,Morphite,2
+"Hornet II",1500,11481,332,"R.A.M.- Robotics",2
+"Hornet II",1500,11690,334,"Superconductor Rails",1
+"Berserker II",4500,9834,1040,"Guidance Systems",4
+"Berserker II",4500,9848,1040,Robotics,4
+"Berserker II",4500,11399,18,Morphite,6
+"Berserker II",4500,11481,332,"R.A.M.- Robotics",2
+"Berserker II",4500,11691,334,"Thermonuclear Trigger Unit",2
+"Warrior II",1500,9834,1040,"Guidance Systems",1
+"Warrior II",1500,9848,1040,Robotics,1
+"Warrior II",1500,11399,18,Morphite,2
+"Warrior II",1500,11481,332,"R.A.M.- Robotics",2
+"Warrior II",1500,11691,334,"Thermonuclear Trigger Unit",1
+"Explosive Deflection Amplifier II",4680,37,18,Isogen,11
+"Explosive Deflection Amplifier II",4680,9838,1034,Superconductors,6
+"Explosive Deflection Amplifier II",4680,11399,18,Morphite,5
+"Explosive Deflection Amplifier II",4680,11484,332,"R.A.M.- Shield Tech",2
+"Explosive Deflection Amplifier II",4680,11555,334,"Deflection Shield Emitter",8
+"Thermic Dissipation Amplifier II",4680,37,18,Isogen,11
+"Thermic Dissipation Amplifier II",4680,9838,1034,Superconductors,6
+"Thermic Dissipation Amplifier II",4680,11399,18,Morphite,5
+"Thermic Dissipation Amplifier II",4680,11484,332,"R.A.M.- Shield Tech",2
+"Thermic Dissipation Amplifier II",4680,11556,334,"Pulse Shield Emitter",8
+"Kinetic Deflection Amplifier II",4680,37,18,Isogen,11
+"Kinetic Deflection Amplifier II",4680,9838,1034,Superconductors,6
+"Kinetic Deflection Amplifier II",4680,11399,18,Morphite,5
+"Kinetic Deflection Amplifier II",4680,11484,332,"R.A.M.- Shield Tech",2
+"Kinetic Deflection Amplifier II",4680,11557,334,"Linear Shield Emitter",8
+"EM Ward Amplifier II",4680,37,18,Isogen,11
+"EM Ward Amplifier II",4680,9838,1034,Superconductors,6
+"EM Ward Amplifier II",4680,11399,18,Morphite,5
+"EM Ward Amplifier II",4680,11484,332,"R.A.M.- Shield Tech",2
+"EM Ward Amplifier II",4680,11558,334,"Sustained Shield Emitter",8
+"Nanofiber Internal Structure II",2340,3828,1034,"Construction Blocks",8
+"Nanofiber Internal Structure II",2340,11399,18,Morphite,2
+"Nanofiber Internal Structure II",2340,11475,332,"R.A.M.- Armor/Hull Tech",2
+"Mjolnir Fury Light Missile",4800,34,18,Tritanium,3324
+"Mjolnir Fury Light Missile",4800,36,18,Mexallon,22
+"Mjolnir Fury Light Missile",4800,37,18,Isogen,33
+"Mjolnir Fury Light Missile",4800,40,18,Megacyte,4
+"Mjolnir Fury Light Missile",4800,9830,1034,"Rocket Fuel",12
+"Mjolnir Fury Light Missile",4800,11399,18,Morphite,2
+"Mjolnir Fury Light Missile",4800,11476,332,"R.A.M.- Ammunition Tech",2
+"Mjolnir Fury Light Missile",4800,11694,334,"EM Pulse Generator",3
+"Mjolnir Fury Light Missile",4800,16680,429,"Phenolic Composites",12
+"Inferno Fury Cruise Missile",14400,34,18,Tritanium,22311
+"Inferno Fury Cruise Missile",14400,36,18,Mexallon,333
+"Inferno Fury Cruise Missile",14400,38,18,Nocxium,78
+"Inferno Fury Cruise Missile",14400,40,18,Megacyte,39
+"Inferno Fury Cruise Missile",14400,9830,1034,"Rocket Fuel",129
+"Inferno Fury Cruise Missile",14400,11399,18,Morphite,15
+"Inferno Fury Cruise Missile",14400,11476,332,"R.A.M.- Ammunition Tech",2
+"Inferno Fury Cruise Missile",14400,11695,334,"Plasma Pulse Generator",14
+"Inferno Fury Cruise Missile",14400,16680,429,"Phenolic Composites",59
+"Scourge Fury Heavy Missile",9600,34,18,Tritanium,11236
+"Scourge Fury Heavy Missile",9600,38,18,Nocxium,24
+"Scourge Fury Heavy Missile",9600,39,18,Zydrine,21
+"Scourge Fury Heavy Missile",9600,40,18,Megacyte,33
+"Scourge Fury Heavy Missile",9600,9830,1034,"Rocket Fuel",126
+"Scourge Fury Heavy Missile",9600,11399,18,Morphite,8
+"Scourge Fury Heavy Missile",9600,11476,332,"R.A.M.- Ammunition Tech",2
+"Scourge Fury Heavy Missile",9600,11693,334,"Graviton Pulse Generator",14
+"Scourge Fury Heavy Missile",9600,16680,429,"Phenolic Composites",18
+"Inferno Precision Cruise Missile",14400,34,18,Tritanium,22311
+"Inferno Precision Cruise Missile",14400,36,18,Mexallon,333
+"Inferno Precision Cruise Missile",14400,38,18,Nocxium,78
+"Inferno Precision Cruise Missile",14400,40,18,Megacyte,39
+"Inferno Precision Cruise Missile",14400,9830,1034,"Rocket Fuel",129
+"Inferno Precision Cruise Missile",14400,11399,18,Morphite,15
+"Inferno Precision Cruise Missile",14400,11476,332,"R.A.M.- Ammunition Tech",2
+"Inferno Precision Cruise Missile",14400,11695,334,"Plasma Pulse Generator",14
+"Inferno Precision Cruise Missile",14400,16680,429,"Phenolic Composites",59
+"Inferno Precision Light Missile",4800,34,18,Tritanium,3324
+"Inferno Precision Light Missile",4800,36,18,Mexallon,22
+"Inferno Precision Light Missile",4800,37,18,Isogen,33
+"Inferno Precision Light Missile",4800,40,18,Megacyte,4
+"Inferno Precision Light Missile",4800,9830,1034,"Rocket Fuel",12
+"Inferno Precision Light Missile",4800,11399,18,Morphite,2
+"Inferno Precision Light Missile",4800,11476,332,"R.A.M.- Ammunition Tech",2
+"Inferno Precision Light Missile",4800,11695,334,"Plasma Pulse Generator",3
+"Inferno Precision Light Missile",4800,16680,429,"Phenolic Composites",12
+"Nova Precision Heavy Missile",9600,34,18,Tritanium,11236
+"Nova Precision Heavy Missile",9600,38,18,Nocxium,24
+"Nova Precision Heavy Missile",9600,39,18,Zydrine,21
+"Nova Precision Heavy Missile",9600,40,18,Megacyte,33
+"Nova Precision Heavy Missile",9600,9830,1034,"Rocket Fuel",126
+"Nova Precision Heavy Missile",9600,11399,18,Morphite,8
+"Nova Precision Heavy Missile",9600,11476,332,"R.A.M.- Ammunition Tech",2
+"Nova Precision Heavy Missile",9600,11692,334,"Nuclear Pulse Generator",14
+"Nova Precision Heavy Missile",9600,16680,429,"Phenolic Composites",18
+"Scourge Rage Heavy Assault Missile",9600,34,18,Tritanium,3524
+"Scourge Rage Heavy Assault Missile",9600,36,18,Mexallon,33
+"Scourge Rage Heavy Assault Missile",9600,37,18,Isogen,13
+"Scourge Rage Heavy Assault Missile",9600,39,18,Zydrine,1
+"Scourge Rage Heavy Assault Missile",9600,40,18,Megacyte,8
+"Scourge Rage Heavy Assault Missile",9600,9830,1034,"Rocket Fuel",12
+"Scourge Rage Heavy Assault Missile",9600,11399,18,Morphite,2
+"Scourge Rage Heavy Assault Missile",9600,11476,332,"R.A.M.- Ammunition Tech",2
+"Scourge Rage Heavy Assault Missile",9600,11693,334,"Graviton Pulse Generator",3
+"Scourge Rage Heavy Assault Missile",9600,16680,429,"Phenolic Composites",12
+"Nova Javelin Torpedo",14400,34,18,Tritanium,32800
+"Nova Javelin Torpedo",14400,36,18,Mexallon,556
+"Nova Javelin Torpedo",14400,40,18,Megacyte,56
+"Nova Javelin Torpedo",14400,9830,1034,"Rocket Fuel",437
+"Nova Javelin Torpedo",14400,11399,18,Morphite,30
+"Nova Javelin Torpedo",14400,11476,332,"R.A.M.- Ammunition Tech",2
+"Nova Javelin Torpedo",14400,11692,334,"Nuclear Pulse Generator",30
+"Nova Javelin Torpedo",14400,16680,429,"Phenolic Composites",132
+"Inferno Rage Torpedo",14400,34,18,Tritanium,32800
+"Inferno Rage Torpedo",14400,36,18,Mexallon,556
+"Inferno Rage Torpedo",14400,40,18,Megacyte,56
+"Inferno Rage Torpedo",14400,9830,1034,"Rocket Fuel",437
+"Inferno Rage Torpedo",14400,11399,18,Morphite,30
+"Inferno Rage Torpedo",14400,11476,332,"R.A.M.- Ammunition Tech",2
+"Inferno Rage Torpedo",14400,11695,334,"Plasma Pulse Generator",30
+"Inferno Rage Torpedo",14400,16680,429,"Phenolic Composites",132
+"Mjolnir Rage Rocket",4800,34,18,Tritanium,2711
+"Mjolnir Rage Rocket",4800,35,18,Pyerite,33
+"Mjolnir Rage Rocket",4800,36,18,Mexallon,22
+"Mjolnir Rage Rocket",4800,37,18,Isogen,11
+"Mjolnir Rage Rocket",4800,40,18,Megacyte,1
+"Mjolnir Rage Rocket",4800,9830,1034,"Rocket Fuel",8
+"Mjolnir Rage Rocket",4800,11399,18,Morphite,2
+"Mjolnir Rage Rocket",4800,11476,332,"R.A.M.- Ammunition Tech",2
+"Mjolnir Rage Rocket",4800,11694,334,"EM Pulse Generator",2
+"Mjolnir Rage Rocket",4800,16672,429,"Tungsten Carbide",45
+"Mjolnir Rage Rocket",4800,16680,429,"Phenolic Composites",5
+"1200mm Artillery Cannon II",7020,9848,1040,Robotics,10
+"1200mm Artillery Cannon II",7020,11399,18,Morphite,36
+"1200mm Artillery Cannon II",7020,11486,332,"R.A.M.- Weapon Tech",2
+"1200mm Artillery Cannon II",7020,11691,334,"Thermonuclear Trigger Unit",26
+"125mm Gatling AutoCannon II",7020,9848,1040,Robotics,1
+"125mm Gatling AutoCannon II",7020,11399,18,Morphite,2
+"125mm Gatling AutoCannon II",7020,11486,332,"R.A.M.- Weapon Tech",2
+"125mm Gatling AutoCannon II",7020,11691,334,"Thermonuclear Trigger Unit",3
+"200mm AutoCannon II",2340,9848,1040,Robotics,1
+"200mm AutoCannon II",2340,11399,18,Morphite,5
+"200mm AutoCannon II",2340,11486,332,"R.A.M.- Weapon Tech",2
+"200mm AutoCannon II",2340,11691,334,"Thermonuclear Trigger Unit",6
+"220mm Vulcan AutoCannon II",4680,9848,1040,Robotics,3
+"220mm Vulcan AutoCannon II",4680,11399,18,Morphite,15
+"220mm Vulcan AutoCannon II",4680,11486,332,"R.A.M.- Weapon Tech",2
+"220mm Vulcan AutoCannon II",4680,11691,334,"Thermonuclear Trigger Unit",11
+"250mm Light Artillery Cannon II",2340,9848,1040,Robotics,1
+"250mm Light Artillery Cannon II",2340,11399,18,Morphite,6
+"250mm Light Artillery Cannon II",2340,11486,332,"R.A.M.- Weapon Tech",2
+"250mm Light Artillery Cannon II",2340,11691,334,"Thermonuclear Trigger Unit",7
+"425mm AutoCannon II",4680,9848,1040,Robotics,3
+"425mm AutoCannon II",4680,11399,18,Morphite,17
+"425mm AutoCannon II",4680,11486,332,"R.A.M.- Weapon Tech",2
+"425mm AutoCannon II",4680,11691,334,"Thermonuclear Trigger Unit",12
+"650mm Artillery Cannon II",4680,9848,1040,Robotics,3
+"650mm Artillery Cannon II",4680,11399,18,Morphite,18
+"650mm Artillery Cannon II",4680,11486,332,"R.A.M.- Weapon Tech",2
+"650mm Artillery Cannon II",4680,11691,334,"Thermonuclear Trigger Unit",13
+"Dual 180mm AutoCannon II",4680,9848,1040,Robotics,3
+"Dual 180mm AutoCannon II",4680,11399,18,Morphite,14
+"Dual 180mm AutoCannon II",4680,11486,332,"R.A.M.- Weapon Tech",2
+"Dual 180mm AutoCannon II",4680,11691,334,"Thermonuclear Trigger Unit",10
+"Dual 425mm AutoCannon II",7020,9848,1040,Robotics,10
+"Dual 425mm AutoCannon II",7020,11399,18,Morphite,32
+"Dual 425mm AutoCannon II",7020,11486,332,"R.A.M.- Weapon Tech",2
+"Dual 425mm AutoCannon II",7020,11691,334,"Thermonuclear Trigger Unit",22
+"Dual 650mm Repeating Cannon II",7020,9848,1040,Robotics,10
+"Dual 650mm Repeating Cannon II",7020,11399,18,Morphite,33
+"Dual 650mm Repeating Cannon II",7020,11486,332,"R.A.M.- Weapon Tech",2
+"Dual 650mm Repeating Cannon II",7020,11691,334,"Thermonuclear Trigger Unit",23
+"1400mm Howitzer Artillery II",7020,9848,1040,Robotics,10
+"1400mm Howitzer Artillery II",7020,11399,18,Morphite,38
+"1400mm Howitzer Artillery II",7020,11486,332,"R.A.M.- Weapon Tech",2
+"1400mm Howitzer Artillery II",7020,11691,334,"Thermonuclear Trigger Unit",27
+"720mm Howitzer Artillery II",4680,9848,1040,Robotics,3
+"720mm Howitzer Artillery II",4680,11399,18,Morphite,20
+"720mm Howitzer Artillery II",4680,11486,332,"R.A.M.- Weapon Tech",2
+"720mm Howitzer Artillery II",4680,11691,334,"Thermonuclear Trigger Unit",14
+"280mm Howitzer Artillery II",2340,9848,1040,Robotics,1
+"280mm Howitzer Artillery II",2340,11486,332,"R.A.M.- Weapon Tech",2
+"280mm Howitzer Artillery II",2340,11691,334,"Thermonuclear Trigger Unit",8
+"Dual Heavy Beam Laser II",7020,40,18,Megacyte,1
+"Dual Heavy Beam Laser II",7020,9848,1040,Robotics,10
+"Dual Heavy Beam Laser II",7020,11399,18,Morphite,33
+"Dual Heavy Beam Laser II",7020,11486,332,"R.A.M.- Weapon Tech",2
+"Dual Heavy Beam Laser II",7020,11689,334,"Laser Focusing Crystals",23
+"Dual Light Beam Laser II",2340,9848,1040,Robotics,1
+"Dual Light Beam Laser II",2340,11399,18,Morphite,5
+"Dual Light Beam Laser II",2340,11486,332,"R.A.M.- Weapon Tech",2
+"Dual Light Beam Laser II",2340,11689,334,"Laser Focusing Crystals",6
+"Dual Light Pulse Laser II",2340,9848,1040,Robotics,1
+"Dual Light Pulse Laser II",2340,11399,18,Morphite,3
+"Dual Light Pulse Laser II",2340,11486,332,"R.A.M.- Weapon Tech",2
+"Dual Light Pulse Laser II",2340,11689,334,"Laser Focusing Crystals",4
+"Focused Medium Beam Laser II",4680,9848,1040,Robotics,3
+"Focused Medium Beam Laser II",4680,11399,18,Morphite,17
+"Focused Medium Beam Laser II",4680,11486,332,"R.A.M.- Weapon Tech",2
+"Focused Medium Beam Laser II",4680,11689,334,"Laser Focusing Crystals",12
+"Gatling Pulse Laser II",2340,9848,1040,Robotics,3
+"Gatling Pulse Laser II",2340,11399,18,Morphite,2
+"Gatling Pulse Laser II",2340,11486,332,"R.A.M.- Weapon Tech",2
+"Gatling Pulse Laser II",2340,11689,334,"Laser Focusing Crystals",3
+"Heavy Beam Laser II",4680,9848,1040,Robotics,3
+"Heavy Beam Laser II",4680,11399,18,Morphite,20
+"Heavy Beam Laser II",4680,11486,332,"R.A.M.- Weapon Tech",2
+"Heavy Beam Laser II",4680,11689,334,"Laser Focusing Crystals",14
+"Small Focused Beam Laser II",2340,9848,1040,Robotics,1
+"Small Focused Beam Laser II",2340,11399,18,Morphite,8
+"Small Focused Beam Laser II",2340,11486,332,"R.A.M.- Weapon Tech",2
+"Small Focused Beam Laser II",2340,11689,334,"Laser Focusing Crystals",8
+"Small Focused Pulse Laser II",2340,9848,1040,Robotics,1
+"Small Focused Pulse Laser II",2340,11399,18,Morphite,6
+"Small Focused Pulse Laser II",2340,11486,332,"R.A.M.- Weapon Tech",2
+"Small Focused Pulse Laser II",2340,11689,334,"Laser Focusing Crystals",7
+"Mega Beam Laser II",7020,9848,1040,Robotics,10
+"Mega Beam Laser II",7020,11399,18,Morphite,36
+"Mega Beam Laser II",7020,11486,332,"R.A.M.- Weapon Tech",2
+"Mega Beam Laser II",7020,11689,334,"Laser Focusing Crystals",26
+"Mega Pulse Laser II",7020,9848,1040,Robotics,10
+"Mega Pulse Laser II",7020,11399,18,Morphite,35
+"Mega Pulse Laser II",7020,11486,332,"R.A.M.- Weapon Tech",2
+"Mega Pulse Laser II",7020,11689,334,"Laser Focusing Crystals",24
+"Tachyon Beam Laser II",7020,9848,1040,Robotics,10
+"Tachyon Beam Laser II",7020,11399,18,Morphite,38
+"Tachyon Beam Laser II",7020,11486,332,"R.A.M.- Weapon Tech",2
+"Tachyon Beam Laser II",7020,11689,334,"Laser Focusing Crystals",27
+"150mm Railgun II",2340,9848,1040,Robotics,1
+"150mm Railgun II",2340,11399,18,Morphite,8
+"150mm Railgun II",2340,11486,332,"R.A.M.- Weapon Tech",2
+"150mm Railgun II",2340,11690,334,"Superconductor Rails",8
+"250mm Railgun II",4680,9848,1040,Robotics,3
+"250mm Railgun II",4680,11399,18,Morphite,20
+"250mm Railgun II",4680,11486,332,"R.A.M.- Weapon Tech",2
+"250mm Railgun II",4680,11690,334,"Superconductor Rails",14
+"425mm Railgun II",7020,9848,1040,Robotics,10
+"425mm Railgun II",7020,11399,18,Morphite,38
+"425mm Railgun II",7020,11486,332,"R.A.M.- Weapon Tech",2
+"425mm Railgun II",7020,11690,334,"Superconductor Rails",27
+"75mm Gatling Rail II",2340,9848,1040,Robotics,1
+"75mm Gatling Rail II",2340,11399,18,Morphite,2
+"75mm Gatling Rail II",2340,11486,332,"R.A.M.- Weapon Tech",2
+"75mm Gatling Rail II",2340,11690,334,"Superconductor Rails",3
+"Dual 150mm Railgun II",4680,9848,1040,Robotics,3
+"Dual 150mm Railgun II",4680,11399,18,Morphite,15
+"Dual 150mm Railgun II",4680,11486,332,"R.A.M.- Weapon Tech",2
+"Dual 150mm Railgun II",4680,11690,334,"Superconductor Rails",11
+"Dual 250mm Railgun II",7020,9848,1040,Robotics,10
+"Dual 250mm Railgun II",7020,11399,18,Morphite,33
+"Dual 250mm Railgun II",7020,11486,332,"R.A.M.- Weapon Tech",2
+"Dual 250mm Railgun II",7020,11690,334,"Superconductor Rails",23
+"Electron Blaster Cannon II",7020,9848,1040,Robotics,10
+"Electron Blaster Cannon II",7020,11399,18,Morphite,32
+"Electron Blaster Cannon II",7020,11486,332,"R.A.M.- Weapon Tech",2
+"Electron Blaster Cannon II",7020,11688,334,"Particle Accelerator Unit",22
+"Heavy Electron Blaster II",4680,9848,1040,Robotics,3
+"Heavy Electron Blaster II",4680,11399,18,Morphite,14
+"Heavy Electron Blaster II",4680,11486,332,"R.A.M.- Weapon Tech",2
+"Heavy Electron Blaster II",4680,11688,334,"Particle Accelerator Unit",10
+"Heavy Ion Blaster II",4680,9848,1040,Robotics,3
+"Heavy Ion Blaster II",4680,11399,18,Morphite,17
+"Heavy Ion Blaster II",4680,11486,332,"R.A.M.- Weapon Tech",2
+"Heavy Ion Blaster II",4680,11688,334,"Particle Accelerator Unit",12
+"Heavy Neutron Blaster II",4680,9848,1040,Robotics,3
+"Heavy Neutron Blaster II",4680,11399,18,Morphite,18
+"Heavy Neutron Blaster II",4680,11486,332,"R.A.M.- Weapon Tech",2
+"Heavy Neutron Blaster II",4680,11688,334,"Particle Accelerator Unit",13
+"Ion Blaster Cannon II",7020,9848,1040,Robotics,10
+"Ion Blaster Cannon II",7020,11399,18,Morphite,33
+"Ion Blaster Cannon II",7020,11486,332,"R.A.M.- Weapon Tech",2
+"Ion Blaster Cannon II",7020,11688,334,"Particle Accelerator Unit",24
+"Light Electron Blaster II",2340,9848,1040,Robotics,1
+"Light Electron Blaster II",2340,11399,18,Morphite,3
+"Light Electron Blaster II",2340,11486,332,"R.A.M.- Weapon Tech",2
+"Light Electron Blaster II",2340,11688,334,"Particle Accelerator Unit",4
+"Light Ion Blaster II",2340,9848,1040,Robotics,1
+"Light Ion Blaster II",2340,11399,18,Morphite,5
+"Light Ion Blaster II",2340,11486,332,"R.A.M.- Weapon Tech",2
+"Light Ion Blaster II",2340,11688,334,"Particle Accelerator Unit",6
+"Light Neutron Blaster II",2340,9848,1040,Robotics,1
+"Light Neutron Blaster II",2340,11399,18,Morphite,6
+"Light Neutron Blaster II",2340,11486,332,"R.A.M.- Weapon Tech",2
+"Light Neutron Blaster II",2340,11688,334,"Particle Accelerator Unit",7
+"Neutron Blaster Cannon II",7020,9848,1040,Robotics,10
+"Neutron Blaster Cannon II",7020,11399,18,Morphite,15
+"Neutron Blaster Cannon II",7020,11486,332,"R.A.M.- Weapon Tech",2
+"Neutron Blaster Cannon II",7020,11688,334,"Particle Accelerator Unit",26
+"Warp Disruptor II",4680,9840,1034,Transmitter,11
+"Warp Disruptor II",4680,9842,1034,"Miniature Electronics",6
+"Warp Disruptor II",4680,11399,18,Morphite,8
+"Warp Disruptor II",4680,11483,332,"R.A.M.- Electronics",2
+"Warp Disruptor II",4680,11534,334,"Gravimetric Sensor Cluster",6
+"Warp Disruptor II",4680,11540,334,"Quantum Microprocessor",5
+"Quad Light Beam Laser II",4680,9848,1040,Robotics,3
+"Quad Light Beam Laser II",4680,11399,18,Morphite,14
+"Quad Light Beam Laser II",4680,11486,332,"R.A.M.- Weapon Tech",2
+"Quad Light Beam Laser II",4680,11689,334,"Laser Focusing Crystals",10
+"Small Capacitor Battery II",2340,9838,1034,Superconductors,3
+"Small Capacitor Battery II",2340,11399,18,Morphite,3
+"Small Capacitor Battery II",2340,11482,332,"R.A.M.- Energy Tech",2
+"Small Capacitor Battery II",2340,11539,334,"Nanoelectrical Microprocessor",3
+"Small Capacitor Battery II",2340,11554,334,"Tesseract Capacitor Unit",3
+"Medium Capacitor Battery II",4680,9838,1034,Superconductors,5
+"Medium Capacitor Battery II",4680,11399,18,Morphite,5
+"Medium Capacitor Battery II",4680,11482,332,"R.A.M.- Energy Tech",2
+"Medium Capacitor Battery II",4680,11539,334,"Nanoelectrical Microprocessor",5
+"Medium Capacitor Battery II",4680,11554,334,"Tesseract Capacitor Unit",6
+"Large Capacitor Battery II",4680,9838,1034,Superconductors,6
+"Large Capacitor Battery II",4680,11399,18,Morphite,6
+"Large Capacitor Battery II",4680,11482,332,"R.A.M.- Energy Tech",2
+"Large Capacitor Battery II",4680,11539,334,"Nanoelectrical Microprocessor",6
+"Large Capacitor Battery II",4680,11554,334,"Tesseract Capacitor Unit",12
+"Focused Medium Pulse Laser II",4680,9848,1040,Robotics,3
+"Focused Medium Pulse Laser II",4680,11399,18,Morphite,15
+"Focused Medium Pulse Laser II",4680,11486,332,"R.A.M.- Weapon Tech",2
+"Focused Medium Pulse Laser II",4680,11689,334,"Laser Focusing Crystals",11
+"Heavy Pulse Laser II",4680,9848,1040,Robotics,3
+"Heavy Pulse Laser II",4680,11399,18,Morphite,17
+"Heavy Pulse Laser II",4680,11486,332,"R.A.M.- Weapon Tech",2
+"Heavy Pulse Laser II",4680,11689,334,"Laser Focusing Crystals",13
+"Medium Armor Repairer II",4680,9848,1040,Robotics,4
+"Medium Armor Repairer II",4680,11399,18,Morphite,5
+"Medium Armor Repairer II",4680,11475,332,"R.A.M.- Armor/Hull Tech",2
+"Medium Armor Repairer II",4680,11539,334,"Nanoelectrical Microprocessor",3
+"Large Armor Repairer II",7020,9848,1040,Robotics,9
+"Large Armor Repairer II",7020,11399,18,Morphite,8
+"Large Armor Repairer II",7020,11475,332,"R.A.M.- Armor/Hull Tech",2
+"Large Armor Repairer II",7020,11539,334,"Nanoelectrical Microprocessor",6
+"Small Capacitor Booster II",2340,9838,1034,Superconductors,6
+"Small Capacitor Booster II",2340,11399,18,Morphite,3
+"Small Capacitor Booster II",2340,11482,332,"R.A.M.- Energy Tech",2
+"Small Capacitor Booster II",2340,11539,334,"Nanoelectrical Microprocessor",3
+"Small Capacitor Booster II",2340,11554,334,"Tesseract Capacitor Unit",3
+"Heavy Capacitor Booster II",7020,39,18,Zydrine,1
+"Heavy Capacitor Booster II",7020,40,18,Megacyte,1
+"Heavy Capacitor Booster II",7020,9838,1034,Superconductors,24
+"Heavy Capacitor Booster II",7020,11399,18,Morphite,6
+"Heavy Capacitor Booster II",7020,11482,332,"R.A.M.- Energy Tech",2
+"Heavy Capacitor Booster II",7020,11539,334,"Nanoelectrical Microprocessor",6
+"Heavy Capacitor Booster II",7020,11554,334,"Tesseract Capacitor Unit",12
+"Small Remote Shield Booster II",2340,9840,1034,Transmitter,2
+"Small Remote Shield Booster II",2340,11399,18,Morphite,2
+"Small Remote Shield Booster II",2340,11484,332,"R.A.M.- Shield Tech",2
+"Small Remote Shield Booster II",2340,11557,334,"Linear Shield Emitter",3
+"Medium Remote Shield Booster II",4680,9840,1034,Transmitter,4
+"Medium Remote Shield Booster II",4680,11399,18,Morphite,3
+"Medium Remote Shield Booster II",4680,11484,332,"R.A.M.- Shield Tech",2
+"Medium Remote Shield Booster II",4680,11557,334,"Linear Shield Emitter",6
+"Large Remote Shield Booster II",4680,9840,1034,Transmitter,9
+"Large Remote Shield Booster II",4680,11399,18,Morphite,5
+"Large Remote Shield Booster II",4680,11484,332,"R.A.M.- Shield Tech",2
+"Large Remote Shield Booster II",4680,11557,334,"Linear Shield Emitter",12
+"Medium Hull Repairer II",4680,9848,1040,Robotics,4
+"Medium Hull Repairer II",4680,11399,18,Morphite,5
+"Medium Hull Repairer II",4680,11475,332,"R.A.M.- Armor/Hull Tech",2
+"Medium Hull Repairer II",4680,11538,334,"Nanomechanical Microprocessor",3
+"Large Hull Repairer II",4680,9848,1040,Robotics,9
+"Large Hull Repairer II",4680,11399,18,Morphite,8
+"Large Hull Repairer II",4680,11475,332,"R.A.M.- Armor/Hull Tech",2
+"Large Hull Repairer II",4680,11538,334,"Nanomechanical Microprocessor",6
+"Medium Shield Extender II",2340,38,18,Nocxium,4
+"Medium Shield Extender II",2340,3685,280,"Hydrogen Batteries",6
+"Medium Shield Extender II",2340,11399,18,Morphite,5
+"Medium Shield Extender II",2340,11484,332,"R.A.M.- Shield Tech",2
+"Medium Shield Extender II",2340,11558,334,"Sustained Shield Emitter",6
+"Large Shield Extender II",4680,38,18,Nocxium,4
+"Large Shield Extender II",4680,3685,280,"Hydrogen Batteries",12
+"Large Shield Extender II",4680,11399,18,Morphite,6
+"Large Shield Extender II",4680,11484,332,"R.A.M.- Shield Tech",2
+"Large Shield Extender II",4680,11558,334,"Sustained Shield Emitter",12
+"Medium Proton Smartbomb II",4680,11399,18,Morphite,6
+"Medium Proton Smartbomb II",4680,11482,332,"R.A.M.- Energy Tech",2
+"Medium Proton Smartbomb II",4680,11692,334,"Nuclear Pulse Generator",12
+"Medium Graviton Smartbomb II",4680,36,18,Mexallon,222
+"Medium Graviton Smartbomb II",4680,11399,18,Morphite,6
+"Medium Graviton Smartbomb II",4680,11482,332,"R.A.M.- Energy Tech",2
+"Medium Graviton Smartbomb II",4680,11693,334,"Graviton Pulse Generator",12
+"Medium Plasma Smartbomb II",4680,35,18,Pyerite,8000
+"Medium Plasma Smartbomb II",4680,39,18,Zydrine,9
+"Medium Plasma Smartbomb II",4680,11399,18,Morphite,6
+"Medium Plasma Smartbomb II",4680,11482,332,"R.A.M.- Energy Tech",2
+"Medium Plasma Smartbomb II",4680,11695,334,"Plasma Pulse Generator",12
+"Medium EMP Smartbomb II",4680,38,18,Nocxium,11
+"Medium EMP Smartbomb II",4680,11399,18,Morphite,6
+"Medium EMP Smartbomb II",4680,11482,332,"R.A.M.- Energy Tech",2
+"Medium EMP Smartbomb II",4680,11694,334,"EM Pulse Generator",12
+"Large Proton Smartbomb II",7020,11399,18,Morphite,12
+"Large Proton Smartbomb II",7020,11482,332,"R.A.M.- Energy Tech",2
+"Large Proton Smartbomb II",7020,11692,334,"Nuclear Pulse Generator",24
+"Large Graviton Smartbomb II",7020,36,18,Mexallon,444
+"Large Graviton Smartbomb II",7020,11399,18,Morphite,12
+"Large Graviton Smartbomb II",7020,11482,332,"R.A.M.- Energy Tech",2
+"Large Graviton Smartbomb II",7020,11693,334,"Graviton Pulse Generator",24
+"Large Plasma Smartbomb II",7020,11399,18,Morphite,12
+"Large Plasma Smartbomb II",7020,11482,332,"R.A.M.- Energy Tech",2
+"Large Plasma Smartbomb II",7020,11695,334,"Plasma Pulse Generator",24
+"Large Remote Hull Repairer II",7020,9848,1040,Robotics,19
+"Large Remote Hull Repairer II",7020,11399,18,Morphite,9
+"Large Remote Hull Repairer II",7020,11475,332,"R.A.M.- Armor/Hull Tech",2
+"Large Remote Hull Repairer II",7020,11538,334,"Nanomechanical Microprocessor",26
+"Large EMP Smartbomb II",7020,36,18,Mexallon,444
+"Large EMP Smartbomb II",7020,11399,18,Morphite,12
+"Large EMP Smartbomb II",7020,11482,332,"R.A.M.- Energy Tech",2
+"Large EMP Smartbomb II",7020,11694,334,"EM Pulse Generator",24
+"Dual Heavy Pulse Laser II",7020,9848,1040,Robotics,10
+"Dual Heavy Pulse Laser II",7020,11399,18,Morphite,32
+"Dual Heavy Pulse Laser II",7020,11486,332,"R.A.M.- Weapon Tech",2
+"Dual Heavy Pulse Laser II",7020,11689,334,"Laser Focusing Crystals",22
+"Warp Disruption Field Generator II",9360,9840,1034,Transmitter,22
+"Warp Disruption Field Generator II",9360,11399,18,Morphite,6
+"Warp Disruption Field Generator II",9360,11483,332,"R.A.M.- Electronics",2
+"Warp Disruption Field Generator II",9360,11536,334,"Ladar Sensor Cluster",30
+"Small Tractor Beam II",2340,9840,1034,Transmitter,9
+"Small Tractor Beam II",2340,11399,18,Morphite,2
+"Small Tractor Beam II",2340,11482,332,"R.A.M.- Energy Tech",2
+"Small Tractor Beam II",2340,11689,334,"Laser Focusing Crystals",9
+"Capital Tractor Beam II",93600,9840,1034,Transmitter,83
+"Capital Tractor Beam II",93600,11399,18,Morphite,41
+"Capital Tractor Beam II",93600,11482,332,"R.A.M.- Energy Tech",2
+"Capital Tractor Beam II",93600,11689,334,"Laser Focusing Crystals",83
+"Micro Auxiliary Power Core II",2340,9838,1034,Superconductors,6
+"Micro Auxiliary Power Core II",2340,11399,18,Morphite,2
+"Micro Auxiliary Power Core II",2340,11482,332,"R.A.M.- Energy Tech",2
+"Micro Auxiliary Power Core II",2340,11539,334,"Nanoelectrical Microprocessor",6
+"Bomb Launcher II",2340,9848,1040,Robotics,6
+"Bomb Launcher II",2340,11399,18,Morphite,2
+"Bomb Launcher II",2340,11486,332,"R.A.M.- Weapon Tech",2
+"Bomb Launcher II",2340,11540,334,"Quantum Microprocessor",8
+"Core Probe Launcher II",7020,9834,1040,"Guidance Systems",4
+"Core Probe Launcher II",7020,11399,18,Morphite,2
+"Core Probe Launcher II",7020,11483,332,"R.A.M.- Electronics",2
+"Core Probe Launcher II",7020,11540,334,"Quantum Microprocessor",6
+"Expanded Probe Launcher II",7020,9834,1040,"Guidance Systems",4
+"Expanded Probe Launcher II",7020,11399,18,Morphite,2
+"Expanded Probe Launcher II",7020,11483,332,"R.A.M.- Electronics",2
+"Expanded Probe Launcher II",7020,11540,334,"Quantum Microprocessor",6
+"Armored Warfare Link - Damage Control II",9360,9840,1034,Transmitter,9
+"Armored Warfare Link - Damage Control II",9360,11399,18,Morphite,5
+"Armored Warfare Link - Damage Control II",9360,11483,332,"R.A.M.- Electronics",2
+"Armored Warfare Link - Damage Control II",9360,11539,334,"Nanoelectrical Microprocessor",12
+"Armored Warfare Link - Damage Control II",9360,16681,429,Nanotransistors,33
+"Armored Warfare Link - Damage Control II",9360,16682,429,"Hypersynaptic Fibers",17
+"Armored Warfare Link - Passive Defense II",9360,9840,1034,Transmitter,9
+"Armored Warfare Link - Passive Defense II",9360,11399,18,Morphite,5
+"Armored Warfare Link - Passive Defense II",9360,11483,332,"R.A.M.- Electronics",2
+"Armored Warfare Link - Passive Defense II",9360,11539,334,"Nanoelectrical Microprocessor",12
+"Armored Warfare Link - Passive Defense II",9360,16681,429,Nanotransistors,33
+"Armored Warfare Link - Passive Defense II",9360,16682,429,"Hypersynaptic Fibers",17
+"Armored Warfare Link - Rapid Repair II",9360,9840,1034,Transmitter,9
+"Armored Warfare Link - Rapid Repair II",9360,11399,18,Morphite,5
+"Armored Warfare Link - Rapid Repair II",9360,11483,332,"R.A.M.- Electronics",2
+"Armored Warfare Link - Rapid Repair II",9360,11539,334,"Nanoelectrical Microprocessor",12
+"Armored Warfare Link - Rapid Repair II",9360,16681,429,Nanotransistors,33
+"Armored Warfare Link - Rapid Repair II",9360,16682,429,"Hypersynaptic Fibers",17
+"Information Warfare Link - Electronic Superiority II",9360,9840,1034,Transmitter,9
+"Information Warfare Link - Electronic Superiority II",9360,11399,18,Morphite,5
+"Information Warfare Link - Electronic Superiority II",9360,11483,332,"R.A.M.- Electronics",2
+"Information Warfare Link - Electronic Superiority II",9360,11541,334,"Photon Microprocessor",12
+"Information Warfare Link - Electronic Superiority II",9360,16681,429,Nanotransistors,33
+"Information Warfare Link - Electronic Superiority II",9360,16682,429,"Hypersynaptic Fibers",17
+"Information Warfare Link - Recon Operation II",9360,9840,1034,Transmitter,9
+"Information Warfare Link - Recon Operation II",9360,11399,18,Morphite,5
+"Information Warfare Link - Recon Operation II",9360,11483,332,"R.A.M.- Electronics",2
+"Information Warfare Link - Recon Operation II",9360,11541,334,"Photon Microprocessor",12
+"Information Warfare Link - Recon Operation II",9360,16681,429,Nanotransistors,33
+"Information Warfare Link - Recon Operation II",9360,16682,429,"Hypersynaptic Fibers",17
+"Information Warfare Link - Sensor Integrity II",9360,9840,1034,Transmitter,9
+"Information Warfare Link - Sensor Integrity II",9360,11399,18,Morphite,5
+"Information Warfare Link - Sensor Integrity II",9360,11483,332,"R.A.M.- Electronics",2
+"Information Warfare Link - Sensor Integrity II",9360,11541,334,"Photon Microprocessor",12
+"Information Warfare Link - Sensor Integrity II",9360,16681,429,Nanotransistors,33
+"Information Warfare Link - Sensor Integrity II",9360,16682,429,"Hypersynaptic Fibers",17
+"Mining Foreman Link - Harvester Capacitor Efficiency II",9360,9840,1034,Transmitter,9
+"Mining Foreman Link - Harvester Capacitor Efficiency II",9360,11399,18,Morphite,5
+"Mining Foreman Link - Harvester Capacitor Efficiency II",9360,11483,332,"R.A.M.- Electronics",2
+"Mining Foreman Link - Harvester Capacitor Efficiency II",9360,11541,334,"Photon Microprocessor",12
+"Mining Foreman Link - Harvester Capacitor Efficiency II",9360,16681,429,Nanotransistors,33
+"Mining Foreman Link - Harvester Capacitor Efficiency II",9360,16682,429,"Hypersynaptic Fibers",17
+"Mining Foreman Link - Laser Optimization II",9360,9840,1034,Transmitter,9
+"Mining Foreman Link - Laser Optimization II",9360,11399,18,Morphite,5
+"Mining Foreman Link - Laser Optimization II",9360,11483,332,"R.A.M.- Electronics",2
+"Mining Foreman Link - Laser Optimization II",9360,11541,334,"Photon Microprocessor",12
+"Mining Foreman Link - Laser Optimization II",9360,16681,429,Nanotransistors,33
+"Mining Foreman Link - Laser Optimization II",9360,16682,429,"Hypersynaptic Fibers",17
+"Mining Foreman Link - Mining Laser Field Enhancement II",9360,9840,1034,Transmitter,9
+"Mining Foreman Link - Mining Laser Field Enhancement II",9360,11399,18,Morphite,5
+"Mining Foreman Link - Mining Laser Field Enhancement II",9360,11483,332,"R.A.M.- Electronics",2
+"Mining Foreman Link - Mining Laser Field Enhancement II",9360,11541,334,"Photon Microprocessor",12
+"Mining Foreman Link - Mining Laser Field Enhancement II",9360,16681,429,Nanotransistors,33
+"Mining Foreman Link - Mining Laser Field Enhancement II",9360,16682,429,"Hypersynaptic Fibers",17
+"Siege Warfare Link - Active Shielding II",9360,9840,1034,Transmitter,9
+"Siege Warfare Link - Active Shielding II",9360,11399,18,Morphite,5
+"Siege Warfare Link - Active Shielding II",9360,11483,332,"R.A.M.- Electronics",2
+"Siege Warfare Link - Active Shielding II",9360,11540,334,"Quantum Microprocessor",12
+"Siege Warfare Link - Active Shielding II",9360,16681,429,Nanotransistors,33
+"Siege Warfare Link - Active Shielding II",9360,16682,429,"Hypersynaptic Fibers",17
+"Siege Warfare Link - Shield Efficiency II",9360,9840,1034,Transmitter,9
+"Siege Warfare Link - Shield Efficiency II",9360,11399,18,Morphite,5
+"Siege Warfare Link - Shield Efficiency II",9360,11483,332,"R.A.M.- Electronics",2
+"Siege Warfare Link - Shield Efficiency II",9360,11540,334,"Quantum Microprocessor",12
+"Siege Warfare Link - Shield Efficiency II",9360,16681,429,Nanotransistors,33
+"Siege Warfare Link - Shield Efficiency II",9360,16682,429,"Hypersynaptic Fibers",17
+"Siege Warfare Link - Shield Harmonizing II",9360,9840,1034,Transmitter,9
+"Siege Warfare Link - Shield Harmonizing II",9360,11399,18,Morphite,5
+"Siege Warfare Link - Shield Harmonizing II",9360,11483,332,"R.A.M.- Electronics",2
+"Siege Warfare Link - Shield Harmonizing II",9360,11540,334,"Quantum Microprocessor",12
+"Siege Warfare Link - Shield Harmonizing II",9360,16681,429,Nanotransistors,33
+"Siege Warfare Link - Shield Harmonizing II",9360,16682,429,"Hypersynaptic Fibers",17
+"Skirmish Warfare Link - Evasive Maneuvers II",9360,9840,1034,Transmitter,9
+"Skirmish Warfare Link - Evasive Maneuvers II",9360,11399,18,Morphite,5
+"Skirmish Warfare Link - Evasive Maneuvers II",9360,11483,332,"R.A.M.- Electronics",2
+"Skirmish Warfare Link - Evasive Maneuvers II",9360,11538,334,"Nanomechanical Microprocessor",12
+"Skirmish Warfare Link - Evasive Maneuvers II",9360,16681,429,Nanotransistors,33
+"Skirmish Warfare Link - Evasive Maneuvers II",9360,16682,429,"Hypersynaptic Fibers",17
+"Skirmish Warfare Link - Interdiction Maneuvers II",9360,9840,1034,Transmitter,9
+"Skirmish Warfare Link - Interdiction Maneuvers II",9360,11399,18,Morphite,5
+"Skirmish Warfare Link - Interdiction Maneuvers II",9360,11483,332,"R.A.M.- Electronics",2
+"Skirmish Warfare Link - Interdiction Maneuvers II",9360,11538,334,"Nanomechanical Microprocessor",12
+"Skirmish Warfare Link - Interdiction Maneuvers II",9360,16681,429,Nanotransistors,33
+"Skirmish Warfare Link - Interdiction Maneuvers II",9360,16682,429,"Hypersynaptic Fibers",17
+"Skirmish Warfare Link - Rapid Deployment II",9360,9840,1034,Transmitter,9
+"Skirmish Warfare Link - Rapid Deployment II",9360,11399,18,Morphite,5
+"Skirmish Warfare Link - Rapid Deployment II",9360,11483,332,"R.A.M.- Electronics",2
+"Skirmish Warfare Link - Rapid Deployment II",9360,11538,334,"Nanomechanical Microprocessor",12
+"Skirmish Warfare Link - Rapid Deployment II",9360,16681,429,Nanotransistors,33
+"Skirmish Warfare Link - Rapid Deployment II",9360,16682,429,"Hypersynaptic Fibers",17
+"Siege Module II",140400,9842,1034,"Miniature Electronics",122
+"Siege Module II",140400,11399,18,Morphite,186
+"Siege Module II",140400,11483,332,"R.A.M.- Electronics",2
+"Siege Module II",140400,11540,334,"Quantum Microprocessor",165
+"Triage Module II",140400,9842,1034,"Miniature Electronics",122
+"Triage Module II",140400,11399,18,Morphite,191
+"Triage Module II",140400,11483,332,"R.A.M.- Electronics",2
+"Triage Module II",140400,11540,334,"Quantum Microprocessor",165
+"Medium Remote Hull Repairer II",4680,9848,1040,Robotics,9
+"Medium Remote Hull Repairer II",4680,11399,18,Morphite,5
+"Medium Remote Hull Repairer II",4680,11475,332,"R.A.M.- Armor/Hull Tech",2
+"Medium Remote Hull Repairer II",4680,11538,334,"Nanomechanical Microprocessor",12
+"Small Remote Hull Repairer II",2340,9848,1040,Robotics,4
+"Small Remote Hull Repairer II",2340,11399,18,Morphite,2
+"Small Remote Hull Repairer II",2340,11475,332,"R.A.M.- Armor/Hull Tech",2
+"Small Remote Hull Repairer II",2340,11538,334,"Nanomechanical Microprocessor",6
+"Drone Damage Amplifier II",2340,9840,1034,Transmitter,3
+"Drone Damage Amplifier II",2340,9842,1034,"Miniature Electronics",3
+"Drone Damage Amplifier II",2340,11399,18,Morphite,8
+"Drone Damage Amplifier II",2340,11483,332,"R.A.M.- Electronics",2
+"Drone Damage Amplifier II",2340,11541,334,"Photon Microprocessor",9
+"Magnetic Field Stabilizer II",2340,38,18,Nocxium,2
+"Magnetic Field Stabilizer II",2340,3689,1034,"Mechanical Parts",6
+"Magnetic Field Stabilizer II",2340,9842,1034,"Miniature Electronics",2
+"Magnetic Field Stabilizer II",2340,11399,18,Morphite,5
+"Magnetic Field Stabilizer II",2340,11483,332,"R.A.M.- Electronics",2
+"Magnetic Field Stabilizer II",2340,11540,334,"Quantum Microprocessor",8
+"Mining Drone II",1500,9848,1040,Robotics,3
+"Mining Drone II",1500,11399,18,Morphite,3
+"Mining Drone II",1500,11481,332,"R.A.M.- Robotics",2
+"Mining Drone II",1500,11541,334,"Photon Microprocessor",2
+"Mining Drone II",1500,11689,334,"Laser Focusing Crystals",1
+"Rocket Launcher II",2340,9848,1040,Robotics,1
+"Rocket Launcher II",2340,11399,18,Morphite,2
+"Rocket Launcher II",2340,11486,332,"R.A.M.- Weapon Tech",2
+"Rocket Launcher II",2340,11540,334,"Quantum Microprocessor",2
+"125mm Railgun II",2340,9848,1040,Robotics,1
+"125mm Railgun II",2340,11399,18,Morphite,5
+"125mm Railgun II",2340,11486,332,"R.A.M.- Weapon Tech",2
+"125mm Railgun II",2340,11690,334,"Superconductor Rails",6
+"X-Large Shield Booster II",7020,9838,1034,Superconductors,12
+"X-Large Shield Booster II",7020,11399,18,Morphite,9
+"X-Large Shield Booster II",7020,11484,332,"R.A.M.- Shield Tech",2
+"X-Large Shield Booster II",7020,11558,334,"Sustained Shield Emitter",29
+"Medium Shield Booster II",2340,9838,1034,Superconductors,3
+"Medium Shield Booster II",2340,11399,18,Morphite,3
+"Medium Shield Booster II",2340,11484,332,"R.A.M.- Shield Tech",2
+"Medium Shield Booster II",2340,11556,334,"Pulse Shield Emitter",6
+"Large Shield Booster II",4680,9838,1034,Superconductors,6
+"Large Shield Booster II",4680,11399,18,Morphite,6
+"Large Shield Booster II",4680,11484,332,"R.A.M.- Shield Tech",2
+"Large Shield Booster II",4680,11556,334,"Pulse Shield Emitter",14
+Helios,120000,3828,1034,"Construction Blocks",23
+Helios,120000,11399,18,Morphite,15
+Helios,120000,11478,332,"R.A.M.- Starship Tech",3
+Helios,120000,11531,334,"Ion Thruster",30
+Helios,120000,11535,334,"Magnetometric Sensor Cluster",68
+Helios,120000,11541,334,"Photon Microprocessor",165
+Helios,120000,11545,334,"Crystalline Carbonide Armor Plate",300
+Helios,120000,11547,334,"Fusion Reactor Unit",3
+Helios,120000,11553,334,"Oscillator Capacitor Unit",60
+Helios,120000,11556,334,"Pulse Shield Emitter",15
+Keres,120000,40,18,Megacyte,1
+Keres,120000,3828,1034,"Construction Blocks",23
+Keres,120000,11399,18,Morphite,15
+Keres,120000,11478,332,"R.A.M.- Starship Tech",6
+Keres,120000,11531,334,"Ion Thruster",30
+Keres,120000,11535,334,"Magnetometric Sensor Cluster",75
+Keres,120000,11541,334,"Photon Microprocessor",150
+Keres,120000,11545,334,"Crystalline Carbonide Armor Plate",375
+Keres,120000,11547,334,"Fusion Reactor Unit",3
+Keres,120000,11553,334,"Oscillator Capacitor Unit",75
+Keres,120000,11556,334,"Pulse Shield Emitter",15
+Crow,120000,40,18,Megacyte,11
+Crow,120000,3828,1034,"Construction Blocks",15
+Crow,120000,11399,18,Morphite,8
+Crow,120000,11478,332,"R.A.M.- Starship Tech",2
+Crow,120000,11533,334,"Magpulse Thruster",45
+Crow,120000,11534,334,"Gravimetric Sensor Cluster",30
+Crow,120000,11540,334,"Quantum Microprocessor",120
+Crow,120000,11544,334,"Titanium Diborite Armor Plate",450
+Crow,120000,11550,334,"Graviton Reactor Unit",5
+Crow,120000,11552,334,"Scalar Capacitor Unit",75
+Crow,120000,11558,334,"Sustained Shield Emitter",23
+Raptor,120000,40,18,Megacyte,13
+Raptor,120000,3828,1034,"Construction Blocks",15
+Raptor,120000,11399,18,Morphite,8
+Raptor,120000,11478,332,"R.A.M.- Starship Tech",2
+Raptor,120000,11533,334,"Magpulse Thruster",45
+Raptor,120000,11534,334,"Gravimetric Sensor Cluster",30
+Raptor,120000,11540,334,"Quantum Microprocessor",120
+Raptor,120000,11544,334,"Titanium Diborite Armor Plate",450
+Raptor,120000,11550,334,"Graviton Reactor Unit",5
+Raptor,120000,11552,334,"Scalar Capacitor Unit",75
+Raptor,120000,11558,334,"Sustained Shield Emitter",23
+Cheetah,120000,3828,1034,"Construction Blocks",23
+Cheetah,120000,11399,18,Morphite,15
+Cheetah,120000,11478,332,"R.A.M.- Starship Tech",3
+Cheetah,120000,11530,334,"Plasma Thruster",30
+Cheetah,120000,11536,334,"Ladar Sensor Cluster",68
+Cheetah,120000,11538,334,"Nanomechanical Microprocessor",165
+Cheetah,120000,11542,334,"Fernite Carbide Composite Armor Plate",300
+Cheetah,120000,11548,334,"Nuclear Reactor Unit",3
+Cheetah,120000,11551,334,"Electrolytic Capacitor Unit",60
+Cheetah,120000,11555,334,"Deflection Shield Emitter",15
+Crusader,120000,40,18,Megacyte,8
+Crusader,120000,3828,1034,"Construction Blocks",15
+Crusader,120000,11399,18,Morphite,8
+Crusader,120000,11478,332,"R.A.M.- Starship Tech",2
+Crusader,120000,11532,334,"Fusion Thruster",45
+Crusader,120000,11537,334,"Radar Sensor Cluster",30
+Crusader,120000,11539,334,"Nanoelectrical Microprocessor",120
+Crusader,120000,11543,334,"Tungsten Carbide Armor Plate",450
+Crusader,120000,11549,334,"Antimatter Reactor Unit",5
+Crusader,120000,11554,334,"Tesseract Capacitor Unit",75
+Crusader,120000,11557,334,"Linear Shield Emitter",23
+Malediction,120000,40,18,Megacyte,12
+Malediction,120000,3828,1034,"Construction Blocks",15
+Malediction,120000,11399,18,Morphite,8
+Malediction,120000,11478,332,"R.A.M.- Starship Tech",2
+Malediction,120000,11532,334,"Fusion Thruster",45
+Malediction,120000,11537,334,"Radar Sensor Cluster",30
+Malediction,120000,11539,334,"Nanoelectrical Microprocessor",120
+Malediction,120000,11543,334,"Tungsten Carbide Armor Plate",450
+Malediction,120000,11549,334,"Antimatter Reactor Unit",5
+Malediction,120000,11554,334,"Tesseract Capacitor Unit",75
+Malediction,120000,11557,334,"Linear Shield Emitter",23
+Anathema,120000,3828,1034,"Construction Blocks",23
+Anathema,120000,11399,18,Morphite,15
+Anathema,120000,11478,332,"R.A.M.- Starship Tech",3
+Anathema,120000,11532,334,"Fusion Thruster",30
+Anathema,120000,11537,334,"Radar Sensor Cluster",68
+Anathema,120000,11539,334,"Nanoelectrical Microprocessor",165
+Anathema,120000,11543,334,"Tungsten Carbide Armor Plate",300
+Anathema,120000,11549,334,"Antimatter Reactor Unit",3
+Anathema,120000,11554,334,"Tesseract Capacitor Unit",60
+Anathema,120000,11557,334,"Linear Shield Emitter",15
+Sentinel,120000,3828,1034,"Construction Blocks",23
+Sentinel,120000,11399,18,Morphite,15
+Sentinel,120000,11478,332,"R.A.M.- Starship Tech",6
+Sentinel,120000,11532,334,"Fusion Thruster",30
+Sentinel,120000,11537,334,"Radar Sensor Cluster",75
+Sentinel,120000,11539,334,"Nanoelectrical Microprocessor",150
+Sentinel,120000,11543,334,"Tungsten Carbide Armor Plate",375
+Sentinel,120000,11549,334,"Antimatter Reactor Unit",3
+Sentinel,120000,11554,334,"Tesseract Capacitor Unit",75
+Sentinel,120000,11557,334,"Linear Shield Emitter",15
+Buzzard,120000,3828,1034,"Construction Blocks",23
+Buzzard,120000,11399,18,Morphite,15
+Buzzard,120000,11478,332,"R.A.M.- Starship Tech",3
+Buzzard,120000,11533,334,"Magpulse Thruster",30
+Buzzard,120000,11534,334,"Gravimetric Sensor Cluster",68
+Buzzard,120000,11540,334,"Quantum Microprocessor",165
+Buzzard,120000,11544,334,"Titanium Diborite Armor Plate",300
+Buzzard,120000,11550,334,"Graviton Reactor Unit",3
+Buzzard,120000,11552,334,"Scalar Capacitor Unit",60
+Buzzard,120000,11558,334,"Sustained Shield Emitter",15
+Kitsune,120000,3828,1034,"Construction Blocks",23
+Kitsune,120000,11399,18,Morphite,15
+Kitsune,120000,11478,332,"R.A.M.- Starship Tech",6
+Kitsune,120000,11533,334,"Magpulse Thruster",30
+Kitsune,120000,11534,334,"Gravimetric Sensor Cluster",75
+Kitsune,120000,11540,334,"Quantum Microprocessor",150
+Kitsune,120000,11544,334,"Titanium Diborite Armor Plate",375
+Kitsune,120000,11550,334,"Graviton Reactor Unit",3
+Kitsune,120000,11552,334,"Scalar Capacitor Unit",75
+Kitsune,120000,11558,334,"Sustained Shield Emitter",15
+Claw,120000,39,18,Zydrine,27
+Claw,120000,3828,1034,"Construction Blocks",15
+Claw,120000,11399,18,Morphite,8
+Claw,120000,11478,332,"R.A.M.- Starship Tech",2
+Claw,120000,11530,334,"Plasma Thruster",45
+Claw,120000,11536,334,"Ladar Sensor Cluster",30
+Claw,120000,11538,334,"Nanomechanical Microprocessor",120
+Claw,120000,11542,334,"Fernite Carbide Composite Armor Plate",450
+Claw,120000,11548,334,"Nuclear Reactor Unit",5
+Claw,120000,11551,334,"Electrolytic Capacitor Unit",75
+Claw,120000,11555,334,"Deflection Shield Emitter",23
+Stiletto,120000,39,18,Zydrine,41
+Stiletto,120000,3828,1034,"Construction Blocks",15
+Stiletto,120000,11399,18,Morphite,8
+Stiletto,120000,11478,332,"R.A.M.- Starship Tech",2
+Stiletto,120000,11530,334,"Plasma Thruster",45
+Stiletto,120000,11536,334,"Ladar Sensor Cluster",30
+Stiletto,120000,11538,334,"Nanomechanical Microprocessor",120
+Stiletto,120000,11542,334,"Fernite Carbide Composite Armor Plate",450
+Stiletto,120000,11548,334,"Nuclear Reactor Unit",5
+Stiletto,120000,11551,334,"Electrolytic Capacitor Unit",75
+Stiletto,120000,11555,334,"Deflection Shield Emitter",23
+Taranis,120000,40,18,Megacyte,10
+Taranis,120000,3828,1034,"Construction Blocks",15
+Taranis,120000,11399,18,Morphite,8
+Taranis,120000,11478,332,"R.A.M.- Starship Tech",2
+Taranis,120000,11531,334,"Ion Thruster",45
+Taranis,120000,11535,334,"Magnetometric Sensor Cluster",30
+Taranis,120000,11541,334,"Photon Microprocessor",120
+Taranis,120000,11545,334,"Crystalline Carbonide Armor Plate",450
+Taranis,120000,11547,334,"Fusion Reactor Unit",5
+Taranis,120000,11553,334,"Oscillator Capacitor Unit",75
+Taranis,120000,11556,334,"Pulse Shield Emitter",23
+Ares,120000,40,18,Megacyte,10
+Ares,120000,3828,1034,"Construction Blocks",15
+Ares,120000,11399,18,Morphite,8
+Ares,120000,11478,332,"R.A.M.- Starship Tech",2
+Ares,120000,11531,334,"Ion Thruster",45
+Ares,120000,11535,334,"Magnetometric Sensor Cluster",30
+Ares,120000,11541,334,"Photon Microprocessor",120
+Ares,120000,11545,334,"Crystalline Carbonide Armor Plate",450
+Ares,120000,11547,334,"Fusion Reactor Unit",5
+Ares,120000,11553,334,"Oscillator Capacitor Unit",75
+Ares,120000,11556,334,"Pulse Shield Emitter",23
+"Energized EM Membrane II",2340,11399,18,Morphite,5
+"Energized EM Membrane II",2340,11475,332,"R.A.M.- Armor/Hull Tech",2
+"Energized EM Membrane II",2340,11543,334,"Tungsten Carbide Armor Plate",3
+"Energized EM Membrane II",2340,11544,334,"Titanium Diborite Armor Plate",3
+"Energized EM Membrane II",2340,11554,334,"Tesseract Capacitor Unit",3
+"Energized Explosive Membrane II",2340,11399,18,Morphite,5
+"Energized Explosive Membrane II",2340,11475,332,"R.A.M.- Armor/Hull Tech",2
+"Energized Explosive Membrane II",2340,11543,334,"Tungsten Carbide Armor Plate",5
+"Energized Explosive Membrane II",2340,11545,334,"Crystalline Carbonide Armor Plate",5
+"Energized Explosive Membrane II",2340,11554,334,"Tesseract Capacitor Unit",3
+"Energized Armor Layering Membrane II",2340,11399,18,Morphite,5
+"Energized Armor Layering Membrane II",2340,11475,332,"R.A.M.- Armor/Hull Tech",2
+"Energized Armor Layering Membrane II",2340,11542,334,"Fernite Carbide Composite Armor Plate",2
+"Energized Armor Layering Membrane II",2340,11543,334,"Tungsten Carbide Armor Plate",3
+"Energized Armor Layering Membrane II",2340,11544,334,"Titanium Diborite Armor Plate",3
+"Energized Armor Layering Membrane II",2340,11554,334,"Tesseract Capacitor Unit",3
+"Energized Kinetic Membrane II",2340,11399,18,Morphite,5
+"Energized Kinetic Membrane II",2340,11475,332,"R.A.M.- Armor/Hull Tech",2
+"Energized Kinetic Membrane II",2340,11542,334,"Fernite Carbide Composite Armor Plate",3
+"Energized Kinetic Membrane II",2340,11544,334,"Titanium Diborite Armor Plate",3
+"Energized Kinetic Membrane II",2340,11545,334,"Crystalline Carbonide Armor Plate",3
+"Energized Kinetic Membrane II",2340,11554,334,"Tesseract Capacitor Unit",3
+"Energized Thermic Membrane II",2340,11399,18,Morphite,5
+"Energized Thermic Membrane II",2340,11475,332,"R.A.M.- Armor/Hull Tech",2
+"Energized Thermic Membrane II",2340,11545,334,"Crystalline Carbonide Armor Plate",6
+"Energized Thermic Membrane II",2340,11554,334,"Tesseract Capacitor Unit",3
+"Energized Adaptive Nano Membrane II",2340,11399,18,Morphite,5
+"Energized Adaptive Nano Membrane II",2340,11475,332,"R.A.M.- Armor/Hull Tech",2
+"Energized Adaptive Nano Membrane II",2340,11542,334,"Fernite Carbide Composite Armor Plate",2
+"Energized Adaptive Nano Membrane II",2340,11543,334,"Tungsten Carbide Armor Plate",2
+"Energized Adaptive Nano Membrane II",2340,11544,334,"Titanium Diborite Armor Plate",2
+"Energized Adaptive Nano Membrane II",2340,11545,334,"Crystalline Carbonide Armor Plate",2
+"Energized Adaptive Nano Membrane II",2340,11554,334,"Tesseract Capacitor Unit",3
+Vengeance,120000,40,18,Megacyte,3
+Vengeance,120000,3828,1034,"Construction Blocks",38
+Vengeance,120000,11399,18,Morphite,45
+Vengeance,120000,11478,332,"R.A.M.- Starship Tech",6
+Vengeance,120000,11532,334,"Fusion Thruster",30
+Vengeance,120000,11537,334,"Radar Sensor Cluster",30
+Vengeance,120000,11539,334,"Nanoelectrical Microprocessor",135
+Vengeance,120000,11543,334,"Tungsten Carbide Armor Plate",750
+Vengeance,120000,11549,334,"Antimatter Reactor Unit",8
+Vengeance,120000,11554,334,"Tesseract Capacitor Unit",90
+Vengeance,120000,11557,334,"Linear Shield Emitter",30
+Wolf,120000,3828,1034,"Construction Blocks",38
+Wolf,120000,11399,18,Morphite,45
+Wolf,120000,11478,332,"R.A.M.- Starship Tech",6
+Wolf,120000,11530,334,"Plasma Thruster",23
+Wolf,120000,11536,334,"Ladar Sensor Cluster",30
+Wolf,120000,11538,334,"Nanomechanical Microprocessor",135
+Wolf,120000,11542,334,"Fernite Carbide Composite Armor Plate",900
+Wolf,120000,11548,334,"Nuclear Reactor Unit",8
+Wolf,120000,11551,334,"Electrolytic Capacitor Unit",90
+Wolf,120000,11555,334,"Deflection Shield Emitter",30
+Nemesis,120000,3828,1034,"Construction Blocks",30
+Nemesis,120000,11399,18,Morphite,38
+Nemesis,120000,11478,332,"R.A.M.- Starship Tech",3
+Nemesis,120000,11531,334,"Ion Thruster",30
+Nemesis,120000,11535,334,"Magnetometric Sensor Cluster",60
+Nemesis,120000,11541,334,"Photon Microprocessor",180
+Nemesis,120000,11545,334,"Crystalline Carbonide Armor Plate",300
+Nemesis,120000,11547,334,"Fusion Reactor Unit",6
+Nemesis,120000,11553,334,"Oscillator Capacitor Unit",60
+Nemesis,120000,11556,334,"Pulse Shield Emitter",15
+Hawk,120000,3828,1034,"Construction Blocks",38
+Hawk,120000,11399,18,Morphite,45
+Hawk,120000,11478,332,"R.A.M.- Starship Tech",6
+Hawk,120000,11533,334,"Magpulse Thruster",30
+Hawk,120000,11534,334,"Gravimetric Sensor Cluster",30
+Hawk,120000,11540,334,"Quantum Microprocessor",135
+Hawk,120000,11544,334,"Titanium Diborite Armor Plate",750
+Hawk,120000,11550,334,"Graviton Reactor Unit",8
+Hawk,120000,11552,334,"Scalar Capacitor Unit",90
+Hawk,120000,11558,334,"Sustained Shield Emitter",30
+Harpy,120000,3828,1034,"Construction Blocks",38
+Harpy,120000,11399,18,Morphite,45
+Harpy,120000,11478,332,"R.A.M.- Starship Tech",6
+Harpy,120000,11533,334,"Magpulse Thruster",23
+Harpy,120000,11534,334,"Gravimetric Sensor Cluster",30
+Harpy,120000,11540,334,"Quantum Microprocessor",135
+Harpy,120000,11544,334,"Titanium Diborite Armor Plate",900
+Harpy,120000,11550,334,"Graviton Reactor Unit",8
+Harpy,120000,11552,334,"Scalar Capacitor Unit",90
+Harpy,120000,11558,334,"Sustained Shield Emitter",30
+Hyena,120000,3828,1034,"Construction Blocks",23
+Hyena,120000,11399,18,Morphite,15
+Hyena,120000,11478,332,"R.A.M.- Starship Tech",6
+Hyena,120000,11530,334,"Plasma Thruster",30
+Hyena,120000,11536,334,"Ladar Sensor Cluster",75
+Hyena,120000,11538,334,"Nanomechanical Microprocessor",150
+Hyena,120000,11542,334,"Fernite Carbide Composite Armor Plate",375
+Hyena,120000,11548,334,"Nuclear Reactor Unit",3
+Hyena,120000,11551,334,"Electrolytic Capacitor Unit",75
+Hyena,120000,11555,334,"Deflection Shield Emitter",15
+Retribution,120000,40,18,Megacyte,2
+Retribution,120000,3828,1034,"Construction Blocks",38
+Retribution,120000,11399,18,Morphite,45
+Retribution,120000,11478,332,"R.A.M.- Starship Tech",6
+Retribution,120000,11532,334,"Fusion Thruster",23
+Retribution,120000,11537,334,"Radar Sensor Cluster",30
+Retribution,120000,11539,334,"Nanoelectrical Microprocessor",135
+Retribution,120000,11543,334,"Tungsten Carbide Armor Plate",900
+Retribution,120000,11549,334,"Antimatter Reactor Unit",8
+Retribution,120000,11554,334,"Tesseract Capacitor Unit",90
+Retribution,120000,11557,334,"Linear Shield Emitter",30
+Jaguar,120000,3828,1034,"Construction Blocks",38
+Jaguar,120000,11399,18,Morphite,45
+Jaguar,120000,11478,332,"R.A.M.- Starship Tech",6
+Jaguar,120000,11530,334,"Plasma Thruster",30
+Jaguar,120000,11536,334,"Ladar Sensor Cluster",30
+Jaguar,120000,11538,334,"Nanomechanical Microprocessor",135
+Jaguar,120000,11542,334,"Fernite Carbide Composite Armor Plate",750
+Jaguar,120000,11548,334,"Nuclear Reactor Unit",8
+Jaguar,120000,11551,334,"Electrolytic Capacitor Unit",90
+Jaguar,120000,11555,334,"Deflection Shield Emitter",30
+"Warp Core Stabilizer II",2340,11399,18,Morphite,5
+"Warp Core Stabilizer II",2340,11483,332,"R.A.M.- Electronics",2
+"Warp Core Stabilizer II",2340,11538,334,"Nanomechanical Microprocessor",5
+"Armor EM Hardener II",2340,11399,18,Morphite,23
+"Armor EM Hardener II",2340,11475,332,"R.A.M.- Armor/Hull Tech",2
+"Armor EM Hardener II",2340,11543,334,"Tungsten Carbide Armor Plate",15
+"Armor EM Hardener II",2340,11558,334,"Sustained Shield Emitter",27
+"Armor Kinetic Hardener II",2340,11399,18,Morphite,23
+"Armor Kinetic Hardener II",2340,11475,332,"R.A.M.- Armor/Hull Tech",2
+"Armor Kinetic Hardener II",2340,11544,334,"Titanium Diborite Armor Plate",15
+"Armor Kinetic Hardener II",2340,11558,334,"Sustained Shield Emitter",27
+"Armor Explosive Hardener II",2340,11399,18,Morphite,23
+"Armor Explosive Hardener II",2340,11475,332,"R.A.M.- Armor/Hull Tech",2
+"Armor Explosive Hardener II",2340,11542,334,"Fernite Carbide Composite Armor Plate",15
+"Armor Explosive Hardener II",2340,11558,334,"Sustained Shield Emitter",27
+"Armor Thermic Hardener II",2340,11399,18,Morphite,23
+"Armor Thermic Hardener II",2340,11475,332,"R.A.M.- Armor/Hull Tech",2
+"Armor Thermic Hardener II",2340,11545,334,"Crystalline Carbonide Armor Plate",15
+"Armor Thermic Hardener II",2340,11558,334,"Sustained Shield Emitter",27
+"Co-Processor II",2340,9842,1034,"Miniature Electronics",18
+"Co-Processor II",2340,11399,18,Morphite,2
+"Co-Processor II",2340,11483,332,"R.A.M.- Electronics",2
+"Co-Processor II",2340,11541,334,"Photon Microprocessor",5
+"Co-Processor II",2340,11553,334,"Oscillator Capacitor Unit",3
+"ECCM - Gravimetric II",4680,37,18,Isogen,27
+"ECCM - Gravimetric II",4680,9842,1034,"Miniature Electronics",7
+"ECCM - Gravimetric II",4680,11399,18,Morphite,5
+"ECCM - Gravimetric II",4680,11483,332,"R.A.M.- Electronics",2
+"ECCM - Gravimetric II",4680,11534,334,"Gravimetric Sensor Cluster",6
+"ECCM - Gravimetric II",4680,11540,334,"Quantum Microprocessor",5
+"ECCM - Ladar II",4680,37,18,Isogen,28
+"ECCM - Ladar II",4680,9842,1034,"Miniature Electronics",7
+"ECCM - Ladar II",4680,11399,18,Morphite,5
+"ECCM - Ladar II",4680,11483,332,"R.A.M.- Electronics",2
+"ECCM - Ladar II",4680,11536,334,"Ladar Sensor Cluster",6
+"ECCM - Ladar II",4680,11538,334,"Nanomechanical Microprocessor",5
+"ECCM - Magnetometric II",4680,37,18,Isogen,26
+"ECCM - Magnetometric II",4680,9842,1034,"Miniature Electronics",7
+"ECCM - Magnetometric II",4680,11399,18,Morphite,5
+"ECCM - Magnetometric II",4680,11483,332,"R.A.M.- Electronics",2
+"ECCM - Magnetometric II",4680,11535,334,"Magnetometric Sensor Cluster",6
+"ECCM - Magnetometric II",4680,11541,334,"Photon Microprocessor",5
+"ECCM - Omni II",4680,37,18,Isogen,33
+"ECCM - Omni II",4680,9842,1034,"Miniature Electronics",10
+"ECCM - Omni II",4680,11399,18,Morphite,5
+"ECCM - Omni II",4680,11483,332,"R.A.M.- Electronics",2
+"ECCM - Omni II",4680,11534,334,"Gravimetric Sensor Cluster",2
+"ECCM - Omni II",4680,11535,334,"Magnetometric Sensor Cluster",2
+"ECCM - Omni II",4680,11536,334,"Ladar Sensor Cluster",2
+"ECCM - Omni II",4680,11537,334,"Radar Sensor Cluster",2
+"ECCM - Omni II",4680,11541,334,"Photon Microprocessor",5
+"ECCM - Radar II",4680,37,18,Isogen,22
+"ECCM - Radar II",4680,9842,1034,"Miniature Electronics",7
+"ECCM - Radar II",4680,11399,18,Morphite,5
+"ECCM - Radar II",4680,11483,332,"R.A.M.- Electronics",2
+"ECCM - Radar II",4680,11537,334,"Radar Sensor Cluster",6
+"ECCM - Radar II",4680,11539,334,"Nanoelectrical Microprocessor",5
+"ECCM Projector II",4680,9840,1034,Transmitter,33
+"ECCM Projector II",4680,9842,1034,"Miniature Electronics",11
+"ECCM Projector II",4680,11399,18,Morphite,15
+"ECCM Projector II",4680,11483,332,"R.A.M.- Electronics",2
+"ECCM Projector II",4680,11538,334,"Nanomechanical Microprocessor",8
+"ECCM Projector II",4680,11540,334,"Quantum Microprocessor",8
+"ECCM Projector II",4680,11541,334,"Photon Microprocessor",8
+"ECM - Ion Field Projector II",4680,9840,1034,Transmitter,9
+"ECM - Ion Field Projector II",4680,9842,1034,"Miniature Electronics",7
+"ECM - Ion Field Projector II",4680,11399,18,Morphite,8
+"ECM - Ion Field Projector II",4680,11483,332,"R.A.M.- Electronics",2
+"ECM - Ion Field Projector II",4680,11535,334,"Magnetometric Sensor Cluster",9
+"ECM - Ion Field Projector II",4680,11541,334,"Photon Microprocessor",5
+"ECM - Multispectral Jammer II",4680,9840,1034,Transmitter,9
+"ECM - Multispectral Jammer II",4680,9842,1034,"Miniature Electronics",13
+"ECM - Multispectral Jammer II",4680,11399,18,Morphite,9
+"ECM - Multispectral Jammer II",4680,11483,332,"R.A.M.- Electronics",2
+"ECM - Multispectral Jammer II",4680,11534,334,"Gravimetric Sensor Cluster",3
+"ECM - Multispectral Jammer II",4680,11535,334,"Magnetometric Sensor Cluster",3
+"ECM - Multispectral Jammer II",4680,11536,334,"Ladar Sensor Cluster",3
+"ECM - Multispectral Jammer II",4680,11537,334,"Radar Sensor Cluster",3
+"ECM - Multispectral Jammer II",4680,11541,334,"Photon Microprocessor",5
+"ECM - Phase Inverter II",4680,9840,1034,Transmitter,9
+"ECM - Phase Inverter II",4680,9842,1034,"Miniature Electronics",7
+"ECM - Phase Inverter II",4680,11399,18,Morphite,8
+"ECM - Phase Inverter II",4680,11483,332,"R.A.M.- Electronics",2
+"ECM - Phase Inverter II",4680,11536,334,"Ladar Sensor Cluster",9
+"ECM - Phase Inverter II",4680,11538,334,"Nanomechanical Microprocessor",5
+"ECM - Spatial Destabilizer II",4680,9840,1034,Transmitter,9
+"ECM - Spatial Destabilizer II",4680,9842,1034,"Miniature Electronics",7
+"ECM - Spatial Destabilizer II",4680,11399,18,Morphite,8
+"ECM - Spatial Destabilizer II",4680,11483,332,"R.A.M.- Electronics",2
+"ECM - Spatial Destabilizer II",4680,11534,334,"Gravimetric Sensor Cluster",9
+"ECM - Spatial Destabilizer II",4680,11540,334,"Quantum Microprocessor",5
+"ECM - White Noise Generator II",4680,9840,1034,Transmitter,9
+"ECM - White Noise Generator II",4680,9842,1034,"Miniature Electronics",7
+"ECM - White Noise Generator II",4680,11399,18,Morphite,8
+"ECM - White Noise Generator II",4680,11483,332,"R.A.M.- Electronics",2
+"ECM - White Noise Generator II",4680,11537,334,"Radar Sensor Cluster",9
+"ECM - White Noise Generator II",4680,11539,334,"Nanoelectrical Microprocessor",5
+"Heat Sink II",2340,3689,1034,"Mechanical Parts",6
+"Heat Sink II",2340,9842,1034,"Miniature Electronics",2
+"Heat Sink II",2340,11399,18,Morphite,8
+"Heat Sink II",2340,11483,332,"R.A.M.- Electronics",2
+"Heat Sink II",2340,11539,334,"Nanoelectrical Microprocessor",8
+"Remote Sensor Booster II",4680,37,18,Isogen,2
+"Remote Sensor Booster II",4680,9840,1034,Transmitter,6
+"Remote Sensor Booster II",4680,9842,1034,"Miniature Electronics",7
+"Remote Sensor Booster II",4680,11399,18,Morphite,6
+"Remote Sensor Booster II",4680,11483,332,"R.A.M.- Electronics",2
+"Remote Sensor Booster II",4680,11534,334,"Gravimetric Sensor Cluster",8
+"Remote Sensor Booster II",4680,11540,334,"Quantum Microprocessor",5
+"Remote Sensor Dampener II",4680,9840,1034,Transmitter,6
+"Remote Sensor Dampener II",4680,9842,1034,"Miniature Electronics",10
+"Remote Sensor Dampener II",4680,11399,18,Morphite,8
+"Remote Sensor Dampener II",4680,11483,332,"R.A.M.- Electronics",2
+"Remote Sensor Dampener II",4680,11534,334,"Gravimetric Sensor Cluster",9
+"Remote Sensor Dampener II",4680,11540,334,"Quantum Microprocessor",5
+"Sensor Booster II",4680,38,18,Nocxium,1
+"Sensor Booster II",4680,9840,1034,Transmitter,3
+"Sensor Booster II",4680,9842,1034,"Miniature Electronics",8
+"Sensor Booster II",4680,11399,18,Morphite,3
+"Sensor Booster II",4680,11483,332,"R.A.M.- Electronics",2
+"Sensor Booster II",4680,11534,334,"Gravimetric Sensor Cluster",6
+"Sensor Booster II",4680,11540,334,"Quantum Microprocessor",5
+"Signal Amplifier II",2340,9840,1034,Transmitter,2
+"Signal Amplifier II",2340,9842,1034,"Miniature Electronics",6
+"Signal Amplifier II",2340,11399,18,Morphite,2
+"Signal Amplifier II",2340,11483,332,"R.A.M.- Electronics",2
+"Signal Amplifier II",2340,11534,334,"Gravimetric Sensor Cluster",8
+"Signal Amplifier II",2340,11540,334,"Quantum Microprocessor",5
+"Gravimetric Backup Array II",2340,37,18,Isogen,11
+"Gravimetric Backup Array II",2340,9840,1034,Transmitter,3
+"Gravimetric Backup Array II",2340,9842,1034,"Miniature Electronics",3
+"Gravimetric Backup Array II",2340,11399,18,Morphite,2
+"Gravimetric Backup Array II",2340,11483,332,"R.A.M.- Electronics",2
+"Gravimetric Backup Array II",2340,11534,334,"Gravimetric Sensor Cluster",5
+"Gravimetric Backup Array II",2340,11540,334,"Quantum Microprocessor",2
+"LADAR Backup Array II",2340,9840,1034,Transmitter,3
+"LADAR Backup Array II",2340,9842,1034,"Miniature Electronics",3
+"LADAR Backup Array II",2340,11399,18,Morphite,2
+"LADAR Backup Array II",2340,11483,332,"R.A.M.- Electronics",2
+"LADAR Backup Array II",2340,11536,334,"Ladar Sensor Cluster",5
+"LADAR Backup Array II",2340,11538,334,"Nanomechanical Microprocessor",2
+"Magnetometric Backup Array II",2340,9840,1034,Transmitter,3
+"Magnetometric Backup Array II",2340,9842,1034,"Miniature Electronics",3
+"Magnetometric Backup Array II",2340,11399,18,Morphite,2
+"Magnetometric Backup Array II",2340,11483,332,"R.A.M.- Electronics",2
+"Magnetometric Backup Array II",2340,11535,334,"Magnetometric Sensor Cluster",3
+"Magnetometric Backup Array II",2340,11541,334,"Photon Microprocessor",2
+"Multi Sensor Backup Array II",2340,9840,1034,Transmitter,3
+"Multi Sensor Backup Array II",2340,9842,1034,"Miniature Electronics",3
+"Multi Sensor Backup Array II",2340,11399,18,Morphite,2
+"Multi Sensor Backup Array II",2340,11483,332,"R.A.M.- Electronics",2
+"Multi Sensor Backup Array II",2340,11534,334,"Gravimetric Sensor Cluster",2
+"Multi Sensor Backup Array II",2340,11535,334,"Magnetometric Sensor Cluster",2
+"Multi Sensor Backup Array II",2340,11536,334,"Ladar Sensor Cluster",2
+"Multi Sensor Backup Array II",2340,11537,334,"Radar Sensor Cluster",2
+"Multi Sensor Backup Array II",2340,11539,334,"Nanoelectrical Microprocessor",2
+"RADAR Backup Array II",2340,9840,1034,Transmitter,3
+"RADAR Backup Array II",2340,9842,1034,"Miniature Electronics",3
+"RADAR Backup Array II",2340,11399,18,Morphite,3
+"RADAR Backup Array II",2340,11483,332,"R.A.M.- Electronics",2
+"RADAR Backup Array II",2340,11537,334,"Radar Sensor Cluster",5
+"RADAR Backup Array II",2340,11539,334,"Nanoelectrical Microprocessor",2
+"Tracking Computer II",4680,3689,1034,"Mechanical Parts",1
+"Tracking Computer II",4680,9842,1034,"Miniature Electronics",7
+"Tracking Computer II",4680,11399,18,Morphite,11
+"Tracking Computer II",4680,11483,332,"R.A.M.- Electronics",2
+"Tracking Computer II",4680,11538,334,"Nanomechanical Microprocessor",12
+"Tracking Disruptor II",4680,9840,1034,Transmitter,6
+"Tracking Disruptor II",4680,9842,1034,"Miniature Electronics",10
+"Tracking Disruptor II",4680,11399,18,Morphite,8
+"Tracking Disruptor II",4680,11483,332,"R.A.M.- Electronics",2
+"Tracking Disruptor II",4680,11535,334,"Magnetometric Sensor Cluster",6
+"Tracking Disruptor II",4680,11541,334,"Photon Microprocessor",5
+"Tracking Enhancer II",2340,3689,1034,"Mechanical Parts",6
+"Tracking Enhancer II",2340,9842,1034,"Miniature Electronics",2
+"Tracking Enhancer II",2340,11399,18,Morphite,5
+"Tracking Enhancer II",2340,11483,332,"R.A.M.- Electronics",2
+"Tracking Enhancer II",2340,11538,334,"Nanomechanical Microprocessor",8
+"Remote Tracking Computer II",4680,9840,1034,Transmitter,6
+"Remote Tracking Computer II",4680,9842,1034,"Miniature Electronics",7
+"Remote Tracking Computer II",4680,11399,18,Morphite,5
+"Remote Tracking Computer II",4680,11483,332,"R.A.M.- Electronics",2
+"Remote Tracking Computer II",4680,11536,334,"Ladar Sensor Cluster",8
+"Remote Tracking Computer II",4680,11538,334,"Nanomechanical Microprocessor",5
+Falcon,240000,3828,1034,"Construction Blocks",75
+Falcon,240000,11399,18,Morphite,150
+Falcon,240000,11478,332,"R.A.M.- Starship Tech",18
+Falcon,240000,11533,334,"Magpulse Thruster",57
+Falcon,240000,11534,334,"Gravimetric Sensor Cluster",495
+Falcon,240000,11540,334,"Quantum Microprocessor",1800
+Falcon,240000,11544,334,"Titanium Diborite Armor Plate",3750
+Falcon,240000,11550,334,"Graviton Reactor Unit",30
+Falcon,240000,11552,334,"Scalar Capacitor Unit",375
+Falcon,240000,11558,334,"Sustained Shield Emitter",300
+Rook,240000,3828,1034,"Construction Blocks",75
+Rook,240000,11399,18,Morphite,150
+Rook,240000,11478,332,"R.A.M.- Starship Tech",18
+Rook,240000,11533,334,"Magpulse Thruster",60
+Rook,240000,11534,334,"Gravimetric Sensor Cluster",495
+Rook,240000,11540,334,"Quantum Microprocessor",1800
+Rook,240000,11544,334,"Titanium Diborite Armor Plate",3750
+Rook,240000,11550,334,"Graviton Reactor Unit",30
+Rook,240000,11552,334,"Scalar Capacitor Unit",375
+Rook,240000,11558,334,"Sustained Shield Emitter",300
+Huginn,240000,3828,1034,"Construction Blocks",75
+Huginn,240000,11399,18,Morphite,150
+Huginn,240000,11478,332,"R.A.M.- Starship Tech",18
+Huginn,240000,11530,334,"Plasma Thruster",60
+Huginn,240000,11536,334,"Ladar Sensor Cluster",495
+Huginn,240000,11538,334,"Nanomechanical Microprocessor",1800
+Huginn,240000,11542,334,"Fernite Carbide Composite Armor Plate",3750
+Huginn,240000,11548,334,"Nuclear Reactor Unit",30
+Huginn,240000,11551,334,"Electrolytic Capacitor Unit",375
+Huginn,240000,11555,334,"Deflection Shield Emitter",300
+Rapier,240000,3828,1034,"Construction Blocks",75
+Rapier,240000,11399,18,Morphite,150
+Rapier,240000,11478,332,"R.A.M.- Starship Tech",18
+Rapier,240000,11530,334,"Plasma Thruster",57
+Rapier,240000,11536,334,"Ladar Sensor Cluster",495
+Rapier,240000,11538,334,"Nanomechanical Microprocessor",1800
+Rapier,240000,11542,334,"Fernite Carbide Composite Armor Plate",3750
+Rapier,240000,11548,334,"Nuclear Reactor Unit",30
+Rapier,240000,11551,334,"Electrolytic Capacitor Unit",375
+Rapier,240000,11555,334,"Deflection Shield Emitter",300
+Pilgrim,240000,3828,1034,"Construction Blocks",75
+Pilgrim,240000,11399,18,Morphite,150
+Pilgrim,240000,11478,332,"R.A.M.- Starship Tech",18
+Pilgrim,240000,11532,334,"Fusion Thruster",57
+Pilgrim,240000,11537,334,"Radar Sensor Cluster",495
+Pilgrim,240000,11539,334,"Nanoelectrical Microprocessor",1800
+Pilgrim,240000,11543,334,"Tungsten Carbide Armor Plate",3750
+Pilgrim,240000,11549,334,"Antimatter Reactor Unit",30
+Pilgrim,240000,11554,334,"Tesseract Capacitor Unit",375
+Pilgrim,240000,11557,334,"Linear Shield Emitter",300
+Arazu,240000,3828,1034,"Construction Blocks",75
+Arazu,240000,11399,18,Morphite,150
+Arazu,240000,11478,332,"R.A.M.- Starship Tech",18
+Arazu,240000,11531,334,"Ion Thruster",57
+Arazu,240000,11535,334,"Magnetometric Sensor Cluster",495
+Arazu,240000,11541,334,"Photon Microprocessor",1800
+Arazu,240000,11545,334,"Crystalline Carbonide Armor Plate",3750
+Arazu,240000,11547,334,"Fusion Reactor Unit",30
+Arazu,240000,11553,334,"Oscillator Capacitor Unit",375
+Arazu,240000,11556,334,"Pulse Shield Emitter",300
+Lachesis,240000,3828,1034,"Construction Blocks",75
+Lachesis,240000,11399,18,Morphite,150
+Lachesis,240000,11478,332,"R.A.M.- Starship Tech",18
+Lachesis,240000,11531,334,"Ion Thruster",60
+Lachesis,240000,11535,334,"Magnetometric Sensor Cluster",495
+Lachesis,240000,11541,334,"Photon Microprocessor",1800
+Lachesis,240000,11545,334,"Crystalline Carbonide Armor Plate",3750
+Lachesis,240000,11547,334,"Fusion Reactor Unit",30
+Lachesis,240000,11553,334,"Oscillator Capacitor Unit",375
+Lachesis,240000,11556,334,"Pulse Shield Emitter",300
+Scimitar,240000,3828,1034,"Construction Blocks",75
+Scimitar,240000,11399,18,Morphite,90
+Scimitar,240000,11478,332,"R.A.M.- Starship Tech",12
+Scimitar,240000,11530,334,"Plasma Thruster",75
+Scimitar,240000,11536,334,"Ladar Sensor Cluster",263
+Scimitar,240000,11538,334,"Nanomechanical Microprocessor",1800
+Scimitar,240000,11542,334,"Fernite Carbide Composite Armor Plate",2250
+Scimitar,240000,11548,334,"Nuclear Reactor Unit",23
+Scimitar,240000,11551,334,"Electrolytic Capacitor Unit",750
+Scimitar,240000,11555,334,"Deflection Shield Emitter",150
+Basilisk,240000,3828,1034,"Construction Blocks",75
+Basilisk,240000,11399,18,Morphite,90
+Basilisk,240000,11478,332,"R.A.M.- Starship Tech",12
+Basilisk,240000,11533,334,"Magpulse Thruster",75
+Basilisk,240000,11534,334,"Gravimetric Sensor Cluster",263
+Basilisk,240000,11540,334,"Quantum Microprocessor",1800
+Basilisk,240000,11544,334,"Titanium Diborite Armor Plate",2250
+Basilisk,240000,11550,334,"Graviton Reactor Unit",23
+Basilisk,240000,11552,334,"Scalar Capacitor Unit",750
+Basilisk,240000,11558,334,"Sustained Shield Emitter",150
+Guardian,240000,3828,1034,"Construction Blocks",75
+Guardian,240000,11399,18,Morphite,90
+Guardian,240000,11478,332,"R.A.M.- Starship Tech",12
+Guardian,240000,11532,334,"Fusion Thruster",75
+Guardian,240000,11537,334,"Radar Sensor Cluster",263
+Guardian,240000,11539,334,"Nanoelectrical Microprocessor",1800
+Guardian,240000,11543,334,"Tungsten Carbide Armor Plate",2250
+Guardian,240000,11549,334,"Antimatter Reactor Unit",23
+Guardian,240000,11554,334,"Tesseract Capacitor Unit",750
+Guardian,240000,11557,334,"Linear Shield Emitter",150
+Oneiros,240000,3828,1034,"Construction Blocks",75
+Oneiros,240000,11399,18,Morphite,90
+Oneiros,240000,11478,332,"R.A.M.- Starship Tech",12
+Oneiros,240000,11531,334,"Ion Thruster",75
+Oneiros,240000,11535,334,"Magnetometric Sensor Cluster",263
+Oneiros,240000,11541,334,"Photon Microprocessor",1800
+Oneiros,240000,11545,334,"Crystalline Carbonide Armor Plate",2250
+Oneiros,240000,11547,334,"Fusion Reactor Unit",23
+Oneiros,240000,11553,334,"Oscillator Capacitor Unit",750
+Oneiros,240000,11556,334,"Pulse Shield Emitter",150
+Cerberus,240000,3828,1034,"Construction Blocks",150
+Cerberus,240000,11399,18,Morphite,150
+Cerberus,240000,11478,332,"R.A.M.- Starship Tech",18
+Cerberus,240000,11533,334,"Magpulse Thruster",75
+Cerberus,240000,11534,334,"Gravimetric Sensor Cluster",398
+Cerberus,240000,11540,334,"Quantum Microprocessor",1350
+Cerberus,240000,11544,334,"Titanium Diborite Armor Plate",5625
+Cerberus,240000,11550,334,"Graviton Reactor Unit",38
+Cerberus,240000,11552,334,"Scalar Capacitor Unit",450
+Cerberus,240000,11558,334,"Sustained Shield Emitter",450
+Onyx,240000,3828,1034,"Construction Blocks",188
+Onyx,240000,11399,18,Morphite,150
+Onyx,240000,11478,332,"R.A.M.- Starship Tech",21
+Onyx,240000,11533,334,"Magpulse Thruster",105
+Onyx,240000,11534,334,"Gravimetric Sensor Cluster",180
+Onyx,240000,11540,334,"Quantum Microprocessor",2970
+Onyx,240000,11544,334,"Titanium Diborite Armor Plate",6750
+Onyx,240000,11550,334,"Graviton Reactor Unit",53
+Onyx,240000,11552,334,"Scalar Capacitor Unit",660
+Onyx,240000,11558,334,"Sustained Shield Emitter",413
+Vagabond,240000,3828,1034,"Construction Blocks",150
+Vagabond,240000,11399,18,Morphite,150
+Vagabond,240000,11478,332,"R.A.M.- Starship Tech",18
+Vagabond,240000,11530,334,"Plasma Thruster",75
+Vagabond,240000,11536,334,"Ladar Sensor Cluster",398
+Vagabond,240000,11538,334,"Nanomechanical Microprocessor",1350
+Vagabond,240000,11542,334,"Fernite Carbide Composite Armor Plate",5625
+Vagabond,240000,11548,334,"Nuclear Reactor Unit",38
+Vagabond,240000,11551,334,"Electrolytic Capacitor Unit",450
+Vagabond,240000,11555,334,"Deflection Shield Emitter",450
+Zealot,240000,3828,1034,"Construction Blocks",150
+Zealot,240000,11399,18,Morphite,150
+Zealot,240000,11478,332,"R.A.M.- Starship Tech",18
+Zealot,240000,11532,334,"Fusion Thruster",75
+Zealot,240000,11537,334,"Radar Sensor Cluster",398
+Zealot,240000,11539,334,"Nanoelectrical Microprocessor",1350
+Zealot,240000,11543,334,"Tungsten Carbide Armor Plate",5625
+Zealot,240000,11549,334,"Antimatter Reactor Unit",45
+Zealot,240000,11554,334,"Tesseract Capacitor Unit",450
+Zealot,240000,11557,334,"Linear Shield Emitter",450
+Ishtar,240000,3828,1034,"Construction Blocks",150
+Ishtar,240000,11399,18,Morphite,150
+Ishtar,240000,11478,332,"R.A.M.- Starship Tech",18
+Ishtar,240000,11531,334,"Ion Thruster",75
+Ishtar,240000,11535,334,"Magnetometric Sensor Cluster",398
+Ishtar,240000,11541,334,"Photon Microprocessor",1350
+Ishtar,240000,11545,334,"Crystalline Carbonide Armor Plate",5625
+Ishtar,240000,11547,334,"Fusion Reactor Unit",38
+Ishtar,240000,11553,334,"Oscillator Capacitor Unit",450
+Ishtar,240000,11556,334,"Pulse Shield Emitter",450
+Eagle,240000,3828,1034,"Construction Blocks",188
+Eagle,240000,11399,18,Morphite,150
+Eagle,240000,11478,332,"R.A.M.- Starship Tech",18
+Eagle,240000,11533,334,"Magpulse Thruster",75
+Eagle,240000,11534,334,"Gravimetric Sensor Cluster",165
+Eagle,240000,11540,334,"Quantum Microprocessor",1350
+Eagle,240000,11544,334,"Titanium Diborite Armor Plate",5625
+Eagle,240000,11550,334,"Graviton Reactor Unit",45
+Eagle,240000,11552,334,"Scalar Capacitor Unit",600
+Eagle,240000,11558,334,"Sustained Shield Emitter",450
+Broadsword,240000,3828,1034,"Construction Blocks",188
+Broadsword,240000,11399,18,Morphite,150
+Broadsword,240000,11478,332,"R.A.M.- Starship Tech",21
+Broadsword,240000,11530,334,"Plasma Thruster",105
+Broadsword,240000,11536,334,"Ladar Sensor Cluster",180
+Broadsword,240000,11538,334,"Nanomechanical Microprocessor",2970
+Broadsword,240000,11542,334,"Fernite Carbide Composite Armor Plate",6750
+Broadsword,240000,11548,334,"Nuclear Reactor Unit",53
+Broadsword,240000,11551,334,"Electrolytic Capacitor Unit",660
+Broadsword,240000,11555,334,"Deflection Shield Emitter",413
+Muninn,240000,3828,1034,"Construction Blocks",188
+Muninn,240000,11399,18,Morphite,150
+Muninn,240000,11478,332,"R.A.M.- Starship Tech",18
+Muninn,240000,11530,334,"Plasma Thruster",75
+Muninn,240000,11536,334,"Ladar Sensor Cluster",165
+Muninn,240000,11538,334,"Nanomechanical Microprocessor",1350
+Muninn,240000,11542,334,"Fernite Carbide Composite Armor Plate",5625
+Muninn,240000,11548,334,"Nuclear Reactor Unit",45
+Muninn,240000,11551,334,"Electrolytic Capacitor Unit",600
+Muninn,240000,11555,334,"Deflection Shield Emitter",450
+Devoter,240000,3828,1034,"Construction Blocks",188
+Devoter,240000,11399,18,Morphite,150
+Devoter,240000,11478,332,"R.A.M.- Starship Tech",21
+Devoter,240000,11532,334,"Fusion Thruster",105
+Devoter,240000,11537,334,"Radar Sensor Cluster",180
+Devoter,240000,11539,334,"Nanoelectrical Microprocessor",2970
+Devoter,240000,11543,334,"Tungsten Carbide Armor Plate",6750
+Devoter,240000,11549,334,"Antimatter Reactor Unit",53
+Devoter,240000,11554,334,"Tesseract Capacitor Unit",660
+Devoter,240000,11557,334,"Linear Shield Emitter",413
+Sacrilege,240000,3828,1034,"Construction Blocks",188
+Sacrilege,240000,11399,18,Morphite,150
+Sacrilege,240000,11478,332,"R.A.M.- Starship Tech",18
+Sacrilege,240000,11532,334,"Fusion Thruster",75
+Sacrilege,240000,11537,334,"Radar Sensor Cluster",165
+Sacrilege,240000,11539,334,"Nanoelectrical Microprocessor",1350
+Sacrilege,240000,11543,334,"Tungsten Carbide Armor Plate",5625
+Sacrilege,240000,11549,334,"Antimatter Reactor Unit",45
+Sacrilege,240000,11554,334,"Tesseract Capacitor Unit",600
+Sacrilege,240000,11557,334,"Linear Shield Emitter",450
+Phobos,240000,3828,1034,"Construction Blocks",188
+Phobos,240000,11399,18,Morphite,150
+Phobos,240000,11478,332,"R.A.M.- Starship Tech",21
+Phobos,240000,11531,334,"Ion Thruster",105
+Phobos,240000,11535,334,"Magnetometric Sensor Cluster",180
+Phobos,240000,11541,334,"Photon Microprocessor",2970
+Phobos,240000,11545,334,"Crystalline Carbonide Armor Plate",6750
+Phobos,240000,11547,334,"Fusion Reactor Unit",53
+Phobos,240000,11553,334,"Oscillator Capacitor Unit",660
+Phobos,240000,11556,334,"Pulse Shield Emitter",413
+Deimos,240000,3828,1034,"Construction Blocks",188
+Deimos,240000,11399,18,Morphite,150
+Deimos,240000,11478,332,"R.A.M.- Starship Tech",18
+Deimos,240000,11531,334,"Ion Thruster",75
+Deimos,240000,11535,334,"Magnetometric Sensor Cluster",165
+Deimos,240000,11541,334,"Photon Microprocessor",1350
+Deimos,240000,11545,334,"Crystalline Carbonide Armor Plate",5625
+Deimos,240000,11547,334,"Fusion Reactor Unit",45
+Deimos,240000,11553,334,"Oscillator Capacitor Unit",600
+Deimos,240000,11556,334,"Pulse Shield Emitter",450
+Manticore,120000,40,18,Megacyte,4
+Manticore,120000,3828,1034,"Construction Blocks",30
+Manticore,120000,11399,18,Morphite,38
+Manticore,120000,11478,332,"R.A.M.- Starship Tech",3
+Manticore,120000,11533,334,"Magpulse Thruster",30
+Manticore,120000,11534,334,"Gravimetric Sensor Cluster",60
+Manticore,120000,11540,334,"Quantum Microprocessor",180
+Manticore,120000,11544,334,"Titanium Diborite Armor Plate",300
+Manticore,120000,11550,334,"Graviton Reactor Unit",6
+Manticore,120000,11552,334,"Scalar Capacitor Unit",60
+Manticore,120000,11558,334,"Sustained Shield Emitter",15
+Hound,120000,3828,1034,"Construction Blocks",30
+Hound,120000,11399,18,Morphite,38
+Hound,120000,11478,332,"R.A.M.- Starship Tech",3
+Hound,120000,11530,334,"Plasma Thruster",30
+Hound,120000,11536,334,"Ladar Sensor Cluster",60
+Hound,120000,11538,334,"Nanomechanical Microprocessor",180
+Hound,120000,11542,334,"Fernite Carbide Composite Armor Plate",300
+Hound,120000,11548,334,"Nuclear Reactor Unit",6
+Hound,120000,11551,334,"Electrolytic Capacitor Unit",60
+Hound,120000,11555,334,"Deflection Shield Emitter",15
+Purifier,120000,3828,1034,"Construction Blocks",30
+Purifier,120000,11399,18,Morphite,38
+Purifier,120000,11478,332,"R.A.M.- Starship Tech",3
+Purifier,120000,11532,334,"Fusion Thruster",30
+Purifier,120000,11537,334,"Radar Sensor Cluster",60
+Purifier,120000,11539,334,"Nanoelectrical Microprocessor",180
+Purifier,120000,11543,334,"Tungsten Carbide Armor Plate",300
+Purifier,120000,11549,334,"Antimatter Reactor Unit",6
+Purifier,120000,11554,334,"Tesseract Capacitor Unit",60
+Purifier,120000,11557,334,"Linear Shield Emitter",15
+Ishkur,120000,40,18,Megacyte,6
+Ishkur,120000,3828,1034,"Construction Blocks",38
+Ishkur,120000,11399,18,Morphite,45
+Ishkur,120000,11478,332,"R.A.M.- Starship Tech",6
+Ishkur,120000,11531,334,"Ion Thruster",30
+Ishkur,120000,11535,334,"Magnetometric Sensor Cluster",30
+Ishkur,120000,11541,334,"Photon Microprocessor",135
+Ishkur,120000,11545,334,"Crystalline Carbonide Armor Plate",900
+Ishkur,120000,11547,334,"Fusion Reactor Unit",8
+Ishkur,120000,11553,334,"Oscillator Capacitor Unit",90
+Ishkur,120000,11556,334,"Pulse Shield Emitter",30
+Enyo,120000,40,18,Megacyte,4
+Enyo,120000,3828,1034,"Construction Blocks",38
+Enyo,120000,11399,18,Morphite,45
+Enyo,120000,11478,332,"R.A.M.- Starship Tech",6
+Enyo,120000,11531,334,"Ion Thruster",23
+Enyo,120000,11535,334,"Magnetometric Sensor Cluster",30
+Enyo,120000,11541,334,"Photon Microprocessor",135
+Enyo,120000,11545,334,"Crystalline Carbonide Armor Plate",750
+Enyo,120000,11547,334,"Fusion Reactor Unit",8
+Enyo,120000,11553,334,"Oscillator Capacitor Unit",90
+Enyo,120000,11556,334,"Pulse Shield Emitter",30
+"10MN Afterburner II",4680,11399,18,Morphite,6
+"10MN Afterburner II",4680,11475,332,"R.A.M.- Armor/Hull Tech",2
+"10MN Afterburner II",4680,11530,334,"Plasma Thruster",6
+"10MN Afterburner II",4680,11531,334,"Ion Thruster",15
+"10MN Afterburner II",4680,11549,334,"Antimatter Reactor Unit",8
+"100MN Afterburner II",7020,11399,18,Morphite,12
+"100MN Afterburner II",7020,11475,332,"R.A.M.- Armor/Hull Tech",2
+"100MN Afterburner II",7020,11530,334,"Plasma Thruster",12
+"100MN Afterburner II",7020,11531,334,"Ion Thruster",15
+"100MN Afterburner II",7020,11549,334,"Antimatter Reactor Unit",8
+"10MN Microwarpdrive II",4680,11399,18,Morphite,33
+"10MN Microwarpdrive II",4680,11475,332,"R.A.M.- Armor/Hull Tech",2
+"10MN Microwarpdrive II",4680,11530,334,"Plasma Thruster",48
+"10MN Microwarpdrive II",4680,11531,334,"Ion Thruster",15
+"10MN Microwarpdrive II",4680,11549,334,"Antimatter Reactor Unit",8
+"100MN Microwarpdrive II",7020,11399,18,Morphite,75
+"100MN Microwarpdrive II",7020,11475,332,"R.A.M.- Armor/Hull Tech",2
+"100MN Microwarpdrive II",7020,11530,334,"Plasma Thruster",96
+"100MN Microwarpdrive II",7020,11531,334,"Ion Thruster",15
+"100MN Microwarpdrive II",7020,11549,334,"Antimatter Reactor Unit",8
+"Large Remote Capacitor Transmitter II",7020,9838,1034,Superconductors,45
+"Large Remote Capacitor Transmitter II",7020,11399,18,Morphite,14
+"Large Remote Capacitor Transmitter II",7020,11482,332,"R.A.M.- Energy Tech",2
+"Large Remote Capacitor Transmitter II",7020,11539,334,"Nanoelectrical Microprocessor",14
+"Large Remote Capacitor Transmitter II",7020,11554,334,"Tesseract Capacitor Unit",23
+"Improved Cloaking Device II",9360,11399,18,Morphite,4
+"Improved Cloaking Device II",9360,11483,332,"R.A.M.- Electronics",2
+"Improved Cloaking Device II",9360,11541,334,"Photon Microprocessor",15
+"Improved Cloaking Device II",9360,11693,334,"Graviton Pulse Generator",15
+"Covert Ops Cloaking Device II",11700,9840,1034,Transmitter,16
+"Covert Ops Cloaking Device II",11700,9842,1034,"Miniature Electronics",16
+"Covert Ops Cloaking Device II",11700,11399,18,Morphite,19
+"Covert Ops Cloaking Device II",11700,11483,332,"R.A.M.- Electronics",2
+"Covert Ops Cloaking Device II",11700,11541,334,"Photon Microprocessor",33
+"Covert Ops Cloaking Device II",11700,11693,334,"Graviton Pulse Generator",26
+"Medium Remote Capacitor Transmitter II",4680,9838,1034,Superconductors,23
+"Medium Remote Capacitor Transmitter II",4680,11399,18,Morphite,9
+"Medium Remote Capacitor Transmitter II",4680,11482,332,"R.A.M.- Energy Tech",2
+"Medium Remote Capacitor Transmitter II",4680,11539,334,"Nanoelectrical Microprocessor",9
+"Medium Remote Capacitor Transmitter II",4680,11554,334,"Tesseract Capacitor Unit",15
+"Medium Nosferatu II",4680,9838,1034,Superconductors,30
+"Medium Nosferatu II",4680,11399,18,Morphite,12
+"Medium Nosferatu II",4680,11482,332,"R.A.M.- Energy Tech",2
+"Medium Nosferatu II",4680,11539,334,"Nanoelectrical Microprocessor",15
+"Medium Nosferatu II",4680,11554,334,"Tesseract Capacitor Unit",38
+"Heavy Nosferatu II",7020,9838,1034,Superconductors,45
+"Heavy Nosferatu II",7020,11399,18,Morphite,24
+"Heavy Nosferatu II",7020,11482,332,"R.A.M.- Energy Tech",2
+"Heavy Nosferatu II",7020,11539,334,"Nanoelectrical Microprocessor",30
+"Heavy Nosferatu II",7020,11554,334,"Tesseract Capacitor Unit",53
+"Medium Energy Neutralizer II",4680,9838,1034,Superconductors,23
+"Medium Energy Neutralizer II",4680,11482,332,"R.A.M.- Energy Tech",2
+"Medium Energy Neutralizer II",4680,11539,334,"Nanoelectrical Microprocessor",15
+"Medium Energy Neutralizer II",4680,11554,334,"Tesseract Capacitor Unit",30
+"Heavy Energy Neutralizer II",7020,9838,1034,Superconductors,30
+"Heavy Energy Neutralizer II",7020,11482,332,"R.A.M.- Energy Tech",2
+"Heavy Energy Neutralizer II",7020,11539,334,"Nanoelectrical Microprocessor",23
+"Heavy Energy Neutralizer II",7020,11554,334,"Tesseract Capacitor Unit",45
+"200mm Railgun II",4680,9848,1040,Robotics,3
+"200mm Railgun II",4680,11399,18,Morphite,5
+"200mm Railgun II",4680,11486,332,"R.A.M.- Weapon Tech",2
+"200mm Railgun II",4680,11690,334,"Superconductor Rails",12
+"350mm Railgun II",7020,9848,1040,Robotics,10
+"350mm Railgun II",7020,11399,18,Morphite,33
+"350mm Railgun II",7020,11486,332,"R.A.M.- Weapon Tech",2
+"350mm Railgun II",7020,11690,334,"Superconductor Rails",23
+"Gleam S",4800,34,18,Tritanium,342
+"Gleam S",4800,35,18,Pyerite,83
+"Gleam S",4800,37,18,Isogen,27
+"Gleam S",4800,38,18,Nocxium,40
+"Gleam S",4800,39,18,Zydrine,13
+"Gleam S",4800,40,18,Megacyte,2
+"Gleam S",4800,11399,18,Morphite,2
+"Gleam S",4800,11476,332,"R.A.M.- Ammunition Tech",2
+"Gleam S",4800,16672,429,"Tungsten Carbide",261
+"Gleam S",4800,16679,429,Fullerides,45
+"Aurora S",4800,34,18,Tritanium,342
+"Aurora S",4800,35,18,Pyerite,83
+"Aurora S",4800,37,18,Isogen,27
+"Aurora S",4800,38,18,Nocxium,40
+"Aurora S",4800,39,18,Zydrine,13
+"Aurora S",4800,40,18,Megacyte,2
+"Aurora S",4800,11399,18,Morphite,2
+"Aurora S",4800,11476,332,"R.A.M.- Ammunition Tech",2
+"Aurora S",4800,16672,429,"Tungsten Carbide",261
+"Aurora S",4800,16679,429,Fullerides,45
+"Scorch S",4800,34,18,Tritanium,560
+"Scorch S",4800,35,18,Pyerite,56
+"Scorch S",4800,37,18,Isogen,11
+"Scorch S",4800,38,18,Nocxium,28
+"Scorch S",4800,39,18,Zydrine,4
+"Scorch S",4800,40,18,Megacyte,1
+"Scorch S",4800,11399,18,Morphite,2
+"Scorch S",4800,11476,332,"R.A.M.- Ammunition Tech",2
+"Scorch S",4800,16672,429,"Tungsten Carbide",108
+"Scorch S",4800,16679,429,Fullerides,45
+"Conflagration S",4800,34,18,Tritanium,560
+"Conflagration S",4800,35,18,Pyerite,56
+"Conflagration S",4800,37,18,Isogen,11
+"Conflagration S",4800,38,18,Nocxium,28
+"Conflagration S",4800,39,18,Zydrine,4
+"Conflagration S",4800,40,18,Megacyte,1
+"Conflagration S",4800,11399,18,Morphite,2
+"Conflagration S",4800,11476,332,"R.A.M.- Ammunition Tech",2
+"Conflagration S",4800,16672,429,"Tungsten Carbide",108
+"Conflagration S",4800,16679,429,Fullerides,45
+"Hail S",4800,34,18,Tritanium,18
+"Hail S",4800,36,18,Mexallon,18
+"Hail S",4800,37,18,Isogen,9
+"Hail S",4800,38,18,Nocxium,3
+"Hail S",4800,39,18,Zydrine,3
+"Hail S",4800,40,18,Megacyte,2
+"Hail S",4800,11399,18,Morphite,2
+"Hail S",4800,11476,332,"R.A.M.- Ammunition Tech",2
+"Hail S",4800,16673,429,"Fernite Carbide",300
+"Hail S",4800,16679,429,Fullerides,120
+"Void S",4800,34,18,Tritanium,1111
+"Void S",4800,35,18,Pyerite,2
+"Void S",4800,36,18,Mexallon,2
+"Void S",4800,39,18,Zydrine,13
+"Void S",4800,40,18,Megacyte,3
+"Void S",4800,11399,18,Morphite,2
+"Void S",4800,11476,332,"R.A.M.- Ammunition Tech",2
+"Void S",4800,16670,429,"Crystalline Carbonide",60
+"Void S",4800,16679,429,Fullerides,60
+"Null S",4800,34,18,Tritanium,1111
+"Null S",4800,35,18,Pyerite,2
+"Null S",4800,36,18,Mexallon,2
+"Null S",4800,39,18,Zydrine,13
+"Null S",4800,40,18,Megacyte,3
+"Null S",4800,11399,18,Morphite,2
+"Null S",4800,11476,332,"R.A.M.- Ammunition Tech",2
+"Null S",4800,16670,429,"Crystalline Carbonide",60
+"Null S",4800,16679,429,Fullerides,60
+"Spike S",4800,34,18,Tritanium,1667
+"Spike S",4800,35,18,Pyerite,3
+"Spike S",4800,36,18,Mexallon,3
+"Spike S",4800,39,18,Zydrine,22
+"Spike S",4800,40,18,Megacyte,7
+"Spike S",4800,11399,18,Morphite,2
+"Spike S",4800,11476,332,"R.A.M.- Ammunition Tech",2
+"Spike S",4800,16671,429,"Titanium Carbide",150
+"Spike S",4800,16679,429,Fullerides,75
+"Javelin S",4800,34,18,Tritanium,1667
+"Javelin S",4800,35,18,Pyerite,3
+"Javelin S",4800,36,18,Mexallon,3
+"Javelin S",4800,39,18,Zydrine,22
+"Javelin S",4800,40,18,Megacyte,7
+"Javelin S",4800,11399,18,Morphite,2
+"Javelin S",4800,11476,332,"R.A.M.- Ammunition Tech",2
+"Javelin S",4800,16671,429,"Titanium Carbide",150
+"Javelin S",4800,16679,429,Fullerides,75
+"Barrage S",4800,34,18,Tritanium,18
+"Barrage S",4800,36,18,Mexallon,18
+"Barrage S",4800,37,18,Isogen,9
+"Barrage S",4800,38,18,Nocxium,3
+"Barrage S",4800,39,18,Zydrine,3
+"Barrage S",4800,40,18,Megacyte,2
+"Barrage S",4800,11399,18,Morphite,2
+"Barrage S",4800,11476,332,"R.A.M.- Ammunition Tech",2
+"Barrage S",4800,16673,429,"Fernite Carbide",300
+"Barrage S",4800,16679,429,Fullerides,120
+"Quake S",4800,34,18,Tritanium,116
+"Quake S",4800,36,18,Mexallon,28
+"Quake S",4800,37,18,Isogen,9
+"Quake S",4800,38,18,Nocxium,4
+"Quake S",4800,39,18,Zydrine,4
+"Quake S",4800,40,18,Megacyte,1
+"Quake S",4800,11399,18,Morphite,3
+"Quake S",4800,11476,332,"R.A.M.- Ammunition Tech",2
+"Quake S",4800,16673,429,"Fernite Carbide",600
+"Quake S",4800,16679,429,Fullerides,150
+"Tremor S",4800,34,18,Tritanium,116
+"Tremor S",4800,36,18,Mexallon,28
+"Tremor S",4800,37,18,Isogen,9
+"Tremor S",4800,38,18,Nocxium,4
+"Tremor S",4800,39,18,Zydrine,4
+"Tremor S",4800,40,18,Megacyte,1
+"Tremor S",4800,11399,18,Morphite,3
+"Tremor S",4800,11476,332,"R.A.M.- Ammunition Tech",2
+"Tremor S",4800,16673,429,"Fernite Carbide",600
+"Tremor S",4800,16679,429,Fullerides,150
+Crane,240000,3828,1034,"Construction Blocks",113
+Crane,240000,11399,18,Morphite,60
+Crane,240000,11478,332,"R.A.M.- Starship Tech",11
+Crane,240000,11533,334,"Magpulse Thruster",113
+Crane,240000,11534,334,"Gravimetric Sensor Cluster",90
+Crane,240000,11540,334,"Quantum Microprocessor",1200
+Crane,240000,11544,334,"Titanium Diborite Armor Plate",3000
+Crane,240000,11550,334,"Graviton Reactor Unit",38
+Crane,240000,11552,334,"Scalar Capacitor Unit",225
+Crane,240000,11558,334,"Sustained Shield Emitter",150
+Bustard,240000,3828,1034,"Construction Blocks",225
+Bustard,240000,11399,18,Morphite,105
+Bustard,240000,11478,332,"R.A.M.- Starship Tech",15
+Bustard,240000,11533,334,"Magpulse Thruster",75
+Bustard,240000,11534,334,"Gravimetric Sensor Cluster",135
+Bustard,240000,11540,334,"Quantum Microprocessor",1800
+Bustard,240000,11544,334,"Titanium Diborite Armor Plate",5250
+Bustard,240000,11550,334,"Graviton Reactor Unit",45
+Bustard,240000,11552,334,"Scalar Capacitor Unit",300
+Bustard,240000,11558,334,"Sustained Shield Emitter",375
+Prorator,240000,3828,1034,"Construction Blocks",113
+Prorator,240000,11399,18,Morphite,60
+Prorator,240000,11478,332,"R.A.M.- Starship Tech",11
+Prorator,240000,11532,334,"Fusion Thruster",113
+Prorator,240000,11537,334,"Radar Sensor Cluster",90
+Prorator,240000,11539,334,"Nanoelectrical Microprocessor",1200
+Prorator,240000,11543,334,"Tungsten Carbide Armor Plate",3000
+Prorator,240000,11549,334,"Antimatter Reactor Unit",38
+Prorator,240000,11554,334,"Tesseract Capacitor Unit",225
+Prorator,240000,11557,334,"Linear Shield Emitter",150
+Prowler,240000,3828,1034,"Construction Blocks",113
+Prowler,240000,11399,18,Morphite,60
+Prowler,240000,11478,332,"R.A.M.- Starship Tech",11
+Prowler,240000,11530,334,"Plasma Thruster",113
+Prowler,240000,11536,334,"Ladar Sensor Cluster",90
+Prowler,240000,11538,334,"Nanomechanical Microprocessor",1200
+Prowler,240000,11542,334,"Fernite Carbide Composite Armor Plate",3000
+Prowler,240000,11548,334,"Nuclear Reactor Unit",38
+Prowler,240000,11551,334,"Electrolytic Capacitor Unit",225
+Prowler,240000,11555,334,"Deflection Shield Emitter",150
+Viator,240000,3828,1034,"Construction Blocks",113
+Viator,240000,11399,18,Morphite,60
+Viator,240000,11478,332,"R.A.M.- Starship Tech",11
+Viator,240000,11531,334,"Ion Thruster",113
+Viator,240000,11535,334,"Magnetometric Sensor Cluster",90
+Viator,240000,11541,334,"Photon Microprocessor",1200
+Viator,240000,11545,334,"Crystalline Carbonide Armor Plate",3000
+Viator,240000,11547,334,"Fusion Reactor Unit",38
+Viator,240000,11553,334,"Oscillator Capacitor Unit",225
+Viator,240000,11556,334,"Pulse Shield Emitter",150
+Occator,240000,3828,1034,"Construction Blocks",225
+Occator,240000,11399,18,Morphite,105
+Occator,240000,11478,332,"R.A.M.- Starship Tech",15
+Occator,240000,11531,334,"Ion Thruster",75
+Occator,240000,11535,334,"Magnetometric Sensor Cluster",135
+Occator,240000,11541,334,"Photon Microprocessor",1800
+Occator,240000,11545,334,"Crystalline Carbonide Armor Plate",5250
+Occator,240000,11547,334,"Fusion Reactor Unit",45
+Occator,240000,11553,334,"Oscillator Capacitor Unit",300
+Occator,240000,11556,334,"Pulse Shield Emitter",375
+Mastodon,240000,3828,1034,"Construction Blocks",225
+Mastodon,240000,11399,18,Morphite,105
+Mastodon,240000,11478,332,"R.A.M.- Starship Tech",15
+Mastodon,240000,11530,334,"Plasma Thruster",75
+Mastodon,240000,11536,334,"Ladar Sensor Cluster",135
+Mastodon,240000,11538,334,"Nanomechanical Microprocessor",1800
+Mastodon,240000,11542,334,"Fernite Carbide Composite Armor Plate",5250
+Mastodon,240000,11548,334,"Nuclear Reactor Unit",45
+Mastodon,240000,11551,334,"Electrolytic Capacitor Unit",300
+Mastodon,240000,11555,334,"Deflection Shield Emitter",375
+Impel,240000,3828,1034,"Construction Blocks",225
+Impel,240000,11399,18,Morphite,105
+Impel,240000,11478,332,"R.A.M.- Starship Tech",15
+Impel,240000,11532,334,"Fusion Thruster",75
+Impel,240000,11537,334,"Radar Sensor Cluster",135
+Impel,240000,11539,334,"Nanoelectrical Microprocessor",1800
+Impel,240000,11543,334,"Tungsten Carbide Armor Plate",5250
+Impel,240000,11549,334,"Antimatter Reactor Unit",45
+Impel,240000,11554,334,"Tesseract Capacitor Unit",300
+Impel,240000,11557,334,"Linear Shield Emitter",375
+"Quake L",14400,34,18,Tritanium,1156
+"Quake L",14400,36,18,Mexallon,278
+"Quake L",14400,37,18,Isogen,89
+"Quake L",14400,38,18,Nocxium,44
+"Quake L",14400,39,18,Zydrine,44
+"Quake L",14400,40,18,Megacyte,11
+"Quake L",14400,11399,18,Morphite,30
+"Quake L",14400,11476,332,"R.A.M.- Ammunition Tech",2
+"Quake L",14400,16673,429,"Fernite Carbide",6000
+"Quake L",14400,16679,429,Fullerides,1500
+"Tremor L",14400,34,18,Tritanium,1156
+"Tremor L",14400,36,18,Mexallon,278
+"Tremor L",14400,37,18,Isogen,89
+"Tremor L",14400,38,18,Nocxium,44
+"Tremor L",14400,39,18,Zydrine,44
+"Tremor L",14400,40,18,Megacyte,11
+"Tremor L",14400,11399,18,Morphite,30
+"Tremor L",14400,11476,332,"R.A.M.- Ammunition Tech",2
+"Tremor L",14400,16673,429,"Fernite Carbide",6000
+"Tremor L",14400,16679,429,Fullerides,1500
+"Quake M",9600,34,18,Tritanium,462
+"Quake M",9600,36,18,Mexallon,111
+"Quake M",9600,37,18,Isogen,36
+"Quake M",9600,38,18,Nocxium,18
+"Quake M",9600,39,18,Zydrine,18
+"Quake M",9600,40,18,Megacyte,4
+"Quake M",9600,11399,18,Morphite,12
+"Quake M",9600,11476,332,"R.A.M.- Ammunition Tech",2
+"Quake M",9600,16673,429,"Fernite Carbide",2400
+"Quake M",9600,16679,429,Fullerides,600
+"Tremor M",9600,34,18,Tritanium,462
+"Tremor M",9600,36,18,Mexallon,111
+"Tremor M",9600,37,18,Isogen,36
+"Tremor M",9600,38,18,Nocxium,18
+"Tremor M",9600,39,18,Zydrine,18
+"Tremor M",9600,40,18,Megacyte,4
+"Tremor M",9600,11399,18,Morphite,12
+"Tremor M",9600,11476,332,"R.A.M.- Ammunition Tech",2
+"Tremor M",9600,16673,429,"Fernite Carbide",2400
+"Tremor M",9600,16679,429,Fullerides,600
+"Barrage M",9600,34,18,Tritanium,71
+"Barrage M",9600,36,18,Mexallon,71
+"Barrage M",9600,37,18,Isogen,36
+"Barrage M",9600,38,18,Nocxium,13
+"Barrage M",9600,39,18,Zydrine,13
+"Barrage M",9600,40,18,Megacyte,9
+"Barrage M",9600,11399,18,Morphite,6
+"Barrage M",9600,11476,332,"R.A.M.- Ammunition Tech",2
+"Barrage M",9600,16673,429,"Fernite Carbide",1200
+"Barrage M",9600,16679,429,Fullerides,480
+"Barrage L",14400,34,18,Tritanium,178
+"Barrage L",14400,36,18,Mexallon,178
+"Barrage L",14400,37,18,Isogen,89
+"Barrage L",14400,38,18,Nocxium,33
+"Barrage L",14400,39,18,Zydrine,33
+"Barrage L",14400,40,18,Megacyte,22
+"Barrage L",14400,11399,18,Morphite,15
+"Barrage L",14400,11476,332,"R.A.M.- Ammunition Tech",2
+"Barrage L",14400,16673,429,"Fernite Carbide",3000
+"Barrage L",14400,16679,429,Fullerides,1200
+"Hail M",9600,34,18,Tritanium,71
+"Hail M",9600,36,18,Mexallon,71
+"Hail M",9600,37,18,Isogen,36
+"Hail M",9600,38,18,Nocxium,13
+"Hail M",9600,39,18,Zydrine,13
+"Hail M",9600,40,18,Megacyte,9
+"Hail M",9600,11399,18,Morphite,6
+"Hail M",9600,11476,332,"R.A.M.- Ammunition Tech",2
+"Hail M",9600,16673,429,"Fernite Carbide",1200
+"Hail M",9600,16679,429,Fullerides,480
+"Hail L",14400,34,18,Tritanium,178
+"Hail L",14400,36,18,Mexallon,178
+"Hail L",14400,37,18,Isogen,89
+"Hail L",14400,38,18,Nocxium,33
+"Hail L",14400,39,18,Zydrine,33
+"Hail L",14400,40,18,Megacyte,22
+"Hail L",14400,11399,18,Morphite,15
+"Hail L",14400,11476,332,"R.A.M.- Ammunition Tech",2
+"Hail L",14400,16673,429,"Fernite Carbide",3000
+"Hail L",14400,16679,429,Fullerides,1200
+"Null M",9600,34,18,Tritanium,4444
+"Null M",9600,35,18,Pyerite,9
+"Null M",9600,36,18,Mexallon,9
+"Null M",9600,39,18,Zydrine,53
+"Null M",9600,40,18,Megacyte,13
+"Null M",9600,11399,18,Morphite,6
+"Null M",9600,11476,332,"R.A.M.- Ammunition Tech",2
+"Null M",9600,16670,429,"Crystalline Carbonide",240
+"Null M",9600,16679,429,Fullerides,240
+"Null L",14400,34,18,Tritanium,11111
+"Null L",14400,35,18,Pyerite,22
+"Null L",14400,36,18,Mexallon,22
+"Null L",14400,39,18,Zydrine,133
+"Null L",14400,40,18,Megacyte,33
+"Null L",14400,11399,18,Morphite,15
+"Null L",14400,11476,332,"R.A.M.- Ammunition Tech",2
+"Null L",14400,16670,429,"Crystalline Carbonide",600
+"Null L",14400,16679,429,Fullerides,600
+"Void M",9600,34,18,Tritanium,4444
+"Void M",9600,35,18,Pyerite,9
+"Void M",9600,36,18,Mexallon,9
+"Void M",9600,39,18,Zydrine,53
+"Void M",9600,40,18,Megacyte,13
+"Void M",9600,11399,18,Morphite,6
+"Void M",9600,11476,332,"R.A.M.- Ammunition Tech",2
+"Void M",9600,16670,429,"Crystalline Carbonide",240
+"Void M",9600,16679,429,Fullerides,240
+"Void L",14400,34,18,Tritanium,11111
+"Void L",14400,35,18,Pyerite,22
+"Void L",14400,36,18,Mexallon,22
+"Void L",14400,39,18,Zydrine,133
+"Void L",14400,40,18,Megacyte,33
+"Void L",14400,11399,18,Morphite,15
+"Void L",14400,11476,332,"R.A.M.- Ammunition Tech",2
+"Void L",14400,16670,429,"Crystalline Carbonide",600
+"Void L",14400,16679,429,Fullerides,600
+"Javelin M",9600,34,18,Tritanium,6667
+"Javelin M",9600,35,18,Pyerite,13
+"Javelin M",9600,36,18,Mexallon,13
+"Javelin M",9600,39,18,Zydrine,89
+"Javelin M",9600,40,18,Megacyte,27
+"Javelin M",9600,11399,18,Morphite,6
+"Javelin M",9600,11476,332,"R.A.M.- Ammunition Tech",2
+"Javelin M",9600,16671,429,"Titanium Carbide",600
+"Javelin M",9600,16679,429,Fullerides,300
+"Javelin L",14400,34,18,Tritanium,16667
+"Javelin L",14400,35,18,Pyerite,33
+"Javelin L",14400,36,18,Mexallon,33
+"Javelin L",14400,39,18,Zydrine,222
+"Javelin L",14400,40,18,Megacyte,67
+"Javelin L",14400,11399,18,Morphite,15
+"Javelin L",14400,11476,332,"R.A.M.- Ammunition Tech",2
+"Javelin L",14400,16671,429,"Titanium Carbide",1500
+"Javelin L",14400,16679,429,Fullerides,750
+"Spike M",9600,34,18,Tritanium,6667
+"Spike M",9600,35,18,Pyerite,13
+"Spike M",9600,36,18,Mexallon,13
+"Spike M",9600,39,18,Zydrine,89
+"Spike M",9600,40,18,Megacyte,27
+"Spike M",9600,11399,18,Morphite,6
+"Spike M",9600,11476,332,"R.A.M.- Ammunition Tech",2
+"Spike M",9600,16671,429,"Titanium Carbide",600
+"Spike M",9600,16679,429,Fullerides,300
+"Spike L",14400,34,18,Tritanium,16667
+"Spike L",14400,35,18,Pyerite,33
+"Spike L",14400,36,18,Mexallon,33
+"Spike L",14400,39,18,Zydrine,222
+"Spike L",14400,40,18,Megacyte,67
+"Spike L",14400,11399,18,Morphite,15
+"Spike L",14400,11476,332,"R.A.M.- Ammunition Tech",2
+"Spike L",14400,16671,429,"Titanium Carbide",1500
+"Spike L",14400,16679,429,Fullerides,750
+"Conflagration M",9600,34,18,Tritanium,2240
+"Conflagration M",9600,35,18,Pyerite,222
+"Conflagration M",9600,37,18,Isogen,44
+"Conflagration M",9600,38,18,Nocxium,111
+"Conflagration M",9600,39,18,Zydrine,18
+"Conflagration M",9600,40,18,Megacyte,4
+"Conflagration M",9600,11399,18,Morphite,6
+"Conflagration M",9600,11476,332,"R.A.M.- Ammunition Tech",2
+"Conflagration M",9600,16672,429,"Tungsten Carbide",432
+"Conflagration M",9600,16679,429,Fullerides,180
+"Conflagration L",14400,34,18,Tritanium,5600
+"Conflagration L",14400,35,18,Pyerite,556
+"Conflagration L",14400,37,18,Isogen,111
+"Conflagration L",14400,38,18,Nocxium,278
+"Conflagration L",14400,39,18,Zydrine,44
+"Conflagration L",14400,40,18,Megacyte,11
+"Conflagration L",14400,11399,18,Morphite,15
+"Conflagration L",14400,11476,332,"R.A.M.- Ammunition Tech",2
+"Conflagration L",14400,16672,429,"Tungsten Carbide",1080
+"Conflagration L",14400,16679,429,Fullerides,450
+"Scorch M",9600,34,18,Tritanium,2240
+"Scorch M",9600,35,18,Pyerite,222
+"Scorch M",9600,37,18,Isogen,44
+"Scorch M",9600,38,18,Nocxium,111
+"Scorch M",9600,39,18,Zydrine,18
+"Scorch M",9600,40,18,Megacyte,4
+"Scorch M",9600,11399,18,Morphite,6
+"Scorch M",9600,11476,332,"R.A.M.- Ammunition Tech",2
+"Scorch M",9600,16672,429,"Tungsten Carbide",432
+"Scorch M",9600,16679,429,Fullerides,180
+"Scorch L",14400,34,18,Tritanium,5600
+"Scorch L",14400,35,18,Pyerite,556
+"Scorch L",14400,37,18,Isogen,111
+"Scorch L",14400,38,18,Nocxium,278
+"Scorch L",14400,39,18,Zydrine,44
+"Scorch L",14400,40,18,Megacyte,11
+"Scorch L",14400,11399,18,Morphite,15
+"Scorch L",14400,11476,332,"R.A.M.- Ammunition Tech",2
+"Scorch L",14400,16672,429,"Tungsten Carbide",1080
+"Scorch L",14400,16679,429,Fullerides,450
+"Aurora M",9600,34,18,Tritanium,1369
+"Aurora M",9600,35,18,Pyerite,333
+"Aurora M",9600,37,18,Isogen,107
+"Aurora M",9600,38,18,Nocxium,160
+"Aurora M",9600,39,18,Zydrine,53
+"Aurora M",9600,40,18,Megacyte,9
+"Aurora M",9600,11399,18,Morphite,6
+"Aurora M",9600,11476,332,"R.A.M.- Ammunition Tech",2
+"Aurora M",9600,16672,429,"Tungsten Carbide",1044
+"Aurora M",9600,16679,429,Fullerides,180
+"Aurora L",14400,34,18,Tritanium,3422
+"Aurora L",14400,35,18,Pyerite,833
+"Aurora L",14400,37,18,Isogen,267
+"Aurora L",14400,38,18,Nocxium,400
+"Aurora L",14400,39,18,Zydrine,133
+"Aurora L",14400,40,18,Megacyte,22
+"Aurora L",14400,11399,18,Morphite,15
+"Aurora L",14400,11476,332,"R.A.M.- Ammunition Tech",2
+"Aurora L",14400,16672,429,"Tungsten Carbide",2610
+"Aurora L",14400,16679,429,Fullerides,450
+"Gleam M",9600,34,18,Tritanium,1369
+"Gleam M",9600,35,18,Pyerite,333
+"Gleam M",9600,37,18,Isogen,107
+"Gleam M",9600,38,18,Nocxium,160
+"Gleam M",9600,39,18,Zydrine,53
+"Gleam M",9600,40,18,Megacyte,9
+"Gleam M",9600,11399,18,Morphite,6
+"Gleam M",9600,11476,332,"R.A.M.- Ammunition Tech",2
+"Gleam M",9600,16672,429,"Tungsten Carbide",1044
+"Gleam M",9600,16679,429,Fullerides,180
+"Gleam L",14400,34,18,Tritanium,3422
+"Gleam L",14400,35,18,Pyerite,833
+"Gleam L",14400,37,18,Isogen,267
+"Gleam L",14400,38,18,Nocxium,400
+"Gleam L",14400,39,18,Zydrine,133
+"Gleam L",14400,40,18,Megacyte,22
+"Gleam L",14400,11399,18,Morphite,15
+"Gleam L",14400,11476,332,"R.A.M.- Ammunition Tech",2
+"Gleam L",14400,16672,429,"Tungsten Carbide",2610
+"Gleam L",14400,16679,429,Fullerides,450
+"Small Nosferatu II",2340,9838,1034,Superconductors,8
+"Small Nosferatu II",2340,11399,18,Morphite,6
+"Small Nosferatu II",2340,11482,332,"R.A.M.- Energy Tech",2
+"Small Nosferatu II",2340,11539,334,"Nanoelectrical Microprocessor",8
+"Small Nosferatu II",2340,11554,334,"Tesseract Capacitor Unit",15
+"Small Energy Neutralizer II",2340,9838,1034,Superconductors,8
+"Small Energy Neutralizer II",2340,11539,334,"Nanoelectrical Microprocessor",8
+"Small Energy Neutralizer II",2340,11554,334,"Tesseract Capacitor Unit",15
+"800mm Repeating Cannon II",7020,9848,1040,Robotics,3
+"800mm Repeating Cannon II",7020,11399,18,Morphite,35
+"800mm Repeating Cannon II",7020,11486,332,"R.A.M.- Weapon Tech",2
+"800mm Repeating Cannon II",7020,11691,334,"Thermonuclear Trigger Unit",24
+"150mm Light AutoCannon II",2340,9848,1040,Robotics,1
+"150mm Light AutoCannon II",2340,11399,18,Morphite,3
+"150mm Light AutoCannon II",2340,11486,332,"R.A.M.- Weapon Tech",2
+"150mm Light AutoCannon II",2340,11691,334,"Thermonuclear Trigger Unit",4
+"Modulated Strip Miner II",5460,3687,280,"Electronic Parts",3
+"Modulated Strip Miner II",5460,3689,1034,"Mechanical Parts",4
+"Modulated Strip Miner II",5460,11399,18,Morphite,23
+"Modulated Strip Miner II",5460,11482,332,"R.A.M.- Energy Tech",2
+"Modulated Strip Miner II",5460,11541,334,"Photon Microprocessor",5
+"Modulated Strip Miner II",5460,11689,334,"Laser Focusing Crystals",2
+"Modulated Deep Core Miner II",5460,11399,18,Morphite,23
+"Modulated Deep Core Miner II",5460,11482,332,"R.A.M.- Energy Tech",2
+"Modulated Deep Core Miner II",5460,11541,334,"Photon Microprocessor",5
+"Modulated Deep Core Miner II",5460,11689,334,"Laser Focusing Crystals",2
+"Arkonor Mining Crystal II",480,11483,332,"R.A.M.- Electronics",2
+"Arkonor Mining Crystal II",480,16682,429,"Hypersynaptic Fibers",26
+"Arkonor Mining Crystal II",480,18036,482,"Arkonor Mining Crystal I",1
+"Bistot Mining Crystal II",480,11483,332,"R.A.M.- Electronics",2
+"Bistot Mining Crystal II",480,16682,429,"Hypersynaptic Fibers",24
+"Bistot Mining Crystal II",480,18038,482,"Bistot Mining Crystal I",1
+"Crokite Mining Crystal II",480,11483,332,"R.A.M.- Electronics",2
+"Crokite Mining Crystal II",480,16682,429,"Hypersynaptic Fibers",23
+"Crokite Mining Crystal II",480,18040,482,"Crokite Mining Crystal I",1
+"Dark Ochre Mining Crystal II",480,11483,332,"R.A.M.- Electronics",2
+"Dark Ochre Mining Crystal II",480,16682,429,"Hypersynaptic Fibers",20
+"Dark Ochre Mining Crystal II",480,18042,482,"Dark Ochre Mining Crystal I",1
+"Gneiss Mining Crystal II",480,11483,332,"R.A.M.- Electronics",2
+"Gneiss Mining Crystal II",480,16682,429,"Hypersynaptic Fibers",18
+"Gneiss Mining Crystal II",480,18044,482,"Gneiss Mining Crystal I",1
+"Hedbergite Mining Crystal II",480,11483,332,"R.A.M.- Electronics",2
+"Hedbergite Mining Crystal II",480,16682,429,"Hypersynaptic Fibers",17
+"Hedbergite Mining Crystal II",480,18046,482,"Hedbergite Mining Crystal I",1
+"Hemorphite Mining Crystal II",480,11483,332,"R.A.M.- Electronics",2
+"Hemorphite Mining Crystal II",480,16682,429,"Hypersynaptic Fibers",15
+"Hemorphite Mining Crystal II",480,18048,482,"Hemorphite Mining Crystal I",1
+"Jaspet Mining Crystal II",480,11483,332,"R.A.M.- Electronics",2
+"Jaspet Mining Crystal II",480,16682,429,"Hypersynaptic Fibers",14
+"Jaspet Mining Crystal II",480,18050,482,"Jaspet Mining Crystal I",1
+"Kernite Mining Crystal II",480,11483,332,"R.A.M.- Electronics",2
+"Kernite Mining Crystal II",480,16682,429,"Hypersynaptic Fibers",12
+"Kernite Mining Crystal II",480,18052,482,"Kernite Mining Crystal I",1
+"Mercoxit Mining Crystal II",480,11483,332,"R.A.M.- Electronics",2
+"Mercoxit Mining Crystal II",480,16682,429,"Hypersynaptic Fibers",24
+"Mercoxit Mining Crystal II",480,18054,663,"Mercoxit Mining Crystal I",1
+"Omber Mining Crystal II",480,11483,332,"R.A.M.- Electronics",2
+"Omber Mining Crystal II",480,16682,429,"Hypersynaptic Fibers",11
+"Omber Mining Crystal II",480,18056,482,"Omber Mining Crystal I",1
+"Plagioclase Mining Crystal II",480,11483,332,"R.A.M.- Electronics",2
+"Plagioclase Mining Crystal II",480,16682,429,"Hypersynaptic Fibers",9
+"Plagioclase Mining Crystal II",480,18058,482,"Plagioclase Mining Crystal I",1
+"Pyroxeres Mining Crystal II",480,11483,332,"R.A.M.- Electronics",2
+"Pyroxeres Mining Crystal II",480,16682,429,"Hypersynaptic Fibers",8
+"Pyroxeres Mining Crystal II",480,18060,482,"Pyroxeres Mining Crystal I",1
+"Scordite Mining Crystal II",480,11483,332,"R.A.M.- Electronics",2
+"Scordite Mining Crystal II",480,16682,429,"Hypersynaptic Fibers",6
+"Scordite Mining Crystal II",480,18062,482,"Scordite Mining Crystal I",1
+"Veldspar Mining Crystal II",480,11483,332,"R.A.M.- Electronics",2
+"Veldspar Mining Crystal II",480,16682,429,"Hypersynaptic Fibers",5
+"Veldspar Mining Crystal II",480,18066,482,"Veldspar Mining Crystal I",1
+"Spodumain Mining Crystal II",480,11483,332,"R.A.M.- Electronics",2
+"Spodumain Mining Crystal II",480,16682,429,"Hypersynaptic Fibers",26
+"Spodumain Mining Crystal II",480,18064,482,"Spodumain Mining Crystal I",1
+"Cruise Missile Launcher II",7020,9848,1040,Robotics,9
+"Cruise Missile Launcher II",7020,11399,18,Morphite,12
+"Cruise Missile Launcher II",7020,11486,332,"R.A.M.- Weapon Tech",2
+"Cruise Missile Launcher II",7020,11540,334,"Quantum Microprocessor",12
+"Target Painter II",4680,9842,1034,"Miniature Electronics",3
+"Target Painter II",4680,11483,332,"R.A.M.- Electronics",2
+"Target Painter II",4680,11534,334,"Gravimetric Sensor Cluster",9
+"Target Painter II",4680,11540,334,"Quantum Microprocessor",5
+Curse,240000,3828,1034,"Construction Blocks",75
+Curse,240000,11399,18,Morphite,150
+Curse,240000,11478,332,"R.A.M.- Starship Tech",18
+Curse,240000,11532,334,"Fusion Thruster",60
+Curse,240000,11537,334,"Radar Sensor Cluster",495
+Curse,240000,11539,334,"Nanoelectrical Microprocessor",1800
+Curse,240000,11543,334,"Tungsten Carbide Armor Plate",3750
+Curse,240000,11549,334,"Antimatter Reactor Unit",30
+Curse,240000,11554,334,"Tesseract Capacitor Unit",375
+Curse,240000,11557,334,"Linear Shield Emitter",300
+"50mm Reinforced Steel Plates II",2340,11399,18,Morphite,2
+"50mm Reinforced Steel Plates II",2340,11475,332,"R.A.M.- Armor/Hull Tech",2
+"50mm Reinforced Steel Plates II",2340,11543,334,"Tungsten Carbide Armor Plate",6
+"100mm Reinforced Steel Plates II",2340,11399,18,Morphite,3
+"100mm Reinforced Steel Plates II",2340,11475,332,"R.A.M.- Armor/Hull Tech",2
+"100mm Reinforced Steel Plates II",2340,11543,334,"Tungsten Carbide Armor Plate",8
+"200mm Reinforced Steel Plates II",2340,11399,18,Morphite,6
+"200mm Reinforced Steel Plates II",2340,11475,332,"R.A.M.- Armor/Hull Tech",2
+"200mm Reinforced Steel Plates II",2340,11543,334,"Tungsten Carbide Armor Plate",11
+"400mm Reinforced Steel Plates II",2340,11399,18,Morphite,12
+"400mm Reinforced Steel Plates II",2340,11475,332,"R.A.M.- Armor/Hull Tech",2
+"400mm Reinforced Steel Plates II",2340,11543,334,"Tungsten Carbide Armor Plate",17
+"800mm Reinforced Steel Plates II",4680,11399,18,Morphite,24
+"800mm Reinforced Steel Plates II",4680,11475,332,"R.A.M.- Armor/Hull Tech",2
+"800mm Reinforced Steel Plates II",4680,11543,334,"Tungsten Carbide Armor Plate",29
+"1600mm Reinforced Steel Plates II",7020,11399,18,Morphite,48
+"1600mm Reinforced Steel Plates II",7020,11475,332,"R.A.M.- Armor/Hull Tech",2
+"1600mm Reinforced Steel Plates II",7020,11543,334,"Tungsten Carbide Armor Plate",53
+"Vespa II",3000,9834,1040,"Guidance Systems",2
+"Vespa II",3000,9848,1040,Robotics,2
+"Vespa II",3000,11399,18,Morphite,3
+"Vespa II",3000,11481,332,"R.A.M.- Robotics",2
+"Vespa II",3000,11690,334,"Superconductor Rails",1
+"Valkyrie II",3000,9834,1040,"Guidance Systems",2
+"Valkyrie II",3000,9848,1040,Robotics,2
+"Valkyrie II",3000,11399,18,Morphite,3
+"Valkyrie II",3000,11481,332,"R.A.M.- Robotics",2
+"Valkyrie II",3000,11691,334,"Thermonuclear Trigger Unit",1
+"Ice Harvester II",5460,3687,280,"Electronic Parts",22
+"Ice Harvester II",5460,3689,1034,"Mechanical Parts",22
+"Ice Harvester II",5460,11399,18,Morphite,15
+"Ice Harvester II",5460,11482,332,"R.A.M.- Energy Tech",2
+"Ice Harvester II",5460,11541,334,"Photon Microprocessor",23
+"Ballistic Control System II",2340,3689,1034,"Mechanical Parts",1
+"Ballistic Control System II",2340,9842,1034,"Miniature Electronics",3
+"Ballistic Control System II",2340,11399,18,Morphite,5
+"Ballistic Control System II",2340,11483,332,"R.A.M.- Electronics",2
+"Ballistic Control System II",2340,11540,334,"Quantum Microprocessor",9
+Redeemer,360000,3828,1034,"Construction Blocks",450
+Redeemer,360000,11399,18,Morphite,900
+Redeemer,360000,11478,332,"R.A.M.- Starship Tech",30
+Redeemer,360000,11532,334,"Fusion Thruster",225
+Redeemer,360000,11537,334,"Radar Sensor Cluster",900
+Redeemer,360000,11539,334,"Nanoelectrical Microprocessor",6300
+Redeemer,360000,11543,334,"Tungsten Carbide Armor Plate",18750
+Redeemer,360000,11549,334,"Antimatter Reactor Unit",150
+Redeemer,360000,11554,334,"Tesseract Capacitor Unit",2250
+Redeemer,360000,11557,334,"Linear Shield Emitter",1634
+Redeemer,360000,21025,873,"Capital Jump Drive",3
+Sin,360000,3828,1034,"Construction Blocks",450
+Sin,360000,11399,18,Morphite,900
+Sin,360000,11478,332,"R.A.M.- Starship Tech",30
+Sin,360000,11531,334,"Ion Thruster",225
+Sin,360000,11535,334,"Magnetometric Sensor Cluster",900
+Sin,360000,11541,334,"Photon Microprocessor",6300
+Sin,360000,11545,334,"Crystalline Carbonide Armor Plate",18750
+Sin,360000,11547,334,"Fusion Reactor Unit",150
+Sin,360000,11553,334,"Oscillator Capacitor Unit",2250
+Sin,360000,11556,334,"Pulse Shield Emitter",1634
+Sin,360000,21025,873,"Capital Jump Drive",3
+Widow,360000,3828,1034,"Construction Blocks",450
+Widow,360000,11399,18,Morphite,900
+Widow,360000,11478,332,"R.A.M.- Starship Tech",30
+Widow,360000,11533,334,"Magpulse Thruster",225
+Widow,360000,11534,334,"Gravimetric Sensor Cluster",900
+Widow,360000,11540,334,"Quantum Microprocessor",6300
+Widow,360000,11544,334,"Titanium Diborite Armor Plate",18750
+Widow,360000,11550,334,"Graviton Reactor Unit",150
+Widow,360000,11552,334,"Scalar Capacitor Unit",2250
+Widow,360000,11558,334,"Sustained Shield Emitter",1634
+Widow,360000,21025,873,"Capital Jump Drive",3
+Panther,360000,3828,1034,"Construction Blocks",450
+Panther,360000,11399,18,Morphite,900
+Panther,360000,11478,332,"R.A.M.- Starship Tech",30
+Panther,360000,11530,334,"Plasma Thruster",225
+Panther,360000,11536,334,"Ladar Sensor Cluster",900
+Panther,360000,11538,334,"Nanomechanical Microprocessor",6300
+Panther,360000,11542,334,"Fernite Carbide Composite Armor Plate",18750
+Panther,360000,11548,334,"Nuclear Reactor Unit",150
+Panther,360000,11551,334,"Electrolytic Capacitor Unit",2250
+Panther,360000,11555,334,"Deflection Shield Emitter",1634
+Panther,360000,21025,873,"Capital Jump Drive",3
+Eos,300000,3828,1034,"Construction Blocks",300
+Eos,300000,11399,18,Morphite,300
+Eos,300000,11478,332,"R.A.M.- Starship Tech",23
+Eos,300000,11531,334,"Ion Thruster",120
+Eos,300000,11535,334,"Magnetometric Sensor Cluster",495
+Eos,300000,11541,334,"Photon Microprocessor",2100
+Eos,300000,11545,334,"Crystalline Carbonide Armor Plate",10500
+Eos,300000,11547,334,"Fusion Reactor Unit",53
+Eos,300000,11553,334,"Oscillator Capacitor Unit",900
+Eos,300000,11556,334,"Pulse Shield Emitter",600
+Sleipnir,300000,3828,1034,"Construction Blocks",300
+Sleipnir,300000,11399,18,Morphite,300
+Sleipnir,300000,11478,332,"R.A.M.- Starship Tech",23
+Sleipnir,300000,11530,334,"Plasma Thruster",120
+Sleipnir,300000,11536,334,"Ladar Sensor Cluster",450
+Sleipnir,300000,11538,334,"Nanomechanical Microprocessor",1800
+Sleipnir,300000,11542,334,"Fernite Carbide Composite Armor Plate",11250
+Sleipnir,300000,11548,334,"Nuclear Reactor Unit",60
+Sleipnir,300000,11551,334,"Electrolytic Capacitor Unit",975
+Sleipnir,300000,11555,334,"Deflection Shield Emitter",570
+Vulture,300000,3828,1034,"Construction Blocks",375
+Vulture,300000,11399,18,Morphite,300
+Vulture,300000,11478,332,"R.A.M.- Starship Tech",23
+Vulture,300000,11533,334,"Magpulse Thruster",120
+Vulture,300000,11534,334,"Gravimetric Sensor Cluster",495
+Vulture,300000,11540,334,"Quantum Microprocessor",2100
+Vulture,300000,11544,334,"Titanium Diborite Armor Plate",10500
+Vulture,300000,11550,334,"Graviton Reactor Unit",53
+Vulture,300000,11552,334,"Scalar Capacitor Unit",900
+Vulture,300000,11558,334,"Sustained Shield Emitter",600
+Absolution,300000,3828,1034,"Construction Blocks",300
+Absolution,300000,11399,18,Morphite,300
+Absolution,300000,11478,332,"R.A.M.- Starship Tech",23
+Absolution,300000,11532,334,"Fusion Thruster",120
+Absolution,300000,11537,334,"Radar Sensor Cluster",450
+Absolution,300000,11539,334,"Nanoelectrical Microprocessor",1800
+Absolution,300000,11543,334,"Tungsten Carbide Armor Plate",11250
+Absolution,300000,11549,334,"Antimatter Reactor Unit",60
+Absolution,300000,11554,334,"Tesseract Capacitor Unit",975
+Absolution,300000,11557,334,"Linear Shield Emitter",570
+Heretic,180000,3828,1034,"Construction Blocks",23
+Heretic,180000,11399,18,Morphite,15
+Heretic,180000,11478,332,"R.A.M.- Starship Tech",9
+Heretic,180000,11532,334,"Fusion Thruster",60
+Heretic,180000,11537,334,"Radar Sensor Cluster",75
+Heretic,180000,11539,334,"Nanoelectrical Microprocessor",360
+Heretic,180000,11543,334,"Tungsten Carbide Armor Plate",1500
+Heretic,180000,11549,334,"Antimatter Reactor Unit",15
+Heretic,180000,11554,334,"Tesseract Capacitor Unit",150
+Heretic,180000,11557,334,"Linear Shield Emitter",38
+Sabre,180000,3828,1034,"Construction Blocks",23
+Sabre,180000,11399,18,Morphite,15
+Sabre,180000,11478,332,"R.A.M.- Starship Tech",9
+Sabre,180000,11530,334,"Plasma Thruster",60
+Sabre,180000,11536,334,"Ladar Sensor Cluster",75
+Sabre,180000,11538,334,"Nanomechanical Microprocessor",360
+Sabre,180000,11542,334,"Fernite Carbide Composite Armor Plate",1500
+Sabre,180000,11548,334,"Nuclear Reactor Unit",15
+Sabre,180000,11551,334,"Electrolytic Capacitor Unit",150
+Sabre,180000,11555,334,"Deflection Shield Emitter",38
+Eris,180000,3828,1034,"Construction Blocks",23
+Eris,180000,11399,18,Morphite,15
+Eris,180000,11478,332,"R.A.M.- Starship Tech",9
+Eris,180000,11531,334,"Ion Thruster",60
+Eris,180000,11535,334,"Magnetometric Sensor Cluster",75
+Eris,180000,11541,334,"Photon Microprocessor",360
+Eris,180000,11545,334,"Crystalline Carbonide Armor Plate",1500
+Eris,180000,11547,334,"Fusion Reactor Unit",15
+Eris,180000,11553,334,"Oscillator Capacitor Unit",150
+Eris,180000,11556,334,"Pulse Shield Emitter",38
+Flycatcher,180000,3828,1034,"Construction Blocks",23
+Flycatcher,180000,11399,18,Morphite,15
+Flycatcher,180000,11478,332,"R.A.M.- Starship Tech",9
+Flycatcher,180000,11533,334,"Magpulse Thruster",60
+Flycatcher,180000,11534,334,"Gravimetric Sensor Cluster",75
+Flycatcher,180000,11540,334,"Quantum Microprocessor",360
+Flycatcher,180000,11544,334,"Titanium Diborite Armor Plate",1500
+Flycatcher,180000,11550,334,"Graviton Reactor Unit",15
+Flycatcher,180000,11552,334,"Scalar Capacitor Unit",150
+Flycatcher,180000,11558,334,"Sustained Shield Emitter",38
+Astarte,300000,3828,1034,"Construction Blocks",375
+Astarte,300000,11399,18,Morphite,300
+Astarte,300000,11478,332,"R.A.M.- Starship Tech",23
+Astarte,300000,11531,334,"Ion Thruster",120
+Astarte,300000,11535,334,"Magnetometric Sensor Cluster",450
+Astarte,300000,11541,334,"Photon Microprocessor",1800
+Astarte,300000,11545,334,"Crystalline Carbonide Armor Plate",11250
+Astarte,300000,11547,334,"Fusion Reactor Unit",60
+Astarte,300000,11553,334,"Oscillator Capacitor Unit",975
+Astarte,300000,11556,334,"Pulse Shield Emitter",570
+Claymore,300000,3828,1034,"Construction Blocks",375
+Claymore,300000,11399,18,Morphite,300
+Claymore,300000,11478,332,"R.A.M.- Starship Tech",23
+Claymore,300000,11530,334,"Plasma Thruster",120
+Claymore,300000,11536,334,"Ladar Sensor Cluster",495
+Claymore,300000,11538,334,"Nanomechanical Microprocessor",2100
+Claymore,300000,11542,334,"Fernite Carbide Composite Armor Plate",10500
+Claymore,300000,11548,334,"Nuclear Reactor Unit",53
+Claymore,300000,11551,334,"Electrolytic Capacitor Unit",900
+Claymore,300000,11555,334,"Deflection Shield Emitter",600
+Nighthawk,300000,3828,1034,"Construction Blocks",300
+Nighthawk,300000,11399,18,Morphite,300
+Nighthawk,300000,11478,332,"R.A.M.- Starship Tech",23
+Nighthawk,300000,11533,334,"Magpulse Thruster",120
+Nighthawk,300000,11534,334,"Gravimetric Sensor Cluster",450
+Nighthawk,300000,11540,334,"Quantum Microprocessor",1800
+Nighthawk,300000,11544,334,"Titanium Diborite Armor Plate",11250
+Nighthawk,300000,11550,334,"Graviton Reactor Unit",60
+Nighthawk,300000,11552,334,"Scalar Capacitor Unit",975
+Nighthawk,300000,11558,334,"Sustained Shield Emitter",570
+Damnation,300000,3828,1034,"Construction Blocks",375
+Damnation,300000,11399,18,Morphite,300
+Damnation,300000,11478,332,"R.A.M.- Starship Tech",23
+Damnation,300000,11532,334,"Fusion Thruster",120
+Damnation,300000,11537,334,"Radar Sensor Cluster",495
+Damnation,300000,11539,334,"Nanoelectrical Microprocessor",2100
+Damnation,300000,11543,334,"Tungsten Carbide Armor Plate",10500
+Damnation,300000,11549,334,"Antimatter Reactor Unit",53
+Damnation,300000,11554,334,"Tesseract Capacitor Unit",900
+Damnation,300000,11557,334,"Linear Shield Emitter",600
+Hulk,240000,3828,1034,"Construction Blocks",150
+Hulk,240000,11399,18,Morphite,108
+Hulk,240000,11478,332,"R.A.M.- Starship Tech",15
+Hulk,240000,11531,334,"Ion Thruster",60
+Hulk,240000,11535,334,"Magnetometric Sensor Cluster",225
+Hulk,240000,11541,334,"Photon Microprocessor",3000
+Hulk,240000,11545,334,"Crystalline Carbonide Armor Plate",3000
+Hulk,240000,11547,334,"Fusion Reactor Unit",45
+Hulk,240000,11553,334,"Oscillator Capacitor Unit",600
+Hulk,240000,11556,334,"Pulse Shield Emitter",225
+Skiff,240000,3828,1034,"Construction Blocks",105
+Skiff,240000,11399,18,Morphite,75
+Skiff,240000,11478,332,"R.A.M.- Starship Tech",9
+Skiff,240000,11531,334,"Ion Thruster",42
+Skiff,240000,11535,334,"Magnetometric Sensor Cluster",158
+Skiff,240000,11541,334,"Photon Microprocessor",2100
+Skiff,240000,11545,334,"Crystalline Carbonide Armor Plate",2100
+Skiff,240000,11547,334,"Fusion Reactor Unit",32
+Skiff,240000,11553,334,"Oscillator Capacitor Unit",420
+Skiff,240000,11556,334,"Pulse Shield Emitter",158
+Mackinaw,240000,3828,1034,"Construction Blocks",128
+Mackinaw,240000,11399,18,Morphite,92
+Mackinaw,240000,11478,332,"R.A.M.- Starship Tech",12
+Mackinaw,240000,11531,334,"Ion Thruster",51
+Mackinaw,240000,11535,334,"Magnetometric Sensor Cluster",192
+Mackinaw,240000,11541,334,"Photon Microprocessor",2550
+Mackinaw,240000,11545,334,"Crystalline Carbonide Armor Plate",2550
+Mackinaw,240000,11547,334,"Fusion Reactor Unit",39
+Mackinaw,240000,11553,334,"Oscillator Capacitor Unit",510
+Mackinaw,240000,11556,334,"Pulse Shield Emitter",192
+"Modulated Deep Core Strip Miner II",5460,3687,280,"Electronic Parts",3
+"Modulated Deep Core Strip Miner II",5460,3689,1034,"Mechanical Parts",4
+"Modulated Deep Core Strip Miner II",5460,11399,18,Morphite,23
+"Modulated Deep Core Strip Miner II",5460,11482,332,"R.A.M.- Energy Tech",2
+"Modulated Deep Core Strip Miner II",5460,11541,334,"Photon Microprocessor",5
+"Modulated Deep Core Strip Miner II",5460,11689,334,"Laser Focusing Crystals",2
+"Drone Navigation Computer II",4680,9840,1034,Transmitter,9
+"Drone Navigation Computer II",4680,11399,18,Morphite,5
+"Drone Navigation Computer II",4680,11483,332,"R.A.M.- Electronics",2
+"Drone Navigation Computer II",4680,11688,334,"Particle Accelerator Unit",9
+"Drone Link Augmentor II",7020,9840,1034,Transmitter,9
+"Drone Link Augmentor II",7020,11399,18,Morphite,5
+"Drone Link Augmentor II",7020,11483,332,"R.A.M.- Electronics",2
+"Drone Link Augmentor II",7020,11688,334,"Particle Accelerator Unit",9
+"Omnidirectional Tracking Link II",4680,9840,1034,Transmitter,9
+"Omnidirectional Tracking Link II",4680,11399,18,Morphite,5
+"Omnidirectional Tracking Link II",4680,11483,332,"R.A.M.- Electronics",2
+"Omnidirectional Tracking Link II",4680,11688,334,"Particle Accelerator Unit",9
+"Shield Boost Amplifier II",4680,9838,1034,Superconductors,3
+"Shield Boost Amplifier II",4680,11399,18,Morphite,5
+"Shield Boost Amplifier II",4680,11484,332,"R.A.M.- Shield Tech",2
+"Shield Boost Amplifier II",4680,11558,334,"Sustained Shield Emitter",6
+"Scourge Rage Rocket",4800,34,18,Tritanium,2711
+"Scourge Rage Rocket",4800,35,18,Pyerite,33
+"Scourge Rage Rocket",4800,36,18,Mexallon,22
+"Scourge Rage Rocket",4800,37,18,Isogen,11
+"Scourge Rage Rocket",4800,40,18,Megacyte,1
+"Scourge Rage Rocket",4800,9830,1034,"Rocket Fuel",6
+"Scourge Rage Rocket",4800,11399,18,Morphite,2
+"Scourge Rage Rocket",4800,11476,332,"R.A.M.- Ammunition Tech",2
+"Scourge Rage Rocket",4800,11693,334,"Graviton Pulse Generator",2
+"Scourge Rage Rocket",4800,16671,429,"Titanium Carbide",45
+"Scourge Rage Rocket",4800,16680,429,"Phenolic Composites",5
+"Nova Rage Rocket",4800,34,18,Tritanium,2711
+"Nova Rage Rocket",4800,35,18,Pyerite,33
+"Nova Rage Rocket",4800,36,18,Mexallon,22
+"Nova Rage Rocket",4800,37,18,Isogen,11
+"Nova Rage Rocket",4800,40,18,Megacyte,1
+"Nova Rage Rocket",4800,9830,1034,"Rocket Fuel",6
+"Nova Rage Rocket",4800,11399,18,Morphite,2
+"Nova Rage Rocket",4800,11476,332,"R.A.M.- Ammunition Tech",2
+"Nova Rage Rocket",4800,11692,334,"Nuclear Pulse Generator",2
+"Nova Rage Rocket",4800,16673,429,"Fernite Carbide",45
+"Nova Rage Rocket",4800,16680,429,"Phenolic Composites",5
+"Inferno Rage Rocket",4800,34,18,Tritanium,2711
+"Inferno Rage Rocket",4800,35,18,Pyerite,33
+"Inferno Rage Rocket",4800,36,18,Mexallon,22
+"Inferno Rage Rocket",4800,37,18,Isogen,11
+"Inferno Rage Rocket",4800,40,18,Megacyte,1
+"Inferno Rage Rocket",4800,9830,1034,"Rocket Fuel",6
+"Inferno Rage Rocket",4800,11399,18,Morphite,2
+"Inferno Rage Rocket",4800,11476,332,"R.A.M.- Ammunition Tech",2
+"Inferno Rage Rocket",4800,11695,334,"Plasma Pulse Generator",2
+"Inferno Rage Rocket",4800,16670,429,"Crystalline Carbonide",45
+"Inferno Rage Rocket",4800,16680,429,"Phenolic Composites",5
+"Inferno Rage Heavy Assault Missile",9600,34,18,Tritanium,3524
+"Inferno Rage Heavy Assault Missile",9600,36,18,Mexallon,33
+"Inferno Rage Heavy Assault Missile",9600,37,18,Isogen,13
+"Inferno Rage Heavy Assault Missile",9600,39,18,Zydrine,1
+"Inferno Rage Heavy Assault Missile",9600,40,18,Megacyte,8
+"Inferno Rage Heavy Assault Missile",9600,9830,1034,"Rocket Fuel",12
+"Inferno Rage Heavy Assault Missile",9600,11399,18,Morphite,2
+"Inferno Rage Heavy Assault Missile",9600,11476,332,"R.A.M.- Ammunition Tech",2
+"Inferno Rage Heavy Assault Missile",9600,11695,334,"Plasma Pulse Generator",3
+"Inferno Rage Heavy Assault Missile",9600,16680,429,"Phenolic Composites",12
+"Nova Rage Heavy Assault Missile",9600,34,18,Tritanium,3524
+"Nova Rage Heavy Assault Missile",9600,36,18,Mexallon,33
+"Nova Rage Heavy Assault Missile",9600,37,18,Isogen,13
+"Nova Rage Heavy Assault Missile",9600,39,18,Zydrine,1
+"Nova Rage Heavy Assault Missile",9600,40,18,Megacyte,8
+"Nova Rage Heavy Assault Missile",9600,9830,1034,"Rocket Fuel",12
+"Nova Rage Heavy Assault Missile",9600,11399,18,Morphite,2
+"Nova Rage Heavy Assault Missile",9600,11476,332,"R.A.M.- Ammunition Tech",2
+"Nova Rage Heavy Assault Missile",9600,11692,334,"Nuclear Pulse Generator",3
+"Nova Rage Heavy Assault Missile",9600,16680,429,"Phenolic Composites",12
+"Mjolnir Rage Heavy Assault Missile",9600,34,18,Tritanium,3524
+"Mjolnir Rage Heavy Assault Missile",9600,36,18,Mexallon,33
+"Mjolnir Rage Heavy Assault Missile",9600,37,18,Isogen,13
+"Mjolnir Rage Heavy Assault Missile",9600,39,18,Zydrine,1
+"Mjolnir Rage Heavy Assault Missile",9600,40,18,Megacyte,8
+"Mjolnir Rage Heavy Assault Missile",9600,9830,1034,"Rocket Fuel",12
+"Mjolnir Rage Heavy Assault Missile",9600,11399,18,Morphite,2
+"Mjolnir Rage Heavy Assault Missile",9600,11476,332,"R.A.M.- Ammunition Tech",2
+"Mjolnir Rage Heavy Assault Missile",9600,11694,334,"EM Pulse Generator",3
+"Mjolnir Rage Heavy Assault Missile",9600,16680,429,"Phenolic Composites",12
+"Scourge Fury Light Missile",4800,34,18,Tritanium,3324
+"Scourge Fury Light Missile",4800,36,18,Mexallon,22
+"Scourge Fury Light Missile",4800,37,18,Isogen,33
+"Scourge Fury Light Missile",4800,40,18,Megacyte,4
+"Scourge Fury Light Missile",4800,9830,1034,"Rocket Fuel",12
+"Scourge Fury Light Missile",4800,11399,18,Morphite,2
+"Scourge Fury Light Missile",4800,11476,332,"R.A.M.- Ammunition Tech",2
+"Scourge Fury Light Missile",4800,11693,334,"Graviton Pulse Generator",3
+"Scourge Fury Light Missile",4800,16680,429,"Phenolic Composites",12
+"Nova Fury Light Missile",4800,34,18,Tritanium,3324
+"Nova Fury Light Missile",4800,36,18,Mexallon,22
+"Nova Fury Light Missile",4800,37,18,Isogen,33
+"Nova Fury Light Missile",4800,40,18,Megacyte,4
+"Nova Fury Light Missile",4800,9830,1034,"Rocket Fuel",12
+"Nova Fury Light Missile",4800,11399,18,Morphite,2
+"Nova Fury Light Missile",4800,11476,332,"R.A.M.- Ammunition Tech",2
+"Nova Fury Light Missile",4800,11692,334,"Nuclear Pulse Generator",3
+"Nova Fury Light Missile",4800,16680,429,"Phenolic Composites",12
+"Inferno Fury Light Missile",4800,34,18,Tritanium,3324
+"Inferno Fury Light Missile",4800,36,18,Mexallon,22
+"Inferno Fury Light Missile",4800,37,18,Isogen,33
+"Inferno Fury Light Missile",4800,40,18,Megacyte,4
+"Inferno Fury Light Missile",4800,9830,1034,"Rocket Fuel",12
+"Inferno Fury Light Missile",4800,11399,18,Morphite,2
+"Inferno Fury Light Missile",4800,11476,332,"R.A.M.- Ammunition Tech",2
+"Inferno Fury Light Missile",4800,11695,334,"Plasma Pulse Generator",3
+"Inferno Fury Light Missile",4800,16680,429,"Phenolic Composites",12
+"Scourge Precision Light Missile",4800,34,18,Tritanium,3324
+"Scourge Precision Light Missile",4800,36,18,Mexallon,22
+"Scourge Precision Light Missile",4800,37,18,Isogen,33
+"Scourge Precision Light Missile",4800,40,18,Megacyte,4
+"Scourge Precision Light Missile",4800,9830,1034,"Rocket Fuel",12
+"Scourge Precision Light Missile",4800,11399,18,Morphite,2
+"Scourge Precision Light Missile",4800,11476,332,"R.A.M.- Ammunition Tech",2
+"Scourge Precision Light Missile",4800,11693,334,"Graviton Pulse Generator",3
+"Scourge Precision Light Missile",4800,16680,429,"Phenolic Composites",12
+"Nova Precision Light Missile",4800,34,18,Tritanium,3324
+"Nova Precision Light Missile",4800,36,18,Mexallon,22
+"Nova Precision Light Missile",4800,37,18,Isogen,33
+"Nova Precision Light Missile",4800,40,18,Megacyte,4
+"Nova Precision Light Missile",4800,9830,1034,"Rocket Fuel",12
+"Nova Precision Light Missile",4800,11399,18,Morphite,2
+"Nova Precision Light Missile",4800,11476,332,"R.A.M.- Ammunition Tech",2
+"Nova Precision Light Missile",4800,11692,334,"Nuclear Pulse Generator",3
+"Nova Precision Light Missile",4800,16680,429,"Phenolic Composites",12
+"Mjolnir Precision Light Missile",4800,34,18,Tritanium,3324
+"Mjolnir Precision Light Missile",4800,36,18,Mexallon,22
+"Mjolnir Precision Light Missile",4800,37,18,Isogen,33
+"Mjolnir Precision Light Missile",4800,40,18,Megacyte,4
+"Mjolnir Precision Light Missile",4800,9830,1034,"Rocket Fuel",12
+"Mjolnir Precision Light Missile",4800,11399,18,Morphite,2
+"Mjolnir Precision Light Missile",4800,11476,332,"R.A.M.- Ammunition Tech",2
+"Mjolnir Precision Light Missile",4800,11694,334,"EM Pulse Generator",3
+"Mjolnir Precision Light Missile",4800,16680,429,"Phenolic Composites",12
+"Nova Fury Heavy Missile",9600,34,18,Tritanium,11236
+"Nova Fury Heavy Missile",9600,38,18,Nocxium,24
+"Nova Fury Heavy Missile",9600,39,18,Zydrine,21
+"Nova Fury Heavy Missile",9600,40,18,Megacyte,33
+"Nova Fury Heavy Missile",9600,9830,1034,"Rocket Fuel",126
+"Nova Fury Heavy Missile",9600,11399,18,Morphite,8
+"Nova Fury Heavy Missile",9600,11476,332,"R.A.M.- Ammunition Tech",2
+"Nova Fury Heavy Missile",9600,11692,334,"Nuclear Pulse Generator",14
+"Nova Fury Heavy Missile",9600,16680,429,"Phenolic Composites",18
+"Mjolnir Fury Heavy Missile",9600,34,18,Tritanium,11236
+"Mjolnir Fury Heavy Missile",9600,38,18,Nocxium,24
+"Mjolnir Fury Heavy Missile",9600,39,18,Zydrine,21
+"Mjolnir Fury Heavy Missile",9600,40,18,Megacyte,33
+"Mjolnir Fury Heavy Missile",9600,9830,1034,"Rocket Fuel",126
+"Mjolnir Fury Heavy Missile",9600,11399,18,Morphite,8
+"Mjolnir Fury Heavy Missile",9600,11476,332,"R.A.M.- Ammunition Tech",2
+"Mjolnir Fury Heavy Missile",9600,11694,334,"EM Pulse Generator",14
+"Mjolnir Fury Heavy Missile",9600,16680,429,"Phenolic Composites",18
+"Inferno Fury Heavy Missile",9600,34,18,Tritanium,11236
+"Inferno Fury Heavy Missile",9600,38,18,Nocxium,24
+"Inferno Fury Heavy Missile",9600,39,18,Zydrine,21
+"Inferno Fury Heavy Missile",9600,40,18,Megacyte,33
+"Inferno Fury Heavy Missile",9600,9830,1034,"Rocket Fuel",126
+"Inferno Fury Heavy Missile",9600,11399,18,Morphite,8
+"Inferno Fury Heavy Missile",9600,11476,332,"R.A.M.- Ammunition Tech",2
+"Inferno Fury Heavy Missile",9600,11695,334,"Plasma Pulse Generator",14
+"Inferno Fury Heavy Missile",9600,16680,429,"Phenolic Composites",18
+"Scourge Precision Heavy Missile",9600,34,18,Tritanium,11236
+"Scourge Precision Heavy Missile",9600,38,18,Nocxium,24
+"Scourge Precision Heavy Missile",9600,39,18,Zydrine,21
+"Scourge Precision Heavy Missile",9600,40,18,Megacyte,33
+"Scourge Precision Heavy Missile",9600,9830,1034,"Rocket Fuel",126
+"Scourge Precision Heavy Missile",9600,11399,18,Morphite,8
+"Scourge Precision Heavy Missile",9600,11476,332,"R.A.M.- Ammunition Tech",2
+"Scourge Precision Heavy Missile",9600,11693,334,"Graviton Pulse Generator",14
+"Scourge Precision Heavy Missile",9600,16680,429,"Phenolic Composites",18
+"Inferno Precision Heavy Missile",9600,34,18,Tritanium,11236
+"Inferno Precision Heavy Missile",9600,38,18,Nocxium,24
+"Inferno Precision Heavy Missile",9600,39,18,Zydrine,21
+"Inferno Precision Heavy Missile",9600,40,18,Megacyte,33
+"Inferno Precision Heavy Missile",9600,9830,1034,"Rocket Fuel",126
+"Inferno Precision Heavy Missile",9600,11399,18,Morphite,8
+"Inferno Precision Heavy Missile",9600,11476,332,"R.A.M.- Ammunition Tech",2
+"Inferno Precision Heavy Missile",9600,11695,334,"Plasma Pulse Generator",14
+"Inferno Precision Heavy Missile",9600,16680,429,"Phenolic Composites",18
+"Mjolnir Precision Heavy Missile",9600,34,18,Tritanium,11236
+"Mjolnir Precision Heavy Missile",9600,38,18,Nocxium,24
+"Mjolnir Precision Heavy Missile",9600,39,18,Zydrine,21
+"Mjolnir Precision Heavy Missile",9600,40,18,Megacyte,33
+"Mjolnir Precision Heavy Missile",9600,9830,1034,"Rocket Fuel",126
+"Mjolnir Precision Heavy Missile",9600,11399,18,Morphite,8
+"Mjolnir Precision Heavy Missile",9600,11476,332,"R.A.M.- Ammunition Tech",2
+"Mjolnir Precision Heavy Missile",9600,11694,334,"EM Pulse Generator",14
+"Mjolnir Precision Heavy Missile",9600,16680,429,"Phenolic Composites",18
+"Nova Rage Torpedo",14400,34,18,Tritanium,32800
+"Nova Rage Torpedo",14400,36,18,Mexallon,556
+"Nova Rage Torpedo",14400,40,18,Megacyte,56
+"Nova Rage Torpedo",14400,9830,1034,"Rocket Fuel",437
+"Nova Rage Torpedo",14400,11399,18,Morphite,30
+"Nova Rage Torpedo",14400,11476,332,"R.A.M.- Ammunition Tech",2
+"Nova Rage Torpedo",14400,11692,334,"Nuclear Pulse Generator",30
+"Nova Rage Torpedo",14400,16680,429,"Phenolic Composites",132
+"Scourge Rage Torpedo",14400,34,18,Tritanium,32800
+"Scourge Rage Torpedo",14400,36,18,Mexallon,556
+"Scourge Rage Torpedo",14400,40,18,Megacyte,56
+"Scourge Rage Torpedo",14400,9830,1034,"Rocket Fuel",437
+"Scourge Rage Torpedo",14400,11399,18,Morphite,30
+"Scourge Rage Torpedo",14400,11476,332,"R.A.M.- Ammunition Tech",2
+"Scourge Rage Torpedo",14400,11693,334,"Graviton Pulse Generator",30
+"Scourge Rage Torpedo",14400,16680,429,"Phenolic Composites",132
+"Mjolnir Rage Torpedo",14400,34,18,Tritanium,32800
+"Mjolnir Rage Torpedo",14400,36,18,Mexallon,556
+"Mjolnir Rage Torpedo",14400,40,18,Megacyte,56
+"Mjolnir Rage Torpedo",14400,9830,1034,"Rocket Fuel",437
+"Mjolnir Rage Torpedo",14400,11399,18,Morphite,30
+"Mjolnir Rage Torpedo",14400,11476,332,"R.A.M.- Ammunition Tech",2
+"Mjolnir Rage Torpedo",14400,11694,334,"EM Pulse Generator",30
+"Mjolnir Rage Torpedo",14400,16680,429,"Phenolic Composites",132
+"Inferno Javelin Torpedo",14400,34,18,Tritanium,32800
+"Inferno Javelin Torpedo",14400,36,18,Mexallon,556
+"Inferno Javelin Torpedo",14400,40,18,Megacyte,56
+"Inferno Javelin Torpedo",14400,9830,1034,"Rocket Fuel",437
+"Inferno Javelin Torpedo",14400,11399,18,Morphite,30
+"Inferno Javelin Torpedo",14400,11476,332,"R.A.M.- Ammunition Tech",2
+"Inferno Javelin Torpedo",14400,11695,334,"Plasma Pulse Generator",30
+"Inferno Javelin Torpedo",14400,16680,429,"Phenolic Composites",132
+"Mjolnir Javelin Torpedo",14400,34,18,Tritanium,32800
+"Mjolnir Javelin Torpedo",14400,36,18,Mexallon,556
+"Mjolnir Javelin Torpedo",14400,40,18,Megacyte,56
+"Mjolnir Javelin Torpedo",14400,9830,1034,"Rocket Fuel",437
+"Mjolnir Javelin Torpedo",14400,11399,18,Morphite,30
+"Mjolnir Javelin Torpedo",14400,11476,332,"R.A.M.- Ammunition Tech",2
+"Mjolnir Javelin Torpedo",14400,11694,334,"EM Pulse Generator",30
+"Mjolnir Javelin Torpedo",14400,16680,429,"Phenolic Composites",132
+"Scourge Javelin Torpedo",14400,34,18,Tritanium,32800
+"Scourge Javelin Torpedo",14400,36,18,Mexallon,556
+"Scourge Javelin Torpedo",14400,40,18,Megacyte,56
+"Scourge Javelin Torpedo",14400,9830,1034,"Rocket Fuel",437
+"Scourge Javelin Torpedo",14400,11399,18,Morphite,30
+"Scourge Javelin Torpedo",14400,11476,332,"R.A.M.- Ammunition Tech",2
+"Scourge Javelin Torpedo",14400,11693,334,"Graviton Pulse Generator",30
+"Scourge Javelin Torpedo",14400,16680,429,"Phenolic Composites",132
+"Nova Fury Cruise Missile",14400,34,18,Tritanium,22311
+"Nova Fury Cruise Missile",14400,36,18,Mexallon,333
+"Nova Fury Cruise Missile",14400,38,18,Nocxium,78
+"Nova Fury Cruise Missile",14400,40,18,Megacyte,39
+"Nova Fury Cruise Missile",14400,9830,1034,"Rocket Fuel",129
+"Nova Fury Cruise Missile",14400,11399,18,Morphite,15
+"Nova Fury Cruise Missile",14400,11476,332,"R.A.M.- Ammunition Tech",2
+"Nova Fury Cruise Missile",14400,11692,334,"Nuclear Pulse Generator",14
+"Nova Fury Cruise Missile",14400,16680,429,"Phenolic Composites",59
+"Scourge Fury Cruise Missile",14400,34,18,Tritanium,22311
+"Scourge Fury Cruise Missile",14400,36,18,Mexallon,333
+"Scourge Fury Cruise Missile",14400,38,18,Nocxium,78
+"Scourge Fury Cruise Missile",14400,40,18,Megacyte,39
+"Scourge Fury Cruise Missile",14400,9830,1034,"Rocket Fuel",129
+"Scourge Fury Cruise Missile",14400,11399,18,Morphite,15
+"Scourge Fury Cruise Missile",14400,11476,332,"R.A.M.- Ammunition Tech",2
+"Scourge Fury Cruise Missile",14400,11693,334,"Graviton Pulse Generator",14
+"Scourge Fury Cruise Missile",14400,16680,429,"Phenolic Composites",59
+"Mjolnir Fury Cruise Missile",14400,34,18,Tritanium,22311
+"Mjolnir Fury Cruise Missile",14400,36,18,Mexallon,333
+"Mjolnir Fury Cruise Missile",14400,38,18,Nocxium,78
+"Mjolnir Fury Cruise Missile",14400,40,18,Megacyte,39
+"Mjolnir Fury Cruise Missile",14400,9830,1034,"Rocket Fuel",129
+"Mjolnir Fury Cruise Missile",14400,11399,18,Morphite,15
+"Mjolnir Fury Cruise Missile",14400,11476,332,"R.A.M.- Ammunition Tech",2
+"Mjolnir Fury Cruise Missile",14400,11694,334,"EM Pulse Generator",14
+"Mjolnir Fury Cruise Missile",14400,16680,429,"Phenolic Composites",59
+"Nova Precision Cruise Missile",14400,34,18,Tritanium,22311
+"Nova Precision Cruise Missile",14400,36,18,Mexallon,333
+"Nova Precision Cruise Missile",14400,38,18,Nocxium,78
+"Nova Precision Cruise Missile",14400,40,18,Megacyte,39
+"Nova Precision Cruise Missile",14400,9830,1034,"Rocket Fuel",129
+"Nova Precision Cruise Missile",14400,11399,18,Morphite,15
+"Nova Precision Cruise Missile",14400,11476,332,"R.A.M.- Ammunition Tech",2
+"Nova Precision Cruise Missile",14400,11692,334,"Nuclear Pulse Generator",14
+"Nova Precision Cruise Missile",14400,16680,429,"Phenolic Composites",59
+"Mjolnir Precision Cruise Missile",14400,34,18,Tritanium,22311
+"Mjolnir Precision Cruise Missile",14400,36,18,Mexallon,333
+"Mjolnir Precision Cruise Missile",14400,38,18,Nocxium,78
+"Mjolnir Precision Cruise Missile",14400,40,18,Megacyte,39
+"Mjolnir Precision Cruise Missile",14400,9830,1034,"Rocket Fuel",129
+"Mjolnir Precision Cruise Missile",14400,11399,18,Morphite,15
+"Mjolnir Precision Cruise Missile",14400,11476,332,"R.A.M.- Ammunition Tech",2
+"Mjolnir Precision Cruise Missile",14400,11694,334,"EM Pulse Generator",14
+"Mjolnir Precision Cruise Missile",14400,16680,429,"Phenolic Composites",59
+"Scourge Precision Cruise Missile",14400,34,18,Tritanium,22311
+"Scourge Precision Cruise Missile",14400,36,18,Mexallon,333
+"Scourge Precision Cruise Missile",14400,38,18,Nocxium,78
+"Scourge Precision Cruise Missile",14400,40,18,Megacyte,39
+"Scourge Precision Cruise Missile",14400,9830,1034,"Rocket Fuel",129
+"Scourge Precision Cruise Missile",14400,11399,18,Morphite,15
+"Scourge Precision Cruise Missile",14400,11476,332,"R.A.M.- Ammunition Tech",2
+"Scourge Precision Cruise Missile",14400,11693,334,"Graviton Pulse Generator",14
+"Scourge Precision Cruise Missile",14400,16680,429,"Phenolic Composites",59
+"Inferno Javelin Rocket",4800,34,18,Tritanium,2711
+"Inferno Javelin Rocket",4800,35,18,Pyerite,33
+"Inferno Javelin Rocket",4800,36,18,Mexallon,22
+"Inferno Javelin Rocket",4800,37,18,Isogen,11
+"Inferno Javelin Rocket",4800,40,18,Megacyte,1
+"Inferno Javelin Rocket",4800,9830,1034,"Rocket Fuel",6
+"Inferno Javelin Rocket",4800,11399,18,Morphite,2
+"Inferno Javelin Rocket",4800,11476,332,"R.A.M.- Ammunition Tech",2
+"Inferno Javelin Rocket",4800,11695,334,"Plasma Pulse Generator",2
+"Inferno Javelin Rocket",4800,16670,429,"Crystalline Carbonide",45
+"Inferno Javelin Rocket",4800,16680,429,"Phenolic Composites",5
+"Mjolnir Javelin Rocket",4800,34,18,Tritanium,2711
+"Mjolnir Javelin Rocket",4800,35,18,Pyerite,33
+"Mjolnir Javelin Rocket",4800,36,18,Mexallon,22
+"Mjolnir Javelin Rocket",4800,37,18,Isogen,11
+"Mjolnir Javelin Rocket",4800,40,18,Megacyte,1
+"Mjolnir Javelin Rocket",4800,9830,1034,"Rocket Fuel",6
+"Mjolnir Javelin Rocket",4800,11399,18,Morphite,2
+"Mjolnir Javelin Rocket",4800,11476,332,"R.A.M.- Ammunition Tech",2
+"Mjolnir Javelin Rocket",4800,11694,334,"EM Pulse Generator",2
+"Mjolnir Javelin Rocket",4800,16672,429,"Tungsten Carbide",45
+"Mjolnir Javelin Rocket",4800,16680,429,"Phenolic Composites",5
+"Nova Javelin Rocket",4800,34,18,Tritanium,2711
+"Nova Javelin Rocket",4800,35,18,Pyerite,33
+"Nova Javelin Rocket",4800,36,18,Mexallon,22
+"Nova Javelin Rocket",4800,37,18,Isogen,11
+"Nova Javelin Rocket",4800,40,18,Megacyte,1
+"Nova Javelin Rocket",4800,9830,1034,"Rocket Fuel",6
+"Nova Javelin Rocket",4800,11399,18,Morphite,2
+"Nova Javelin Rocket",4800,11476,332,"R.A.M.- Ammunition Tech",2
+"Nova Javelin Rocket",4800,11692,334,"Nuclear Pulse Generator",2
+"Nova Javelin Rocket",4800,16673,429,"Fernite Carbide",45
+"Nova Javelin Rocket",4800,16680,429,"Phenolic Composites",5
+"Scourge Javelin Rocket",4800,34,18,Tritanium,2711
+"Scourge Javelin Rocket",4800,35,18,Pyerite,33
+"Scourge Javelin Rocket",4800,36,18,Mexallon,22
+"Scourge Javelin Rocket",4800,37,18,Isogen,11
+"Scourge Javelin Rocket",4800,40,18,Megacyte,1
+"Scourge Javelin Rocket",4800,9830,1034,"Rocket Fuel",6
+"Scourge Javelin Rocket",4800,11399,18,Morphite,2
+"Scourge Javelin Rocket",4800,11476,332,"R.A.M.- Ammunition Tech",2
+"Scourge Javelin Rocket",4800,11693,334,"Graviton Pulse Generator",2
+"Scourge Javelin Rocket",4800,16671,429,"Titanium Carbide",45
+"Scourge Javelin Rocket",4800,16680,429,"Phenolic Composites",5
+"Scourge Javelin Heavy Assault Missile",9600,34,18,Tritanium,3524
+"Scourge Javelin Heavy Assault Missile",9600,36,18,Mexallon,33
+"Scourge Javelin Heavy Assault Missile",9600,37,18,Isogen,13
+"Scourge Javelin Heavy Assault Missile",9600,39,18,Zydrine,1
+"Scourge Javelin Heavy Assault Missile",9600,40,18,Megacyte,8
+"Scourge Javelin Heavy Assault Missile",9600,9830,1034,"Rocket Fuel",12
+"Scourge Javelin Heavy Assault Missile",9600,11399,18,Morphite,2
+"Scourge Javelin Heavy Assault Missile",9600,11476,332,"R.A.M.- Ammunition Tech",2
+"Scourge Javelin Heavy Assault Missile",9600,11693,334,"Graviton Pulse Generator",3
+"Scourge Javelin Heavy Assault Missile",9600,16680,429,"Phenolic Composites",12
+"Inferno Javelin Heavy Assault Missile",9600,34,18,Tritanium,3524
+"Inferno Javelin Heavy Assault Missile",9600,36,18,Mexallon,33
+"Inferno Javelin Heavy Assault Missile",9600,37,18,Isogen,13
+"Inferno Javelin Heavy Assault Missile",9600,39,18,Zydrine,1
+"Inferno Javelin Heavy Assault Missile",9600,40,18,Megacyte,8
+"Inferno Javelin Heavy Assault Missile",9600,9830,1034,"Rocket Fuel",12
+"Inferno Javelin Heavy Assault Missile",9600,11399,18,Morphite,2
+"Inferno Javelin Heavy Assault Missile",9600,11476,332,"R.A.M.- Ammunition Tech",2
+"Inferno Javelin Heavy Assault Missile",9600,11695,334,"Plasma Pulse Generator",3
+"Inferno Javelin Heavy Assault Missile",9600,16680,429,"Phenolic Composites",12
+"Nova Javelin Heavy Assault Missile",9600,34,18,Tritanium,3524
+"Nova Javelin Heavy Assault Missile",9600,36,18,Mexallon,33
+"Nova Javelin Heavy Assault Missile",9600,37,18,Isogen,13
+"Nova Javelin Heavy Assault Missile",9600,39,18,Zydrine,1
+"Nova Javelin Heavy Assault Missile",9600,40,18,Megacyte,8
+"Nova Javelin Heavy Assault Missile",9600,9830,1034,"Rocket Fuel",12
+"Nova Javelin Heavy Assault Missile",9600,11399,18,Morphite,2
+"Nova Javelin Heavy Assault Missile",9600,11476,332,"R.A.M.- Ammunition Tech",2
+"Nova Javelin Heavy Assault Missile",9600,11692,334,"Nuclear Pulse Generator",3
+"Nova Javelin Heavy Assault Missile",9600,16680,429,"Phenolic Composites",12
+"Mjolnir Javelin Heavy Assault Missile",9600,34,18,Tritanium,3524
+"Mjolnir Javelin Heavy Assault Missile",9600,36,18,Mexallon,33
+"Mjolnir Javelin Heavy Assault Missile",9600,37,18,Isogen,13
+"Mjolnir Javelin Heavy Assault Missile",9600,39,18,Zydrine,1
+"Mjolnir Javelin Heavy Assault Missile",9600,40,18,Megacyte,8
+"Mjolnir Javelin Heavy Assault Missile",9600,9830,1034,"Rocket Fuel",12
+"Mjolnir Javelin Heavy Assault Missile",9600,11399,18,Morphite,2
+"Mjolnir Javelin Heavy Assault Missile",9600,11476,332,"R.A.M.- Ammunition Tech",2
+"Mjolnir Javelin Heavy Assault Missile",9600,11694,334,"EM Pulse Generator",3
+"Mjolnir Javelin Heavy Assault Missile",9600,16680,429,"Phenolic Composites",12
+"Signal Distortion Amplifier II",2340,38,18,Nocxium,1
+"Signal Distortion Amplifier II",2340,9840,1034,Transmitter,10
+"Signal Distortion Amplifier II",2340,9842,1034,"Miniature Electronics",14
+"Signal Distortion Amplifier II",2340,11399,18,Morphite,15
+"Signal Distortion Amplifier II",2340,11483,332,"R.A.M.- Electronics",2
+"Signal Distortion Amplifier II",2340,11534,334,"Gravimetric Sensor Cluster",3
+"Signal Distortion Amplifier II",2340,11535,334,"Magnetometric Sensor Cluster",3
+"Signal Distortion Amplifier II",2340,11536,334,"Ladar Sensor Cluster",3
+"Signal Distortion Amplifier II",2340,11537,334,"Radar Sensor Cluster",3
+"Signal Distortion Amplifier II",2340,11541,334,"Photon Microprocessor",5
+"Heavy Assault Missile Launcher II",4680,9848,1040,Robotics,4
+"Heavy Assault Missile Launcher II",4680,11399,18,Morphite,6
+"Heavy Assault Missile Launcher II",4680,11486,332,"R.A.M.- Weapon Tech",2
+"Heavy Assault Missile Launcher II",4680,11540,334,"Quantum Microprocessor",3
+"Gas Cloud Harvester II",2340,3689,1034,"Mechanical Parts",17
+"Gas Cloud Harvester II",2340,11482,332,"R.A.M.- Energy Tech",2
+"Gas Cloud Harvester II",2340,11541,334,"Photon Microprocessor",18
+"Gas Cloud Harvester II",2340,11689,334,"Laser Focusing Crystals",13
+"Large Salvage Tackle II",45000,11475,332,"R.A.M.- Armor/Hull Tech",2
+"Large Salvage Tackle II",45000,25609,754,"Nanite Compound",18
+"Large Salvage Tackle II",45000,25620,754,"Interface Circuit",27
+"Large Salvage Tackle II",45000,25624,754,"Intact Armor Plates",24
+"Large Ionic Field Projector II",45000,9842,1034,"Miniature Electronics",18
+"Large Ionic Field Projector II",45000,11483,332,"R.A.M.- Electronics",2
+"Large Ionic Field Projector II",45000,25616,754,"Artificial Neural Network",24
+"Large Ionic Field Projector II",45000,25618,754,"Micro Circuit",30
+"Large Ionic Field Projector II",45000,25619,754,"Logic Circuit",30
+"Large Targeting System Subcontroller II",45000,9842,1034,"Miniature Electronics",18
+"Large Targeting System Subcontroller II",45000,11483,332,"R.A.M.- Electronics",2
+"Large Targeting System Subcontroller II",45000,25616,754,"Artificial Neural Network",24
+"Large Targeting System Subcontroller II",45000,25618,754,"Micro Circuit",30
+"Large Targeting System Subcontroller II",45000,25619,754,"Logic Circuit",30
+"Mobile Large Warp Disruptor II",45000,11399,18,Morphite,62
+"Mobile Large Warp Disruptor II",45000,11482,332,"R.A.M.- Energy Tech",3
+"Mobile Large Warp Disruptor II",45000,11483,332,"R.A.M.- Electronics",3
+"Mobile Large Warp Disruptor II",45000,11538,334,"Nanomechanical Microprocessor",36
+"Mobile Large Warp Disruptor II",45000,11550,334,"Graviton Reactor Unit",39
+"Mobile Large Warp Disruptor II",45000,11693,334,"Graviton Pulse Generator",60
+"Mobile Large Warp Disruptor II",45000,12200,361,"Mobile Large Warp Disruptor I",1
+"Mobile Medium Warp Disruptor II",30000,11399,18,Morphite,15
+"Mobile Medium Warp Disruptor II",30000,11482,332,"R.A.M.- Energy Tech",3
+"Mobile Medium Warp Disruptor II",30000,11483,332,"R.A.M.- Electronics",3
+"Mobile Medium Warp Disruptor II",30000,11538,334,"Nanomechanical Microprocessor",24
+"Mobile Medium Warp Disruptor II",30000,11550,334,"Graviton Reactor Unit",17
+"Mobile Medium Warp Disruptor II",30000,11693,334,"Graviton Pulse Generator",35
+"Mobile Medium Warp Disruptor II",30000,12199,361,"Mobile Medium Warp Disruptor I",1
+"Mobile Small Warp Disruptor II",15000,11399,18,Morphite,3
+"Mobile Small Warp Disruptor II",15000,11482,332,"R.A.M.- Energy Tech",3
+"Mobile Small Warp Disruptor II",15000,11483,332,"R.A.M.- Electronics",3
+"Mobile Small Warp Disruptor II",15000,11538,334,"Nanomechanical Microprocessor",15
+"Mobile Small Warp Disruptor II",15000,11550,334,"Graviton Reactor Unit",6
+"Mobile Small Warp Disruptor II",15000,11693,334,"Graviton Pulse Generator",20
+"Mobile Small Warp Disruptor II",15000,12198,361,"Mobile Small Warp Disruptor I",1
+"Large Remote Armor Repairer II",7020,37,18,Isogen,33
+"Large Remote Armor Repairer II",7020,9848,1040,Robotics,9
+"Large Remote Armor Repairer II",7020,11399,18,Morphite,8
+"Large Remote Armor Repairer II",7020,11475,332,"R.A.M.- Armor/Hull Tech",2
+"Large Remote Armor Repairer II",7020,11539,334,"Nanoelectrical Microprocessor",6
+"Medium Remote Armor Repairer II",4680,37,18,Isogen,22
+"Medium Remote Armor Repairer II",4680,9848,1040,Robotics,9
+"Medium Remote Armor Repairer II",4680,11399,18,Morphite,5
+"Medium Remote Armor Repairer II",4680,11475,332,"R.A.M.- Armor/Hull Tech",2
+"Medium Remote Armor Repairer II",4680,11539,334,"Nanoelectrical Microprocessor",3
+"Small Remote Armor Repairer II",2340,9848,1040,Robotics,9
+"Small Remote Armor Repairer II",2340,11399,18,Morphite,2
+"Small Remote Armor Repairer II",2340,11475,332,"R.A.M.- Armor/Hull Tech",2
+"Small Remote Armor Repairer II",2340,11539,334,"Nanoelectrical Microprocessor",2
+"Heavy Armor Maintenance Bot II",4500,9834,1040,"Guidance Systems",4
+"Heavy Armor Maintenance Bot II",4500,9848,1040,Robotics,4
+"Heavy Armor Maintenance Bot II",4500,11399,18,Morphite,6
+"Heavy Armor Maintenance Bot II",4500,11481,332,"R.A.M.- Robotics",2
+"Heavy Armor Maintenance Bot II",4500,11530,334,"Plasma Thruster",2
+"Heavy Armor Maintenance Bot II",4500,11688,334,"Particle Accelerator Unit",1
+"Heavy Shield Maintenance Bot II",4500,9834,1040,"Guidance Systems",4
+"Heavy Shield Maintenance Bot II",4500,9848,1040,Robotics,4
+"Heavy Shield Maintenance Bot II",4500,11399,18,Morphite,6
+"Heavy Shield Maintenance Bot II",4500,11481,332,"R.A.M.- Robotics",2
+"Heavy Shield Maintenance Bot II",4500,11556,334,"Pulse Shield Emitter",2
+"Heavy Shield Maintenance Bot II",4500,11557,334,"Linear Shield Emitter",2
+"Light Armor Maintenance Bot II",1500,9834,1040,"Guidance Systems",1
+"Light Armor Maintenance Bot II",1500,9848,1040,Robotics,1
+"Light Armor Maintenance Bot II",1500,11399,18,Morphite,2
+"Light Armor Maintenance Bot II",1500,11481,332,"R.A.M.- Robotics",2
+"Light Armor Maintenance Bot II",1500,11530,334,"Plasma Thruster",2
+"Light Armor Maintenance Bot II",1500,11688,334,"Particle Accelerator Unit",1
+"Light Shield Maintenance Bot II",1500,9834,1040,"Guidance Systems",1
+"Light Shield Maintenance Bot II",1500,9848,1040,Robotics,1
+"Light Shield Maintenance Bot II",1500,11399,18,Morphite,3
+"Light Shield Maintenance Bot II",1500,11481,332,"R.A.M.- Robotics",2
+"Light Shield Maintenance Bot II",1500,11556,334,"Pulse Shield Emitter",2
+"Light Shield Maintenance Bot II",1500,11557,334,"Linear Shield Emitter",2
+"Medium Armor Maintenance Bot II",3000,9834,1040,"Guidance Systems",3
+"Medium Armor Maintenance Bot II",3000,9848,1040,Robotics,3
+"Medium Armor Maintenance Bot II",3000,11399,18,Morphite,5
+"Medium Armor Maintenance Bot II",3000,11481,332,"R.A.M.- Robotics",2
+"Medium Armor Maintenance Bot II",3000,11530,334,"Plasma Thruster",2
+"Medium Armor Maintenance Bot II",3000,11688,334,"Particle Accelerator Unit",1
+"Medium Shield Maintenance Bot II",3000,9834,1040,"Guidance Systems",3
+"Medium Shield Maintenance Bot II",3000,9848,1040,Robotics,3
+"Medium Shield Maintenance Bot II",3000,11399,18,Morphite,5
+"Medium Shield Maintenance Bot II",3000,11481,332,"R.A.M.- Robotics",2
+"Medium Shield Maintenance Bot II",3000,11556,334,"Pulse Shield Emitter",2
+"Medium Shield Maintenance Bot II",3000,11557,334,"Linear Shield Emitter",2
+"Warden II",4500,9834,1040,"Guidance Systems",3
+"Warden II",4500,9848,1040,Robotics,3
+"Warden II",4500,11399,18,Morphite,5
+"Warden II",4500,11481,332,"R.A.M.- Robotics",2
+"Warden II",4500,11690,334,"Superconductor Rails",2
+"Garde II",4500,9834,1040,"Guidance Systems",3
+"Garde II",4500,9848,1040,Robotics,3
+"Garde II",4500,11399,18,Morphite,5
+"Garde II",4500,11481,332,"R.A.M.- Robotics",2
+"Garde II",4500,11688,334,"Particle Accelerator Unit",2
+"Curator II",4500,9834,1040,"Guidance Systems",3
+"Curator II",4500,9848,1040,Robotics,3
+"Curator II",4500,11399,18,Morphite,5
+"Curator II",4500,11481,332,"R.A.M.- Robotics",2
+"Curator II",4500,11689,334,"Laser Focusing Crystals",2
+"Bouncer II",4500,9834,1040,"Guidance Systems",3
+"Bouncer II",4500,9848,1040,Robotics,3
+"Bouncer II",4500,11399,18,Morphite,5
+"Bouncer II",4500,11481,332,"R.A.M.- Robotics",2
+"Bouncer II",4500,11691,334,"Thermonuclear Trigger Unit",2
+"Mining Laser Upgrade II",2340,3689,1034,"Mechanical Parts",6
+"Mining Laser Upgrade II",2340,9842,1034,"Miniature Electronics",2
+"Mining Laser Upgrade II",2340,11399,18,Morphite,5
+"Mining Laser Upgrade II",2340,11483,332,"R.A.M.- Electronics",2
+"Mining Laser Upgrade II",2340,11689,334,"Laser Focusing Crystals",6
+"Ice Harvester Upgrade II",2340,3689,1034,"Mechanical Parts",6
+"Ice Harvester Upgrade II",2340,9842,1034,"Miniature Electronics",2
+"Ice Harvester Upgrade II",2340,11399,18,Morphite,5
+"Ice Harvester Upgrade II",2340,11483,332,"R.A.M.- Electronics",2
+"Ice Harvester Upgrade II",2340,11689,334,"Laser Focusing Crystals",6
+Paladin,360000,3828,1034,"Construction Blocks",450
+Paladin,360000,11399,18,Morphite,975
+Paladin,360000,11478,332,"R.A.M.- Starship Tech",30
+Paladin,360000,11532,334,"Fusion Thruster",375
+Paladin,360000,11537,334,"Radar Sensor Cluster",863
+Paladin,360000,11539,334,"Nanoelectrical Microprocessor",6000
+Paladin,360000,11543,334,"Tungsten Carbide Armor Plate",37500
+Paladin,360000,11549,334,"Antimatter Reactor Unit",225
+Paladin,360000,11554,334,"Tesseract Capacitor Unit",3000
+Paladin,360000,11557,334,"Linear Shield Emitter",3795
+Kronos,360000,3828,1034,"Construction Blocks",450
+Kronos,360000,11399,18,Morphite,975
+Kronos,360000,11478,332,"R.A.M.- Starship Tech",30
+Kronos,360000,11531,334,"Ion Thruster",375
+Kronos,360000,11535,334,"Magnetometric Sensor Cluster",863
+Kronos,360000,11541,334,"Photon Microprocessor",6000
+Kronos,360000,11545,334,"Crystalline Carbonide Armor Plate",37500
+Kronos,360000,11547,334,"Fusion Reactor Unit",225
+Kronos,360000,11553,334,"Oscillator Capacitor Unit",3000
+Kronos,360000,11556,334,"Pulse Shield Emitter",3795
+Vargur,360000,3828,1034,"Construction Blocks",450
+Vargur,360000,11399,18,Morphite,975
+Vargur,360000,11478,332,"R.A.M.- Starship Tech",30
+Vargur,360000,11530,334,"Plasma Thruster",375
+Vargur,360000,11536,334,"Ladar Sensor Cluster",863
+Vargur,360000,11538,334,"Nanomechanical Microprocessor",6000
+Vargur,360000,11542,334,"Fernite Carbide Composite Armor Plate",37500
+Vargur,360000,11548,334,"Nuclear Reactor Unit",225
+Vargur,360000,11551,334,"Electrolytic Capacitor Unit",3000
+Vargur,360000,11555,334,"Deflection Shield Emitter",3795
+Golem,360000,3828,1034,"Construction Blocks",450
+Golem,360000,11399,18,Morphite,975
+Golem,360000,11478,332,"R.A.M.- Starship Tech",30
+Golem,360000,11533,334,"Magpulse Thruster",375
+Golem,360000,11534,334,"Gravimetric Sensor Cluster",863
+Golem,360000,11540,334,"Quantum Microprocessor",6000
+Golem,360000,11544,334,"Titanium Diborite Armor Plate",37500
+Golem,360000,11550,334,"Graviton Reactor Unit",225
+Golem,360000,11552,334,"Scalar Capacitor Unit",3000
+Golem,360000,11558,334,"Sustained Shield Emitter",3795
+Rhea,3600000,3828,1034,"Construction Blocks",2250
+Rhea,3600000,11399,18,Morphite,3750
+Rhea,3600000,11478,332,"R.A.M.- Starship Tech",60
+Rhea,3600000,21025,873,"Capital Jump Drive",30
+Rhea,3600000,29055,913,"Capital Gravimetric Sensor Cluster",665
+Rhea,3600000,29059,913,"Capital Graviton Reactor Unit",777
+Rhea,3600000,29071,913,"Capital Magpulse Thruster",633
+Rhea,3600000,29093,913,"Capital Quantum Microprocessor",1056
+Rhea,3600000,29097,913,"Capital Scalar Capacitor Unit",1056
+Rhea,3600000,29101,913,"Capital Sustained Shield Emitter",674
+Rhea,3600000,29107,913,"Capital Titanium Diborite Armor Plate",1520
+Nomad,3600000,3828,1034,"Construction Blocks",2250
+Nomad,3600000,11399,18,Morphite,3750
+Nomad,3600000,11478,332,"R.A.M.- Starship Tech",60
+Nomad,3600000,21025,873,"Capital Jump Drive",30
+Nomad,3600000,29043,913,"Capital Deflection Shield Emitter",674
+Nomad,3600000,29045,913,"Capital Electrolytic Capacitor Unit",1056
+Nomad,3600000,29049,913,"Capital Fernite Carbide Composite Armor Plate",1520
+Nomad,3600000,29065,913,"Capital Ladar Sensor Cluster",665
+Nomad,3600000,29075,913,"Capital Nanomechanical Microprocessor",1056
+Nomad,3600000,29079,913,"Capital Nuclear Reactor Unit",777
+Nomad,3600000,29089,913,"Capital Plasma Thruster",633
+Anshar,3600000,3828,1034,"Construction Blocks",2250
+Anshar,3600000,11399,18,Morphite,3750
+Anshar,3600000,11478,332,"R.A.M.- Starship Tech",60
+Anshar,3600000,21025,873,"Capital Jump Drive",30
+Anshar,3600000,29041,913,"Capital Crystalline Carbonide Armor Plate",1520
+Anshar,3600000,29051,913,"Capital Fusion Reactor Unit",777
+Anshar,3600000,29061,913,"Capital Ion Thruster",633
+Anshar,3600000,29069,913,"Capital Magnetometric Sensor Cluster",665
+Anshar,3600000,29081,913,"Capital Oscillator Capacitor Unit",1056
+Anshar,3600000,29085,913,"Capital Photon Microprocessor",1056
+Anshar,3600000,29091,913,"Capital Pulse Shield Emitter",674
+Ark,3600000,3828,1034,"Construction Blocks",2250
+Ark,3600000,11399,18,Morphite,3750
+Ark,3600000,11478,332,"R.A.M.- Starship Tech",60
+Ark,3600000,21025,873,"Capital Jump Drive",30
+Ark,3600000,29039,913,"Capital Antimatter Reactor Unit",777
+Ark,3600000,29053,913,"Capital Fusion Thruster",633
+Ark,3600000,29067,913,"Capital Linear Shield Emitter",674
+Ark,3600000,29073,913,"Capital Nanoelectrical Microprocessor",1056
+Ark,3600000,29095,913,"Capital Radar Sensor Cluster",665
+Ark,3600000,29103,913,"Capital Tesseract Capacitor Unit",1056
+Ark,3600000,29109,913,"Capital Tungsten Carbide Armor Plate",1520
+"Relic Analyzer II",4680,9840,1034,Transmitter,9
+"Relic Analyzer II",4680,9842,1034,"Miniature Electronics",7
+"Relic Analyzer II",4680,11483,332,"R.A.M.- Electronics",2
+"Relic Analyzer II",4680,11536,334,"Ladar Sensor Cluster",5
+"Relic Analyzer II",4680,11539,334,"Nanoelectrical Microprocessor",5
+"Data Analyzer II",4680,9840,1034,Transmitter,9
+"Data Analyzer II",4680,9842,1034,"Miniature Electronics",7
+"Data Analyzer II",4680,11483,332,"R.A.M.- Electronics",2
+"Data Analyzer II",4680,11536,334,"Ladar Sensor Cluster",5
+"Data Analyzer II",4680,11540,334,"Quantum Microprocessor",5
+"Salvager II",7020,9840,1034,Transmitter,9
+"Salvager II",7020,9842,1034,"Miniature Electronics",7
+"Salvager II",7020,11483,332,"R.A.M.- Electronics",2
+"Salvager II",7020,11536,334,"Ladar Sensor Cluster",5
+"Salvager II",7020,11538,334,"Nanomechanical Microprocessor",5
+"Small Salvage Tackle II",15000,11475,332,"R.A.M.- Armor/Hull Tech",2
+"Small Salvage Tackle II",15000,25609,754,"Nanite Compound",2
+"Small Salvage Tackle II",15000,25620,754,"Interface Circuit",2
+"Small Salvage Tackle II",15000,25624,754,"Intact Armor Plates",2
+"Medium Salvage Tackle II",30000,11475,332,"R.A.M.- Armor/Hull Tech",2
+"Medium Salvage Tackle II",30000,25609,754,"Nanite Compound",3
+"Medium Salvage Tackle II",30000,25620,754,"Interface Circuit",5
+"Medium Salvage Tackle II",30000,25624,754,"Intact Armor Plates",5
+"Capital Salvage Tackle II",60000,11475,332,"R.A.M.- Armor/Hull Tech",2
+"Capital Salvage Tackle II",60000,25609,754,"Nanite Compound",90
+"Capital Salvage Tackle II",60000,25620,754,"Interface Circuit",135
+"Capital Salvage Tackle II",60000,25624,754,"Intact Armor Plates",120
+"Small Ionic Field Projector II",15000,9842,1034,"Miniature Electronics",4
+"Small Ionic Field Projector II",15000,11483,332,"R.A.M.- Electronics",2
+"Small Ionic Field Projector II",15000,25616,754,"Artificial Neural Network",2
+"Small Ionic Field Projector II",15000,25618,754,"Micro Circuit",2
+"Small Ionic Field Projector II",15000,25619,754,"Logic Circuit",2
+"Medium Ionic Field Projector II",30000,9842,1034,"Miniature Electronics",9
+"Medium Ionic Field Projector II",30000,11483,332,"R.A.M.- Electronics",2
+"Medium Ionic Field Projector II",30000,25616,754,"Artificial Neural Network",5
+"Medium Ionic Field Projector II",30000,25618,754,"Micro Circuit",6
+"Medium Ionic Field Projector II",30000,25619,754,"Logic Circuit",6
+"Capital Ionic Field Projector II",60000,9842,1034,"Miniature Electronics",36
+"Capital Ionic Field Projector II",60000,11483,332,"R.A.M.- Electronics",2
+"Capital Ionic Field Projector II",60000,25616,754,"Artificial Neural Network",120
+"Capital Ionic Field Projector II",60000,25618,754,"Micro Circuit",150
+"Capital Ionic Field Projector II",60000,25619,754,"Logic Circuit",150
+"Small Targeting System Subcontroller II",15000,9842,1034,"Miniature Electronics",4
+"Small Targeting System Subcontroller II",15000,11483,332,"R.A.M.- Electronics",2
+"Small Targeting System Subcontroller II",15000,25616,754,"Artificial Neural Network",2
+"Small Targeting System Subcontroller II",15000,25618,754,"Micro Circuit",2
+"Small Targeting System Subcontroller II",15000,25619,754,"Logic Circuit",2
+"Medium Targeting System Subcontroller II",30000,9842,1034,"Miniature Electronics",9
+"Medium Targeting System Subcontroller II",30000,11483,332,"R.A.M.- Electronics",2
+"Medium Targeting System Subcontroller II",30000,25616,754,"Artificial Neural Network",5
+"Medium Targeting System Subcontroller II",30000,25618,754,"Micro Circuit",6
+"Medium Targeting System Subcontroller II",30000,25619,754,"Logic Circuit",6
+"Capital Targeting System Subcontroller II",60000,9842,1034,"Miniature Electronics",36
+"Capital Targeting System Subcontroller II",60000,11483,332,"R.A.M.- Electronics",2
+"Capital Targeting System Subcontroller II",60000,25616,754,"Artificial Neural Network",120
+"Capital Targeting System Subcontroller II",60000,25618,754,"Micro Circuit",150
+"Capital Targeting System Subcontroller II",60000,25619,754,"Logic Circuit",150
+"Scan Acquisition Array II",4680,9840,1034,Transmitter,7
+"Scan Acquisition Array II",4680,9842,1034,"Miniature Electronics",4
+"Scan Acquisition Array II",4680,11399,18,Morphite,1
+"Scan Acquisition Array II",4680,11483,332,"R.A.M.- Electronics",2
+"Scan Acquisition Array II",4680,11540,334,"Quantum Microprocessor",3
+"Scan Acquisition Array II",4680,33195,334,"Spatial Attunement Unit",8
+"Survey Probe Launcher II",7020,9834,1040,"Guidance Systems",4
+"Survey Probe Launcher II",7020,11399,18,Morphite,2
+"Survey Probe Launcher II",7020,11483,332,"R.A.M.- Electronics",2
+"Survey Probe Launcher II",7020,11540,334,"Quantum Microprocessor",6
+"Rapid Heavy Missile Launcher II",7020,9848,1040,Robotics,11
+"Rapid Heavy Missile Launcher II",7020,11399,18,Morphite,14
+"Rapid Heavy Missile Launcher II",7020,11486,332,"R.A.M.- Weapon Tech",1
+"Rapid Heavy Missile Launcher II",7020,11540,334,"Quantum Microprocessor",13
+Prospect,120000,3828,1034,"Construction Blocks",22
+Prospect,120000,11399,18,Morphite,33
+Prospect,120000,11478,332,"R.A.M.- Starship Tech",4
+Prospect,120000,11531,334,"Ion Thruster",17
+Prospect,120000,11535,334,"Magnetometric Sensor Cluster",17
+Prospect,120000,11541,334,"Photon Microprocessor",167
+Prospect,120000,11545,334,"Crystalline Carbonide Armor Plate",222
+Prospect,120000,11547,334,"Fusion Reactor Unit",3
+Prospect,120000,11553,334,"Oscillator Capacitor Unit",44
+Prospect,120000,11556,334,"Pulse Shield Emitter",17
+"Heavy Hull Maintenance Bot II",4500,9834,1040,"Guidance Systems",4
+"Heavy Hull Maintenance Bot II",4500,9848,1040,Robotics,4
+"Heavy Hull Maintenance Bot II",4500,11399,18,Morphite,6
+"Heavy Hull Maintenance Bot II",4500,11481,332,"R.A.M.- Robotics",2
+"Heavy Hull Maintenance Bot II",4500,11530,334,"Plasma Thruster",2
+"Heavy Hull Maintenance Bot II",4500,11688,334,"Particle Accelerator Unit",1
+"Medium Hull Maintenance Bot II",3000,9834,1040,"Guidance Systems",3
+"Medium Hull Maintenance Bot II",3000,9848,1040,Robotics,3
+"Medium Hull Maintenance Bot II",3000,11399,18,Morphite,5
+"Medium Hull Maintenance Bot II",3000,11481,332,"R.A.M.- Robotics",2
+"Medium Hull Maintenance Bot II",3000,11530,334,"Plasma Thruster",2
+"Medium Hull Maintenance Bot II",3000,11688,334,"Particle Accelerator Unit",1
+"Light Hull Maintenance Bot II",1500,9834,1040,"Guidance Systems",1
+"Light Hull Maintenance Bot II",1500,9848,1040,Robotics,1
+"Light Hull Maintenance Bot II",1500,11399,18,Morphite,2
+"Light Hull Maintenance Bot II",1500,11481,332,"R.A.M.- Robotics",2
+"Light Hull Maintenance Bot II",1500,11530,334,"Plasma Thruster",2
+"Light Hull Maintenance Bot II",1500,11688,334,"Particle Accelerator Unit",1
+"Omnidirectional Tracking Enhancer II",2340,3689,1034,"Mechanical Parts",6
+"Omnidirectional Tracking Enhancer II",2340,9842,1034,"Miniature Electronics",2
+"Omnidirectional Tracking Enhancer II",2340,11399,18,Morphite,5
+"Omnidirectional Tracking Enhancer II",2340,11483,332,"R.A.M.- Electronics",2
+"Omnidirectional Tracking Enhancer II",2340,11539,334,"Nanoelectrical Microprocessor",8

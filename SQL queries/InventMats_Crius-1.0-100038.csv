@@ -1,0 +1,1555 @@
+typeName,time,materialtypeid,groupID,typeName,quantity
+"Small Shield Extender II",13800,20171,333,"Datacore - Hydromagnetic Physics",1
+"Small Shield Extender II",13800,20414,333,"Datacore - Quantum Physics",1
+"Shield Recharger II",30900,20171,333,"Datacore - Hydromagnetic Physics",2
+"Shield Recharger II",30900,20414,333,"Datacore - Quantum Physics",2
+"Small Shield Booster II",13800,20171,333,"Datacore - Hydromagnetic Physics",1
+"Small Shield Booster II",13800,20414,333,"Datacore - Quantum Physics",1
+"1MN Afterburner II",13800,20415,333,"Datacore - Molecular Engineering",1
+"1MN Afterburner II",13800,20420,333,"Datacore - Rocket Science",1
+"1MN Microwarpdrive II",13800,20415,333,"Datacore - Molecular Engineering",1
+"1MN Microwarpdrive II",13800,20420,333,"Datacore - Rocket Science",1
+"Warp Scrambler II",30900,20418,333,"Datacore - Electronic Engineering",2
+"Warp Scrambler II",30900,20419,333,"Datacore - Graviton Physics",2
+"Miner II",13800,20413,333,"Datacore - Laser Physics",2
+"Miner II",13800,20424,333,"Datacore - Mechanical Engineering",2
+"Gyrostabilizer II",13800,20418,333,"Datacore - Electronic Engineering",2
+"Gyrostabilizer II",13800,20424,333,"Datacore - Mechanical Engineering",2
+"Stasis Webifier II",30900,20418,333,"Datacore - Electronic Engineering",2
+"Stasis Webifier II",30900,20419,333,"Datacore - Graviton Physics",2
+"Small Armor Repairer II",13800,20416,333,"Datacore - Nanite Engineering",1
+"Small Armor Repairer II",13800,20424,333,"Datacore - Mechanical Engineering",1
+"Small Remote Capacitor Transmitter II",13800,20411,333,"Datacore - High Energy Physics",1
+"Small Remote Capacitor Transmitter II",13800,20414,333,"Datacore - Quantum Physics",1
+"EM Plating II",13800,20415,333,"Datacore - Molecular Engineering",1
+"EM Plating II",13800,20416,333,"Datacore - Nanite Engineering",1
+"Overdrive Injector System II",13800,20415,333,"Datacore - Molecular Engineering",1
+"Overdrive Injector System II",13800,20416,333,"Datacore - Nanite Engineering",1
+"Capacitor Flux Coil II",13800,20411,333,"Datacore - High Energy Physics",1
+"Capacitor Flux Coil II",13800,20414,333,"Datacore - Quantum Physics",1
+"Shield Flux Coil II",13800,20411,333,"Datacore - High Energy Physics",2
+"Shield Flux Coil II",13800,20414,333,"Datacore - Quantum Physics",2
+"Explosive Plating II",13800,20415,333,"Datacore - Molecular Engineering",1
+"Explosive Plating II",13800,20416,333,"Datacore - Nanite Engineering",1
+"Layered Plating II",13800,20415,333,"Datacore - Molecular Engineering",1
+"Layered Plating II",13800,20416,333,"Datacore - Nanite Engineering",1
+"Kinetic Plating II",13800,20415,333,"Datacore - Molecular Engineering",1
+"Kinetic Plating II",13800,20416,333,"Datacore - Nanite Engineering",1
+"Thermic Plating II",13800,20415,333,"Datacore - Molecular Engineering",1
+"Thermic Plating II",13800,20416,333,"Datacore - Nanite Engineering",1
+"Adaptive Nano Plating II",13800,20415,333,"Datacore - Molecular Engineering",1
+"Adaptive Nano Plating II",13800,20416,333,"Datacore - Nanite Engineering",1
+"Expanded Cargohold II",13800,20415,333,"Datacore - Molecular Engineering",2
+"Expanded Cargohold II",13800,20416,333,"Datacore - Nanite Engineering",2
+"Reinforced Bulkheads II",13800,20415,333,"Datacore - Molecular Engineering",1
+"Reinforced Bulkheads II",13800,20416,333,"Datacore - Nanite Engineering",1
+"Reactor Control Unit II",13800,20411,333,"Datacore - High Energy Physics",2
+"Reactor Control Unit II",13800,20414,333,"Datacore - Quantum Physics",2
+"Inertia Stabilizers II",13800,20415,333,"Datacore - Molecular Engineering",1
+"Inertia Stabilizers II",13800,20416,333,"Datacore - Nanite Engineering",1
+"Shield Power Relay II",13800,20411,333,"Datacore - High Energy Physics",2
+"Shield Power Relay II",13800,20414,333,"Datacore - Quantum Physics",2
+"Auto Targeting System II",51000,20418,333,"Datacore - Electronic Engineering",1
+"Auto Targeting System II",51000,20424,333,"Datacore - Mechanical Engineering",1
+"Capacitor Power Relay II",13800,20411,333,"Datacore - High Energy Physics",2
+"Capacitor Power Relay II",13800,20414,333,"Datacore - Quantum Physics",2
+"Power Diagnostic System II",13800,20411,333,"Datacore - High Energy Physics",2
+"Power Diagnostic System II",13800,20414,333,"Datacore - Quantum Physics",2
+"Small Proton Smartbomb II",13800,20411,333,"Datacore - High Energy Physics",1
+"Small Proton Smartbomb II",13800,20423,333,"Datacore - Nuclear Physics",1
+"Small Graviton Smartbomb II",13800,20411,333,"Datacore - High Energy Physics",1
+"Small Graviton Smartbomb II",13800,20419,333,"Datacore - Graviton Physics",1
+"Small Plasma Smartbomb II",13800,20411,333,"Datacore - High Energy Physics",1
+"Small Plasma Smartbomb II",13800,20412,333,"Datacore - Plasma Physics",1
+"Small EMP Smartbomb II",13800,20411,333,"Datacore - High Energy Physics",1
+"Small EMP Smartbomb II",13800,20413,333,"Datacore - Laser Physics",1
+"Ship Scanner II",30900,20417,333,"Datacore - Electromagnetic Physics",2
+"Ship Scanner II",30900,20418,333,"Datacore - Electronic Engineering",2
+"Rapid Light Missile Launcher II",30900,20420,333,"Datacore - Rocket Science",2
+"Rapid Light Missile Launcher II",30900,20424,333,"Datacore - Mechanical Engineering",2
+"Sensor Booster II",30900,20417,333,"Datacore - Electromagnetic Physics",2
+"Sensor Booster II",30900,20418,333,"Datacore - Electronic Engineering",2
+"ECCM Projector II",30900,20417,333,"Datacore - Electromagnetic Physics",1
+"ECCM Projector II",30900,20418,333,"Datacore - Electronic Engineering",1
+"Remote Sensor Booster II",30900,20417,333,"Datacore - Electromagnetic Physics",1
+"Remote Sensor Booster II",30900,20418,333,"Datacore - Electronic Engineering",1
+"Remote Sensor Dampener II",30900,20417,333,"Datacore - Electromagnetic Physics",1
+"Remote Sensor Dampener II",30900,20418,333,"Datacore - Electronic Engineering",1
+"Tracking Computer II",30900,20418,333,"Datacore - Electronic Engineering",2
+"Tracking Computer II",30900,20424,333,"Datacore - Mechanical Engineering",2
+"Signal Amplifier II",13800,20417,333,"Datacore - Electromagnetic Physics",2
+"Signal Amplifier II",13800,20418,333,"Datacore - Electronic Engineering",2
+"Tracking Enhancer II",13800,20418,333,"Datacore - Electronic Engineering",2
+"Tracking Enhancer II",13800,20424,333,"Datacore - Mechanical Engineering",2
+"Medium Capacitor Booster II",30900,20411,333,"Datacore - High Energy Physics",2
+"Medium Capacitor Booster II",30900,20414,333,"Datacore - Quantum Physics",2
+"Cap Recharger II",30900,20411,333,"Datacore - High Energy Physics",2
+"Cap Recharger II",30900,20414,333,"Datacore - Quantum Physics",2
+"Cargo Scanner II",30900,20417,333,"Datacore - Electromagnetic Physics",1
+"Cargo Scanner II",30900,20418,333,"Datacore - Electronic Engineering",1
+"Damage Control II",13800,20415,333,"Datacore - Molecular Engineering",2
+"Damage Control II",13800,20416,333,"Datacore - Nanite Engineering",2
+"Remote Tracking Computer II",30900,20417,333,"Datacore - Electromagnetic Physics",2
+"Remote Tracking Computer II",30900,20418,333,"Datacore - Electronic Engineering",2
+"Tracking Disruptor II",30900,20417,333,"Datacore - Electromagnetic Physics",2
+"Tracking Disruptor II",30900,20418,333,"Datacore - Electronic Engineering",2
+"ECM Burst II",30900,20417,333,"Datacore - Electromagnetic Physics",2
+"ECM Burst II",30900,20418,333,"Datacore - Electronic Engineering",2
+"Infiltrator II",15900,20418,333,"Datacore - Electronic Engineering",2
+"Infiltrator II",15900,20424,333,"Datacore - Mechanical Engineering",2
+"Hammerhead II",15900,20418,333,"Datacore - Electronic Engineering",2
+"Hammerhead II",15900,20424,333,"Datacore - Mechanical Engineering",2
+"Praetor II",23700,20418,333,"Datacore - Electronic Engineering",3
+"Praetor II",23700,20424,333,"Datacore - Mechanical Engineering",3
+"Acolyte II",7800,20418,333,"Datacore - Electronic Engineering",1
+"Acolyte II",7800,20424,333,"Datacore - Mechanical Engineering",1
+"ECCM - Omni II",30900,20417,333,"Datacore - Electromagnetic Physics",2
+"ECCM - Omni II",30900,20418,333,"Datacore - Electronic Engineering",2
+"ECCM - Gravimetric II",30900,20417,333,"Datacore - Electromagnetic Physics",2
+"ECCM - Gravimetric II",30900,20418,333,"Datacore - Electronic Engineering",2
+"ECCM - Ladar II",30900,20417,333,"Datacore - Electromagnetic Physics",2
+"ECCM - Ladar II",30900,20418,333,"Datacore - Electronic Engineering",2
+"ECCM - Magnetometric II",30900,20417,333,"Datacore - Electromagnetic Physics",2
+"ECCM - Magnetometric II",30900,20418,333,"Datacore - Electronic Engineering",2
+"ECCM - Radar II",30900,20417,333,"Datacore - Electromagnetic Physics",2
+"ECCM - Radar II",30900,20418,333,"Datacore - Electronic Engineering",2
+"Adaptive Invulnerability Field II",30900,20171,333,"Datacore - Hydromagnetic Physics",2
+"Adaptive Invulnerability Field II",30900,20414,333,"Datacore - Quantum Physics",2
+"Explosive Deflection Field II",30900,20171,333,"Datacore - Hydromagnetic Physics",2
+"Explosive Deflection Field II",30900,20414,333,"Datacore - Quantum Physics",2
+"Kinetic Deflection Field II",30900,20171,333,"Datacore - Hydromagnetic Physics",2
+"Kinetic Deflection Field II",30900,20414,333,"Datacore - Quantum Physics",2
+"EM Ward Field II",30900,20171,333,"Datacore - Hydromagnetic Physics",2
+"EM Ward Field II",30900,20414,333,"Datacore - Quantum Physics",2
+"Thermic Dissipation Field II",30900,20171,333,"Datacore - Hydromagnetic Physics",2
+"Thermic Dissipation Field II",30900,20414,333,"Datacore - Quantum Physics",2
+"Survey Scanner II",30900,20417,333,"Datacore - Electromagnetic Physics",2
+"Survey Scanner II",30900,20418,333,"Datacore - Electronic Engineering",2
+"Passive Targeter II",30900,20417,333,"Datacore - Electromagnetic Physics",1
+"Passive Targeter II",30900,20418,333,"Datacore - Electronic Engineering",1
+"Small Hull Repairer II",13800,20415,333,"Datacore - Molecular Engineering",1
+"Small Hull Repairer II",13800,20424,333,"Datacore - Mechanical Engineering",1
+"Heat Sink II",13800,20418,333,"Datacore - Electronic Engineering",2
+"Heat Sink II",13800,20424,333,"Datacore - Mechanical Engineering",2
+"Light Missile Launcher II",13800,20420,333,"Datacore - Rocket Science",1
+"Light Missile Launcher II",13800,20424,333,"Datacore - Mechanical Engineering",1
+"Heavy Missile Launcher II",30900,20420,333,"Datacore - Rocket Science",2
+"Heavy Missile Launcher II",30900,20424,333,"Datacore - Mechanical Engineering",2
+"Torpedo Launcher II",51000,20420,333,"Datacore - Rocket Science",3
+"Torpedo Launcher II",51000,20424,333,"Datacore - Mechanical Engineering",3
+"Wasp II",23700,20418,333,"Datacore - Electronic Engineering",3
+"Wasp II",23700,20424,333,"Datacore - Mechanical Engineering",3
+"Ogre II",23700,20418,333,"Datacore - Electronic Engineering",3
+"Ogre II",23700,20424,333,"Datacore - Mechanical Engineering",3
+"Hobgoblin II",7800,20418,333,"Datacore - Electronic Engineering",1
+"Hobgoblin II",7800,20424,333,"Datacore - Mechanical Engineering",1
+"Hornet II",7800,20418,333,"Datacore - Electronic Engineering",1
+"Hornet II",7800,20424,333,"Datacore - Mechanical Engineering",1
+"Berserker II",23700,20418,333,"Datacore - Electronic Engineering",3
+"Berserker II",23700,20424,333,"Datacore - Mechanical Engineering",3
+"Warrior II",7800,20418,333,"Datacore - Electronic Engineering",1
+"Warrior II",7800,20424,333,"Datacore - Mechanical Engineering",1
+"Explosive Deflection Amplifier II",30900,20171,333,"Datacore - Hydromagnetic Physics",1
+"Explosive Deflection Amplifier II",30900,20414,333,"Datacore - Quantum Physics",1
+"Thermic Dissipation Amplifier II",30900,20171,333,"Datacore - Hydromagnetic Physics",1
+"Thermic Dissipation Amplifier II",30900,20414,333,"Datacore - Quantum Physics",1
+"Kinetic Deflection Amplifier II",30900,20171,333,"Datacore - Hydromagnetic Physics",1
+"Kinetic Deflection Amplifier II",30900,20414,333,"Datacore - Quantum Physics",1
+"EM Ward Amplifier II",30900,20171,333,"Datacore - Hydromagnetic Physics",1
+"EM Ward Amplifier II",30900,20414,333,"Datacore - Quantum Physics",1
+"ECM - Phase Inverter II",30900,20417,333,"Datacore - Electromagnetic Physics",2
+"ECM - Phase Inverter II",30900,20418,333,"Datacore - Electronic Engineering",2
+"ECM - Ion Field Projector II",30900,20417,333,"Datacore - Electromagnetic Physics",2
+"ECM - Ion Field Projector II",30900,20418,333,"Datacore - Electronic Engineering",2
+"ECM - Multispectral Jammer II",30900,20417,333,"Datacore - Electromagnetic Physics",2
+"ECM - Multispectral Jammer II",30900,20418,333,"Datacore - Electronic Engineering",2
+"ECM - Spatial Destabilizer II",30900,20417,333,"Datacore - Electromagnetic Physics",2
+"ECM - Spatial Destabilizer II",30900,20418,333,"Datacore - Electronic Engineering",2
+"ECM - White Noise Generator II",30900,20417,333,"Datacore - Electromagnetic Physics",2
+"ECM - White Noise Generator II",30900,20418,333,"Datacore - Electronic Engineering",2
+"Gravimetric Backup Array II",13800,20417,333,"Datacore - Electromagnetic Physics",1
+"Gravimetric Backup Array II",13800,20418,333,"Datacore - Electronic Engineering",1
+"LADAR Backup Array II",13800,20417,333,"Datacore - Electromagnetic Physics",1
+"LADAR Backup Array II",13800,20418,333,"Datacore - Electronic Engineering",1
+"Magnetometric Backup Array II",13800,20417,333,"Datacore - Electromagnetic Physics",1
+"Magnetometric Backup Array II",13800,20418,333,"Datacore - Electronic Engineering",1
+"Multi Sensor Backup Array II",13800,20417,333,"Datacore - Electromagnetic Physics",1
+"Multi Sensor Backup Array II",13800,20418,333,"Datacore - Electronic Engineering",1
+"Nanofiber Internal Structure II",13800,20415,333,"Datacore - Molecular Engineering",1
+"Nanofiber Internal Structure II",13800,20416,333,"Datacore - Nanite Engineering",1
+"Mjolnir Fury Light Missile",22800,20418,333,"Datacore - Electronic Engineering",1
+"Mjolnir Fury Light Missile",22800,20420,333,"Datacore - Rocket Science",1
+"Inferno Fury Cruise Missile",68100,20418,333,"Datacore - Electronic Engineering",1
+"Inferno Fury Cruise Missile",68100,20420,333,"Datacore - Rocket Science",1
+"Scourge Fury Heavy Missile",45600,20418,333,"Datacore - Electronic Engineering",1
+"Scourge Fury Heavy Missile",45600,20420,333,"Datacore - Rocket Science",1
+"Inferno Precision Cruise Missile",68100,20418,333,"Datacore - Electronic Engineering",1
+"Inferno Precision Cruise Missile",68100,20420,333,"Datacore - Rocket Science",1
+"Inferno Precision Light Missile",22800,20418,333,"Datacore - Electronic Engineering",1
+"Inferno Precision Light Missile",22800,20420,333,"Datacore - Rocket Science",1
+"Nova Precision Heavy Missile",45600,20418,333,"Datacore - Electronic Engineering",1
+"Nova Precision Heavy Missile",45600,20420,333,"Datacore - Rocket Science",1
+"Scourge Rage Heavy Assault Missile",45600,20418,333,"Datacore - Electronic Engineering",1
+"Scourge Rage Heavy Assault Missile",45600,20420,333,"Datacore - Rocket Science",1
+"Nova Javelin Torpedo",68100,20418,333,"Datacore - Electronic Engineering",1
+"Nova Javelin Torpedo",68100,20420,333,"Datacore - Rocket Science",1
+"Inferno Rage Torpedo",68100,20418,333,"Datacore - Electronic Engineering",1
+"Inferno Rage Torpedo",68100,20420,333,"Datacore - Rocket Science",1
+"Mjolnir Rage Rocket",22800,20418,333,"Datacore - Electronic Engineering",1
+"Mjolnir Rage Rocket",22800,20420,333,"Datacore - Rocket Science",1
+"1200mm Artillery Cannon II",51000,20423,333,"Datacore - Nuclear Physics",3
+"1200mm Artillery Cannon II",51000,20424,333,"Datacore - Mechanical Engineering",3
+"125mm Gatling AutoCannon II",51000,20423,333,"Datacore - Nuclear Physics",1
+"125mm Gatling AutoCannon II",51000,20424,333,"Datacore - Mechanical Engineering",1
+"150mm Light AutoCannon II",13800,20423,333,"Datacore - Nuclear Physics",1
+"150mm Light AutoCannon II",13800,20424,333,"Datacore - Mechanical Engineering",1
+"200mm AutoCannon II",13800,20423,333,"Datacore - Nuclear Physics",1
+"200mm AutoCannon II",13800,20424,333,"Datacore - Mechanical Engineering",1
+"220mm Vulcan AutoCannon II",30900,20423,333,"Datacore - Nuclear Physics",2
+"220mm Vulcan AutoCannon II",30900,20424,333,"Datacore - Mechanical Engineering",2
+"250mm Light Artillery Cannon II",13800,20423,333,"Datacore - Nuclear Physics",1
+"250mm Light Artillery Cannon II",13800,20424,333,"Datacore - Mechanical Engineering",1
+"425mm AutoCannon II",30900,20423,333,"Datacore - Nuclear Physics",2
+"425mm AutoCannon II",30900,20424,333,"Datacore - Mechanical Engineering",2
+"650mm Artillery Cannon II",30900,20423,333,"Datacore - Nuclear Physics",2
+"650mm Artillery Cannon II",30900,20424,333,"Datacore - Mechanical Engineering",2
+"800mm Repeating Cannon II",51000,20423,333,"Datacore - Nuclear Physics",3
+"800mm Repeating Cannon II",51000,20424,333,"Datacore - Mechanical Engineering",3
+"Dual 180mm AutoCannon II",30900,20423,333,"Datacore - Nuclear Physics",2
+"Dual 180mm AutoCannon II",30900,20424,333,"Datacore - Mechanical Engineering",2
+"Dual 425mm AutoCannon II",51000,20423,333,"Datacore - Nuclear Physics",3
+"Dual 425mm AutoCannon II",51000,20424,333,"Datacore - Mechanical Engineering",3
+"Dual 650mm Repeating Cannon II",51000,20423,333,"Datacore - Nuclear Physics",3
+"Dual 650mm Repeating Cannon II",51000,20424,333,"Datacore - Mechanical Engineering",3
+"1400mm Howitzer Artillery II",51000,20423,333,"Datacore - Nuclear Physics",3
+"1400mm Howitzer Artillery II",51000,20424,333,"Datacore - Mechanical Engineering",3
+"720mm Howitzer Artillery II",30900,20423,333,"Datacore - Nuclear Physics",2
+"720mm Howitzer Artillery II",30900,20424,333,"Datacore - Mechanical Engineering",2
+"280mm Howitzer Artillery II",13800,20423,333,"Datacore - Nuclear Physics",1
+"280mm Howitzer Artillery II",13800,20424,333,"Datacore - Mechanical Engineering",1
+"Dual Heavy Beam Laser II",51000,20411,333,"Datacore - High Energy Physics",3
+"Dual Heavy Beam Laser II",51000,20413,333,"Datacore - Laser Physics",3
+"Dual Light Beam Laser II",13800,20411,333,"Datacore - High Energy Physics",1
+"Dual Light Beam Laser II",13800,20413,333,"Datacore - Laser Physics",1
+"Dual Light Pulse Laser II",13800,20411,333,"Datacore - High Energy Physics",1
+"Dual Light Pulse Laser II",13800,20413,333,"Datacore - Laser Physics",1
+"Focused Medium Beam Laser II",30900,20411,333,"Datacore - High Energy Physics",2
+"Focused Medium Beam Laser II",30900,20413,333,"Datacore - Laser Physics",2
+"Gatling Pulse Laser II",13800,20411,333,"Datacore - High Energy Physics",1
+"Gatling Pulse Laser II",13800,20413,333,"Datacore - Laser Physics",1
+"Heavy Beam Laser II",30900,20411,333,"Datacore - High Energy Physics",2
+"Heavy Beam Laser II",30900,20413,333,"Datacore - Laser Physics",2
+"Small Focused Beam Laser II",13800,20411,333,"Datacore - High Energy Physics",1
+"Small Focused Beam Laser II",13800,20413,333,"Datacore - Laser Physics",1
+"Small Focused Pulse Laser II",13800,20411,333,"Datacore - High Energy Physics",1
+"Small Focused Pulse Laser II",13800,20413,333,"Datacore - Laser Physics",1
+"Mega Beam Laser II",51000,20411,333,"Datacore - High Energy Physics",3
+"Mega Beam Laser II",51000,20413,333,"Datacore - Laser Physics",3
+"Mega Pulse Laser II",51000,20411,333,"Datacore - High Energy Physics",3
+"Mega Pulse Laser II",51000,20413,333,"Datacore - Laser Physics",3
+"Tachyon Beam Laser II",51000,20411,333,"Datacore - High Energy Physics",3
+"Tachyon Beam Laser II",51000,20413,333,"Datacore - Laser Physics",3
+"150mm Railgun II",13800,20417,333,"Datacore - Electromagnetic Physics",1
+"150mm Railgun II",13800,20424,333,"Datacore - Mechanical Engineering",1
+"250mm Railgun II",30900,20417,333,"Datacore - Electromagnetic Physics",2
+"250mm Railgun II",30900,20424,333,"Datacore - Mechanical Engineering",2
+"425mm Railgun II",51000,20417,333,"Datacore - Electromagnetic Physics",3
+"425mm Railgun II",51000,20424,333,"Datacore - Mechanical Engineering",3
+"75mm Gatling Rail II",13800,20417,333,"Datacore - Electromagnetic Physics",1
+"75mm Gatling Rail II",13800,20424,333,"Datacore - Mechanical Engineering",1
+"Dual 150mm Railgun II",30900,20417,333,"Datacore - Electromagnetic Physics",2
+"Dual 150mm Railgun II",30900,20424,333,"Datacore - Mechanical Engineering",2
+"Dual 250mm Railgun II",51000,20417,333,"Datacore - Electromagnetic Physics",3
+"Dual 250mm Railgun II",51000,20424,333,"Datacore - Mechanical Engineering",3
+"Electron Blaster Cannon II",51000,20412,333,"Datacore - Plasma Physics",3
+"Electron Blaster Cannon II",51000,20424,333,"Datacore - Mechanical Engineering",3
+"Heavy Electron Blaster II",30900,20412,333,"Datacore - Plasma Physics",2
+"Heavy Electron Blaster II",30900,20424,333,"Datacore - Mechanical Engineering",2
+"Heavy Ion Blaster II",30900,20412,333,"Datacore - Plasma Physics",2
+"Heavy Ion Blaster II",30900,20424,333,"Datacore - Mechanical Engineering",2
+"Heavy Neutron Blaster II",30900,20412,333,"Datacore - Plasma Physics",2
+"Heavy Neutron Blaster II",30900,20424,333,"Datacore - Mechanical Engineering",2
+"Ion Blaster Cannon II",51000,20412,333,"Datacore - Plasma Physics",3
+"Ion Blaster Cannon II",51000,20424,333,"Datacore - Mechanical Engineering",3
+"Light Electron Blaster II",13800,20412,333,"Datacore - Plasma Physics",1
+"Light Electron Blaster II",13800,20424,333,"Datacore - Mechanical Engineering",1
+"Light Ion Blaster II",13800,20412,333,"Datacore - Plasma Physics",1
+"Light Ion Blaster II",13800,20424,333,"Datacore - Mechanical Engineering",1
+"Light Neutron Blaster II",13800,20412,333,"Datacore - Plasma Physics",1
+"Light Neutron Blaster II",13800,20424,333,"Datacore - Mechanical Engineering",1
+"Neutron Blaster Cannon II",51000,20412,333,"Datacore - Plasma Physics",3
+"Neutron Blaster Cannon II",51000,20424,333,"Datacore - Mechanical Engineering",3
+"Warp Disruptor II",30900,20418,333,"Datacore - Electronic Engineering",2
+"Warp Disruptor II",30900,20419,333,"Datacore - Graviton Physics",2
+"Quad Light Beam Laser II",30900,20411,333,"Datacore - High Energy Physics",2
+"Quad Light Beam Laser II",30900,20413,333,"Datacore - Laser Physics",2
+"Small Capacitor Battery II",13800,20411,333,"Datacore - High Energy Physics",1
+"Small Capacitor Battery II",13800,20414,333,"Datacore - Quantum Physics",1
+"Medium Capacitor Battery II",30900,20411,333,"Datacore - High Energy Physics",2
+"Medium Capacitor Battery II",30900,20414,333,"Datacore - Quantum Physics",2
+"Large Capacitor Battery II",30900,20411,333,"Datacore - High Energy Physics",3
+"Large Capacitor Battery II",30900,20414,333,"Datacore - Quantum Physics",3
+"Focused Medium Pulse Laser II",30900,20411,333,"Datacore - High Energy Physics",2
+"Focused Medium Pulse Laser II",30900,20413,333,"Datacore - Laser Physics",2
+"Heavy Pulse Laser II",30900,20411,333,"Datacore - High Energy Physics",2
+"Heavy Pulse Laser II",30900,20413,333,"Datacore - Laser Physics",2
+"Medium Armor Repairer II",30900,20416,333,"Datacore - Nanite Engineering",2
+"Medium Armor Repairer II",30900,20424,333,"Datacore - Mechanical Engineering",2
+"Large Armor Repairer II",51000,20416,333,"Datacore - Nanite Engineering",3
+"Large Armor Repairer II",51000,20424,333,"Datacore - Mechanical Engineering",3
+"Small Capacitor Booster II",13800,20411,333,"Datacore - High Energy Physics",1
+"Small Capacitor Booster II",13800,20414,333,"Datacore - Quantum Physics",1
+"Heavy Capacitor Booster II",51000,20411,333,"Datacore - High Energy Physics",3
+"Heavy Capacitor Booster II",51000,20414,333,"Datacore - Quantum Physics",3
+"Small Remote Shield Booster II",13800,20171,333,"Datacore - Hydromagnetic Physics",1
+"Small Remote Shield Booster II",13800,20414,333,"Datacore - Quantum Physics",1
+"Medium Remote Shield Booster II",30900,20171,333,"Datacore - Hydromagnetic Physics",2
+"Medium Remote Shield Booster II",30900,20414,333,"Datacore - Quantum Physics",2
+"Large Remote Shield Booster II",30900,20171,333,"Datacore - Hydromagnetic Physics",3
+"Large Remote Shield Booster II",30900,20414,333,"Datacore - Quantum Physics",3
+"Medium Hull Repairer II",30900,20415,333,"Datacore - Molecular Engineering",2
+"Medium Hull Repairer II",30900,20424,333,"Datacore - Mechanical Engineering",2
+"Large Hull Repairer II",30900,20415,333,"Datacore - Molecular Engineering",3
+"Large Hull Repairer II",30900,20424,333,"Datacore - Mechanical Engineering",3
+"Medium Shield Extender II",13800,20171,333,"Datacore - Hydromagnetic Physics",2
+"Medium Shield Extender II",13800,20414,333,"Datacore - Quantum Physics",2
+"Large Shield Extender II",30900,20171,333,"Datacore - Hydromagnetic Physics",3
+"Large Shield Extender II",30900,20414,333,"Datacore - Quantum Physics",3
+"Co-Processor II",13800,20417,333,"Datacore - Electromagnetic Physics",2
+"Co-Processor II",13800,20418,333,"Datacore - Electronic Engineering",2
+"Medium Proton Smartbomb II",30900,20411,333,"Datacore - High Energy Physics",2
+"Medium Proton Smartbomb II",30900,20423,333,"Datacore - Nuclear Physics",2
+"Medium Graviton Smartbomb II",30900,20411,333,"Datacore - High Energy Physics",2
+"Medium Graviton Smartbomb II",30900,20419,333,"Datacore - Graviton Physics",2
+"Medium Plasma Smartbomb II",30900,20411,333,"Datacore - High Energy Physics",2
+"Medium Plasma Smartbomb II",30900,20412,333,"Datacore - Plasma Physics",2
+"Medium EMP Smartbomb II",30900,20411,333,"Datacore - High Energy Physics",2
+"Medium EMP Smartbomb II",30900,20413,333,"Datacore - Laser Physics",2
+"Large Proton Smartbomb II",51000,20411,333,"Datacore - High Energy Physics",3
+"Large Proton Smartbomb II",51000,20423,333,"Datacore - Nuclear Physics",3
+"Large Graviton Smartbomb II",51000,20411,333,"Datacore - High Energy Physics",3
+"Large Graviton Smartbomb II",51000,20419,333,"Datacore - Graviton Physics",3
+"Large Remote Hull Repairer II",51000,20415,333,"Datacore - Molecular Engineering",3
+"Large Remote Hull Repairer II",51000,20424,333,"Datacore - Mechanical Engineering",3
+"Large Plasma Smartbomb II",51000,20411,333,"Datacore - High Energy Physics",3
+"Large Plasma Smartbomb II",51000,20412,333,"Datacore - Plasma Physics",3
+"Large EMP Smartbomb II",51000,20411,333,"Datacore - High Energy Physics",3
+"Large EMP Smartbomb II",51000,20413,333,"Datacore - Laser Physics",3
+"RADAR Backup Array II",13800,20417,333,"Datacore - Electromagnetic Physics",1
+"RADAR Backup Array II",13800,20418,333,"Datacore - Electronic Engineering",1
+"Dual Heavy Pulse Laser II",51000,20411,333,"Datacore - High Energy Physics",3
+"Dual Heavy Pulse Laser II",51000,20413,333,"Datacore - Laser Physics",3
+"Warp Disruption Field Generator II",68100,20418,333,"Datacore - Electronic Engineering",2
+"Warp Disruption Field Generator II",68100,20419,333,"Datacore - Graviton Physics",2
+"Small Tractor Beam II",13800,20411,333,"Datacore - High Energy Physics",1
+"Small Tractor Beam II",13800,20413,333,"Datacore - Laser Physics",1
+"Capital Tractor Beam II",681000,20411,333,"Datacore - High Energy Physics",6
+"Capital Tractor Beam II",681000,20413,333,"Datacore - Laser Physics",6
+"Micro Auxiliary Power Core II",13800,20411,333,"Datacore - High Energy Physics",1
+"Micro Auxiliary Power Core II",13800,20414,333,"Datacore - Quantum Physics",1
+"Bomb Launcher II",29400,20420,333,"Datacore - Rocket Science",1
+"Bomb Launcher II",29400,20424,333,"Datacore - Mechanical Engineering",1
+"Core Probe Launcher II",51000,20420,333,"Datacore - Rocket Science",1
+"Core Probe Launcher II",51000,20424,333,"Datacore - Mechanical Engineering",1
+"Expanded Probe Launcher II",55200,20420,333,"Datacore - Rocket Science",1
+"Expanded Probe Launcher II",55200,20424,333,"Datacore - Mechanical Engineering",1
+"Armored Warfare Link - Damage Control II",54300,20417,333,"Datacore - Electromagnetic Physics",2
+"Armored Warfare Link - Damage Control II",54300,20418,333,"Datacore - Electronic Engineering",2
+"Armored Warfare Link - Passive Defense II",68100,20417,333,"Datacore - Electromagnetic Physics",2
+"Armored Warfare Link - Passive Defense II",68100,20418,333,"Datacore - Electronic Engineering",2
+"Armored Warfare Link - Rapid Repair II",68100,20417,333,"Datacore - Electromagnetic Physics",2
+"Armored Warfare Link - Rapid Repair II",68100,20418,333,"Datacore - Electronic Engineering",2
+"Information Warfare Link - Electronic Superiority II",68100,20417,333,"Datacore - Electromagnetic Physics",2
+"Information Warfare Link - Electronic Superiority II",68100,20418,333,"Datacore - Electronic Engineering",2
+"Information Warfare Link - Recon Operation II",68100,20417,333,"Datacore - Electromagnetic Physics",2
+"Information Warfare Link - Recon Operation II",68100,20418,333,"Datacore - Electronic Engineering",2
+"Information Warfare Link - Sensor Integrity II",68100,20417,333,"Datacore - Electromagnetic Physics",2
+"Information Warfare Link - Sensor Integrity II",68100,20418,333,"Datacore - Electronic Engineering",2
+"Mining Foreman Link - Harvester Capacitor Efficiency II",68100,20417,333,"Datacore - Electromagnetic Physics",2
+"Mining Foreman Link - Harvester Capacitor Efficiency II",68100,20418,333,"Datacore - Electronic Engineering",2
+"Mining Foreman Link - Laser Optimization II",68100,20417,333,"Datacore - Electromagnetic Physics",2
+"Mining Foreman Link - Laser Optimization II",68100,20418,333,"Datacore - Electronic Engineering",2
+"Mining Foreman Link - Mining Laser Field Enhancement II",68100,20417,333,"Datacore - Electromagnetic Physics",2
+"Mining Foreman Link - Mining Laser Field Enhancement II",68100,20418,333,"Datacore - Electronic Engineering",2
+"Siege Warfare Link - Active Shielding II",54300,20417,333,"Datacore - Electromagnetic Physics",2
+"Siege Warfare Link - Active Shielding II",54300,20418,333,"Datacore - Electronic Engineering",2
+"Siege Warfare Link - Shield Efficiency II",68100,20417,333,"Datacore - Electromagnetic Physics",2
+"Siege Warfare Link - Shield Efficiency II",68100,20418,333,"Datacore - Electronic Engineering",2
+"Siege Warfare Link - Shield Harmonizing II",54300,20417,333,"Datacore - Electromagnetic Physics",2
+"Siege Warfare Link - Shield Harmonizing II",54300,20418,333,"Datacore - Electronic Engineering",2
+"Skirmish Warfare Link - Evasive Maneuvers II",54300,20417,333,"Datacore - Electromagnetic Physics",2
+"Skirmish Warfare Link - Evasive Maneuvers II",54300,20418,333,"Datacore - Electronic Engineering",2
+"Skirmish Warfare Link - Interdiction Maneuvers II",68100,20417,333,"Datacore - Electromagnetic Physics",2
+"Skirmish Warfare Link - Interdiction Maneuvers II",68100,20418,333,"Datacore - Electronic Engineering",2
+"Skirmish Warfare Link - Rapid Deployment II",68100,20417,333,"Datacore - Electromagnetic Physics",2
+"Skirmish Warfare Link - Rapid Deployment II",68100,20418,333,"Datacore - Electronic Engineering",2
+"Siege Module II",1021800,20418,333,"Datacore - Electronic Engineering",6
+"Siege Module II",1021800,20424,333,"Datacore - Mechanical Engineering",6
+"Triage Module II",1021800,20418,333,"Datacore - Electronic Engineering",6
+"Triage Module II",1021800,20424,333,"Datacore - Mechanical Engineering",6
+"Medium Remote Hull Repairer II",30900,20415,333,"Datacore - Molecular Engineering",2
+"Medium Remote Hull Repairer II",30900,20424,333,"Datacore - Mechanical Engineering",2
+"Small Remote Hull Repairer II",13800,20415,333,"Datacore - Molecular Engineering",1
+"Small Remote Hull Repairer II",13800,20424,333,"Datacore - Mechanical Engineering",1
+"Medium Processor Overclocking Unit II",15600,20417,333,"Datacore - Electromagnetic Physics",2
+"Medium Processor Overclocking Unit II",15600,20418,333,"Datacore - Electronic Engineering",2
+"Large Processor Overclocking Unit II",23400,20417,333,"Datacore - Electromagnetic Physics",3
+"Large Processor Overclocking Unit II",23400,20418,333,"Datacore - Electronic Engineering",3
+"Drone Damage Amplifier II",13800,20418,333,"Datacore - Electronic Engineering",2
+"Drone Damage Amplifier II",13800,20424,333,"Datacore - Mechanical Engineering",2
+"Magnetic Field Stabilizer II",13800,20418,333,"Datacore - Electronic Engineering",2
+"Magnetic Field Stabilizer II",13800,20424,333,"Datacore - Mechanical Engineering",2
+"Mining Drone II",7800,20418,333,"Datacore - Electronic Engineering",1
+"Mining Drone II",7800,20424,333,"Datacore - Mechanical Engineering",1
+"Rocket Launcher II",13800,20420,333,"Datacore - Rocket Science",1
+"Rocket Launcher II",13800,20424,333,"Datacore - Mechanical Engineering",1
+"125mm Railgun II",13800,20417,333,"Datacore - Electromagnetic Physics",1
+"125mm Railgun II",13800,20424,333,"Datacore - Mechanical Engineering",1
+"X-Large Shield Booster II",51000,20171,333,"Datacore - Hydromagnetic Physics",3
+"X-Large Shield Booster II",51000,20414,333,"Datacore - Quantum Physics",3
+"Medium Shield Booster II",13800,20171,333,"Datacore - Hydromagnetic Physics",2
+"Medium Shield Booster II",13800,20414,333,"Datacore - Quantum Physics",2
+"Large Shield Booster II",30900,20171,333,"Datacore - Hydromagnetic Physics",3
+"Large Shield Booster II",30900,20414,333,"Datacore - Quantum Physics",3
+Helios,63900,20410,333,"Datacore - Gallentean Starship Engineering",2
+Helios,63900,20424,333,"Datacore - Mechanical Engineering",2
+Keres,63900,20410,333,"Datacore - Gallentean Starship Engineering",2
+Keres,63900,20424,333,"Datacore - Mechanical Engineering",2
+Crow,63900,20424,333,"Datacore - Mechanical Engineering",2
+Crow,63900,25887,333,"Datacore - Caldari Starship Engineering",2
+Raptor,63900,20424,333,"Datacore - Mechanical Engineering",2
+Raptor,63900,25887,333,"Datacore - Caldari Starship Engineering",2
+Cheetah,63900,20172,333,"Datacore - Minmatar Starship Engineering",2
+Cheetah,63900,20424,333,"Datacore - Mechanical Engineering",2
+Crusader,63900,20421,333,"Datacore - Amarrian Starship Engineering",2
+Crusader,63900,20424,333,"Datacore - Mechanical Engineering",2
+Malediction,63900,20421,333,"Datacore - Amarrian Starship Engineering",2
+Malediction,63900,20424,333,"Datacore - Mechanical Engineering",2
+Anathema,63900,20421,333,"Datacore - Amarrian Starship Engineering",2
+Anathema,63900,20424,333,"Datacore - Mechanical Engineering",2
+Sentinel,63900,20421,333,"Datacore - Amarrian Starship Engineering",2
+Sentinel,63900,20424,333,"Datacore - Mechanical Engineering",2
+Buzzard,63900,20424,333,"Datacore - Mechanical Engineering",2
+Buzzard,63900,25887,333,"Datacore - Caldari Starship Engineering",2
+Kitsune,63900,20424,333,"Datacore - Mechanical Engineering",2
+Kitsune,63900,25887,333,"Datacore - Caldari Starship Engineering",2
+Claw,63900,20172,333,"Datacore - Minmatar Starship Engineering",2
+Claw,63900,20424,333,"Datacore - Mechanical Engineering",2
+Stiletto,63900,20172,333,"Datacore - Minmatar Starship Engineering",2
+Stiletto,63900,20424,333,"Datacore - Mechanical Engineering",2
+Taranis,63900,20410,333,"Datacore - Gallentean Starship Engineering",2
+Taranis,63900,20424,333,"Datacore - Mechanical Engineering",2
+Ares,63900,20410,333,"Datacore - Gallentean Starship Engineering",2
+Ares,63900,20424,333,"Datacore - Mechanical Engineering",2
+"Energized EM Membrane II",13800,20171,333,"Datacore - Hydromagnetic Physics",2
+"Energized EM Membrane II",13800,20416,333,"Datacore - Nanite Engineering",2
+"Energized Explosive Membrane II",13800,20171,333,"Datacore - Hydromagnetic Physics",2
+"Energized Explosive Membrane II",13800,20416,333,"Datacore - Nanite Engineering",2
+"Energized Armor Layering Membrane II",13800,20171,333,"Datacore - Hydromagnetic Physics",2
+"Energized Armor Layering Membrane II",13800,20416,333,"Datacore - Nanite Engineering",2
+"Energized Kinetic Membrane II",13800,20171,333,"Datacore - Hydromagnetic Physics",2
+"Energized Kinetic Membrane II",13800,20416,333,"Datacore - Nanite Engineering",2
+"Energized Thermic Membrane II",13800,20171,333,"Datacore - Hydromagnetic Physics",2
+"Energized Thermic Membrane II",13800,20416,333,"Datacore - Nanite Engineering",2
+"Energized Adaptive Nano Membrane II",13800,20171,333,"Datacore - Hydromagnetic Physics",2
+"Energized Adaptive Nano Membrane II",13800,20416,333,"Datacore - Nanite Engineering",2
+Vengeance,63900,20421,333,"Datacore - Amarrian Starship Engineering",2
+Vengeance,63900,20424,333,"Datacore - Mechanical Engineering",2
+Wolf,63900,20172,333,"Datacore - Minmatar Starship Engineering",2
+Wolf,63900,20424,333,"Datacore - Mechanical Engineering",2
+Nemesis,63900,20410,333,"Datacore - Gallentean Starship Engineering",2
+Nemesis,63900,20424,333,"Datacore - Mechanical Engineering",2
+Hawk,63900,20424,333,"Datacore - Mechanical Engineering",2
+Hawk,63900,25887,333,"Datacore - Caldari Starship Engineering",2
+Harpy,63900,20424,333,"Datacore - Mechanical Engineering",2
+Harpy,63900,25887,333,"Datacore - Caldari Starship Engineering",2
+Hyena,63900,20172,333,"Datacore - Minmatar Starship Engineering",2
+Hyena,63900,20424,333,"Datacore - Mechanical Engineering",2
+Retribution,63900,20421,333,"Datacore - Amarrian Starship Engineering",2
+Retribution,63900,20424,333,"Datacore - Mechanical Engineering",2
+Jaguar,63900,20172,333,"Datacore - Minmatar Starship Engineering",2
+Jaguar,63900,20424,333,"Datacore - Mechanical Engineering",2
+"Improved Cloaking Device II",72300,20414,333,"Datacore - Quantum Physics",2
+"Improved Cloaking Device II",72300,20419,333,"Datacore - Graviton Physics",2
+"Covert Ops Cloaking Device II",72300,20414,333,"Datacore - Quantum Physics",2
+"Covert Ops Cloaking Device II",72300,20419,333,"Datacore - Graviton Physics",2
+"Warp Core Stabilizer II",13800,20414,333,"Datacore - Quantum Physics",2
+"Warp Core Stabilizer II",13800,20418,333,"Datacore - Electronic Engineering",2
+"Armor EM Hardener II",13800,20171,333,"Datacore - Hydromagnetic Physics",2
+"Armor EM Hardener II",13800,20416,333,"Datacore - Nanite Engineering",2
+"Armor Kinetic Hardener II",13800,20171,333,"Datacore - Hydromagnetic Physics",2
+"Armor Kinetic Hardener II",13800,20416,333,"Datacore - Nanite Engineering",2
+"Armor Explosive Hardener II",13800,20171,333,"Datacore - Hydromagnetic Physics",2
+"Armor Explosive Hardener II",13800,20416,333,"Datacore - Nanite Engineering",2
+"Armor Thermic Hardener II",13800,20171,333,"Datacore - Hydromagnetic Physics",2
+"Armor Thermic Hardener II",13800,20416,333,"Datacore - Nanite Engineering",2
+Falcon,128100,20424,333,"Datacore - Mechanical Engineering",8
+Falcon,128100,25887,333,"Datacore - Caldari Starship Engineering",8
+Rook,128100,20424,333,"Datacore - Mechanical Engineering",8
+Rook,128100,25887,333,"Datacore - Caldari Starship Engineering",8
+Huginn,128100,20172,333,"Datacore - Minmatar Starship Engineering",8
+Huginn,128100,20424,333,"Datacore - Mechanical Engineering",8
+Rapier,128100,20172,333,"Datacore - Minmatar Starship Engineering",8
+Rapier,128100,20424,333,"Datacore - Mechanical Engineering",8
+Pilgrim,128100,20421,333,"Datacore - Amarrian Starship Engineering",8
+Pilgrim,128100,20424,333,"Datacore - Mechanical Engineering",8
+Arazu,128100,20410,333,"Datacore - Gallentean Starship Engineering",8
+Arazu,128100,20424,333,"Datacore - Mechanical Engineering",8
+Lachesis,128100,20410,333,"Datacore - Gallentean Starship Engineering",8
+Lachesis,128100,20424,333,"Datacore - Mechanical Engineering",8
+Scimitar,128100,20172,333,"Datacore - Minmatar Starship Engineering",8
+Scimitar,128100,20424,333,"Datacore - Mechanical Engineering",8
+Basilisk,128100,20424,333,"Datacore - Mechanical Engineering",8
+Basilisk,128100,25887,333,"Datacore - Caldari Starship Engineering",8
+Guardian,128100,20421,333,"Datacore - Amarrian Starship Engineering",8
+Guardian,128100,20424,333,"Datacore - Mechanical Engineering",8
+Oneiros,128100,20410,333,"Datacore - Gallentean Starship Engineering",8
+Oneiros,128100,20424,333,"Datacore - Mechanical Engineering",8
+Cerberus,128100,20424,333,"Datacore - Mechanical Engineering",8
+Cerberus,128100,25887,333,"Datacore - Caldari Starship Engineering",8
+Onyx,128100,20424,333,"Datacore - Mechanical Engineering",8
+Onyx,128100,25887,333,"Datacore - Caldari Starship Engineering",8
+Vagabond,128100,20172,333,"Datacore - Minmatar Starship Engineering",8
+Vagabond,128100,20424,333,"Datacore - Mechanical Engineering",8
+Zealot,128100,20421,333,"Datacore - Amarrian Starship Engineering",8
+Zealot,128100,20424,333,"Datacore - Mechanical Engineering",8
+Ishtar,128100,20410,333,"Datacore - Gallentean Starship Engineering",8
+Ishtar,128100,20424,333,"Datacore - Mechanical Engineering",8
+Eagle,128100,20424,333,"Datacore - Mechanical Engineering",8
+Eagle,128100,25887,333,"Datacore - Caldari Starship Engineering",8
+Broadsword,128100,20172,333,"Datacore - Minmatar Starship Engineering",8
+Broadsword,128100,20424,333,"Datacore - Mechanical Engineering",8
+Muninn,128100,20172,333,"Datacore - Minmatar Starship Engineering",8
+Muninn,128100,20424,333,"Datacore - Mechanical Engineering",8
+Devoter,128100,20421,333,"Datacore - Amarrian Starship Engineering",8
+Devoter,128100,20424,333,"Datacore - Mechanical Engineering",8
+Sacrilege,128100,20421,333,"Datacore - Amarrian Starship Engineering",8
+Sacrilege,128100,20424,333,"Datacore - Mechanical Engineering",8
+Phobos,128100,20410,333,"Datacore - Gallentean Starship Engineering",8
+Phobos,128100,20424,333,"Datacore - Mechanical Engineering",8
+Deimos,128100,20410,333,"Datacore - Gallentean Starship Engineering",8
+Deimos,128100,20424,333,"Datacore - Mechanical Engineering",8
+Manticore,63900,20424,333,"Datacore - Mechanical Engineering",2
+Manticore,63900,25887,333,"Datacore - Caldari Starship Engineering",2
+Hound,63900,20172,333,"Datacore - Minmatar Starship Engineering",2
+Hound,63900,20424,333,"Datacore - Mechanical Engineering",2
+Purifier,63900,20421,333,"Datacore - Amarrian Starship Engineering",2
+Purifier,63900,20424,333,"Datacore - Mechanical Engineering",2
+Ishkur,63900,20410,333,"Datacore - Gallentean Starship Engineering",2
+Ishkur,63900,20424,333,"Datacore - Mechanical Engineering",2
+Enyo,63900,20410,333,"Datacore - Gallentean Starship Engineering",2
+Enyo,63900,20424,333,"Datacore - Mechanical Engineering",2
+"10MN Afterburner II",30900,20415,333,"Datacore - Molecular Engineering",2
+"10MN Afterburner II",30900,20420,333,"Datacore - Rocket Science",2
+"100MN Afterburner II",51000,20415,333,"Datacore - Molecular Engineering",3
+"100MN Afterburner II",51000,20420,333,"Datacore - Rocket Science",3
+"10MN Microwarpdrive II",30900,20415,333,"Datacore - Molecular Engineering",2
+"10MN Microwarpdrive II",30900,20420,333,"Datacore - Rocket Science",2
+"100MN Microwarpdrive II",51000,20415,333,"Datacore - Molecular Engineering",3
+"100MN Microwarpdrive II",51000,20420,333,"Datacore - Rocket Science",3
+"Large Remote Capacitor Transmitter II",51000,20411,333,"Datacore - High Energy Physics",3
+"Large Remote Capacitor Transmitter II",51000,20414,333,"Datacore - Quantum Physics",3
+"Medium Remote Capacitor Transmitter II",30900,20411,333,"Datacore - High Energy Physics",2
+"Medium Remote Capacitor Transmitter II",30900,20414,333,"Datacore - Quantum Physics",2
+"Medium Nosferatu II",30900,20411,333,"Datacore - High Energy Physics",2
+"Medium Nosferatu II",30900,20414,333,"Datacore - Quantum Physics",2
+"Heavy Nosferatu II",51000,20411,333,"Datacore - High Energy Physics",3
+"Heavy Nosferatu II",51000,20414,333,"Datacore - Quantum Physics",3
+"Medium Energy Neutralizer II",30900,20411,333,"Datacore - High Energy Physics",2
+"Medium Energy Neutralizer II",30900,20414,333,"Datacore - Quantum Physics",2
+"Heavy Energy Neutralizer II",51000,20411,333,"Datacore - High Energy Physics",3
+"Heavy Energy Neutralizer II",51000,20414,333,"Datacore - Quantum Physics",3
+"200mm Railgun II",30900,20417,333,"Datacore - Electromagnetic Physics",2
+"200mm Railgun II",30900,20424,333,"Datacore - Mechanical Engineering",2
+"350mm Railgun II",51000,20417,333,"Datacore - Electromagnetic Physics",3
+"350mm Railgun II",51000,20424,333,"Datacore - Mechanical Engineering",3
+"Gleam S",22800,20171,333,"Datacore - Hydromagnetic Physics",1
+"Gleam S",22800,20413,333,"Datacore - Laser Physics",1
+"Aurora S",22800,20411,333,"Datacore - High Energy Physics",1
+"Aurora S",22800,20413,333,"Datacore - Laser Physics",1
+"Scorch S",22800,20413,333,"Datacore - Laser Physics",1
+"Scorch S",22800,20418,333,"Datacore - Electronic Engineering",1
+"Conflagration S",22800,20411,333,"Datacore - High Energy Physics",1
+"Conflagration S",22800,20413,333,"Datacore - Laser Physics",1
+"Hail S",22800,20415,333,"Datacore - Molecular Engineering",1
+"Hail S",22800,20423,333,"Datacore - Nuclear Physics",1
+"Void S",22800,20412,333,"Datacore - Plasma Physics",1
+"Void S",22800,20417,333,"Datacore - Electromagnetic Physics",1
+"Null S",22800,20412,333,"Datacore - Plasma Physics",1
+"Null S",22800,20414,333,"Datacore - Quantum Physics",1
+"Spike S",22800,20417,333,"Datacore - Electromagnetic Physics",1
+"Spike S",22800,20420,333,"Datacore - Rocket Science",1
+"Javelin S",22800,20417,333,"Datacore - Electromagnetic Physics",1
+"Javelin S",22800,20419,333,"Datacore - Graviton Physics",1
+"Barrage S",22800,20420,333,"Datacore - Rocket Science",1
+"Barrage S",22800,20423,333,"Datacore - Nuclear Physics",1
+"Quake S",22800,20411,333,"Datacore - High Energy Physics",1
+"Quake S",22800,20423,333,"Datacore - Nuclear Physics",1
+"Tremor S",22800,20420,333,"Datacore - Rocket Science",1
+"Tremor S",22800,20423,333,"Datacore - Nuclear Physics",1
+Crane,128100,20424,333,"Datacore - Mechanical Engineering",8
+Crane,128100,25887,333,"Datacore - Caldari Starship Engineering",8
+Bustard,128100,20424,333,"Datacore - Mechanical Engineering",8
+Bustard,128100,25887,333,"Datacore - Caldari Starship Engineering",8
+Prorator,128100,20421,333,"Datacore - Amarrian Starship Engineering",8
+Prorator,128100,20424,333,"Datacore - Mechanical Engineering",8
+Prowler,128100,20172,333,"Datacore - Minmatar Starship Engineering",8
+Prowler,128100,20424,333,"Datacore - Mechanical Engineering",8
+Viator,128100,20410,333,"Datacore - Gallentean Starship Engineering",8
+Viator,128100,20424,333,"Datacore - Mechanical Engineering",8
+Occator,128100,20410,333,"Datacore - Gallentean Starship Engineering",8
+Occator,128100,20424,333,"Datacore - Mechanical Engineering",8
+Mastodon,128100,20172,333,"Datacore - Minmatar Starship Engineering",8
+Mastodon,128100,20424,333,"Datacore - Mechanical Engineering",8
+Impel,128100,20421,333,"Datacore - Amarrian Starship Engineering",8
+Impel,128100,20424,333,"Datacore - Mechanical Engineering",8
+"Quake L",68100,20411,333,"Datacore - High Energy Physics",1
+"Quake L",68100,20423,333,"Datacore - Nuclear Physics",1
+"Tremor L",68100,20420,333,"Datacore - Rocket Science",1
+"Tremor L",68100,20423,333,"Datacore - Nuclear Physics",1
+"Quake M",45600,20411,333,"Datacore - High Energy Physics",1
+"Quake M",45600,20423,333,"Datacore - Nuclear Physics",1
+"Tremor M",45600,20420,333,"Datacore - Rocket Science",1
+"Tremor M",45600,20423,333,"Datacore - Nuclear Physics",1
+"Barrage M",45600,20420,333,"Datacore - Rocket Science",1
+"Barrage M",45600,20423,333,"Datacore - Nuclear Physics",1
+"Barrage L",68100,20420,333,"Datacore - Rocket Science",1
+"Barrage L",68100,20423,333,"Datacore - Nuclear Physics",1
+"Hail M",45600,20415,333,"Datacore - Molecular Engineering",1
+"Hail M",45600,20423,333,"Datacore - Nuclear Physics",1
+"Hail L",68100,20415,333,"Datacore - Molecular Engineering",1
+"Hail L",68100,20423,333,"Datacore - Nuclear Physics",1
+"Null M",45600,20412,333,"Datacore - Plasma Physics",1
+"Null M",45600,20414,333,"Datacore - Quantum Physics",1
+"Null L",68100,20412,333,"Datacore - Plasma Physics",1
+"Null L",68100,20414,333,"Datacore - Quantum Physics",1
+"Void M",45600,20412,333,"Datacore - Plasma Physics",1
+"Void M",45600,20417,333,"Datacore - Electromagnetic Physics",1
+"Void L",68100,20412,333,"Datacore - Plasma Physics",1
+"Void L",68100,20417,333,"Datacore - Electromagnetic Physics",1
+"Javelin M",45600,20417,333,"Datacore - Electromagnetic Physics",1
+"Javelin M",45600,20419,333,"Datacore - Graviton Physics",1
+"Javelin L",68100,20417,333,"Datacore - Electromagnetic Physics",1
+"Javelin L",68100,20419,333,"Datacore - Graviton Physics",1
+"Spike M",45600,20417,333,"Datacore - Electromagnetic Physics",1
+"Spike M",45600,20420,333,"Datacore - Rocket Science",1
+"Spike L",68100,20417,333,"Datacore - Electromagnetic Physics",1
+"Spike L",68100,20420,333,"Datacore - Rocket Science",1
+"Conflagration M",45600,20411,333,"Datacore - High Energy Physics",1
+"Conflagration M",45600,20413,333,"Datacore - Laser Physics",1
+"Conflagration L",68100,20411,333,"Datacore - High Energy Physics",1
+"Conflagration L",68100,20413,333,"Datacore - Laser Physics",1
+"Scorch M",45600,20413,333,"Datacore - Laser Physics",1
+"Scorch M",45600,20418,333,"Datacore - Electronic Engineering",1
+"Scorch L",68100,20413,333,"Datacore - Laser Physics",1
+"Scorch L",68100,20418,333,"Datacore - Electronic Engineering",1
+"Aurora M",45600,20411,333,"Datacore - High Energy Physics",1
+"Aurora M",45600,20413,333,"Datacore - Laser Physics",1
+"Aurora L",68100,20411,333,"Datacore - High Energy Physics",1
+"Aurora L",68100,20413,333,"Datacore - Laser Physics",1
+"Gleam M",45600,20171,333,"Datacore - Hydromagnetic Physics",1
+"Gleam M",45600,20413,333,"Datacore - Laser Physics",1
+"Gleam L",68100,20171,333,"Datacore - Hydromagnetic Physics",1
+"Gleam L",68100,20413,333,"Datacore - Laser Physics",1
+"Small Nosferatu II",13800,20411,333,"Datacore - High Energy Physics",1
+"Small Nosferatu II",13800,20414,333,"Datacore - Quantum Physics",1
+"Small Energy Neutralizer II",13800,20411,333,"Datacore - High Energy Physics",1
+"Small Energy Neutralizer II",13800,20414,333,"Datacore - Quantum Physics",1
+"Mjolnir Javelin Rocket",22800,20418,333,"Datacore - Electronic Engineering",1
+"Mjolnir Javelin Rocket",22800,20420,333,"Datacore - Rocket Science",1
+"Nova Javelin Heavy Assault Missile",45600,20418,333,"Datacore - Electronic Engineering",1
+"Nova Javelin Heavy Assault Missile",45600,20420,333,"Datacore - Rocket Science",1
+"Modulated Strip Miner II",36000,20413,333,"Datacore - Laser Physics",2
+"Modulated Strip Miner II",36000,20424,333,"Datacore - Mechanical Engineering",2
+"Modulated Deep Core Miner II",36000,20413,333,"Datacore - Laser Physics",2
+"Modulated Deep Core Miner II",36000,20424,333,"Datacore - Mechanical Engineering",2
+"Arkonor Mining Crystal II",0,20413,333,"Datacore - Laser Physics",1
+"Arkonor Mining Crystal II",0,20418,333,"Datacore - Electronic Engineering",1
+"Bistot Mining Crystal II",0,20413,333,"Datacore - Laser Physics",1
+"Bistot Mining Crystal II",0,20418,333,"Datacore - Electronic Engineering",1
+"Crokite Mining Crystal II",0,20413,333,"Datacore - Laser Physics",1
+"Crokite Mining Crystal II",0,20418,333,"Datacore - Electronic Engineering",1
+"Dark Ochre Mining Crystal II",0,20413,333,"Datacore - Laser Physics",1
+"Dark Ochre Mining Crystal II",0,20418,333,"Datacore - Electronic Engineering",1
+"Gneiss Mining Crystal II",0,20413,333,"Datacore - Laser Physics",1
+"Gneiss Mining Crystal II",0,20418,333,"Datacore - Electronic Engineering",1
+"Hedbergite Mining Crystal II",0,20413,333,"Datacore - Laser Physics",1
+"Hedbergite Mining Crystal II",0,20418,333,"Datacore - Electronic Engineering",1
+"Hemorphite Mining Crystal II",0,20413,333,"Datacore - Laser Physics",1
+"Hemorphite Mining Crystal II",0,20418,333,"Datacore - Electronic Engineering",1
+"Jaspet Mining Crystal II",0,20413,333,"Datacore - Laser Physics",1
+"Jaspet Mining Crystal II",0,20418,333,"Datacore - Electronic Engineering",1
+"Kernite Mining Crystal II",0,20413,333,"Datacore - Laser Physics",1
+"Kernite Mining Crystal II",0,20418,333,"Datacore - Electronic Engineering",1
+"Mercoxit Mining Crystal II",0,20413,333,"Datacore - Laser Physics",1
+"Mercoxit Mining Crystal II",0,20418,333,"Datacore - Electronic Engineering",1
+"Omber Mining Crystal II",0,20413,333,"Datacore - Laser Physics",1
+"Omber Mining Crystal II",0,20418,333,"Datacore - Electronic Engineering",1
+"Plagioclase Mining Crystal II",0,20413,333,"Datacore - Laser Physics",1
+"Plagioclase Mining Crystal II",0,20418,333,"Datacore - Electronic Engineering",1
+"Pyroxeres Mining Crystal II",0,20413,333,"Datacore - Laser Physics",1
+"Pyroxeres Mining Crystal II",0,20418,333,"Datacore - Electronic Engineering",1
+"Scordite Mining Crystal II",0,20413,333,"Datacore - Laser Physics",1
+"Scordite Mining Crystal II",0,20418,333,"Datacore - Electronic Engineering",1
+"Veldspar Mining Crystal II",0,20413,333,"Datacore - Laser Physics",1
+"Veldspar Mining Crystal II",0,20418,333,"Datacore - Electronic Engineering",1
+"Spodumain Mining Crystal II",0,20413,333,"Datacore - Laser Physics",1
+"Spodumain Mining Crystal II",0,20418,333,"Datacore - Electronic Engineering",1
+"Cruise Missile Launcher II",51000,20420,333,"Datacore - Rocket Science",3
+"Cruise Missile Launcher II",51000,20424,333,"Datacore - Mechanical Engineering",3
+"Target Painter II",30900,20418,333,"Datacore - Electronic Engineering",2
+"Target Painter II",30900,20419,333,"Datacore - Graviton Physics",2
+Curse,128100,20421,333,"Datacore - Amarrian Starship Engineering",8
+Curse,128100,20424,333,"Datacore - Mechanical Engineering",8
+"50mm Reinforced Steel Plates II",13800,20415,333,"Datacore - Molecular Engineering",1
+"50mm Reinforced Steel Plates II",13800,20416,333,"Datacore - Nanite Engineering",1
+"100mm Reinforced Steel Plates II",13800,20415,333,"Datacore - Molecular Engineering",1
+"100mm Reinforced Steel Plates II",13800,20416,333,"Datacore - Nanite Engineering",1
+"200mm Reinforced Steel Plates II",13800,20415,333,"Datacore - Molecular Engineering",2
+"200mm Reinforced Steel Plates II",13800,20416,333,"Datacore - Nanite Engineering",2
+"400mm Reinforced Steel Plates II",13800,20415,333,"Datacore - Molecular Engineering",2
+"400mm Reinforced Steel Plates II",13800,20416,333,"Datacore - Nanite Engineering",2
+"800mm Reinforced Steel Plates II",30900,20415,333,"Datacore - Molecular Engineering",3
+"800mm Reinforced Steel Plates II",30900,20416,333,"Datacore - Nanite Engineering",3
+"1600mm Reinforced Steel Plates II",51000,20415,333,"Datacore - Molecular Engineering",3
+"1600mm Reinforced Steel Plates II",51000,20416,333,"Datacore - Nanite Engineering",3
+"Vespa II",15900,20418,333,"Datacore - Electronic Engineering",2
+"Vespa II",15900,20424,333,"Datacore - Mechanical Engineering",2
+"Valkyrie II",15900,20418,333,"Datacore - Electronic Engineering",2
+"Valkyrie II",15900,20424,333,"Datacore - Mechanical Engineering",2
+"Ice Harvester II",36000,20413,333,"Datacore - Laser Physics",2
+"Ice Harvester II",36000,20424,333,"Datacore - Mechanical Engineering",2
+"Ballistic Control System II",13800,20418,333,"Datacore - Electronic Engineering",2
+"Ballistic Control System II",13800,20424,333,"Datacore - Mechanical Engineering",2
+Redeemer,192000,20421,333,"Datacore - Amarrian Starship Engineering",32
+Redeemer,192000,20424,333,"Datacore - Mechanical Engineering",32
+Sin,192000,20410,333,"Datacore - Gallentean Starship Engineering",32
+Sin,192000,20424,333,"Datacore - Mechanical Engineering",32
+Widow,192000,20424,333,"Datacore - Mechanical Engineering",32
+Widow,192000,25887,333,"Datacore - Caldari Starship Engineering",32
+Panther,192000,20172,333,"Datacore - Minmatar Starship Engineering",32
+Panther,192000,20424,333,"Datacore - Mechanical Engineering",32
+Eos,160200,20410,333,"Datacore - Gallentean Starship Engineering",16
+Eos,160200,20424,333,"Datacore - Mechanical Engineering",16
+Sleipnir,160200,20172,333,"Datacore - Minmatar Starship Engineering",16
+Sleipnir,160200,20424,333,"Datacore - Mechanical Engineering",16
+Vulture,160200,20424,333,"Datacore - Mechanical Engineering",16
+Vulture,160200,25887,333,"Datacore - Caldari Starship Engineering",16
+Absolution,160200,20421,333,"Datacore - Amarrian Starship Engineering",16
+Absolution,160200,20424,333,"Datacore - Mechanical Engineering",16
+Heretic,96000,20421,333,"Datacore - Amarrian Starship Engineering",4
+Heretic,96000,20424,333,"Datacore - Mechanical Engineering",4
+Sabre,96000,20172,333,"Datacore - Minmatar Starship Engineering",4
+Sabre,96000,20424,333,"Datacore - Mechanical Engineering",4
+Eris,96000,20410,333,"Datacore - Gallentean Starship Engineering",4
+Eris,96000,20424,333,"Datacore - Mechanical Engineering",4
+Flycatcher,96000,20424,333,"Datacore - Mechanical Engineering",4
+Flycatcher,96000,25887,333,"Datacore - Caldari Starship Engineering",4
+Astarte,160200,20410,333,"Datacore - Gallentean Starship Engineering",16
+Astarte,160200,20424,333,"Datacore - Mechanical Engineering",16
+Claymore,160200,20172,333,"Datacore - Minmatar Starship Engineering",16
+Claymore,160200,20424,333,"Datacore - Mechanical Engineering",16
+Nighthawk,160200,20424,333,"Datacore - Mechanical Engineering",16
+Nighthawk,160200,25887,333,"Datacore - Caldari Starship Engineering",16
+Damnation,160200,20421,333,"Datacore - Amarrian Starship Engineering",16
+Damnation,160200,20424,333,"Datacore - Mechanical Engineering",16
+Hulk,128100,20410,333,"Datacore - Gallentean Starship Engineering",8
+Hulk,128100,20424,333,"Datacore - Mechanical Engineering",8
+Skiff,128100,20410,333,"Datacore - Gallentean Starship Engineering",8
+Skiff,128100,20424,333,"Datacore - Mechanical Engineering",8
+Mackinaw,128100,20410,333,"Datacore - Gallentean Starship Engineering",8
+Mackinaw,128100,20424,333,"Datacore - Mechanical Engineering",8
+"Modulated Deep Core Strip Miner II",36000,20413,333,"Datacore - Laser Physics",2
+"Modulated Deep Core Strip Miner II",36000,20424,333,"Datacore - Mechanical Engineering",2
+"Drone Navigation Computer II",30900,20418,333,"Datacore - Electronic Engineering",2
+"Drone Navigation Computer II",30900,20424,333,"Datacore - Mechanical Engineering",2
+"Drone Link Augmentor II",51000,20418,333,"Datacore - Electronic Engineering",2
+"Drone Link Augmentor II",51000,20424,333,"Datacore - Mechanical Engineering",2
+"Omnidirectional Tracking Link II",30900,20418,333,"Datacore - Electronic Engineering",2
+"Omnidirectional Tracking Link II",30900,20424,333,"Datacore - Mechanical Engineering",2
+"Shield Boost Amplifier II",30900,20171,333,"Datacore - Hydromagnetic Physics",3
+"Shield Boost Amplifier II",30900,20414,333,"Datacore - Quantum Physics",3
+"Scourge Rage Rocket",22800,20418,333,"Datacore - Electronic Engineering",1
+"Scourge Rage Rocket",22800,20420,333,"Datacore - Rocket Science",1
+"Nova Rage Rocket",22800,20418,333,"Datacore - Electronic Engineering",1
+"Nova Rage Rocket",22800,20420,333,"Datacore - Rocket Science",1
+"Inferno Rage Rocket",22800,20418,333,"Datacore - Electronic Engineering",1
+"Inferno Rage Rocket",22800,20420,333,"Datacore - Rocket Science",1
+"Scourge Javelin Rocket",22800,20418,333,"Datacore - Electronic Engineering",1
+"Scourge Javelin Rocket",22800,20420,333,"Datacore - Rocket Science",1
+"Nova Javelin Rocket",22800,20418,333,"Datacore - Electronic Engineering",1
+"Nova Javelin Rocket",22800,20420,333,"Datacore - Rocket Science",1
+"Inferno Javelin Rocket",22800,20418,333,"Datacore - Electronic Engineering",1
+"Inferno Javelin Rocket",22800,20420,333,"Datacore - Rocket Science",1
+"Inferno Rage Heavy Assault Missile",45600,20418,333,"Datacore - Electronic Engineering",1
+"Inferno Rage Heavy Assault Missile",45600,20420,333,"Datacore - Rocket Science",1
+"Nova Rage Heavy Assault Missile",45600,20418,333,"Datacore - Electronic Engineering",1
+"Nova Rage Heavy Assault Missile",45600,20420,333,"Datacore - Rocket Science",1
+"Mjolnir Rage Heavy Assault Missile",45600,20418,333,"Datacore - Electronic Engineering",1
+"Mjolnir Rage Heavy Assault Missile",45600,20420,333,"Datacore - Rocket Science",1
+"Scourge Javelin Heavy Assault Missile",45600,20418,333,"Datacore - Electronic Engineering",1
+"Scourge Javelin Heavy Assault Missile",45600,20420,333,"Datacore - Rocket Science",1
+"Mjolnir Javelin Heavy Assault Missile",45600,20418,333,"Datacore - Electronic Engineering",1
+"Mjolnir Javelin Heavy Assault Missile",45600,20420,333,"Datacore - Rocket Science",1
+"Inferno Javelin Heavy Assault Missile",45600,20418,333,"Datacore - Electronic Engineering",1
+"Inferno Javelin Heavy Assault Missile",45600,20420,333,"Datacore - Rocket Science",1
+"Scourge Fury Light Missile",22800,20418,333,"Datacore - Electronic Engineering",1
+"Scourge Fury Light Missile",22800,20420,333,"Datacore - Rocket Science",1
+"Nova Fury Light Missile",22800,20418,333,"Datacore - Electronic Engineering",1
+"Nova Fury Light Missile",22800,20420,333,"Datacore - Rocket Science",1
+"Inferno Fury Light Missile",22800,20418,333,"Datacore - Electronic Engineering",1
+"Inferno Fury Light Missile",22800,20420,333,"Datacore - Rocket Science",1
+"Scourge Precision Light Missile",22800,20418,333,"Datacore - Electronic Engineering",1
+"Scourge Precision Light Missile",22800,20420,333,"Datacore - Rocket Science",1
+"Nova Precision Light Missile",22800,20418,333,"Datacore - Electronic Engineering",1
+"Nova Precision Light Missile",22800,20420,333,"Datacore - Rocket Science",1
+"Mjolnir Precision Light Missile",22800,20418,333,"Datacore - Electronic Engineering",1
+"Mjolnir Precision Light Missile",22800,20420,333,"Datacore - Rocket Science",1
+"Nova Fury Heavy Missile",45600,20418,333,"Datacore - Electronic Engineering",1
+"Nova Fury Heavy Missile",45600,20420,333,"Datacore - Rocket Science",1
+"Mjolnir Fury Heavy Missile",45600,20418,333,"Datacore - Electronic Engineering",1
+"Mjolnir Fury Heavy Missile",45600,20420,333,"Datacore - Rocket Science",1
+"Inferno Fury Heavy Missile",45600,20418,333,"Datacore - Electronic Engineering",1
+"Inferno Fury Heavy Missile",45600,20420,333,"Datacore - Rocket Science",1
+"Scourge Precision Heavy Missile",45600,20418,333,"Datacore - Electronic Engineering",1
+"Scourge Precision Heavy Missile",45600,20420,333,"Datacore - Rocket Science",1
+"Inferno Precision Heavy Missile",45600,20418,333,"Datacore - Electronic Engineering",1
+"Inferno Precision Heavy Missile",45600,20420,333,"Datacore - Rocket Science",1
+"Mjolnir Precision Heavy Missile",45600,20418,333,"Datacore - Electronic Engineering",1
+"Mjolnir Precision Heavy Missile",45600,20420,333,"Datacore - Rocket Science",1
+"Nova Rage Torpedo",68100,20418,333,"Datacore - Electronic Engineering",1
+"Nova Rage Torpedo",68100,20420,333,"Datacore - Rocket Science",1
+"Scourge Rage Torpedo",68100,20418,333,"Datacore - Electronic Engineering",1
+"Scourge Rage Torpedo",68100,20420,333,"Datacore - Rocket Science",1
+"Mjolnir Rage Torpedo",68100,20418,333,"Datacore - Electronic Engineering",1
+"Mjolnir Rage Torpedo",68100,20420,333,"Datacore - Rocket Science",1
+"Inferno Javelin Torpedo",68100,20418,333,"Datacore - Electronic Engineering",1
+"Inferno Javelin Torpedo",68100,20420,333,"Datacore - Rocket Science",1
+"Mjolnir Javelin Torpedo",68100,20418,333,"Datacore - Electronic Engineering",1
+"Mjolnir Javelin Torpedo",68100,20420,333,"Datacore - Rocket Science",1
+"Scourge Javelin Torpedo",68100,20418,333,"Datacore - Electronic Engineering",1
+"Scourge Javelin Torpedo",68100,20420,333,"Datacore - Rocket Science",1
+"Nova Fury Cruise Missile",68100,20418,333,"Datacore - Electronic Engineering",1
+"Nova Fury Cruise Missile",68100,20420,333,"Datacore - Rocket Science",1
+"Scourge Fury Cruise Missile",68100,20418,333,"Datacore - Electronic Engineering",1
+"Scourge Fury Cruise Missile",68100,20420,333,"Datacore - Rocket Science",1
+"Mjolnir Fury Cruise Missile",68100,20418,333,"Datacore - Electronic Engineering",1
+"Mjolnir Fury Cruise Missile",68100,20420,333,"Datacore - Rocket Science",1
+"Nova Precision Cruise Missile",68100,20418,333,"Datacore - Electronic Engineering",1
+"Nova Precision Cruise Missile",68100,20420,333,"Datacore - Rocket Science",1
+"Mjolnir Precision Cruise Missile",68100,20418,333,"Datacore - Electronic Engineering",1
+"Mjolnir Precision Cruise Missile",68100,20420,333,"Datacore - Rocket Science",1
+"Scourge Precision Cruise Missile",68100,20418,333,"Datacore - Electronic Engineering",1
+"Scourge Precision Cruise Missile",68100,20420,333,"Datacore - Rocket Science",1
+"Signal Distortion Amplifier II",13800,20417,333,"Datacore - Electromagnetic Physics",2
+"Signal Distortion Amplifier II",13800,20418,333,"Datacore - Electronic Engineering",2
+"Heavy Assault Missile Launcher II",30900,20420,333,"Datacore - Rocket Science",2
+"Heavy Assault Missile Launcher II",30900,20424,333,"Datacore - Mechanical Engineering",2
+"Gas Cloud Harvester II",13800,20413,333,"Datacore - Laser Physics",2
+"Gas Cloud Harvester II",13800,20417,333,"Datacore - Electromagnetic Physics",2
+"Large Anti-EM Pump II",23400,20171,333,"Datacore - Hydromagnetic Physics",3
+"Large Anti-EM Pump II",23400,20416,333,"Datacore - Nanite Engineering",3
+"Large Anti-Explosive Pump II",23400,20171,333,"Datacore - Hydromagnetic Physics",3
+"Large Anti-Explosive Pump II",23400,20416,333,"Datacore - Nanite Engineering",3
+"Large Anti-Kinetic Pump II",23400,20171,333,"Datacore - Hydromagnetic Physics",3
+"Large Anti-Kinetic Pump II",23400,20416,333,"Datacore - Nanite Engineering",3
+"Large Anti-Thermic Pump II",23400,20171,333,"Datacore - Hydromagnetic Physics",3
+"Large Anti-Thermic Pump II",23400,20416,333,"Datacore - Nanite Engineering",3
+"Large Auxiliary Nano Pump II",23400,20171,333,"Datacore - Hydromagnetic Physics",3
+"Large Auxiliary Nano Pump II",23400,20416,333,"Datacore - Nanite Engineering",3
+"Large Nanobot Accelerator II",23400,20171,333,"Datacore - Hydromagnetic Physics",3
+"Large Nanobot Accelerator II",23400,20416,333,"Datacore - Nanite Engineering",3
+"Large Remote Repair Augmentor II",23400,20171,333,"Datacore - Hydromagnetic Physics",3
+"Large Remote Repair Augmentor II",23400,20416,333,"Datacore - Nanite Engineering",3
+"Large Salvage Tackle II",23400,20171,333,"Datacore - Hydromagnetic Physics",3
+"Large Salvage Tackle II",23400,20416,333,"Datacore - Nanite Engineering",3
+"Large Trimark Armor Pump II",23400,20171,333,"Datacore - Hydromagnetic Physics",3
+"Large Trimark Armor Pump II",23400,20416,333,"Datacore - Nanite Engineering",3
+"Large Cargohold Optimization II",23400,20415,333,"Datacore - Molecular Engineering",3
+"Large Cargohold Optimization II",23400,20416,333,"Datacore - Nanite Engineering",3
+"Large Dynamic Fuel Valve II",23400,20415,333,"Datacore - Molecular Engineering",3
+"Large Dynamic Fuel Valve II",23400,20416,333,"Datacore - Nanite Engineering",3
+"Large Engine Thermal Shielding II",23400,20415,333,"Datacore - Molecular Engineering",3
+"Large Engine Thermal Shielding II",23400,20416,333,"Datacore - Nanite Engineering",3
+"Large Low Friction Nozzle Joints II",23400,20415,333,"Datacore - Molecular Engineering",3
+"Large Low Friction Nozzle Joints II",23400,20416,333,"Datacore - Nanite Engineering",3
+"Large Polycarbon Engine Housing II",23400,20415,333,"Datacore - Molecular Engineering",3
+"Large Polycarbon Engine Housing II",23400,20416,333,"Datacore - Nanite Engineering",3
+"Large Auxiliary Thrusters II",23400,20415,333,"Datacore - Molecular Engineering",3
+"Large Auxiliary Thrusters II",23400,20416,333,"Datacore - Nanite Engineering",3
+"Large Warp Core Optimizer II",23400,20415,333,"Datacore - Molecular Engineering",3
+"Large Warp Core Optimizer II",23400,20416,333,"Datacore - Nanite Engineering",3
+"Large Hyperspatial Velocity Optimizer II",23400,20415,333,"Datacore - Molecular Engineering",3
+"Large Hyperspatial Velocity Optimizer II",23400,20416,333,"Datacore - Nanite Engineering",3
+"Large Drone Control Range Augmentor II",23400,20418,333,"Datacore - Electronic Engineering",3
+"Large Drone Control Range Augmentor II",23400,20424,333,"Datacore - Mechanical Engineering",3
+"Large Drone Durability Enhancer II",23400,20418,333,"Datacore - Electronic Engineering",3
+"Large Drone Durability Enhancer II",23400,20424,333,"Datacore - Mechanical Engineering",3
+"Large Drone Mining Augmentor II",23400,20418,333,"Datacore - Electronic Engineering",3
+"Large Drone Mining Augmentor II",23400,20424,333,"Datacore - Mechanical Engineering",3
+"Large Drone Repair Augmentor II",23400,20418,333,"Datacore - Electronic Engineering",3
+"Large Drone Repair Augmentor II",23400,20424,333,"Datacore - Mechanical Engineering",3
+"Large Drone Scope Chip II",23400,20418,333,"Datacore - Electronic Engineering",3
+"Large Drone Scope Chip II",23400,20424,333,"Datacore - Mechanical Engineering",3
+"Large Drone Speed Augmentor II",23400,20418,333,"Datacore - Electronic Engineering",3
+"Large Drone Speed Augmentor II",23400,20424,333,"Datacore - Mechanical Engineering",3
+"Large Sentry Damage Augmentor II",23400,20418,333,"Datacore - Electronic Engineering",3
+"Large Sentry Damage Augmentor II",23400,20424,333,"Datacore - Mechanical Engineering",3
+"Large Stasis Drone Augmentor II",23400,20418,333,"Datacore - Electronic Engineering",3
+"Large Stasis Drone Augmentor II",23400,20424,333,"Datacore - Mechanical Engineering",3
+"Large Emission Scope Sharpener II",23400,20417,333,"Datacore - Electromagnetic Physics",3
+"Large Emission Scope Sharpener II",23400,20418,333,"Datacore - Electronic Engineering",3
+"Large Signal Disruption Amplifier II",23400,20417,333,"Datacore - Electromagnetic Physics",3
+"Large Signal Disruption Amplifier II",23400,20418,333,"Datacore - Electronic Engineering",3
+"Large Memetic Algorithm Bank II",23400,20417,333,"Datacore - Electromagnetic Physics",3
+"Large Memetic Algorithm Bank II",23400,20418,333,"Datacore - Electronic Engineering",3
+"Large Liquid Cooled Electronics II",23400,20417,333,"Datacore - Electromagnetic Physics",3
+"Large Liquid Cooled Electronics II",23400,20418,333,"Datacore - Electronic Engineering",3
+"Large Gravity Capacitor Upgrade II",23400,20417,333,"Datacore - Electromagnetic Physics",3
+"Large Gravity Capacitor Upgrade II",23400,20418,333,"Datacore - Electronic Engineering",3
+"Large Particle Dispersion Augmentor II",23400,20417,333,"Datacore - Electromagnetic Physics",3
+"Large Particle Dispersion Augmentor II",23400,20418,333,"Datacore - Electronic Engineering",3
+"Large Inverted Signal Field Projector II",23400,20417,333,"Datacore - Electromagnetic Physics",3
+"Large Inverted Signal Field Projector II",23400,20418,333,"Datacore - Electronic Engineering",3
+"Large Tracking Diagnostic Subroutines II",23400,20417,333,"Datacore - Electromagnetic Physics",3
+"Large Tracking Diagnostic Subroutines II",23400,20418,333,"Datacore - Electronic Engineering",3
+"Large Ionic Field Projector II",23400,20417,333,"Datacore - Electromagnetic Physics",3
+"Large Ionic Field Projector II",23400,20418,333,"Datacore - Electronic Engineering",3
+"Large Particle Dispersion Projector II",23400,20417,333,"Datacore - Electromagnetic Physics",3
+"Large Particle Dispersion Projector II",23400,20418,333,"Datacore - Electronic Engineering",3
+"Large Signal Focusing Kit II",23400,20417,333,"Datacore - Electromagnetic Physics",3
+"Large Signal Focusing Kit II",23400,20418,333,"Datacore - Electronic Engineering",3
+"Large Targeting System Subcontroller II",23400,20417,333,"Datacore - Electromagnetic Physics",3
+"Large Targeting System Subcontroller II",23400,20418,333,"Datacore - Electronic Engineering",3
+"Large Targeting Systems Stabilizer II",23400,20417,333,"Datacore - Electromagnetic Physics",3
+"Large Targeting Systems Stabilizer II",23400,20418,333,"Datacore - Electronic Engineering",3
+"Large Egress Port Maximizer II",23400,20411,333,"Datacore - High Energy Physics",3
+"Large Egress Port Maximizer II",23400,20414,333,"Datacore - Quantum Physics",3
+"Large Ancillary Current Router II",23400,20411,333,"Datacore - High Energy Physics",3
+"Large Ancillary Current Router II",23400,20414,333,"Datacore - Quantum Physics",3
+"Large Powergrid Subroutine Maximizer II",23400,20411,333,"Datacore - High Energy Physics",3
+"Large Powergrid Subroutine Maximizer II",23400,20414,333,"Datacore - Quantum Physics",3
+"Large Capacitor Control Circuit II",23400,20411,333,"Datacore - High Energy Physics",3
+"Large Capacitor Control Circuit II",23400,20414,333,"Datacore - Quantum Physics",3
+"Large Semiconductor Memory Cell II",23400,20411,333,"Datacore - High Energy Physics",3
+"Large Semiconductor Memory Cell II",23400,20414,333,"Datacore - Quantum Physics",3
+"Large Energy Discharge Elutriation II",23400,20411,333,"Datacore - High Energy Physics",3
+"Large Energy Discharge Elutriation II",23400,20413,333,"Datacore - Laser Physics",3
+"Large Energy Burst Aerator II",23400,20411,333,"Datacore - High Energy Physics",3
+"Large Energy Burst Aerator II",23400,20413,333,"Datacore - Laser Physics",3
+"Large Energy Collision Accelerator II",23400,20411,333,"Datacore - High Energy Physics",3
+"Large Energy Collision Accelerator II",23400,20413,333,"Datacore - Laser Physics",3
+"Large Algid Energy Administrations Unit II",23400,20411,333,"Datacore - High Energy Physics",3
+"Large Algid Energy Administrations Unit II",23400,20413,333,"Datacore - Laser Physics",3
+"Large Energy Ambit Extension II",23400,20411,333,"Datacore - High Energy Physics",3
+"Large Energy Ambit Extension II",23400,20413,333,"Datacore - Laser Physics",3
+"Large Energy Locus Coordinator II",23400,20411,333,"Datacore - High Energy Physics",3
+"Large Energy Locus Coordinator II",23400,20413,333,"Datacore - Laser Physics",3
+"Large Energy Metastasis Adjuster II",23400,20411,333,"Datacore - High Energy Physics",3
+"Large Energy Metastasis Adjuster II",23400,20413,333,"Datacore - Laser Physics",3
+"Large Hybrid Discharge Elutriation II",23400,20417,333,"Datacore - Electromagnetic Physics",3
+"Large Hybrid Discharge Elutriation II",23400,20424,333,"Datacore - Mechanical Engineering",3
+"Large Hybrid Burst Aerator II",23400,20417,333,"Datacore - Electromagnetic Physics",3
+"Large Hybrid Burst Aerator II",23400,20424,333,"Datacore - Mechanical Engineering",3
+"Large Hybrid Collision Accelerator II",23400,20417,333,"Datacore - Electromagnetic Physics",3
+"Large Hybrid Collision Accelerator II",23400,20424,333,"Datacore - Mechanical Engineering",3
+"Large Algid Hybrid Administrations Unit II",23400,20417,333,"Datacore - Electromagnetic Physics",3
+"Large Algid Hybrid Administrations Unit II",23400,20424,333,"Datacore - Mechanical Engineering",3
+"Large Hybrid Ambit Extension II",23400,20417,333,"Datacore - Electromagnetic Physics",3
+"Large Hybrid Ambit Extension II",23400,20424,333,"Datacore - Mechanical Engineering",3
+"Large Hybrid Locus Coordinator II",23400,20417,333,"Datacore - Electromagnetic Physics",3
+"Large Hybrid Locus Coordinator II",23400,20424,333,"Datacore - Mechanical Engineering",3
+"Large Hybrid Metastasis Adjuster II",23400,20417,333,"Datacore - Electromagnetic Physics",3
+"Large Hybrid Metastasis Adjuster II",23400,20424,333,"Datacore - Mechanical Engineering",3
+"Large Bay Loading Accelerator II",23400,20420,333,"Datacore - Rocket Science",3
+"Large Bay Loading Accelerator II",23400,20424,333,"Datacore - Mechanical Engineering",3
+"Large Warhead Flare Catalyst II",23400,20420,333,"Datacore - Rocket Science",3
+"Large Warhead Flare Catalyst II",23400,20424,333,"Datacore - Mechanical Engineering",3
+"Large Warhead Rigor Catalyst II",23400,20420,333,"Datacore - Rocket Science",3
+"Large Warhead Rigor Catalyst II",23400,20424,333,"Datacore - Mechanical Engineering",3
+"Large Hydraulic Bay Thrusters II",23400,20420,333,"Datacore - Rocket Science",3
+"Large Hydraulic Bay Thrusters II",23400,20424,333,"Datacore - Mechanical Engineering",3
+"Large Rocket Fuel Cache Partition II",23400,20420,333,"Datacore - Rocket Science",3
+"Large Rocket Fuel Cache Partition II",23400,20424,333,"Datacore - Mechanical Engineering",3
+"Large Warhead Calefaction Catalyst II",23400,20420,333,"Datacore - Rocket Science",3
+"Large Warhead Calefaction Catalyst II",23400,20424,333,"Datacore - Mechanical Engineering",3
+"Large Projectile Collision Accelerator II",23400,20423,333,"Datacore - Nuclear Physics",3
+"Large Projectile Collision Accelerator II",23400,20424,333,"Datacore - Mechanical Engineering",3
+"Large Projectile Ambit Extension II",23400,20423,333,"Datacore - Nuclear Physics",3
+"Large Projectile Ambit Extension II",23400,20424,333,"Datacore - Mechanical Engineering",3
+"Large Projectile Burst Aerator II",23400,20423,333,"Datacore - Nuclear Physics",3
+"Large Projectile Burst Aerator II",23400,20424,333,"Datacore - Mechanical Engineering",3
+"Large Projectile Locus Coordinator II",23400,20423,333,"Datacore - Nuclear Physics",3
+"Large Projectile Locus Coordinator II",23400,20424,333,"Datacore - Mechanical Engineering",3
+"Large Projectile Metastasis Adjuster II",23400,20423,333,"Datacore - Nuclear Physics",3
+"Large Projectile Metastasis Adjuster II",23400,20424,333,"Datacore - Mechanical Engineering",3
+"Large Anti-EM Screen Reinforcer II",23400,20171,333,"Datacore - Hydromagnetic Physics",3
+"Large Anti-EM Screen Reinforcer II",23400,20414,333,"Datacore - Quantum Physics",3
+"Large Anti-Explosive Screen Reinforcer II",23400,20171,333,"Datacore - Hydromagnetic Physics",3
+"Large Anti-Explosive Screen Reinforcer II",23400,20414,333,"Datacore - Quantum Physics",3
+"Large Anti-Kinetic Screen Reinforcer II",23400,20171,333,"Datacore - Hydromagnetic Physics",3
+"Large Anti-Kinetic Screen Reinforcer II",23400,20414,333,"Datacore - Quantum Physics",3
+"Large Anti-Thermal Screen Reinforcer II",23400,20171,333,"Datacore - Hydromagnetic Physics",3
+"Large Anti-Thermal Screen Reinforcer II",23400,20414,333,"Datacore - Quantum Physics",3
+"Large Core Defense Capacitor Safeguard II",23400,20171,333,"Datacore - Hydromagnetic Physics",3
+"Large Core Defense Capacitor Safeguard II",23400,20414,333,"Datacore - Quantum Physics",3
+"Large Core Defense Charge Economizer II",23400,20171,333,"Datacore - Hydromagnetic Physics",3
+"Large Core Defense Charge Economizer II",23400,20414,333,"Datacore - Quantum Physics",3
+"Large Core Defense Field Extender II",23400,20171,333,"Datacore - Hydromagnetic Physics",3
+"Large Core Defense Field Extender II",23400,20414,333,"Datacore - Quantum Physics",3
+"Large Core Defense Field Purger II",23400,20171,333,"Datacore - Hydromagnetic Physics",3
+"Large Core Defense Field Purger II",23400,20414,333,"Datacore - Quantum Physics",3
+"Large Core Defense Operational Solidifier II",23400,20171,333,"Datacore - Hydromagnetic Physics",3
+"Large Core Defense Operational Solidifier II",23400,20414,333,"Datacore - Quantum Physics",3
+"Mobile Large Warp Disruptor II",268200,20418,333,"Datacore - Electronic Engineering",9
+"Mobile Large Warp Disruptor II",268200,20419,333,"Datacore - Graviton Physics",9
+"Mobile Medium Warp Disruptor II",178800,20418,333,"Datacore - Electronic Engineering",6
+"Mobile Medium Warp Disruptor II",178800,20419,333,"Datacore - Graviton Physics",6
+"Mobile Small Warp Disruptor II",81300,20418,333,"Datacore - Electronic Engineering",3
+"Mobile Small Warp Disruptor II",81300,20419,333,"Datacore - Graviton Physics",3
+"Small Remote Armor Repairer II",13800,20416,333,"Datacore - Nanite Engineering",1
+"Small Remote Armor Repairer II",13800,20424,333,"Datacore - Mechanical Engineering",1
+"Medium Remote Armor Repairer II",30900,20416,333,"Datacore - Nanite Engineering",2
+"Medium Remote Armor Repairer II",30900,20424,333,"Datacore - Mechanical Engineering",2
+"Large Remote Armor Repairer II",51000,20416,333,"Datacore - Nanite Engineering",3
+"Large Remote Armor Repairer II",51000,20424,333,"Datacore - Mechanical Engineering",3
+"Small Processor Overclocking Unit II",7200,20417,333,"Datacore - Electromagnetic Physics",1
+"Small Processor Overclocking Unit II",7200,20418,333,"Datacore - Electronic Engineering",1
+"Capital Nanobot Accelerator II",30900,20171,333,"Datacore - Hydromagnetic Physics",4
+"Capital Nanobot Accelerator II",30900,20416,333,"Datacore - Nanite Engineering",4
+"Heavy Armor Maintenance Bot II",23700,20418,333,"Datacore - Electronic Engineering",3
+"Heavy Armor Maintenance Bot II",23700,20424,333,"Datacore - Mechanical Engineering",3
+"Heavy Shield Maintenance Bot II",23700,20418,333,"Datacore - Electronic Engineering",3
+"Heavy Shield Maintenance Bot II",23700,20424,333,"Datacore - Mechanical Engineering",3
+"Light Armor Maintenance Bot II",7800,20418,333,"Datacore - Electronic Engineering",1
+"Light Armor Maintenance Bot II",7800,20424,333,"Datacore - Mechanical Engineering",1
+"Light Shield Maintenance Bot II",7800,20418,333,"Datacore - Electronic Engineering",1
+"Light Shield Maintenance Bot II",7800,20424,333,"Datacore - Mechanical Engineering",1
+"Medium Armor Maintenance Bot II",15900,20418,333,"Datacore - Electronic Engineering",2
+"Medium Armor Maintenance Bot II",15900,20424,333,"Datacore - Mechanical Engineering",2
+"Medium Shield Maintenance Bot II",15900,20418,333,"Datacore - Electronic Engineering",2
+"Medium Shield Maintenance Bot II",15900,20424,333,"Datacore - Mechanical Engineering",2
+"Warden II",23700,20418,333,"Datacore - Electronic Engineering",3
+"Warden II",23700,20424,333,"Datacore - Mechanical Engineering",3
+"Garde II",23700,20418,333,"Datacore - Electronic Engineering",3
+"Garde II",23700,20424,333,"Datacore - Mechanical Engineering",3
+"Curator II",23700,20418,333,"Datacore - Electronic Engineering",3
+"Curator II",23700,20424,333,"Datacore - Mechanical Engineering",3
+"Bouncer II",23700,20418,333,"Datacore - Electronic Engineering",3
+"Bouncer II",23700,20424,333,"Datacore - Mechanical Engineering",3
+"Mining Laser Upgrade II",13800,20413,333,"Datacore - Laser Physics",2
+"Mining Laser Upgrade II",13800,20424,333,"Datacore - Mechanical Engineering",2
+"Ice Harvester Upgrade II",13800,20413,333,"Datacore - Laser Physics",2
+"Ice Harvester Upgrade II",13800,20424,333,"Datacore - Mechanical Engineering",2
+Paladin,192000,20421,333,"Datacore - Amarrian Starship Engineering",32
+Paladin,192000,20424,333,"Datacore - Mechanical Engineering",32
+Kronos,192000,20410,333,"Datacore - Gallentean Starship Engineering",32
+Kronos,192000,20424,333,"Datacore - Mechanical Engineering",32
+Vargur,192000,20172,333,"Datacore - Minmatar Starship Engineering",32
+Vargur,192000,20424,333,"Datacore - Mechanical Engineering",32
+Golem,192000,20424,333,"Datacore - Mechanical Engineering",32
+Golem,192000,25887,333,"Datacore - Caldari Starship Engineering",32
+Rhea,1485000,20424,333,"Datacore - Mechanical Engineering",64
+Rhea,1485000,25887,333,"Datacore - Caldari Starship Engineering",64
+Nomad,1485000,20172,333,"Datacore - Minmatar Starship Engineering",64
+Nomad,1485000,20424,333,"Datacore - Mechanical Engineering",64
+Anshar,1485000,20410,333,"Datacore - Gallentean Starship Engineering",64
+Anshar,1485000,20424,333,"Datacore - Mechanical Engineering",64
+Ark,1485000,20421,333,"Datacore - Amarrian Starship Engineering",64
+Ark,1485000,20424,333,"Datacore - Mechanical Engineering",64
+"Relic Analyzer II",30900,20417,333,"Datacore - Electromagnetic Physics",2
+"Relic Analyzer II",30900,20418,333,"Datacore - Electronic Engineering",2
+"Data Analyzer II",30900,20417,333,"Datacore - Electromagnetic Physics",2
+"Data Analyzer II",30900,20418,333,"Datacore - Electronic Engineering",2
+"Salvager II",51000,20417,333,"Datacore - Electromagnetic Physics",2
+"Salvager II",51000,20418,333,"Datacore - Electronic Engineering",2
+"Small Anti-EM Pump II",7200,20171,333,"Datacore - Hydromagnetic Physics",1
+"Small Anti-EM Pump II",7200,20416,333,"Datacore - Nanite Engineering",1
+"Medium Anti-EM Pump II",15600,20171,333,"Datacore - Hydromagnetic Physics",2
+"Medium Anti-EM Pump II",15600,20416,333,"Datacore - Nanite Engineering",2
+"Capital Anti-EM Pump II",30900,20171,333,"Datacore - Hydromagnetic Physics",4
+"Capital Anti-EM Pump II",30900,20416,333,"Datacore - Nanite Engineering",4
+"Small Anti-Explosive Pump II",7200,20171,333,"Datacore - Hydromagnetic Physics",1
+"Small Anti-Explosive Pump II",7200,20416,333,"Datacore - Nanite Engineering",1
+"Medium Anti-Explosive Pump II",15600,20171,333,"Datacore - Hydromagnetic Physics",2
+"Medium Anti-Explosive Pump II",15600,20416,333,"Datacore - Nanite Engineering",2
+"Capital Anti-Explosive Pump II",30900,20171,333,"Datacore - Hydromagnetic Physics",4
+"Capital Anti-Explosive Pump II",30900,20416,333,"Datacore - Nanite Engineering",4
+"Small Anti-Kinetic Pump II",7200,20171,333,"Datacore - Hydromagnetic Physics",1
+"Small Anti-Kinetic Pump II",7200,20416,333,"Datacore - Nanite Engineering",1
+"Medium Anti-Kinetic Pump II",15600,20171,333,"Datacore - Hydromagnetic Physics",2
+"Medium Anti-Kinetic Pump II",15600,20416,333,"Datacore - Nanite Engineering",2
+"Capital Anti-Kinetic Pump II",30900,20171,333,"Datacore - Hydromagnetic Physics",4
+"Capital Anti-Kinetic Pump II",30900,20416,333,"Datacore - Nanite Engineering",4
+"Small Anti-Thermic Pump II",7200,20171,333,"Datacore - Hydromagnetic Physics",1
+"Small Anti-Thermic Pump II",7200,20416,333,"Datacore - Nanite Engineering",1
+"Medium Anti-Thermic Pump II",15600,20171,333,"Datacore - Hydromagnetic Physics",2
+"Medium Anti-Thermic Pump II",15600,20416,333,"Datacore - Nanite Engineering",2
+"Capital Anti-Thermic Pump II",30900,20171,333,"Datacore - Hydromagnetic Physics",4
+"Capital Anti-Thermic Pump II",30900,20416,333,"Datacore - Nanite Engineering",4
+"Capital Auxiliary Nano Pump II",30900,20171,333,"Datacore - Hydromagnetic Physics",4
+"Capital Auxiliary Nano Pump II",30900,20416,333,"Datacore - Nanite Engineering",4
+"Small Auxiliary Nano Pump II",7200,20171,333,"Datacore - Hydromagnetic Physics",1
+"Small Auxiliary Nano Pump II",7200,20416,333,"Datacore - Nanite Engineering",1
+"Medium Auxiliary Nano Pump II",15600,20171,333,"Datacore - Hydromagnetic Physics",2
+"Medium Auxiliary Nano Pump II",15600,20416,333,"Datacore - Nanite Engineering",2
+"Small Trimark Armor Pump II",7200,20171,333,"Datacore - Hydromagnetic Physics",1
+"Small Trimark Armor Pump II",7200,20416,333,"Datacore - Nanite Engineering",1
+"Medium Trimark Armor Pump II",15600,20171,333,"Datacore - Hydromagnetic Physics",2
+"Medium Trimark Armor Pump II",15600,20416,333,"Datacore - Nanite Engineering",2
+"Capital Trimark Armor Pump II",30900,20171,333,"Datacore - Hydromagnetic Physics",4
+"Capital Trimark Armor Pump II",30900,20416,333,"Datacore - Nanite Engineering",4
+"Small Nanobot Accelerator II",7200,20171,333,"Datacore - Hydromagnetic Physics",1
+"Small Nanobot Accelerator II",7200,20416,333,"Datacore - Nanite Engineering",1
+"Medium Nanobot Accelerator II",15600,20171,333,"Datacore - Hydromagnetic Physics",2
+"Medium Nanobot Accelerator II",15600,20416,333,"Datacore - Nanite Engineering",2
+"Small Remote Repair Augmentor II",7200,20171,333,"Datacore - Hydromagnetic Physics",1
+"Small Remote Repair Augmentor II",7200,20416,333,"Datacore - Nanite Engineering",1
+"Medium Remote Repair Augmentor II",15600,20171,333,"Datacore - Hydromagnetic Physics",2
+"Medium Remote Repair Augmentor II",15600,20416,333,"Datacore - Nanite Engineering",2
+"Capital Remote Repair Augmentor II",30900,20171,333,"Datacore - Hydromagnetic Physics",4
+"Capital Remote Repair Augmentor II",30900,20416,333,"Datacore - Nanite Engineering",4
+"Small Salvage Tackle II",7200,20171,333,"Datacore - Hydromagnetic Physics",1
+"Small Salvage Tackle II",7200,20416,333,"Datacore - Nanite Engineering",1
+"Medium Salvage Tackle II",15600,20171,333,"Datacore - Hydromagnetic Physics",2
+"Medium Salvage Tackle II",15600,20416,333,"Datacore - Nanite Engineering",2
+"Capital Salvage Tackle II",30900,20171,333,"Datacore - Hydromagnetic Physics",4
+"Capital Salvage Tackle II",30900,20416,333,"Datacore - Nanite Engineering",4
+"Small Auxiliary Thrusters II",7200,20415,333,"Datacore - Molecular Engineering",1
+"Small Auxiliary Thrusters II",7200,20416,333,"Datacore - Nanite Engineering",1
+"Medium Auxiliary Thrusters II",15600,20415,333,"Datacore - Molecular Engineering",2
+"Medium Auxiliary Thrusters II",15600,20416,333,"Datacore - Nanite Engineering",2
+"Capital Auxiliary Thrusters II",30900,20415,333,"Datacore - Molecular Engineering",4
+"Capital Auxiliary Thrusters II",30900,20416,333,"Datacore - Nanite Engineering",4
+"Small Cargohold Optimization II",7200,20415,333,"Datacore - Molecular Engineering",1
+"Small Cargohold Optimization II",7200,20416,333,"Datacore - Nanite Engineering",1
+"Medium Cargohold Optimization II",15600,20415,333,"Datacore - Molecular Engineering",2
+"Medium Cargohold Optimization II",15600,20416,333,"Datacore - Nanite Engineering",2
+"Capital Cargohold Optimization II",30900,20415,333,"Datacore - Molecular Engineering",4
+"Capital Cargohold Optimization II",30900,20416,333,"Datacore - Nanite Engineering",4
+"Small Dynamic Fuel Valve II",7200,20415,333,"Datacore - Molecular Engineering",1
+"Small Dynamic Fuel Valve II",7200,20416,333,"Datacore - Nanite Engineering",1
+"Medium Dynamic Fuel Valve II",15600,20415,333,"Datacore - Molecular Engineering",2
+"Medium Dynamic Fuel Valve II",15600,20416,333,"Datacore - Nanite Engineering",2
+"Capital Dynamic Fuel Valve II",30900,20415,333,"Datacore - Molecular Engineering",4
+"Capital Dynamic Fuel Valve II",30900,20416,333,"Datacore - Nanite Engineering",4
+"Small Engine Thermal Shielding II",7200,20415,333,"Datacore - Molecular Engineering",1
+"Small Engine Thermal Shielding II",7200,20416,333,"Datacore - Nanite Engineering",1
+"Medium Engine Thermal Shielding II",15600,20415,333,"Datacore - Molecular Engineering",2
+"Medium Engine Thermal Shielding II",15600,20416,333,"Datacore - Nanite Engineering",2
+"Capital Engine Thermal Shielding II",30900,20415,333,"Datacore - Molecular Engineering",4
+"Capital Engine Thermal Shielding II",30900,20416,333,"Datacore - Nanite Engineering",4
+"Small Hyperspatial Velocity Optimizer II",7200,20415,333,"Datacore - Molecular Engineering",1
+"Small Hyperspatial Velocity Optimizer II",7200,20416,333,"Datacore - Nanite Engineering",1
+"Medium Hyperspatial Velocity Optimizer II",15600,20415,333,"Datacore - Molecular Engineering",2
+"Medium Hyperspatial Velocity Optimizer II",15600,20416,333,"Datacore - Nanite Engineering",2
+"Capital Hyperspatial Velocity Optimizer II",30900,20415,333,"Datacore - Molecular Engineering",4
+"Capital Hyperspatial Velocity Optimizer II",30900,20416,333,"Datacore - Nanite Engineering",4
+"Small Low Friction Nozzle Joints II",7200,20415,333,"Datacore - Molecular Engineering",1
+"Small Low Friction Nozzle Joints II",7200,20416,333,"Datacore - Nanite Engineering",1
+"Medium Low Friction Nozzle Joints II",15600,20415,333,"Datacore - Molecular Engineering",2
+"Medium Low Friction Nozzle Joints II",15600,20416,333,"Datacore - Nanite Engineering",2
+"Capital Low Friction Nozzle Joints II",30900,20415,333,"Datacore - Molecular Engineering",4
+"Capital Low Friction Nozzle Joints II",30900,20416,333,"Datacore - Nanite Engineering",4
+"Small Polycarbon Engine Housing II",7200,20415,333,"Datacore - Molecular Engineering",1
+"Small Polycarbon Engine Housing II",7200,20416,333,"Datacore - Nanite Engineering",1
+"Medium Polycarbon Engine Housing II",15600,20415,333,"Datacore - Molecular Engineering",2
+"Medium Polycarbon Engine Housing II",15600,20416,333,"Datacore - Nanite Engineering",2
+"Capital Polycarbon Engine Housing II",30900,20415,333,"Datacore - Molecular Engineering",4
+"Capital Polycarbon Engine Housing II",30900,20416,333,"Datacore - Nanite Engineering",4
+"Small Warp Core Optimizer II",7200,20415,333,"Datacore - Molecular Engineering",1
+"Small Warp Core Optimizer II",7200,20416,333,"Datacore - Nanite Engineering",1
+"Medium Warp Core Optimizer II",15600,20415,333,"Datacore - Molecular Engineering",2
+"Medium Warp Core Optimizer II",15600,20416,333,"Datacore - Nanite Engineering",2
+"Capital Warp Core Optimizer II",30900,20415,333,"Datacore - Molecular Engineering",4
+"Capital Warp Core Optimizer II",30900,20416,333,"Datacore - Nanite Engineering",4
+"Small Emission Scope Sharpener II",7200,20417,333,"Datacore - Electromagnetic Physics",1
+"Small Emission Scope Sharpener II",7200,20418,333,"Datacore - Electronic Engineering",1
+"Medium Emission Scope Sharpener II",15600,20417,333,"Datacore - Electromagnetic Physics",2
+"Medium Emission Scope Sharpener II",15600,20418,333,"Datacore - Electronic Engineering",2
+"Capital Emission Scope Sharpener II",30900,20417,333,"Datacore - Electromagnetic Physics",4
+"Capital Emission Scope Sharpener II",30900,20418,333,"Datacore - Electronic Engineering",4
+"Small Gravity Capacitor Upgrade II",7200,20417,333,"Datacore - Electromagnetic Physics",1
+"Small Gravity Capacitor Upgrade II",7200,20418,333,"Datacore - Electronic Engineering",1
+"Medium Gravity Capacitor Upgrade II",15600,20417,333,"Datacore - Electromagnetic Physics",2
+"Medium Gravity Capacitor Upgrade II",15600,20418,333,"Datacore - Electronic Engineering",2
+"Capital Gravity Capacitor Upgrade II",30900,20417,333,"Datacore - Electromagnetic Physics",4
+"Capital Gravity Capacitor Upgrade II",30900,20418,333,"Datacore - Electronic Engineering",4
+"Small Liquid Cooled Electronics II",7200,20417,333,"Datacore - Electromagnetic Physics",1
+"Small Liquid Cooled Electronics II",7200,20418,333,"Datacore - Electronic Engineering",1
+"Medium Liquid Cooled Electronics II",15600,20417,333,"Datacore - Electromagnetic Physics",2
+"Medium Liquid Cooled Electronics II",15600,20418,333,"Datacore - Electronic Engineering",2
+"Capital Liquid Cooled Electronics II",30900,20417,333,"Datacore - Electromagnetic Physics",4
+"Capital Liquid Cooled Electronics II",30900,20418,333,"Datacore - Electronic Engineering",4
+"Small Memetic Algorithm Bank II",7200,20417,333,"Datacore - Electromagnetic Physics",1
+"Small Memetic Algorithm Bank II",7200,20418,333,"Datacore - Electronic Engineering",1
+"Medium Memetic Algorithm Bank II",15600,20417,333,"Datacore - Electromagnetic Physics",2
+"Medium Memetic Algorithm Bank II",15600,20418,333,"Datacore - Electronic Engineering",2
+"Capital Memetic Algorithm Bank II",30900,20417,333,"Datacore - Electromagnetic Physics",4
+"Capital Memetic Algorithm Bank II",30900,20418,333,"Datacore - Electronic Engineering",4
+"Small Signal Disruption Amplifier II",7200,20417,333,"Datacore - Electromagnetic Physics",1
+"Small Signal Disruption Amplifier II",7200,20418,333,"Datacore - Electronic Engineering",1
+"Medium Signal Disruption Amplifier II",15600,20417,333,"Datacore - Electromagnetic Physics",2
+"Medium Signal Disruption Amplifier II",15600,20418,333,"Datacore - Electronic Engineering",2
+"Capital Signal Disruption Amplifier II",30900,20417,333,"Datacore - Electromagnetic Physics",4
+"Capital Signal Disruption Amplifier II",30900,20418,333,"Datacore - Electronic Engineering",4
+"Small Inverted Signal Field Projector II",7200,20417,333,"Datacore - Electromagnetic Physics",1
+"Small Inverted Signal Field Projector II",7200,20418,333,"Datacore - Electronic Engineering",1
+"Medium Inverted Signal Field Projector II",15600,20417,333,"Datacore - Electromagnetic Physics",2
+"Medium Inverted Signal Field Projector II",15600,20418,333,"Datacore - Electronic Engineering",2
+"Capital Inverted Signal Field Projector II",30900,20417,333,"Datacore - Electromagnetic Physics",4
+"Capital Inverted Signal Field Projector II",30900,20418,333,"Datacore - Electronic Engineering",4
+"Small Ionic Field Projector II",7200,20417,333,"Datacore - Electromagnetic Physics",1
+"Small Ionic Field Projector II",7200,20418,333,"Datacore - Electronic Engineering",1
+"Medium Ionic Field Projector II",15600,20417,333,"Datacore - Electromagnetic Physics",2
+"Medium Ionic Field Projector II",15600,20418,333,"Datacore - Electronic Engineering",2
+"Capital Ionic Field Projector II",30900,20417,333,"Datacore - Electromagnetic Physics",4
+"Capital Ionic Field Projector II",30900,20418,333,"Datacore - Electronic Engineering",4
+"Small Particle Dispersion Augmentor II",7200,20417,333,"Datacore - Electromagnetic Physics",1
+"Small Particle Dispersion Augmentor II",7200,20418,333,"Datacore - Electronic Engineering",1
+"Medium Particle Dispersion Augmentor II",15600,20417,333,"Datacore - Electromagnetic Physics",2
+"Medium Particle Dispersion Augmentor II",15600,20418,333,"Datacore - Electronic Engineering",2
+"Capital Particle Dispersion Augmentor II",30900,20417,333,"Datacore - Electromagnetic Physics",4
+"Capital Particle Dispersion Augmentor II",30900,20418,333,"Datacore - Electronic Engineering",4
+"Small Particle Dispersion Projector II",7200,20417,333,"Datacore - Electromagnetic Physics",1
+"Small Particle Dispersion Projector II",7200,20418,333,"Datacore - Electronic Engineering",1
+"Medium Particle Dispersion Projector II",15600,20417,333,"Datacore - Electromagnetic Physics",2
+"Medium Particle Dispersion Projector II",15600,20418,333,"Datacore - Electronic Engineering",2
+"Capital Particle Dispersion Projector II",30900,20417,333,"Datacore - Electromagnetic Physics",4
+"Capital Particle Dispersion Projector II",30900,20418,333,"Datacore - Electronic Engineering",4
+"Small Signal Focusing Kit II",7200,20417,333,"Datacore - Electromagnetic Physics",1
+"Small Signal Focusing Kit II",7200,20418,333,"Datacore - Electronic Engineering",1
+"Medium Signal Focusing Kit II",15600,20417,333,"Datacore - Electromagnetic Physics",2
+"Medium Signal Focusing Kit II",15600,20418,333,"Datacore - Electronic Engineering",2
+"Capital Signal Focusing Kit II",30900,20417,333,"Datacore - Electromagnetic Physics",4
+"Capital Signal Focusing Kit II",30900,20418,333,"Datacore - Electronic Engineering",4
+"Small Targeting System Subcontroller II",7200,20417,333,"Datacore - Electromagnetic Physics",1
+"Small Targeting System Subcontroller II",7200,20418,333,"Datacore - Electronic Engineering",1
+"Medium Targeting System Subcontroller II",15600,20417,333,"Datacore - Electromagnetic Physics",2
+"Medium Targeting System Subcontroller II",15600,20418,333,"Datacore - Electronic Engineering",2
+"Capital Targeting System Subcontroller II",30900,20417,333,"Datacore - Electromagnetic Physics",4
+"Capital Targeting System Subcontroller II",30900,20418,333,"Datacore - Electronic Engineering",4
+"Small Targeting Systems Stabilizer II",7200,20417,333,"Datacore - Electromagnetic Physics",1
+"Small Targeting Systems Stabilizer II",7200,20418,333,"Datacore - Electronic Engineering",1
+"Medium Targeting Systems Stabilizer II",15600,20417,333,"Datacore - Electromagnetic Physics",2
+"Medium Targeting Systems Stabilizer II",15600,20418,333,"Datacore - Electronic Engineering",2
+"Capital Targeting Systems Stabilizer II",30900,20417,333,"Datacore - Electromagnetic Physics",4
+"Capital Targeting Systems Stabilizer II",30900,20418,333,"Datacore - Electronic Engineering",4
+"Small Tracking Diagnostic Subroutines II",7200,20417,333,"Datacore - Electromagnetic Physics",1
+"Small Tracking Diagnostic Subroutines II",7200,20418,333,"Datacore - Electronic Engineering",1
+"Medium Tracking Diagnostic Subroutines II",15600,20417,333,"Datacore - Electromagnetic Physics",2
+"Medium Tracking Diagnostic Subroutines II",15600,20418,333,"Datacore - Electronic Engineering",2
+"Capital Tracking Diagnostic Subroutines II",30900,20417,333,"Datacore - Electromagnetic Physics",4
+"Capital Tracking Diagnostic Subroutines II",30900,20418,333,"Datacore - Electronic Engineering",4
+"Small Ancillary Current Router II",7200,20411,333,"Datacore - High Energy Physics",1
+"Small Ancillary Current Router II",7200,20414,333,"Datacore - Quantum Physics",1
+"Medium Ancillary Current Router II",15600,20411,333,"Datacore - High Energy Physics",2
+"Medium Ancillary Current Router II",15600,20414,333,"Datacore - Quantum Physics",2
+"Capital Ancillary Current Router II",30900,20411,333,"Datacore - High Energy Physics",4
+"Capital Ancillary Current Router II",30900,20414,333,"Datacore - Quantum Physics",4
+"Small Capacitor Control Circuit II",7200,20411,333,"Datacore - High Energy Physics",1
+"Small Capacitor Control Circuit II",7200,20414,333,"Datacore - Quantum Physics",1
+"Medium Capacitor Control Circuit II",15600,20411,333,"Datacore - High Energy Physics",2
+"Medium Capacitor Control Circuit II",15600,20414,333,"Datacore - Quantum Physics",2
+"Capital Capacitor Control Circuit II",30900,20411,333,"Datacore - High Energy Physics",4
+"Capital Capacitor Control Circuit II",30900,20414,333,"Datacore - Quantum Physics",4
+"Small Egress Port Maximizer II",7200,20411,333,"Datacore - High Energy Physics",1
+"Small Egress Port Maximizer II",7200,20414,333,"Datacore - Quantum Physics",1
+"Medium Egress Port Maximizer II",15600,20411,333,"Datacore - High Energy Physics",2
+"Medium Egress Port Maximizer II",15600,20414,333,"Datacore - Quantum Physics",2
+"Capital Egress Port Maximizer II",30900,20411,333,"Datacore - High Energy Physics",4
+"Capital Egress Port Maximizer II",30900,20414,333,"Datacore - Quantum Physics",4
+"Small Powergrid Subroutine Maximizer II",7200,20411,333,"Datacore - High Energy Physics",1
+"Small Powergrid Subroutine Maximizer II",7200,20414,333,"Datacore - Quantum Physics",1
+"Medium Powergrid Subroutine Maximizer II",15600,20411,333,"Datacore - High Energy Physics",2
+"Medium Powergrid Subroutine Maximizer II",15600,20414,333,"Datacore - Quantum Physics",2
+"Capital Powergrid Subroutine Maximizer II",30900,20411,333,"Datacore - High Energy Physics",4
+"Capital Powergrid Subroutine Maximizer II",30900,20414,333,"Datacore - Quantum Physics",4
+"Small Semiconductor Memory Cell II",7200,20411,333,"Datacore - High Energy Physics",1
+"Small Semiconductor Memory Cell II",7200,20414,333,"Datacore - Quantum Physics",1
+"Medium Semiconductor Memory Cell II",15600,20411,333,"Datacore - High Energy Physics",2
+"Medium Semiconductor Memory Cell II",15600,20414,333,"Datacore - Quantum Physics",2
+"Capital Semiconductor Memory Cell II",30900,20411,333,"Datacore - High Energy Physics",4
+"Capital Semiconductor Memory Cell II",30900,20414,333,"Datacore - Quantum Physics",4
+"Small Algid Energy Administrations Unit II",7200,20411,333,"Datacore - High Energy Physics",1
+"Small Algid Energy Administrations Unit II",7200,20413,333,"Datacore - Laser Physics",1
+"Medium Algid Energy Administrations Unit II",15600,20411,333,"Datacore - High Energy Physics",2
+"Medium Algid Energy Administrations Unit II",15600,20413,333,"Datacore - Laser Physics",2
+"Capital Algid Energy Administrations Unit II",30900,20411,333,"Datacore - High Energy Physics",4
+"Capital Algid Energy Administrations Unit II",30900,20413,333,"Datacore - Laser Physics",4
+"Small Energy Ambit Extension II",7200,20411,333,"Datacore - High Energy Physics",1
+"Small Energy Ambit Extension II",7200,20413,333,"Datacore - Laser Physics",1
+"Medium Energy Ambit Extension II",15600,20411,333,"Datacore - High Energy Physics",2
+"Medium Energy Ambit Extension II",15600,20413,333,"Datacore - Laser Physics",2
+"Capital Energy Ambit Extension II",30900,20411,333,"Datacore - High Energy Physics",4
+"Capital Energy Ambit Extension II",30900,20413,333,"Datacore - Laser Physics",4
+"Small Energy Burst Aerator II",7200,20411,333,"Datacore - High Energy Physics",1
+"Small Energy Burst Aerator II",7200,20413,333,"Datacore - Laser Physics",1
+"Medium Energy Burst Aerator II",15600,20411,333,"Datacore - High Energy Physics",2
+"Medium Energy Burst Aerator II",15600,20413,333,"Datacore - Laser Physics",2
+"Capital Energy Burst Aerator II",30900,20411,333,"Datacore - High Energy Physics",4
+"Capital Energy Burst Aerator II",30900,20413,333,"Datacore - Laser Physics",4
+"Small Energy Collision Accelerator II",7200,20411,333,"Datacore - High Energy Physics",1
+"Small Energy Collision Accelerator II",7200,20413,333,"Datacore - Laser Physics",1
+"Medium Energy Collision Accelerator II",15600,20411,333,"Datacore - High Energy Physics",2
+"Medium Energy Collision Accelerator II",15600,20413,333,"Datacore - Laser Physics",2
+"Capital Energy Collision Accelerator II",30900,20411,333,"Datacore - High Energy Physics",4
+"Capital Energy Collision Accelerator II",30900,20413,333,"Datacore - Laser Physics",4
+"Small Energy Discharge Elutriation II",7200,20411,333,"Datacore - High Energy Physics",1
+"Small Energy Discharge Elutriation II",7200,20413,333,"Datacore - Laser Physics",1
+"Medium Energy Discharge Elutriation II",15600,20411,333,"Datacore - High Energy Physics",2
+"Medium Energy Discharge Elutriation II",15600,20413,333,"Datacore - Laser Physics",2
+"Capital Energy Discharge Elutriation II",30900,20411,333,"Datacore - High Energy Physics",4
+"Capital Energy Discharge Elutriation II",30900,20413,333,"Datacore - Laser Physics",4
+"Small Energy Locus Coordinator II",7200,20411,333,"Datacore - High Energy Physics",1
+"Small Energy Locus Coordinator II",7200,20413,333,"Datacore - Laser Physics",1
+"Medium Energy Locus Coordinator II",15600,20411,333,"Datacore - High Energy Physics",2
+"Medium Energy Locus Coordinator II",15600,20413,333,"Datacore - Laser Physics",2
+"Capital Energy Locus Coordinator II",30900,20411,333,"Datacore - High Energy Physics",4
+"Capital Energy Locus Coordinator II",30900,20413,333,"Datacore - Laser Physics",4
+"Small Energy Metastasis Adjuster II",7200,20411,333,"Datacore - High Energy Physics",1
+"Small Energy Metastasis Adjuster II",7200,20413,333,"Datacore - Laser Physics",1
+"Medium Energy Metastasis Adjuster II",15600,20411,333,"Datacore - High Energy Physics",2
+"Medium Energy Metastasis Adjuster II",15600,20413,333,"Datacore - Laser Physics",2
+"Capital Energy Metastasis Adjuster II",30900,20411,333,"Datacore - High Energy Physics",4
+"Capital Energy Metastasis Adjuster II",30900,20413,333,"Datacore - Laser Physics",4
+"Small Algid Hybrid Administrations Unit II",7200,20417,333,"Datacore - Electromagnetic Physics",1
+"Small Algid Hybrid Administrations Unit II",7200,20424,333,"Datacore - Mechanical Engineering",1
+"Medium Algid Hybrid Administrations Unit II",15600,20417,333,"Datacore - Electromagnetic Physics",2
+"Medium Algid Hybrid Administrations Unit II",15600,20424,333,"Datacore - Mechanical Engineering",2
+"Capital Algid Hybrid Administrations Unit II",30900,20417,333,"Datacore - Electromagnetic Physics",4
+"Capital Algid Hybrid Administrations Unit II",30900,20424,333,"Datacore - Mechanical Engineering",4
+"Small Hybrid Ambit Extension II",7200,20417,333,"Datacore - Electromagnetic Physics",1
+"Small Hybrid Ambit Extension II",7200,20424,333,"Datacore - Mechanical Engineering",1
+"Medium Hybrid Ambit Extension II",15600,20417,333,"Datacore - Electromagnetic Physics",2
+"Medium Hybrid Ambit Extension II",15600,20424,333,"Datacore - Mechanical Engineering",2
+"Capital Hybrid Ambit Extension II",30900,20417,333,"Datacore - Electromagnetic Physics",4
+"Capital Hybrid Ambit Extension II",30900,20424,333,"Datacore - Mechanical Engineering",4
+"Small Hybrid Burst Aerator II",7200,20417,333,"Datacore - Electromagnetic Physics",1
+"Small Hybrid Burst Aerator II",7200,20424,333,"Datacore - Mechanical Engineering",1
+"Medium Hybrid Burst Aerator II",15600,20417,333,"Datacore - Electromagnetic Physics",2
+"Medium Hybrid Burst Aerator II",15600,20424,333,"Datacore - Mechanical Engineering",2
+"Capital Hybrid Burst Aerator II",30900,20417,333,"Datacore - Electromagnetic Physics",4
+"Capital Hybrid Burst Aerator II",30900,20424,333,"Datacore - Mechanical Engineering",4
+"Small Hybrid Collision Accelerator II",7200,20417,333,"Datacore - Electromagnetic Physics",1
+"Small Hybrid Collision Accelerator II",7200,20424,333,"Datacore - Mechanical Engineering",1
+"Medium Hybrid Collision Accelerator II",15600,20417,333,"Datacore - Electromagnetic Physics",2
+"Medium Hybrid Collision Accelerator II",15600,20424,333,"Datacore - Mechanical Engineering",2
+"Capital Hybrid Collision Accelerator II",30900,20417,333,"Datacore - Electromagnetic Physics",4
+"Capital Hybrid Collision Accelerator II",30900,20424,333,"Datacore - Mechanical Engineering",4
+"Small Hybrid Discharge Elutriation II",7200,20417,333,"Datacore - Electromagnetic Physics",1
+"Small Hybrid Discharge Elutriation II",7200,20424,333,"Datacore - Mechanical Engineering",1
+"Medium Hybrid Discharge Elutriation II",15600,20417,333,"Datacore - Electromagnetic Physics",2
+"Medium Hybrid Discharge Elutriation II",15600,20424,333,"Datacore - Mechanical Engineering",2
+"Capital Hybrid Discharge Elutriation II",30900,20417,333,"Datacore - Electromagnetic Physics",4
+"Capital Hybrid Discharge Elutriation II",30900,20424,333,"Datacore - Mechanical Engineering",4
+"Small Hybrid Locus Coordinator II",7200,20417,333,"Datacore - Electromagnetic Physics",1
+"Small Hybrid Locus Coordinator II",7200,20424,333,"Datacore - Mechanical Engineering",1
+"Medium Hybrid Locus Coordinator II",15600,20417,333,"Datacore - Electromagnetic Physics",2
+"Medium Hybrid Locus Coordinator II",15600,20424,333,"Datacore - Mechanical Engineering",2
+"Capital Hybrid Locus Coordinator II",30900,20417,333,"Datacore - Electromagnetic Physics",4
+"Capital Hybrid Locus Coordinator II",30900,20424,333,"Datacore - Mechanical Engineering",4
+"Small Hybrid Metastasis Adjuster II",7200,20417,333,"Datacore - Electromagnetic Physics",1
+"Small Hybrid Metastasis Adjuster II",7200,20424,333,"Datacore - Mechanical Engineering",1
+"Medium Hybrid Metastasis Adjuster II",15600,20417,333,"Datacore - Electromagnetic Physics",2
+"Medium Hybrid Metastasis Adjuster II",15600,20424,333,"Datacore - Mechanical Engineering",2
+"Capital Hybrid Metastasis Adjuster II",30900,20417,333,"Datacore - Electromagnetic Physics",4
+"Capital Hybrid Metastasis Adjuster II",30900,20424,333,"Datacore - Mechanical Engineering",4
+"Small Bay Loading Accelerator II",7200,20420,333,"Datacore - Rocket Science",1
+"Small Bay Loading Accelerator II",7200,20424,333,"Datacore - Mechanical Engineering",1
+"Medium Bay Loading Accelerator II",15600,20420,333,"Datacore - Rocket Science",2
+"Medium Bay Loading Accelerator II",15600,20424,333,"Datacore - Mechanical Engineering",2
+"Capital Bay Loading Accelerator II",30900,20420,333,"Datacore - Rocket Science",4
+"Capital Bay Loading Accelerator II",30900,20424,333,"Datacore - Mechanical Engineering",4
+"Small Hydraulic Bay Thrusters II",7200,20420,333,"Datacore - Rocket Science",1
+"Small Hydraulic Bay Thrusters II",7200,20424,333,"Datacore - Mechanical Engineering",1
+"Medium Hydraulic Bay Thrusters II",15600,20420,333,"Datacore - Rocket Science",2
+"Medium Hydraulic Bay Thrusters II",15600,20424,333,"Datacore - Mechanical Engineering",2
+"Small Rocket Fuel Cache Partition II",7200,20420,333,"Datacore - Rocket Science",1
+"Small Rocket Fuel Cache Partition II",7200,20424,333,"Datacore - Mechanical Engineering",1
+"Medium Rocket Fuel Cache Partition II",15600,20420,333,"Datacore - Rocket Science",2
+"Medium Rocket Fuel Cache Partition II",15600,20424,333,"Datacore - Mechanical Engineering",2
+"Capital Rocket Fuel Cache Partition II",30900,20420,333,"Datacore - Rocket Science",4
+"Capital Rocket Fuel Cache Partition II",30900,20424,333,"Datacore - Mechanical Engineering",4
+"Small Warhead Calefaction Catalyst II",7200,20420,333,"Datacore - Rocket Science",1
+"Small Warhead Calefaction Catalyst II",7200,20424,333,"Datacore - Mechanical Engineering",1
+"Medium Warhead Calefaction Catalyst II",15600,20420,333,"Datacore - Rocket Science",2
+"Medium Warhead Calefaction Catalyst II",15600,20424,333,"Datacore - Mechanical Engineering",2
+"Capital Warhead Calefaction Catalyst II",30900,20420,333,"Datacore - Rocket Science",4
+"Capital Warhead Calefaction Catalyst II",30900,20424,333,"Datacore - Mechanical Engineering",4
+"Small Warhead Flare Catalyst II",7200,20420,333,"Datacore - Rocket Science",1
+"Small Warhead Flare Catalyst II",7200,20424,333,"Datacore - Mechanical Engineering",1
+"Medium Warhead Flare Catalyst II",15600,20420,333,"Datacore - Rocket Science",2
+"Medium Warhead Flare Catalyst II",15600,20424,333,"Datacore - Mechanical Engineering",2
+"Capital Warhead Flare Catalyst II",30900,20420,333,"Datacore - Rocket Science",4
+"Capital Warhead Flare Catalyst II",30900,20424,333,"Datacore - Mechanical Engineering",4
+"Small Warhead Rigor Catalyst II",7200,20420,333,"Datacore - Rocket Science",1
+"Small Warhead Rigor Catalyst II",7200,20424,333,"Datacore - Mechanical Engineering",1
+"Medium Warhead Rigor Catalyst II",15600,20420,333,"Datacore - Rocket Science",2
+"Medium Warhead Rigor Catalyst II",15600,20424,333,"Datacore - Mechanical Engineering",2
+"Capital Warhead Rigor Catalyst II",30900,20420,333,"Datacore - Rocket Science",4
+"Capital Warhead Rigor Catalyst II",30900,20424,333,"Datacore - Mechanical Engineering",4
+"Small Projectile Ambit Extension II",7200,20423,333,"Datacore - Nuclear Physics",1
+"Small Projectile Ambit Extension II",7200,20424,333,"Datacore - Mechanical Engineering",1
+"Medium Projectile Ambit Extension II",15600,20423,333,"Datacore - Nuclear Physics",2
+"Medium Projectile Ambit Extension II",15600,20424,333,"Datacore - Mechanical Engineering",2
+"Capital Projectile Ambit Extension II",30900,20423,333,"Datacore - Nuclear Physics",4
+"Capital Projectile Ambit Extension II",30900,20424,333,"Datacore - Mechanical Engineering",4
+"Small Projectile Burst Aerator II",7200,20423,333,"Datacore - Nuclear Physics",1
+"Small Projectile Burst Aerator II",7200,20424,333,"Datacore - Mechanical Engineering",1
+"Medium Projectile Burst Aerator II",15600,20423,333,"Datacore - Nuclear Physics",2
+"Medium Projectile Burst Aerator II",15600,20424,333,"Datacore - Mechanical Engineering",2
+"Capital Projectile Burst Aerator II",30900,20423,333,"Datacore - Nuclear Physics",4
+"Capital Projectile Burst Aerator II",30900,20424,333,"Datacore - Mechanical Engineering",4
+"Small Projectile Collision Accelerator II",7200,20423,333,"Datacore - Nuclear Physics",1
+"Small Projectile Collision Accelerator II",7200,20424,333,"Datacore - Mechanical Engineering",1
+"Medium Projectile Collision Accelerator II",15600,20423,333,"Datacore - Nuclear Physics",2
+"Medium Projectile Collision Accelerator II",15600,20424,333,"Datacore - Mechanical Engineering",2
+"Capital Projectile Collision Accelerator II",30900,20423,333,"Datacore - Nuclear Physics",4
+"Capital Projectile Collision Accelerator II",30900,20424,333,"Datacore - Mechanical Engineering",4
+"Small Projectile Locus Coordinator II",7200,20423,333,"Datacore - Nuclear Physics",1
+"Small Projectile Locus Coordinator II",7200,20424,333,"Datacore - Mechanical Engineering",1
+"Medium Projectile Locus Coordinator II",15600,20423,333,"Datacore - Nuclear Physics",2
+"Medium Projectile Locus Coordinator II",15600,20424,333,"Datacore - Mechanical Engineering",2
+"Capital Projectile Locus Coordinator II",30900,20423,333,"Datacore - Nuclear Physics",4
+"Capital Projectile Locus Coordinator II",30900,20424,333,"Datacore - Mechanical Engineering",4
+"Small Projectile Metastasis Adjuster II",7200,20423,333,"Datacore - Nuclear Physics",1
+"Small Projectile Metastasis Adjuster II",7200,20424,333,"Datacore - Mechanical Engineering",1
+"Medium Projectile Metastasis Adjuster II",15600,20423,333,"Datacore - Nuclear Physics",2
+"Medium Projectile Metastasis Adjuster II",15600,20424,333,"Datacore - Mechanical Engineering",2
+"Capital Projectile Metastasis Adjuster II",30900,20423,333,"Datacore - Nuclear Physics",4
+"Capital Projectile Metastasis Adjuster II",30900,20424,333,"Datacore - Mechanical Engineering",4
+"Small Anti-EM Screen Reinforcer II",7200,20171,333,"Datacore - Hydromagnetic Physics",1
+"Small Anti-EM Screen Reinforcer II",7200,20414,333,"Datacore - Quantum Physics",1
+"Medium Anti-EM Screen Reinforcer II",15600,20171,333,"Datacore - Hydromagnetic Physics",2
+"Medium Anti-EM Screen Reinforcer II",15600,20414,333,"Datacore - Quantum Physics",2
+"Capital Anti-EM Screen Reinforcer II",30900,20171,333,"Datacore - Hydromagnetic Physics",4
+"Capital Anti-EM Screen Reinforcer II",30900,20414,333,"Datacore - Quantum Physics",4
+"Small Anti-Explosive Screen Reinforcer II",7200,20171,333,"Datacore - Hydromagnetic Physics",1
+"Small Anti-Explosive Screen Reinforcer II",7200,20414,333,"Datacore - Quantum Physics",1
+"Medium Anti-Explosive Screen Reinforcer II",15600,20171,333,"Datacore - Hydromagnetic Physics",2
+"Medium Anti-Explosive Screen Reinforcer II",15600,20414,333,"Datacore - Quantum Physics",2
+"Capital Anti-Explosive Screen Reinforcer II",30900,20171,333,"Datacore - Hydromagnetic Physics",4
+"Capital Anti-Explosive Screen Reinforcer II",30900,20414,333,"Datacore - Quantum Physics",4
+"Small Anti-Kinetic Screen Reinforcer II",7200,20171,333,"Datacore - Hydromagnetic Physics",1
+"Small Anti-Kinetic Screen Reinforcer II",7200,20414,333,"Datacore - Quantum Physics",1
+"Medium Anti-Kinetic Screen Reinforcer II",15600,20171,333,"Datacore - Hydromagnetic Physics",2
+"Medium Anti-Kinetic Screen Reinforcer II",15600,20414,333,"Datacore - Quantum Physics",2
+"Capital Anti-Kinetic Screen Reinforcer II",30900,20171,333,"Datacore - Hydromagnetic Physics",4
+"Capital Anti-Kinetic Screen Reinforcer II",30900,20414,333,"Datacore - Quantum Physics",4
+"Small Anti-Thermal Screen Reinforcer II",7200,20171,333,"Datacore - Hydromagnetic Physics",1
+"Small Anti-Thermal Screen Reinforcer II",7200,20414,333,"Datacore - Quantum Physics",1
+"Medium Anti-Thermal Screen Reinforcer II",15600,20171,333,"Datacore - Hydromagnetic Physics",2
+"Medium Anti-Thermal Screen Reinforcer II",15600,20414,333,"Datacore - Quantum Physics",2
+"Capital Anti-Thermal Screen Reinforcer II",30900,20171,333,"Datacore - Hydromagnetic Physics",4
+"Capital Anti-Thermal Screen Reinforcer II",30900,20414,333,"Datacore - Quantum Physics",4
+"Small Core Defense Capacitor Safeguard II",7200,20171,333,"Datacore - Hydromagnetic Physics",1
+"Small Core Defense Capacitor Safeguard II",7200,20414,333,"Datacore - Quantum Physics",1
+"Medium Core Defense Capacitor Safeguard II",15600,20171,333,"Datacore - Hydromagnetic Physics",2
+"Medium Core Defense Capacitor Safeguard II",15600,20414,333,"Datacore - Quantum Physics",2
+"Capital Core Defense Capacitor Safeguard II",30900,20171,333,"Datacore - Hydromagnetic Physics",4
+"Capital Core Defense Capacitor Safeguard II",30900,20414,333,"Datacore - Quantum Physics",4
+"Small Core Defense Charge Economizer II",7200,20171,333,"Datacore - Hydromagnetic Physics",1
+"Small Core Defense Charge Economizer II",7200,20414,333,"Datacore - Quantum Physics",1
+"Medium Core Defense Charge Economizer II",15600,20171,333,"Datacore - Hydromagnetic Physics",2
+"Medium Core Defense Charge Economizer II",15600,20414,333,"Datacore - Quantum Physics",2
+"Capital Core Defense Charge Economizer II",30900,20171,333,"Datacore - Hydromagnetic Physics",4
+"Capital Core Defense Charge Economizer II",30900,20414,333,"Datacore - Quantum Physics",4
+"Small Core Defense Field Extender II",7200,20171,333,"Datacore - Hydromagnetic Physics",1
+"Small Core Defense Field Extender II",7200,20414,333,"Datacore - Quantum Physics",1
+"Medium Core Defense Field Extender II",15600,20171,333,"Datacore - Hydromagnetic Physics",2
+"Medium Core Defense Field Extender II",15600,20414,333,"Datacore - Quantum Physics",2
+"Capital Core Defense Field Extender II",30900,20171,333,"Datacore - Hydromagnetic Physics",4
+"Capital Core Defense Field Extender II",30900,20414,333,"Datacore - Quantum Physics",4
+"Small Core Defense Field Purger II",7200,20171,333,"Datacore - Hydromagnetic Physics",1
+"Small Core Defense Field Purger II",7200,20414,333,"Datacore - Quantum Physics",1
+"Medium Core Defense Field Purger II",15600,20171,333,"Datacore - Hydromagnetic Physics",2
+"Medium Core Defense Field Purger II",15600,20414,333,"Datacore - Quantum Physics",2
+"Capital Core Defense Field Purger II",30900,20171,333,"Datacore - Hydromagnetic Physics",4
+"Capital Core Defense Field Purger II",30900,20414,333,"Datacore - Quantum Physics",4
+"Small Core Defense Operational Solidifier II",7200,20171,333,"Datacore - Hydromagnetic Physics",1
+"Small Core Defense Operational Solidifier II",7200,20414,333,"Datacore - Quantum Physics",1
+"Medium Core Defense Operational Solidifier II",15600,20171,333,"Datacore - Hydromagnetic Physics",2
+"Medium Core Defense Operational Solidifier II",15600,20414,333,"Datacore - Quantum Physics",2
+"Capital Core Defense Operational Solidifier II",30900,20171,333,"Datacore - Hydromagnetic Physics",4
+"Capital Core Defense Operational Solidifier II",30900,20414,333,"Datacore - Quantum Physics",4
+"Small Drone Control Range Augmentor II",7200,20418,333,"Datacore - Electronic Engineering",1
+"Small Drone Control Range Augmentor II",7200,20424,333,"Datacore - Mechanical Engineering",1
+"Medium Drone Control Range Augmentor II",15600,20418,333,"Datacore - Electronic Engineering",2
+"Medium Drone Control Range Augmentor II",15600,20424,333,"Datacore - Mechanical Engineering",2
+"Small Drone Durability Enhancer II",7200,20418,333,"Datacore - Electronic Engineering",1
+"Small Drone Durability Enhancer II",7200,20424,333,"Datacore - Mechanical Engineering",1
+"Medium Drone Durability Enhancer II",15600,20418,333,"Datacore - Electronic Engineering",2
+"Medium Drone Durability Enhancer II",15600,20424,333,"Datacore - Mechanical Engineering",2
+"Small Drone Mining Augmentor II",7200,20418,333,"Datacore - Electronic Engineering",1
+"Small Drone Mining Augmentor II",7200,20424,333,"Datacore - Mechanical Engineering",1
+"Medium Drone Mining Augmentor II",15600,20418,333,"Datacore - Electronic Engineering",2
+"Medium Drone Mining Augmentor II",15600,20424,333,"Datacore - Mechanical Engineering",2
+"Small Drone Repair Augmentor II",7200,20418,333,"Datacore - Electronic Engineering",1
+"Small Drone Repair Augmentor II",7200,20424,333,"Datacore - Mechanical Engineering",1
+"Medium Drone Repair Augmentor II",15600,20418,333,"Datacore - Electronic Engineering",2
+"Medium Drone Repair Augmentor II",15600,20424,333,"Datacore - Mechanical Engineering",2
+"Small Drone Speed Augmentor II",7200,20418,333,"Datacore - Electronic Engineering",1
+"Small Drone Speed Augmentor II",7200,20424,333,"Datacore - Mechanical Engineering",1
+"Medium Drone Speed Augmentor II",15600,20418,333,"Datacore - Electronic Engineering",2
+"Medium Drone Speed Augmentor II",15600,20424,333,"Datacore - Mechanical Engineering",2
+"Small Drone Scope Chip II",7200,20418,333,"Datacore - Electronic Engineering",1
+"Small Drone Scope Chip II",7200,20424,333,"Datacore - Mechanical Engineering",1
+"Medium Drone Scope Chip II",15600,20418,333,"Datacore - Electronic Engineering",2
+"Medium Drone Scope Chip II",15600,20424,333,"Datacore - Mechanical Engineering",2
+"Small Sentry Damage Augmentor II",7200,20418,333,"Datacore - Electronic Engineering",1
+"Small Sentry Damage Augmentor II",7200,20424,333,"Datacore - Mechanical Engineering",1
+"Medium Sentry Damage Augmentor II",15600,20418,333,"Datacore - Electronic Engineering",2
+"Medium Sentry Damage Augmentor II",15600,20424,333,"Datacore - Mechanical Engineering",2
+"Small Stasis Drone Augmentor II",7200,20418,333,"Datacore - Electronic Engineering",1
+"Small Stasis Drone Augmentor II",7200,20424,333,"Datacore - Mechanical Engineering",1
+"Medium Stasis Drone Augmentor II",15600,20418,333,"Datacore - Electronic Engineering",2
+"Medium Stasis Drone Augmentor II",15600,20424,333,"Datacore - Mechanical Engineering",2
+"Scan Acquisition Array II",30900,20417,333,"Datacore - Electromagnetic Physics",2
+"Scan Acquisition Array II",30900,20418,333,"Datacore - Electronic Engineering",2
+"Scan Pinpointing Array II",30900,20417,333,"Datacore - Electromagnetic Physics",2
+"Scan Pinpointing Array II",30900,20418,333,"Datacore - Electronic Engineering",2
+"Scan Rangefinding Array II",30900,20417,333,"Datacore - Electromagnetic Physics",2
+"Scan Rangefinding Array II",30900,20418,333,"Datacore - Electronic Engineering",2
+"Survey Probe Launcher II",51000,20420,333,"Datacore - Rocket Science",1
+"Survey Probe Launcher II",51000,20424,333,"Datacore - Mechanical Engineering",1
+"Capital Drone Control Range Augmentor II",30900,20418,333,"Datacore - Electronic Engineering",4
+"Capital Drone Control Range Augmentor II",30900,20424,333,"Datacore - Mechanical Engineering",4
+"Capital Drone Durability Enhancer II",30900,20418,333,"Datacore - Electronic Engineering",4
+"Capital Drone Durability Enhancer II",30900,20424,333,"Datacore - Mechanical Engineering",4
+"Capital Drone Mining Augmentor II",30900,20418,333,"Datacore - Electronic Engineering",4
+"Capital Drone Mining Augmentor II",30900,20424,333,"Datacore - Mechanical Engineering",4
+"Capital Drone Repair Augmentor II",30900,20418,333,"Datacore - Electronic Engineering",4
+"Capital Drone Repair Augmentor II",30900,20424,333,"Datacore - Mechanical Engineering",4
+"Capital Drone Scope Chip II",30900,20418,333,"Datacore - Electronic Engineering",4
+"Capital Drone Scope Chip II",30900,20424,333,"Datacore - Mechanical Engineering",4
+"Capital Drone Speed Augmentor II",30900,20418,333,"Datacore - Electronic Engineering",4
+"Capital Drone Speed Augmentor II",30900,20424,333,"Datacore - Mechanical Engineering",4
+"Capital Hydraulic Bay Thrusters II",30900,20420,333,"Datacore - Rocket Science",4
+"Capital Hydraulic Bay Thrusters II",30900,20424,333,"Datacore - Mechanical Engineering",4
+"Capital Processor Overclocking Unit II",30900,20417,333,"Datacore - Electromagnetic Physics",4
+"Capital Processor Overclocking Unit II",30900,20418,333,"Datacore - Electronic Engineering",4
+"Capital Sentry Damage Augmentor II",30900,20418,333,"Datacore - Electronic Engineering",4
+"Capital Sentry Damage Augmentor II",30900,20424,333,"Datacore - Mechanical Engineering",4
+"Capital Stasis Drone Augmentor II",30900,20418,333,"Datacore - Electronic Engineering",4
+"Capital Stasis Drone Augmentor II",30900,20424,333,"Datacore - Mechanical Engineering",4
+"Rapid Heavy Missile Launcher II",104400,20420,333,"Datacore - Rocket Science",6
+"Rapid Heavy Missile Launcher II",104400,20424,333,"Datacore - Mechanical Engineering",6
+Prospect,63900,20410,333,"Datacore - Gallentean Starship Engineering",2
+Prospect,63900,20424,333,"Datacore - Mechanical Engineering",2
+"Heavy Hull Maintenance Bot II",23700,20418,333,"Datacore - Electronic Engineering",3
+"Heavy Hull Maintenance Bot II",23700,20424,333,"Datacore - Mechanical Engineering",3
+"Medium Hull Maintenance Bot II",15900,20418,333,"Datacore - Electronic Engineering",2
+"Medium Hull Maintenance Bot II",15900,20424,333,"Datacore - Mechanical Engineering",2
+"Light Hull Maintenance Bot II",7800,20418,333,"Datacore - Electronic Engineering",1
+"Light Hull Maintenance Bot II",7800,20424,333,"Datacore - Mechanical Engineering",1
+"Omnidirectional Tracking Enhancer II",13800,20418,333,"Datacore - Electronic Engineering",2
+"Omnidirectional Tracking Enhancer II",13800,20424,333,"Datacore - Mechanical Engineering",2
+"Small Transverse Bulkhead II",81300,20171,333,"Datacore - Hydromagnetic Physics",10
+"Small Transverse Bulkhead II",81300,20416,333,"Datacore - Nanite Engineering",10
+"Medium Transverse Bulkhead II",178800,20171,333,"Datacore - Hydromagnetic Physics",20
+"Medium Transverse Bulkhead II",178800,20416,333,"Datacore - Nanite Engineering",20
+"Large Transverse Bulkhead II",23400,20171,333,"Datacore - Hydromagnetic Physics",3
+"Large Transverse Bulkhead II",23400,20416,333,"Datacore - Nanite Engineering",3
+"Capital Transverse Bulkhead II",30900,20171,333,"Datacore - Hydromagnetic Physics",4
+"Capital Transverse Bulkhead II",30900,20416,333,"Datacore - Nanite Engineering",4

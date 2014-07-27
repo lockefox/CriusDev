@@ -31,6 +31,31 @@ jobType_arr = ["NOT VALID", "Manufacturing", "NOT VALID", "Researching Time Effi
 var status_arr = [];
 status_arr = ["Failed", "Delivered", "Aborted", "GM Aborted", "Inflight Unachored", "Destroyed"];
 ////	UTILITIES	////
+function lshift(data_array, shift_count){//shifts an array left.  DESTRUCTIVE!
+  var hold_array = [];
+  var filler ="";
+  
+  var data_copy = data_array;//holds data (destructive operation)
+  
+  for (var rows=0; rows < data_array.length; rows++){
+    hold_array = data_copy[rows];
+    for (var cnt=0; cnt < shift_count; cnt++){
+     var trash = hold_array.shift();
+    }
+    data_copy[rows]=hold_array;
+  }
+  
+  return data_copy;
+}
+
+function zero_array(array_length){
+  var out_array = []
+  for (var i=0; i<array_length; i++){
+    out_array[i]=0 
+  }
+  return out_array
+}
+
 function date_array(days)
 {
   var daterange = [];

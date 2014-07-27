@@ -1,0 +1,2213 @@
+typeName,time,materialtypeID,groupID,typeName,quantity
+"Small Shield Extender I",900,34,18,Tritanium,916
+"Small Shield Extender I",900,35,18,Pyerite,64
+"Small Shield Extender I",900,36,18,Mexallon,29
+"Small Shield Extender I",900,38,18,Nocxium,4
+"Shield Recharger I",1800,34,18,Tritanium,458
+"Shield Recharger I",1800,35,18,Pyerite,610
+"Shield Recharger I",1800,36,18,Mexallon,51
+"Shield Recharger I",1800,37,18,Isogen,4
+"Shield Recharger I",1800,38,18,Nocxium,3
+"Small Shield Booster I",900,34,18,Tritanium,1327
+"Small Shield Booster I",900,35,18,Pyerite,481
+"Small Shield Booster I",900,36,18,Mexallon,113
+"1MN Afterburner I",900,34,18,Tritanium,708
+"1MN Afterburner I",900,35,18,Pyerite,643
+"1MN Afterburner I",900,36,18,Mexallon,1
+"1MN Afterburner I",900,38,18,Nocxium,1
+"1MN Microwarpdrive I",900,34,18,Tritanium,3967
+"1MN Microwarpdrive I",900,35,18,Pyerite,2131
+"1MN Microwarpdrive I",900,36,18,Mexallon,228
+"1MN Microwarpdrive I",900,37,18,Isogen,13
+"1MN Microwarpdrive I",900,38,18,Nocxium,2
+"Warp Scrambler I",1800,34,18,Tritanium,502
+"Warp Scrambler I",1800,35,18,Pyerite,297
+"Warp Scrambler I",1800,36,18,Mexallon,334
+"Warp Scrambler I",1800,37,18,Isogen,197
+"Warp Scrambler I",1800,39,18,Zydrine,2
+"Miner I",900,34,18,Tritanium,1324
+"Miner I",900,35,18,Pyerite,481
+"Miner I",900,36,18,Mexallon,119
+"Gyrostabilizer I",900,34,18,Tritanium,773
+"Gyrostabilizer I",900,35,18,Pyerite,491
+"Gyrostabilizer I",900,36,18,Mexallon,518
+"Gyrostabilizer I",900,37,18,Isogen,3
+"Gyrostabilizer I",900,39,18,Zydrine,2
+"Stasis Webifier I",1800,34,18,Tritanium,862
+"Stasis Webifier I",1800,35,18,Pyerite,792
+"Stasis Webifier I",1800,36,18,Mexallon,529
+"Small Armor Repairer I",900,34,18,Tritanium,858
+"Small Armor Repairer I",900,35,18,Pyerite,288
+"Small Armor Repairer I",900,40,18,Megacyte,2
+"Small Remote Capacitor Transmitter I",900,34,18,Tritanium,7396
+"Small Remote Capacitor Transmitter I",900,35,18,Pyerite,967
+"Small Remote Capacitor Transmitter I",900,38,18,Nocxium,3
+"Small Remote Capacitor Transmitter I",900,40,18,Megacyte,1
+"EM Plating I",900,34,18,Tritanium,666
+"EM Plating I",900,35,18,Pyerite,502
+"EM Plating I",900,36,18,Mexallon,1
+"EM Plating I",900,37,18,Isogen,1
+"Overdrive Injector System I",900,34,18,Tritanium,234
+"Overdrive Injector System I",900,35,18,Pyerite,3413
+"Capacitor Flux Coil I",900,34,18,Tritanium,507
+"Capacitor Flux Coil I",900,35,18,Pyerite,51
+"Capacitor Flux Coil I",900,36,18,Mexallon,73
+"Capacitor Flux Coil I",900,37,18,Isogen,7
+"Shield Flux Coil I",900,34,18,Tritanium,231
+"Shield Flux Coil I",900,35,18,Pyerite,307
+"Shield Flux Coil I",900,36,18,Mexallon,18
+"Shield Flux Coil I",900,37,18,Isogen,9
+"Explosive Plating I",900,34,18,Tritanium,666
+"Explosive Plating I",900,35,18,Pyerite,502
+"Explosive Plating I",900,36,18,Mexallon,1
+"Explosive Plating I",900,37,18,Isogen,1
+"Layered Plating I",900,34,18,Tritanium,666
+"Layered Plating I",900,35,18,Pyerite,502
+"Layered Plating I",900,36,18,Mexallon,1
+"Layered Plating I",900,37,18,Isogen,1
+"Kinetic Plating I",900,34,18,Tritanium,666
+"Kinetic Plating I",900,35,18,Pyerite,502
+"Kinetic Plating I",900,36,18,Mexallon,1
+"Kinetic Plating I",900,37,18,Isogen,1
+"Thermic Plating I",900,34,18,Tritanium,666
+"Thermic Plating I",900,35,18,Pyerite,502
+"Thermic Plating I",900,36,18,Mexallon,1
+"Thermic Plating I",900,37,18,Isogen,1
+"Adaptive Nano Plating I",900,34,18,Tritanium,896
+"Adaptive Nano Plating I",900,35,18,Pyerite,698
+"Adaptive Nano Plating I",900,36,18,Mexallon,29
+"Expanded Cargohold I",900,37,18,Isogen,10
+"Expanded Cargohold I",900,38,18,Nocxium,1
+"Reinforced Bulkheads I",900,34,18,Tritanium,6944
+"Reactor Control Unit I",900,34,18,Tritanium,516
+"Reactor Control Unit I",900,35,18,Pyerite,67
+"Reactor Control Unit I",900,36,18,Mexallon,2
+"Reactor Control Unit I",900,37,18,Isogen,73
+"Inertia Stabilizers I",900,34,18,Tritanium,1786
+"Inertia Stabilizers I",900,35,18,Pyerite,304
+"Inertia Stabilizers I",900,36,18,Mexallon,1
+"Shield Power Relay I",900,34,18,Tritanium,1116
+"Shield Power Relay I",900,35,18,Pyerite,861
+"Shield Power Relay I",900,38,18,Nocxium,3
+"Auto Targeting System I",2700,34,18,Tritanium,596
+"Auto Targeting System I",2700,35,18,Pyerite,16
+"Auto Targeting System I",2700,36,18,Mexallon,3
+"Auto Targeting System I",2700,37,18,Isogen,14
+"Capacitor Power Relay I",900,34,18,Tritanium,1116
+"Capacitor Power Relay I",900,35,18,Pyerite,861
+"Capacitor Power Relay I",900,38,18,Nocxium,3
+"Power Diagnostic System I",900,35,18,Pyerite,658
+"Power Diagnostic System I",900,36,18,Mexallon,2
+"Power Diagnostic System I",900,37,18,Isogen,4
+"Power Diagnostic System I",900,38,18,Nocxium,1
+"Power Diagnostic System I",900,39,18,Zydrine,2
+"Small Proton Smartbomb I",900,34,18,Tritanium,6538
+"Small Proton Smartbomb I",900,35,18,Pyerite,4288
+"Small Proton Smartbomb I",900,36,18,Mexallon,7
+"Small Proton Smartbomb I",900,38,18,Nocxium,2
+"Small Proton Smartbomb I",900,39,18,Zydrine,3
+"Small Graviton Smartbomb I",900,34,18,Tritanium,6649
+"Small Graviton Smartbomb I",900,35,18,Pyerite,4381
+"Small Graviton Smartbomb I",900,36,18,Mexallon,97
+"Small Graviton Smartbomb I",900,38,18,Nocxium,1
+"Small Graviton Smartbomb I",900,40,18,Megacyte,1
+"Small Plasma Smartbomb I",900,34,18,Tritanium,7889
+"Small Plasma Smartbomb I",900,35,18,Pyerite,4948
+"Small Plasma Smartbomb I",900,36,18,Mexallon,51
+"Small Plasma Smartbomb I",900,38,18,Nocxium,1
+"Small Plasma Smartbomb I",900,40,18,Megacyte,1
+"Small EMP Smartbomb I",900,34,18,Tritanium,7884
+"Small EMP Smartbomb I",900,35,18,Pyerite,5283
+"Small EMP Smartbomb I",900,36,18,Mexallon,17
+"Small EMP Smartbomb I",900,39,18,Zydrine,2
+"Small EMP Smartbomb I",900,40,18,Megacyte,1
+"Ship Scanner I",1800,34,18,Tritanium,551
+"Ship Scanner I",1800,36,18,Mexallon,34
+"Rapid Light Missile Launcher I",1800,34,18,Tritanium,560
+"Rapid Light Missile Launcher I",1800,35,18,Pyerite,492
+"Rapid Light Missile Launcher I",1800,36,18,Mexallon,92
+"Rapid Light Missile Launcher I",1800,37,18,Isogen,2
+"Rapid Light Missile Launcher I",1800,38,18,Nocxium,3
+"Medium Capacitor Booster I",1800,34,18,Tritanium,242
+"Medium Capacitor Booster I",1800,35,18,Pyerite,148
+"Medium Capacitor Booster I",1800,36,18,Mexallon,569
+"Medium Capacitor Booster I",1800,39,18,Zydrine,1
+"Medium Capacitor Booster I",1800,40,18,Megacyte,1
+"Cap Recharger I",1800,34,18,Tritanium,763
+"Cap Recharger I",1800,35,18,Pyerite,321
+"Cap Recharger I",1800,36,18,Mexallon,412
+"Cap Recharger I",1800,40,18,Megacyte,1
+"Cargo Scanner I",1800,34,18,Tritanium,589
+"Cargo Scanner I",1800,35,18,Pyerite,3
+"Cargo Scanner I",1800,36,18,Mexallon,14
+"Damage Control I",900,34,18,Tritanium,1062
+"Damage Control I",900,35,18,Pyerite,2
+"Damage Control I",900,36,18,Mexallon,53
+"ECM Burst I",1800,34,18,Tritanium,538
+"ECM Burst I",1800,35,18,Pyerite,52
+"ECM Burst I",1800,36,18,Mexallon,298
+"ECM Burst I",1800,37,18,Isogen,9
+"ECM Burst I",1800,38,18,Nocxium,4
+"ECM Burst I",1800,39,18,Zydrine,2
+"ECM Burst I",1800,40,18,Megacyte,3
+"Infiltrator I",600,34,18,Tritanium,3133
+"Infiltrator I",600,35,18,Pyerite,160
+"Infiltrator I",600,36,18,Mexallon,154
+"Infiltrator I",600,37,18,Isogen,1
+"Infiltrator I",600,38,18,Nocxium,8
+"Infiltrator I",600,39,18,Zydrine,1
+"Hammerhead I",600,34,18,Tritanium,3413
+"Hammerhead I",600,35,18,Pyerite,2
+"Hammerhead I",600,36,18,Mexallon,224
+"Hammerhead I",600,37,18,Isogen,11
+"Hammerhead I",600,39,18,Zydrine,2
+"Praetor I",900,34,18,Tritanium,8516
+"Praetor I",900,36,18,Mexallon,627
+"Praetor I",900,37,18,Isogen,9
+"Praetor I",900,38,18,Nocxium,2
+"Praetor I",900,39,18,Zydrine,4
+"Praetor I",900,40,18,Megacyte,2
+"Acolyte I",300,34,18,Tritanium,471
+"Acolyte I",300,36,18,Mexallon,4
+"Acolyte I",300,38,18,Nocxium,2
+"Adaptive Invulnerability Field I",1800,34,18,Tritanium,8071
+"Adaptive Invulnerability Field I",1800,35,18,Pyerite,7488
+"Adaptive Invulnerability Field I",1800,36,18,Mexallon,219
+"Adaptive Invulnerability Field I",1800,37,18,Isogen,2
+"Explosive Deflection Field I",1800,34,18,Tritanium,8071
+"Explosive Deflection Field I",1800,35,18,Pyerite,7488
+"Explosive Deflection Field I",1800,36,18,Mexallon,219
+"Explosive Deflection Field I",1800,37,18,Isogen,2
+"Kinetic Deflection Field I",1800,34,18,Tritanium,8071
+"Kinetic Deflection Field I",1800,35,18,Pyerite,7488
+"Kinetic Deflection Field I",1800,36,18,Mexallon,219
+"Kinetic Deflection Field I",1800,37,18,Isogen,2
+"EM Ward Field I",1800,34,18,Tritanium,8071
+"EM Ward Field I",1800,35,18,Pyerite,7488
+"EM Ward Field I",1800,36,18,Mexallon,219
+"EM Ward Field I",1800,37,18,Isogen,2
+"Thermic Dissipation Field I",1800,34,18,Tritanium,8071
+"Thermic Dissipation Field I",1800,35,18,Pyerite,7488
+"Thermic Dissipation Field I",1800,36,18,Mexallon,219
+"Thermic Dissipation Field I",1800,37,18,Isogen,2
+"Survey Scanner I",1800,34,18,Tritanium,1111
+"Passive Targeter I",1800,34,18,Tritanium,13889
+"Small Hull Repairer I",900,34,18,Tritanium,470
+"Small Hull Repairer I",900,35,18,Pyerite,6827
+"Light Missile Launcher I",900,34,18,Tritanium,471
+"Light Missile Launcher I",900,35,18,Pyerite,716
+"Heavy Missile Launcher I",1800,34,18,Tritanium,3258
+"Heavy Missile Launcher I",1800,35,18,Pyerite,2926
+"Heavy Missile Launcher I",1800,36,18,Mexallon,107
+"Torpedo Launcher I",2700,34,18,Tritanium,122
+"Torpedo Launcher I",2700,35,18,Pyerite,1342
+"Torpedo Launcher I",2700,38,18,Nocxium,9
+"Torpedo Launcher I",2700,39,18,Zydrine,2
+"Torpedo Launcher I",2700,40,18,Megacyte,11
+"Wasp I",900,34,18,Tritanium,5947
+"Wasp I",900,35,18,Pyerite,729
+"Wasp I",900,37,18,Isogen,47
+"Wasp I",900,38,18,Nocxium,27
+"Wasp I",900,39,18,Zydrine,9
+"Ogre I",900,34,18,Tritanium,258
+"Ogre I",900,35,18,Pyerite,4964
+"Ogre I",900,38,18,Nocxium,2
+"Ogre I",900,40,18,Megacyte,4
+"Hobgoblin I",300,34,18,Tritanium,509
+"Hobgoblin I",300,35,18,Pyerite,7
+"Hobgoblin I",300,37,18,Isogen,4
+"Hobgoblin I",300,38,18,Nocxium,2
+"Hornet I",300,34,18,Tritanium,538
+"Hornet I",300,35,18,Pyerite,69
+"Hornet I",300,37,18,Isogen,4
+"Hornet I",300,38,18,Nocxium,2
+"Berserker I",900,34,18,Tritanium,7120
+"Berserker I",900,35,18,Pyerite,896
+"Berserker I",900,37,18,Isogen,73
+"Berserker I",900,38,18,Nocxium,9
+"Berserker I",900,39,18,Zydrine,4
+"Warrior I",300,34,18,Tritanium,951
+"Warrior I",300,35,18,Pyerite,7
+"Warrior I",300,36,18,Mexallon,7
+"Warrior I",300,38,18,Nocxium,4
+"Explosive Deflection Amplifier I",1800,34,18,Tritanium,2106
+"Explosive Deflection Amplifier I",1800,35,18,Pyerite,2077
+"Thermic Dissipation Amplifier I",1800,34,18,Tritanium,2106
+"Thermic Dissipation Amplifier I",1800,35,18,Pyerite,2077
+"Kinetic Deflection Amplifier I",1800,34,18,Tritanium,2106
+"Kinetic Deflection Amplifier I",1800,35,18,Pyerite,2077
+"EM Ward Amplifier I",1800,34,18,Tritanium,2106
+"EM Ward Amplifier I",1800,35,18,Pyerite,2077
+"Nanofiber Internal Structure I",900,37,18,Isogen,10
+"Nanofiber Internal Structure I",900,38,18,Nocxium,1
+"Mjolnir Light Missile",300,34,18,Tritanium,150
+"Mjolnir Light Missile",300,35,18,Pyerite,18
+"Mjolnir Light Missile",300,36,18,Mexallon,12
+"Inferno Cruise Missile",900,34,18,Tritanium,1842
+"Inferno Cruise Missile",900,35,18,Pyerite,707
+"Inferno Cruise Missile",900,39,18,Zydrine,2
+"Scourge Heavy Missile",600,34,18,Tritanium,820
+"Scourge Heavy Missile",600,38,18,Nocxium,2
+"Inferno Cruise Missile",900,34,18,Tritanium,1842
+"Inferno Cruise Missile",900,35,18,Pyerite,707
+"Inferno Cruise Missile",900,39,18,Zydrine,2
+"Inferno Light Missile",300,34,18,Tritanium,58
+"Inferno Light Missile",300,35,18,Pyerite,72
+"Nova Heavy Missile",600,34,18,Tritanium,351
+"Nova Heavy Missile",600,35,18,Pyerite,119
+"Nova Heavy Missile",600,38,18,Nocxium,1
+"Nova Torpedo",900,34,18,Tritanium,3729
+"Nova Torpedo",900,35,18,Pyerite,833
+"Nova Torpedo",900,39,18,Zydrine,7
+"Inferno Torpedo",900,34,18,Tritanium,3989
+"Inferno Torpedo",900,35,18,Pyerite,2939
+"Inferno Torpedo",900,36,18,Mexallon,29
+"Inferno Torpedo",900,37,18,Isogen,2
+"Inferno Torpedo",900,38,18,Nocxium,2
+"Inferno Torpedo",900,39,18,Zydrine,1
+"Mjolnir Rocket",300,34,18,Tritanium,48
+"Mjolnir Rocket",300,35,18,Pyerite,37
+"1200mm Artillery Cannon I",2700,34,18,Tritanium,91067
+"1200mm Artillery Cannon I",2700,35,18,Pyerite,23527
+"1200mm Artillery Cannon I",2700,36,18,Mexallon,8613
+"1200mm Artillery Cannon I",2700,37,18,Isogen,2294
+"1200mm Artillery Cannon I",2700,38,18,Nocxium,324
+"1200mm Artillery Cannon I",2700,39,18,Zydrine,9
+"1200mm Artillery Cannon I",2700,40,18,Megacyte,26
+"125mm Gatling AutoCannon I",2700,34,18,Tritanium,231
+"125mm Gatling AutoCannon I",2700,35,18,Pyerite,220
+"150mm Light AutoCannon I",900,34,18,Tritanium,996
+"150mm Light AutoCannon I",900,35,18,Pyerite,300
+"150mm Light AutoCannon I",900,39,18,Zydrine,1
+"200mm AutoCannon I",900,34,18,Tritanium,1667
+"200mm AutoCannon I",900,35,18,Pyerite,144
+"200mm AutoCannon I",900,36,18,Mexallon,83
+"200mm AutoCannon I",900,37,18,Isogen,22
+"220mm Vulcan AutoCannon I",1800,34,18,Tritanium,4453
+"220mm Vulcan AutoCannon I",1800,35,18,Pyerite,1287
+"220mm Vulcan AutoCannon I",1800,36,18,Mexallon,1199
+"220mm Vulcan AutoCannon I",1800,40,18,Megacyte,1
+"250mm Light Artillery Cannon I",900,34,18,Tritanium,1596
+"250mm Light Artillery Cannon I",900,35,18,Pyerite,690
+"250mm Light Artillery Cannon I",900,36,18,Mexallon,144
+"425mm AutoCannon I",1800,34,18,Tritanium,4529
+"425mm AutoCannon I",1800,35,18,Pyerite,1643
+"425mm AutoCannon I",1800,36,18,Mexallon,2413
+"425mm AutoCannon I",1800,38,18,Nocxium,1
+"650mm Artillery Cannon I",1800,34,18,Tritanium,9089
+"650mm Artillery Cannon I",1800,35,18,Pyerite,2786
+"650mm Artillery Cannon I",1800,36,18,Mexallon,2827
+"650mm Artillery Cannon I",1800,37,18,Isogen,14
+"650mm Artillery Cannon I",1800,38,18,Nocxium,1
+"800mm Repeating Cannon I",2700,34,18,Tritanium,68307
+"800mm Repeating Cannon I",2700,35,18,Pyerite,17839
+"800mm Repeating Cannon I",2700,36,18,Mexallon,7197
+"800mm Repeating Cannon I",2700,37,18,Isogen,1951
+"800mm Repeating Cannon I",2700,38,18,Nocxium,234
+"800mm Repeating Cannon I",2700,39,18,Zydrine,6
+"800mm Repeating Cannon I",2700,40,18,Megacyte,13
+"Dual 180mm AutoCannon I",1800,34,18,Tritanium,827
+"Dual 180mm AutoCannon I",1800,35,18,Pyerite,598
+"Dual 180mm AutoCannon I",1800,36,18,Mexallon,493
+"Dual 425mm AutoCannon I",2700,34,18,Tritanium,13684
+"Dual 425mm AutoCannon I",2700,35,18,Pyerite,4117
+"Dual 425mm AutoCannon I",2700,36,18,Mexallon,3851
+"Dual 425mm AutoCannon I",2700,39,18,Zydrine,1
+"Dual 425mm AutoCannon I",2700,40,18,Megacyte,4
+"Dual 650mm Repeating Cannon I",2700,34,18,Tritanium,45551
+"Dual 650mm Repeating Cannon I",2700,35,18,Pyerite,12150
+"Dual 650mm Repeating Cannon I",2700,36,18,Mexallon,6060
+"Dual 650mm Repeating Cannon I",2700,37,18,Isogen,1596
+"Dual 650mm Repeating Cannon I",2700,38,18,Nocxium,126
+"Dual 650mm Repeating Cannon I",2700,39,18,Zydrine,8
+"1400mm Howitzer Artillery I",2700,34,18,Tritanium,113880
+"1400mm Howitzer Artillery I",2700,35,18,Pyerite,29214
+"1400mm Howitzer Artillery I",2700,36,18,Mexallon,9747
+"1400mm Howitzer Artillery I",2700,37,18,Isogen,2650
+"1400mm Howitzer Artillery I",2700,38,18,Nocxium,411
+"1400mm Howitzer Artillery I",2700,39,18,Zydrine,21
+"1400mm Howitzer Artillery I",2700,40,18,Megacyte,37
+"720mm Howitzer Artillery I",1800,34,18,Tritanium,9133
+"720mm Howitzer Artillery I",1800,35,18,Pyerite,2981
+"720mm Howitzer Artillery I",1800,36,18,Mexallon,3599
+"720mm Howitzer Artillery I",1800,37,18,Isogen,2
+"720mm Howitzer Artillery I",1800,38,18,Nocxium,18
+"280mm Howitzer Artillery I",900,34,18,Tritanium,2729
+"280mm Howitzer Artillery I",900,35,18,Pyerite,148
+"280mm Howitzer Artillery I",900,36,18,Mexallon,171
+"280mm Howitzer Artillery I",900,39,18,Zydrine,2
+"Dual Heavy Beam Laser I",2700,34,18,Tritanium,45551
+"Dual Heavy Beam Laser I",2700,35,18,Pyerite,12150
+"Dual Heavy Beam Laser I",2700,36,18,Mexallon,6060
+"Dual Heavy Beam Laser I",2700,37,18,Isogen,1596
+"Dual Heavy Beam Laser I",2700,38,18,Nocxium,126
+"Dual Heavy Beam Laser I",2700,39,18,Zydrine,8
+"Dual Light Beam Laser I",900,34,18,Tritanium,1742
+"Dual Light Beam Laser I",900,35,18,Pyerite,6
+"Dual Light Beam Laser I",900,36,18,Mexallon,78
+"Dual Light Beam Laser I",900,37,18,Isogen,13
+"Dual Light Beam Laser I",900,39,18,Zydrine,1
+"Dual Light Pulse Laser I",900,34,18,Tritanium,1102
+"Dual Light Pulse Laser I",900,35,18,Pyerite,113
+"Dual Light Pulse Laser I",900,36,18,Mexallon,4
+"Dual Light Pulse Laser I",900,38,18,Nocxium,2
+"Dual Light Pulse Laser I",900,39,18,Zydrine,1
+"Focused Medium Beam Laser I",1800,34,18,Tritanium,4529
+"Focused Medium Beam Laser I",1800,35,18,Pyerite,1643
+"Focused Medium Beam Laser I",1800,36,18,Mexallon,2413
+"Focused Medium Beam Laser I",1800,38,18,Nocxium,1
+"Gatling Pulse Laser I",900,34,18,Tritanium,231
+"Gatling Pulse Laser I",900,35,18,Pyerite,220
+"Heavy Beam Laser I",1800,34,18,Tritanium,9133
+"Heavy Beam Laser I",1800,35,18,Pyerite,2981
+"Heavy Beam Laser I",1800,36,18,Mexallon,3599
+"Heavy Beam Laser I",1800,37,18,Isogen,2
+"Heavy Beam Laser I",1800,38,18,Nocxium,18
+"Small Focused Beam Laser I",900,34,18,Tritanium,2200
+"Small Focused Beam Laser I",900,35,18,Pyerite,809
+"Small Focused Beam Laser I",900,36,18,Mexallon,21
+"Small Focused Beam Laser I",900,37,18,Isogen,4
+"Small Focused Beam Laser I",900,39,18,Zydrine,2
+"Small Focused Pulse Laser I",900,34,18,Tritanium,1556
+"Small Focused Pulse Laser I",900,35,18,Pyerite,1158
+"Small Focused Pulse Laser I",900,36,18,Mexallon,3
+"Small Focused Pulse Laser I",900,37,18,Isogen,7
+"Mega Beam Laser I",2700,34,18,Tritanium,91067
+"Mega Beam Laser I",2700,35,18,Pyerite,23527
+"Mega Beam Laser I",2700,36,18,Mexallon,8613
+"Mega Beam Laser I",2700,37,18,Isogen,2294
+"Mega Beam Laser I",2700,38,18,Nocxium,324
+"Mega Beam Laser I",2700,39,18,Zydrine,9
+"Mega Beam Laser I",2700,40,18,Megacyte,26
+"Mega Pulse Laser I",2700,34,18,Tritanium,68307
+"Mega Pulse Laser I",2700,35,18,Pyerite,17839
+"Mega Pulse Laser I",2700,36,18,Mexallon,7197
+"Mega Pulse Laser I",2700,37,18,Isogen,1951
+"Mega Pulse Laser I",2700,38,18,Nocxium,234
+"Mega Pulse Laser I",2700,39,18,Zydrine,6
+"Mega Pulse Laser I",2700,40,18,Megacyte,13
+"Tachyon Beam Laser I",2700,34,18,Tritanium,113880
+"Tachyon Beam Laser I",2700,35,18,Pyerite,29214
+"Tachyon Beam Laser I",2700,36,18,Mexallon,9747
+"Tachyon Beam Laser I",2700,37,18,Isogen,2650
+"Tachyon Beam Laser I",2700,38,18,Nocxium,411
+"Tachyon Beam Laser I",2700,39,18,Zydrine,21
+"Tachyon Beam Laser I",2700,40,18,Megacyte,37
+"150mm Railgun I",900,34,18,Tritanium,2729
+"150mm Railgun I",900,35,18,Pyerite,148
+"150mm Railgun I",900,36,18,Mexallon,171
+"150mm Railgun I",900,39,18,Zydrine,2
+"250mm Railgun I",1800,34,18,Tritanium,9133
+"250mm Railgun I",1800,35,18,Pyerite,2981
+"250mm Railgun I",1800,36,18,Mexallon,3599
+"250mm Railgun I",1800,37,18,Isogen,2
+"250mm Railgun I",1800,38,18,Nocxium,18
+"425mm Railgun I",2700,34,18,Tritanium,113880
+"425mm Railgun I",2700,35,18,Pyerite,29214
+"425mm Railgun I",2700,36,18,Mexallon,9747
+"425mm Railgun I",2700,37,18,Isogen,2650
+"425mm Railgun I",2700,38,18,Nocxium,411
+"425mm Railgun I",2700,39,18,Zydrine,21
+"425mm Railgun I",2700,40,18,Megacyte,37
+"75mm Gatling Rail I",900,34,18,Tritanium,231
+"75mm Gatling Rail I",900,35,18,Pyerite,220
+"Dual 150mm Railgun I",1800,34,18,Tritanium,827
+"Dual 150mm Railgun I",1800,35,18,Pyerite,598
+"Dual 150mm Railgun I",1800,36,18,Mexallon,493
+"Dual 250mm Railgun I",2700,34,18,Tritanium,13683
+"Dual 250mm Railgun I",2700,35,18,Pyerite,4117
+"Dual 250mm Railgun I",2700,36,18,Mexallon,3851
+"Dual 250mm Railgun I",2700,39,18,Zydrine,1
+"Dual 250mm Railgun I",2700,40,18,Megacyte,4
+"Electron Blaster Cannon I",2700,34,18,Tritanium,45551
+"Electron Blaster Cannon I",2700,35,18,Pyerite,12150
+"Electron Blaster Cannon I",2700,36,18,Mexallon,6060
+"Electron Blaster Cannon I",2700,37,18,Isogen,1596
+"Electron Blaster Cannon I",2700,38,18,Nocxium,126
+"Electron Blaster Cannon I",2700,39,18,Zydrine,8
+"Heavy Electron Blaster I",1800,34,18,Tritanium,4453
+"Heavy Electron Blaster I",1800,35,18,Pyerite,1287
+"Heavy Electron Blaster I",1800,36,18,Mexallon,1199
+"Heavy Electron Blaster I",1800,40,18,Megacyte,1
+"Heavy Ion Blaster I",1800,34,18,Tritanium,4529
+"Heavy Ion Blaster I",1800,35,18,Pyerite,1643
+"Heavy Ion Blaster I",1800,36,18,Mexallon,2413
+"Heavy Ion Blaster I",1800,38,18,Nocxium,1
+"Heavy Neutron Blaster I",1800,34,18,Tritanium,9089
+"Heavy Neutron Blaster I",1800,35,18,Pyerite,2786
+"Heavy Neutron Blaster I",1800,36,18,Mexallon,2827
+"Heavy Neutron Blaster I",1800,37,18,Isogen,14
+"Heavy Neutron Blaster I",1800,38,18,Nocxium,1
+"Ion Blaster Cannon I",2700,34,18,Tritanium,68307
+"Ion Blaster Cannon I",2700,35,18,Pyerite,17839
+"Ion Blaster Cannon I",2700,36,18,Mexallon,7197
+"Ion Blaster Cannon I",2700,37,18,Isogen,1951
+"Ion Blaster Cannon I",2700,38,18,Nocxium,234
+"Ion Blaster Cannon I",2700,39,18,Zydrine,6
+"Ion Blaster Cannon I",2700,40,18,Megacyte,13
+"Light Electron Blaster I",900,34,18,Tritanium,996
+"Light Electron Blaster I",900,35,18,Pyerite,300
+"Light Electron Blaster I",900,39,18,Zydrine,1
+"Light Ion Blaster I",900,34,18,Tritanium,1667
+"Light Ion Blaster I",900,35,18,Pyerite,144
+"Light Ion Blaster I",900,36,18,Mexallon,83
+"Light Ion Blaster I",900,37,18,Isogen,22
+"Light Neutron Blaster I",900,34,18,Tritanium,1596
+"Light Neutron Blaster I",900,35,18,Pyerite,690
+"Light Neutron Blaster I",900,36,18,Mexallon,144
+"Neutron Blaster Cannon I",2700,34,18,Tritanium,91067
+"Neutron Blaster Cannon I",2700,35,18,Pyerite,23527
+"Neutron Blaster Cannon I",2700,36,18,Mexallon,8613
+"Neutron Blaster Cannon I",2700,37,18,Isogen,2294
+"Neutron Blaster Cannon I",2700,38,18,Nocxium,324
+"Neutron Blaster Cannon I",2700,39,18,Zydrine,9
+"Neutron Blaster Cannon I",2700,40,18,Megacyte,26
+"Quad Light Beam Laser I",1800,34,18,Tritanium,9
+"Quad Light Beam Laser I",1800,35,18,Pyerite,598
+"Quad Light Beam Laser I",1800,36,18,Mexallon,493
+"Small Capacitor Battery I",900,34,18,Tritanium,684
+"Small Capacitor Battery I",900,35,18,Pyerite,427
+"Small Capacitor Battery I",900,36,18,Mexallon,153
+"Small Capacitor Battery I",900,37,18,Isogen,2
+"Small Capacitor Battery I",900,38,18,Nocxium,2
+"Medium Capacitor Battery I",1800,34,18,Tritanium,1338
+"Medium Capacitor Battery I",1800,35,18,Pyerite,1058
+"Medium Capacitor Battery I",1800,36,18,Mexallon,493
+"Medium Capacitor Battery I",1800,37,18,Isogen,2
+"Medium Capacitor Battery I",1800,38,18,Nocxium,1
+"Large Capacitor Battery I",1800,34,18,Tritanium,4574
+"Large Capacitor Battery I",1800,35,18,Pyerite,1734
+"Large Capacitor Battery I",1800,36,18,Mexallon,1307
+"Large Capacitor Battery I",1800,39,18,Zydrine,2
+"Focused Medium Pulse Laser I",1800,34,18,Tritanium,4453
+"Focused Medium Pulse Laser I",1800,35,18,Pyerite,1287
+"Focused Medium Pulse Laser I",1800,36,18,Mexallon,1199
+"Focused Medium Pulse Laser I",1800,40,18,Megacyte,1
+"Heavy Pulse Laser I",1800,34,18,Tritanium,9089
+"Heavy Pulse Laser I",1800,35,18,Pyerite,2786
+"Heavy Pulse Laser I",1800,36,18,Mexallon,2827
+"Heavy Pulse Laser I",1800,37,18,Isogen,14
+"Heavy Pulse Laser I",1800,38,18,Nocxium,1
+"Dual Heavy Pulse Laser I",2700,34,18,Tritanium,13684
+"Dual Heavy Pulse Laser I",2700,35,18,Pyerite,4117
+"Dual Heavy Pulse Laser I",2700,36,18,Mexallon,3851
+"Dual Heavy Pulse Laser I",2700,39,18,Zydrine,1
+"Dual Heavy Pulse Laser I",2700,40,18,Megacyte,4
+Imicus,6000,34,18,Tritanium,16667
+Imicus,6000,35,18,Pyerite,10556
+Imicus,6000,36,18,Mexallon,2556
+Imicus,6000,37,18,Isogen,278
+Imicus,6000,38,18,Nocxium,50
+Imicus,6000,39,18,Zydrine,22
+Imicus,6000,40,18,Megacyte,2
+Maulus,6000,34,18,Tritanium,15556
+Maulus,6000,35,18,Pyerite,13333
+Maulus,6000,36,18,Mexallon,2222
+Maulus,6000,37,18,Isogen,56
+Maulus,6000,38,18,Nocxium,2
+Maulus,6000,39,18,Zydrine,2
+Condor,6000,34,18,Tritanium,20000
+Condor,6000,35,18,Pyerite,4444
+Condor,6000,36,18,Mexallon,2111
+Condor,6000,37,18,Isogen,556
+Condor,6000,38,18,Nocxium,11
+Condor,6000,39,18,Zydrine,1
+Condor,6000,34,18,Tritanium,20000
+Condor,6000,35,18,Pyerite,4444
+Condor,6000,36,18,Mexallon,2111
+Condor,6000,37,18,Isogen,556
+Condor,6000,38,18,Nocxium,11
+Condor,6000,39,18,Zydrine,1
+Probe,6000,34,18,Tritanium,15556
+Probe,6000,35,18,Pyerite,10222
+Probe,6000,36,18,Mexallon,2778
+Probe,6000,37,18,Isogen,111
+Probe,6000,38,18,Nocxium,78
+Probe,6000,39,18,Zydrine,17
+Probe,6000,40,18,Megacyte,3
+Executioner,6000,34,18,Tritanium,22222
+Executioner,6000,35,18,Pyerite,4444
+Executioner,6000,36,18,Mexallon,1667
+Executioner,6000,37,18,Isogen,333
+Executioner,6000,38,18,Nocxium,67
+Executioner,6000,39,18,Zydrine,6
+Executioner,6000,34,18,Tritanium,22222
+Executioner,6000,35,18,Pyerite,4444
+Executioner,6000,36,18,Mexallon,1667
+Executioner,6000,37,18,Isogen,333
+Executioner,6000,38,18,Nocxium,67
+Executioner,6000,39,18,Zydrine,6
+Crucifier,6000,34,18,Tritanium,13333
+Crucifier,6000,35,18,Pyerite,12222
+Crucifier,6000,36,18,Mexallon,1333
+Crucifier,6000,37,18,Isogen,278
+Crucifier,6000,38,18,Nocxium,83
+Crucifier,6000,39,18,Zydrine,11
+Crucifier,6000,40,18,Megacyte,6
+Heron,6000,34,18,Tritanium,13333
+Heron,6000,35,18,Pyerite,11111
+Heron,6000,36,18,Mexallon,2444
+Heron,6000,37,18,Isogen,556
+Heron,6000,38,18,Nocxium,56
+Heron,6000,39,18,Zydrine,8
+Heron,6000,40,18,Megacyte,4
+Griffin,6000,34,18,Tritanium,13333
+Griffin,6000,35,18,Pyerite,12778
+Griffin,6000,36,18,Mexallon,1667
+Griffin,6000,37,18,Isogen,222
+Griffin,6000,38,18,Nocxium,56
+Griffin,6000,39,18,Zydrine,11
+Griffin,6000,40,18,Megacyte,3
+Slasher,6000,34,18,Tritanium,21111
+Slasher,6000,35,18,Pyerite,5000
+Slasher,6000,36,18,Mexallon,1667
+Slasher,6000,37,18,Isogen,111
+Slasher,6000,38,18,Nocxium,100
+Slasher,6000,40,18,Megacyte,3
+Slasher,6000,34,18,Tritanium,21111
+Slasher,6000,35,18,Pyerite,5000
+Slasher,6000,36,18,Mexallon,1667
+Slasher,6000,37,18,Isogen,111
+Slasher,6000,38,18,Nocxium,100
+Slasher,6000,40,18,Megacyte,3
+Atron,6000,34,18,Tritanium,20556
+Atron,6000,35,18,Pyerite,3889
+Atron,6000,36,18,Mexallon,2222
+Atron,6000,37,18,Isogen,278
+Atron,6000,38,18,Nocxium,56
+Atron,6000,39,18,Zydrine,6
+Atron,6000,34,18,Tritanium,20556
+Atron,6000,35,18,Pyerite,3889
+Atron,6000,36,18,Mexallon,2222
+Atron,6000,37,18,Isogen,278
+Atron,6000,38,18,Nocxium,56
+Atron,6000,39,18,Zydrine,6
+Punisher,6000,34,18,Tritanium,22778
+Punisher,6000,35,18,Pyerite,6111
+Punisher,6000,36,18,Mexallon,2889
+Punisher,6000,37,18,Isogen,400
+Punisher,6000,38,18,Nocxium,89
+Punisher,6000,39,18,Zydrine,17
+Rifter,6000,34,18,Tritanium,22778
+Rifter,6000,35,18,Pyerite,6222
+Rifter,6000,36,18,Mexallon,2222
+Rifter,6000,37,18,Isogen,356
+Rifter,6000,38,18,Nocxium,133
+Rifter,6000,39,18,Zydrine,17
+Rifter,6000,40,18,Megacyte,1
+Tristan,6000,34,18,Tritanium,23333
+Tristan,6000,35,18,Pyerite,6333
+Tristan,6000,36,18,Mexallon,3000
+Tristan,6000,37,18,Isogen,333
+Tristan,6000,38,18,Nocxium,78
+Tristan,6000,39,18,Zydrine,11
+Tristan,6000,40,18,Megacyte,1
+Merlin,6000,34,18,Tritanium,21111
+Merlin,6000,35,18,Pyerite,8889
+Merlin,6000,36,18,Mexallon,3111
+Merlin,6000,37,18,Isogen,589
+Merlin,6000,38,18,Nocxium,2
+Merlin,6000,39,18,Zydrine,2
+Merlin,6000,40,18,Megacyte,2
+Merlin,6000,34,18,Tritanium,21111
+Merlin,6000,35,18,Pyerite,8889
+Merlin,6000,36,18,Mexallon,3111
+Merlin,6000,37,18,Isogen,589
+Merlin,6000,38,18,Nocxium,2
+Merlin,6000,39,18,Zydrine,2
+Merlin,6000,40,18,Megacyte,2
+Punisher,6000,34,18,Tritanium,22778
+Punisher,6000,35,18,Pyerite,6111
+Punisher,6000,36,18,Mexallon,2889
+Punisher,6000,37,18,Isogen,400
+Punisher,6000,38,18,Nocxium,89
+Punisher,6000,39,18,Zydrine,17
+Rifter,6000,34,18,Tritanium,22778
+Rifter,6000,35,18,Pyerite,6222
+Rifter,6000,36,18,Mexallon,2222
+Rifter,6000,37,18,Isogen,356
+Rifter,6000,38,18,Nocxium,133
+Rifter,6000,39,18,Zydrine,17
+Rifter,6000,40,18,Megacyte,1
+Blackbird,12000,34,18,Tritanium,411111
+Blackbird,12000,35,18,Pyerite,95556
+Blackbird,12000,36,18,Mexallon,40000
+Blackbird,12000,37,18,Isogen,9444
+Blackbird,12000,38,18,Nocxium,2444
+Blackbird,12000,39,18,Zydrine,611
+Blackbird,12000,40,18,Megacyte,167
+Blackbird,12000,34,18,Tritanium,411111
+Blackbird,12000,35,18,Pyerite,95556
+Blackbird,12000,36,18,Mexallon,40000
+Blackbird,12000,37,18,Isogen,9444
+Blackbird,12000,38,18,Nocxium,2444
+Blackbird,12000,39,18,Zydrine,611
+Blackbird,12000,40,18,Megacyte,167
+Bellicose,12000,34,18,Tritanium,433333
+Bellicose,12000,35,18,Pyerite,101111
+Bellicose,12000,36,18,Mexallon,43333
+Bellicose,12000,37,18,Isogen,9000
+Bellicose,12000,38,18,Nocxium,2222
+Bellicose,12000,39,18,Zydrine,500
+Bellicose,12000,40,18,Megacyte,89
+Bellicose,12000,34,18,Tritanium,433333
+Bellicose,12000,35,18,Pyerite,101111
+Bellicose,12000,36,18,Mexallon,43333
+Bellicose,12000,37,18,Isogen,9000
+Bellicose,12000,38,18,Nocxium,2222
+Bellicose,12000,39,18,Zydrine,500
+Bellicose,12000,40,18,Megacyte,89
+Arbitrator,12000,34,18,Tritanium,444444
+Arbitrator,12000,35,18,Pyerite,100000
+Arbitrator,12000,36,18,Mexallon,41111
+Arbitrator,12000,37,18,Isogen,8889
+Arbitrator,12000,38,18,Nocxium,2222
+Arbitrator,12000,39,18,Zydrine,556
+Arbitrator,12000,40,18,Megacyte,111
+Celestis,12000,34,18,Tritanium,422222
+Celestis,12000,35,18,Pyerite,96667
+Celestis,12000,36,18,Mexallon,43333
+Celestis,12000,37,18,Isogen,10000
+Celestis,12000,38,18,Nocxium,2111
+Celestis,12000,39,18,Zydrine,544
+Celestis,12000,40,18,Megacyte,100
+Celestis,12000,34,18,Tritanium,422222
+Celestis,12000,35,18,Pyerite,96667
+Celestis,12000,36,18,Mexallon,43333
+Celestis,12000,37,18,Isogen,10000
+Celestis,12000,38,18,Nocxium,2111
+Celestis,12000,39,18,Zydrine,544
+Celestis,12000,40,18,Megacyte,100
+Scythe,12000,34,18,Tritanium,533333
+Scythe,12000,35,18,Pyerite,140000
+Scythe,12000,36,18,Mexallon,34444
+Scythe,12000,37,18,Isogen,8556
+Scythe,12000,38,18,Nocxium,1222
+Scythe,12000,39,18,Zydrine,411
+Scythe,12000,40,18,Megacyte,78
+Osprey,12000,34,18,Tritanium,544444
+Osprey,12000,35,18,Pyerite,130000
+Osprey,12000,36,18,Mexallon,31111
+Osprey,12000,37,18,Isogen,8778
+Osprey,12000,38,18,Nocxium,1556
+Osprey,12000,39,18,Zydrine,444
+Osprey,12000,40,18,Megacyte,89
+Augoror,12000,34,18,Tritanium,577778
+Augoror,12000,35,18,Pyerite,115556
+Augoror,12000,36,18,Mexallon,33333
+Augoror,12000,37,18,Isogen,8667
+Augoror,12000,38,18,Nocxium,1444
+Augoror,12000,39,18,Zydrine,389
+Augoror,12000,40,18,Megacyte,67
+Exequror,12000,34,18,Tritanium,566667
+Exequror,12000,35,18,Pyerite,134444
+Exequror,12000,36,18,Mexallon,32222
+Exequror,12000,37,18,Isogen,8889
+Exequror,12000,38,18,Nocxium,1111
+Exequror,12000,39,18,Zydrine,400
+Exequror,12000,40,18,Megacyte,100
+Caracal,12000,34,18,Tritanium,544444
+Caracal,12000,35,18,Pyerite,122222
+Caracal,12000,36,18,Mexallon,36667
+Caracal,12000,37,18,Isogen,10444
+Caracal,12000,38,18,Nocxium,3333
+Caracal,12000,39,18,Zydrine,700
+Caracal,12000,40,18,Megacyte,278
+Moa,12000,34,18,Tritanium,611111
+Moa,12000,35,18,Pyerite,155556
+Moa,12000,36,18,Mexallon,40000
+Moa,12000,37,18,Isogen,9889
+Moa,12000,38,18,Nocxium,2667
+Moa,12000,39,18,Zydrine,633
+Moa,12000,40,18,Megacyte,194
+Stabber,12000,34,18,Tritanium,511111
+Stabber,12000,35,18,Pyerite,188889
+Stabber,12000,36,18,Mexallon,40000
+Stabber,12000,37,18,Isogen,10333
+Stabber,12000,38,18,Nocxium,2778
+Stabber,12000,39,18,Zydrine,622
+Stabber,12000,40,18,Megacyte,122
+Omen,12000,34,18,Tritanium,566667
+Omen,12000,35,18,Pyerite,133333
+Omen,12000,36,18,Mexallon,37778
+Omen,12000,37,18,Isogen,10667
+Omen,12000,38,18,Nocxium,2889
+Omen,12000,39,18,Zydrine,656
+Omen,12000,40,18,Megacyte,206
+Vexor,12000,34,18,Tritanium,622222
+Vexor,12000,35,18,Pyerite,133333
+Vexor,12000,36,18,Mexallon,41111
+Vexor,12000,37,18,Isogen,10111
+Vexor,12000,38,18,Nocxium,2889
+Vexor,12000,39,18,Zydrine,656
+Vexor,12000,40,18,Megacyte,178
+Moa,12000,34,18,Tritanium,611111
+Moa,12000,35,18,Pyerite,155556
+Moa,12000,36,18,Mexallon,40000
+Moa,12000,37,18,Isogen,9889
+Moa,12000,38,18,Nocxium,2667
+Moa,12000,39,18,Zydrine,633
+Moa,12000,40,18,Megacyte,194
+Rupture,12000,34,18,Tritanium,611111
+Rupture,12000,35,18,Pyerite,166667
+Rupture,12000,36,18,Mexallon,38889
+Rupture,12000,37,18,Isogen,10222
+Rupture,12000,38,18,Nocxium,2556
+Rupture,12000,39,18,Zydrine,522
+Rupture,12000,40,18,Megacyte,211
+Rupture,12000,34,18,Tritanium,611111
+Rupture,12000,35,18,Pyerite,166667
+Rupture,12000,36,18,Mexallon,38889
+Rupture,12000,37,18,Isogen,10222
+Rupture,12000,38,18,Nocxium,2556
+Rupture,12000,39,18,Zydrine,522
+Rupture,12000,40,18,Megacyte,211
+Maller,12000,34,18,Tritanium,633333
+Maller,12000,35,18,Pyerite,144444
+Maller,12000,36,18,Mexallon,42222
+Maller,12000,37,18,Isogen,10000
+Maller,12000,38,18,Nocxium,2556
+Maller,12000,39,18,Zydrine,611
+Maller,12000,40,18,Megacyte,161
+Maller,12000,34,18,Tritanium,633333
+Maller,12000,35,18,Pyerite,144444
+Maller,12000,36,18,Mexallon,42222
+Maller,12000,37,18,Isogen,10000
+Maller,12000,38,18,Nocxium,2556
+Maller,12000,39,18,Zydrine,611
+Maller,12000,40,18,Megacyte,161
+Thorax,12000,34,18,Tritanium,577778
+Thorax,12000,35,18,Pyerite,144444
+Thorax,12000,36,18,Mexallon,38889
+Thorax,12000,37,18,Isogen,10556
+Thorax,12000,38,18,Nocxium,3000
+Thorax,12000,39,18,Zydrine,567
+Thorax,12000,40,18,Megacyte,144
+Thorax,12000,34,18,Tritanium,577778
+Thorax,12000,35,18,Pyerite,144444
+Thorax,12000,36,18,Mexallon,38889
+Thorax,12000,37,18,Isogen,10556
+Thorax,12000,38,18,Nocxium,3000
+Thorax,12000,39,18,Zydrine,567
+Thorax,12000,40,18,Megacyte,144
+Kestrel,6000,34,18,Tritanium,17778
+Kestrel,6000,35,18,Pyerite,5556
+Kestrel,6000,36,18,Mexallon,2889
+Kestrel,6000,37,18,Isogen,1111
+Kestrel,6000,38,18,Nocxium,56
+Kestrel,6000,39,18,Zydrine,11
+Breacher,6000,34,18,Tritanium,17778
+Breacher,6000,35,18,Pyerite,15000
+Breacher,6000,36,18,Mexallon,2778
+Breacher,6000,37,18,Isogen,111
+Breacher,6000,38,18,Nocxium,2
+Breacher,6000,39,18,Zydrine,2
+Breacher,6000,40,18,Megacyte,1
+Inquisitor,6000,34,18,Tritanium,16667
+Inquisitor,6000,35,18,Pyerite,12222
+Inquisitor,6000,36,18,Mexallon,2778
+Inquisitor,6000,37,18,Isogen,11
+Inquisitor,6000,38,18,Nocxium,6
+Inquisitor,6000,39,18,Zydrine,1
+Inquisitor,6000,40,18,Megacyte,1
+Incursus,6000,34,18,Tritanium,13333
+Incursus,6000,35,18,Pyerite,11111
+Incursus,6000,36,18,Mexallon,4000
+Incursus,6000,37,18,Isogen,33
+Incursus,6000,38,18,Nocxium,17
+Incursus,6000,39,18,Zydrine,6
+Incursus,6000,34,18,Tritanium,13333
+Incursus,6000,35,18,Pyerite,11111
+Incursus,6000,36,18,Mexallon,4000
+Incursus,6000,37,18,Isogen,33
+Incursus,6000,38,18,Nocxium,17
+Incursus,6000,39,18,Zydrine,6
+"Multifrequency S",300,35,18,Pyerite,4
+"Multifrequency S",300,37,18,Isogen,3
+"Multifrequency S",300,38,18,Nocxium,3
+"Multifrequency S",300,39,18,Zydrine,1
+"Radio S",300,35,18,Pyerite,8
+"Radio S",300,37,18,Isogen,3
+"Radio S",300,38,18,Nocxium,1
+"Radio S",300,39,18,Zydrine,1
+"Ultraviolet S",300,34,18,Tritanium,2
+"Ultraviolet S",300,35,18,Pyerite,3
+"Ultraviolet S",300,36,18,Mexallon,2
+"Ultraviolet S",300,37,18,Isogen,12
+"Xray S",300,34,18,Tritanium,2
+"Xray S",300,36,18,Mexallon,11
+"Xray S",300,37,18,Isogen,1
+"Xray S",300,39,18,Zydrine,1
+"Depleted Uranium S",300,34,18,Tritanium,118
+"Depleted Uranium S",300,36,18,Mexallon,1
+"Depleted Uranium S",300,37,18,Isogen,2
+"Antimatter Charge S",300,34,18,Tritanium,204
+"Antimatter Charge S",300,35,18,Pyerite,17
+"Antimatter Charge S",300,38,18,Nocxium,1
+"Thorium Charge S",300,34,18,Tritanium,58
+"Thorium Charge S",300,35,18,Pyerite,64
+"Thorium Charge S",300,36,18,Mexallon,1
+"Plutonium Charge S",300,34,18,Tritanium,164
+"Plutonium Charge S",300,35,18,Pyerite,17
+"Plutonium Charge S",300,37,18,Isogen,3
+"Iridium Charge S",300,34,18,Tritanium,58
+"Iridium Charge S",300,35,18,Pyerite,23
+"Iridium Charge S",300,37,18,Isogen,1
+"Nuclear S",300,34,18,Tritanium,38
+"Nuclear S",300,35,18,Pyerite,32
+"Titanium Sabot S",300,34,18,Tritanium,58
+"Titanium Sabot S",300,35,18,Pyerite,64
+"Titanium Sabot S",300,36,18,Mexallon,1
+"Carbonized Lead S",300,34,18,Tritanium,27
+"Carbonized Lead S",300,35,18,Pyerite,21
+Badger,12000,34,18,Tritanium,71111
+Badger,12000,35,18,Pyerite,12667
+Badger,12000,36,18,Mexallon,6667
+Badger,12000,37,18,Isogen,444
+Badger,12000,38,18,Nocxium,222
+Badger,12000,39,18,Zydrine,33
+Badger,12000,40,18,Megacyte,6
+Tayra,12000,34,18,Tritanium,59444
+Tayra,12000,35,18,Pyerite,15333
+Tayra,12000,36,18,Mexallon,5833
+Tayra,12000,37,18,Isogen,1389
+Tayra,12000,38,18,Nocxium,278
+Tayra,12000,39,18,Zydrine,44
+Tayra,12000,40,18,Megacyte,7
+Wreathe,12000,34,18,Tritanium,82222
+Wreathe,12000,35,18,Pyerite,9333
+Wreathe,12000,36,18,Mexallon,3889
+Wreathe,12000,37,18,Isogen,667
+Wreathe,12000,38,18,Nocxium,133
+Wreathe,12000,39,18,Zydrine,44
+Wreathe,12000,40,18,Megacyte,6
+Nereus,12000,34,18,Tritanium,53333
+Nereus,12000,35,18,Pyerite,13444
+Nereus,12000,36,18,Mexallon,5111
+Nereus,12000,37,18,Isogen,356
+Nereus,12000,38,18,Nocxium,244
+Nereus,12000,39,18,Zydrine,28
+Nereus,12000,40,18,Megacyte,11
+Epithal,12000,34,18,Tritanium,69444
+Epithal,12000,35,18,Pyerite,11667
+Epithal,12000,36,18,Mexallon,4556
+Epithal,12000,37,18,Isogen,611
+Epithal,12000,38,18,Nocxium,189
+Epithal,12000,39,18,Zydrine,28
+Epithal,12000,40,18,Megacyte,6
+Mammoth,12000,34,18,Tritanium,73333
+Mammoth,12000,35,18,Pyerite,18889
+Mammoth,12000,36,18,Mexallon,7333
+Mammoth,12000,37,18,Isogen,1233
+Mammoth,12000,38,18,Nocxium,344
+Mammoth,12000,39,18,Zydrine,56
+Mammoth,12000,40,18,Megacyte,9
+Bestower,12000,34,18,Tritanium,80556
+Bestower,12000,35,18,Pyerite,18111
+Bestower,12000,36,18,Mexallon,5667
+Bestower,12000,37,18,Isogen,556
+Bestower,12000,38,18,Nocxium,183
+Bestower,12000,39,18,Zydrine,44
+Bestower,12000,40,18,Megacyte,10
+"Titanium Sabot L",900,34,18,Tritanium,1040
+"Titanium Sabot L",900,35,18,Pyerite,156
+"Titanium Sabot L",900,36,18,Mexallon,104
+"Carbonized Lead L",900,34,18,Tritanium,249
+"Carbonized Lead L",900,35,18,Pyerite,198
+"Carbonized Lead L",900,37,18,Isogen,1
+"Titanium Sabot M",600,34,18,Tritanium,288
+"Titanium Sabot M",600,35,18,Pyerite,254
+"Carbonized Lead M",600,34,18,Tritanium,164
+"Carbonized Lead M",600,35,18,Pyerite,17
+"Carbonized Lead M",600,37,18,Isogen,3
+"Nuclear M",600,34,18,Tritanium,116
+"Nuclear M",600,35,18,Pyerite,129
+"Nuclear M",600,36,18,Mexallon,2
+"Nuclear L",900,34,18,Tritanium,520
+"Nuclear L",900,35,18,Pyerite,100
+"Nuclear L",900,36,18,Mexallon,2
+"Nuclear L",900,37,18,Isogen,2
+"Nuclear L",900,38,18,Nocxium,2
+"Depleted Uranium M",600,34,18,Tritanium,290
+"Depleted Uranium M",600,35,18,Pyerite,119
+"Depleted Uranium M",600,36,18,Mexallon,14
+"Depleted Uranium M",600,37,18,Isogen,2
+"Depleted Uranium L",900,34,18,Tritanium,458
+"Depleted Uranium L",900,35,18,Pyerite,580
+"Thorium Charge M",600,34,18,Tritanium,450
+"Thorium Charge M",600,36,18,Mexallon,32
+"Thorium Charge M",600,38,18,Nocxium,1
+"Thorium Charge L",900,34,18,Tritanium,1040
+"Thorium Charge L",900,35,18,Pyerite,156
+"Thorium Charge L",900,36,18,Mexallon,104
+"Antimatter Charge M",600,34,18,Tritanium,449
+"Antimatter Charge M",600,35,18,Pyerite,417
+"Antimatter Charge M",600,36,18,Mexallon,7
+"Antimatter Charge L",900,34,18,Tritanium,1778
+"Antimatter Charge L",900,35,18,Pyerite,127
+"Antimatter Charge L",900,36,18,Mexallon,89
+"Antimatter Charge L",900,37,18,Isogen,29
+"Iridium Charge M",600,34,18,Tritanium,136
+"Iridium Charge M",600,35,18,Pyerite,166
+"Iridium Charge M",600,36,18,Mexallon,2
+"Iridium Charge L",900,34,18,Tritanium,511
+"Iridium Charge L",900,35,18,Pyerite,428
+"Plutonium Charge M",600,34,18,Tritanium,526
+"Plutonium Charge M",600,35,18,Pyerite,133
+"Plutonium Charge M",600,36,18,Mexallon,2
+"Plutonium Charge M",600,37,18,Isogen,11
+"Plutonium Charge L",900,34,18,Tritanium,1529
+"Plutonium Charge L",900,36,18,Mexallon,89
+"Plutonium Charge L",900,37,18,Isogen,23
+"Xray M",600,34,18,Tritanium,40
+"Xray M",600,36,18,Mexallon,12
+"Xray M",600,38,18,Nocxium,18
+"Xray M",600,40,18,Megacyte,2
+"Xray L",900,35,18,Pyerite,2
+"Xray L",900,36,18,Mexallon,67
+"Xray L",900,37,18,Isogen,20
+"Xray L",900,38,18,Nocxium,4
+"Xray L",900,39,18,Zydrine,17
+"Xray L",900,40,18,Megacyte,29
+"Ultraviolet M",600,35,18,Pyerite,8
+"Ultraviolet M",600,36,18,Mexallon,3
+"Ultraviolet M",600,37,18,Isogen,53
+"Ultraviolet M",600,38,18,Nocxium,1
+"Ultraviolet M",600,40,18,Megacyte,1
+"Ultraviolet L",900,35,18,Pyerite,104
+"Ultraviolet L",900,37,18,Isogen,2
+"Ultraviolet L",900,38,18,Nocxium,3
+"Ultraviolet L",900,39,18,Zydrine,4
+"Ultraviolet L",900,40,18,Megacyte,19
+"Radio M",600,34,18,Tritanium,27
+"Radio M",600,36,18,Mexallon,13
+"Radio M",600,37,18,Isogen,3
+"Radio M",600,38,18,Nocxium,19
+"Radio M",600,39,18,Zydrine,2
+"Radio M",600,40,18,Megacyte,2
+"Radio L",900,34,18,Tritanium,13
+"Radio L",900,35,18,Pyerite,6
+"Radio L",900,36,18,Mexallon,6
+"Radio L",900,37,18,Isogen,47
+"Radio L",900,38,18,Nocxium,17
+"Radio L",900,39,18,Zydrine,9
+"Radio L",900,40,18,Megacyte,37
+"Multifrequency M",600,34,18,Tritanium,36
+"Multifrequency M",600,36,18,Mexallon,18
+"Multifrequency M",600,38,18,Nocxium,1
+"Multifrequency M",600,39,18,Zydrine,3
+"Multifrequency M",600,40,18,Megacyte,4
+"Multifrequency L",900,35,18,Pyerite,36
+"Multifrequency L",900,36,18,Mexallon,4
+"Multifrequency L",900,37,18,Isogen,24
+"Multifrequency L",900,38,18,Nocxium,3
+"Multifrequency L",900,39,18,Zydrine,14
+"Multifrequency L",900,40,18,Megacyte,50
+"Small Nosferatu I",900,34,18,Tritanium,2093
+"Small Nosferatu I",900,35,18,Pyerite,1532
+"Small Nosferatu I",900,36,18,Mexallon,22
+"Small Nosferatu I",900,37,18,Isogen,138
+"Small Nosferatu I",900,40,18,Megacyte,1
+"Small Energy Neutralizer I",900,34,18,Tritanium,520
+"Small Energy Neutralizer I",900,35,18,Pyerite,39
+"Small Energy Neutralizer I",900,36,18,Mexallon,198
+"Small Energy Neutralizer I",900,37,18,Isogen,96
+"Small Energy Neutralizer I",900,39,18,Zydrine,1
+"Small Energy Neutralizer I",900,40,18,Megacyte,1
+"Mjolnir Rocket",300,34,18,Tritanium,48
+"Mjolnir Rocket",300,35,18,Pyerite,37
+Arbitrator,12000,34,18,Tritanium,444444
+Arbitrator,12000,35,18,Pyerite,100000
+Arbitrator,12000,36,18,Mexallon,41111
+Arbitrator,12000,37,18,Isogen,8889
+Arbitrator,12000,38,18,Nocxium,2222
+Arbitrator,12000,39,18,Zydrine,556
+Arbitrator,12000,40,18,Megacyte,111
+Armageddon,18000,34,18,Tritanium,12090111
+Armageddon,18000,35,18,Pyerite,3024444
+Armageddon,18000,36,18,Mexallon,762222
+Armageddon,18000,37,18,Isogen,189478
+Armageddon,18000,38,18,Nocxium,47256
+Armageddon,18000,39,18,Zydrine,11089
+Armageddon,18000,40,18,Megacyte,5156
+Dominix,18000,34,18,Tritanium,11564444
+Dominix,18000,35,18,Pyerite,2892889
+Dominix,18000,36,18,Mexallon,728333
+Dominix,18000,37,18,Isogen,181211
+Dominix,18000,38,18,Nocxium,45133
+Dominix,18000,39,18,Zydrine,10322
+Dominix,18000,40,18,Megacyte,3778
+Scorpion,18000,34,18,Tritanium,10649667
+Scorpion,18000,35,18,Pyerite,2263111
+Scorpion,18000,36,18,Mexallon,607000
+Scorpion,18000,37,18,Isogen,166200
+Scorpion,18000,38,18,Nocxium,36011
+Scorpion,18000,39,18,Zydrine,8033
+Scorpion,18000,40,18,Megacyte,3344
+Typhoon,18000,34,18,Tritanium,10279111
+Typhoon,18000,35,18,Pyerite,2792889
+Typhoon,18000,36,18,Mexallon,624889
+Typhoon,18000,37,18,Isogen,164589
+Typhoon,18000,38,18,Nocxium,34656
+Typhoon,18000,39,18,Zydrine,9122
+Typhoon,18000,40,18,Megacyte,2400
+"Scourge Rocket",300,34,18,Tritanium,31
+"Scourge Rocket",300,35,18,Pyerite,26
+"Nova Rocket",300,34,18,Tritanium,24
+"Nova Rocket",300,35,18,Pyerite,19
+"Inferno Rocket",300,34,18,Tritanium,33
+"Inferno Rocket",300,35,18,Pyerite,28
+"Scourge Rocket",300,34,18,Tritanium,31
+"Scourge Rocket",300,35,18,Pyerite,26
+"Nova Rocket",300,34,18,Tritanium,24
+"Nova Rocket",300,35,18,Pyerite,19
+"Inferno Rocket",300,34,18,Tritanium,33
+"Inferno Rocket",300,35,18,Pyerite,28
+"Scourge Light Missile",300,34,18,Tritanium,69
+"Scourge Light Missile",300,35,18,Pyerite,43
+"Scourge Light Missile",300,36,18,Mexallon,2
+"Nova Light Missile",300,34,18,Tritanium,54
+"Nova Light Missile",300,35,18,Pyerite,16
+"Nova Light Missile",300,36,18,Mexallon,6
+"Inferno Light Missile",300,34,18,Tritanium,58
+"Inferno Light Missile",300,35,18,Pyerite,72
+"Scourge Light Missile",300,34,18,Tritanium,69
+"Scourge Light Missile",300,35,18,Pyerite,43
+"Scourge Light Missile",300,36,18,Mexallon,2
+"Nova Light Missile",300,34,18,Tritanium,54
+"Nova Light Missile",300,35,18,Pyerite,16
+"Nova Light Missile",300,36,18,Mexallon,6
+"Mjolnir Light Missile",300,34,18,Tritanium,150
+"Mjolnir Light Missile",300,35,18,Pyerite,18
+"Mjolnir Light Missile",300,36,18,Mexallon,12
+"Nova Heavy Missile",600,34,18,Tritanium,351
+"Nova Heavy Missile",600,35,18,Pyerite,119
+"Nova Heavy Missile",600,38,18,Nocxium,1
+"Mjolnir Heavy Missile",600,34,18,Tritanium,496
+"Mjolnir Heavy Missile",600,35,18,Pyerite,220
+"Mjolnir Heavy Missile",600,38,18,Nocxium,2
+"Inferno Heavy Missile",600,34,18,Tritanium,716
+"Inferno Heavy Missile",600,35,18,Pyerite,2
+"Inferno Heavy Missile",600,36,18,Mexallon,6
+"Inferno Heavy Missile",600,38,18,Nocxium,3
+"Scourge Heavy Missile",600,34,18,Tritanium,820
+"Scourge Heavy Missile",600,38,18,Nocxium,2
+"Inferno Heavy Missile",600,34,18,Tritanium,716
+"Inferno Heavy Missile",600,35,18,Pyerite,2
+"Inferno Heavy Missile",600,36,18,Mexallon,6
+"Inferno Heavy Missile",600,38,18,Nocxium,3
+"Mjolnir Heavy Missile",600,34,18,Tritanium,496
+"Mjolnir Heavy Missile",600,35,18,Pyerite,220
+"Mjolnir Heavy Missile",600,38,18,Nocxium,2
+"Nova Torpedo",900,34,18,Tritanium,3729
+"Nova Torpedo",900,35,18,Pyerite,833
+"Nova Torpedo",900,39,18,Zydrine,7
+"Scourge Torpedo",900,34,18,Tritanium,1876
+"Scourge Torpedo",900,39,18,Zydrine,6
+"Scourge Torpedo",900,40,18,Megacyte,2
+"Mjolnir Torpedo",900,34,18,Tritanium,3924
+"Mjolnir Torpedo",900,35,18,Pyerite,356
+"Mjolnir Torpedo",900,36,18,Mexallon,28
+"Mjolnir Torpedo",900,40,18,Megacyte,3
+"Inferno Torpedo",900,34,18,Tritanium,3989
+"Inferno Torpedo",900,35,18,Pyerite,2939
+"Inferno Torpedo",900,36,18,Mexallon,29
+"Inferno Torpedo",900,37,18,Isogen,2
+"Inferno Torpedo",900,38,18,Nocxium,2
+"Inferno Torpedo",900,39,18,Zydrine,1
+"Mjolnir Torpedo",900,34,18,Tritanium,3924
+"Mjolnir Torpedo",900,35,18,Pyerite,356
+"Mjolnir Torpedo",900,36,18,Mexallon,28
+"Mjolnir Torpedo",900,40,18,Megacyte,3
+"Scourge Torpedo",900,34,18,Tritanium,1876
+"Scourge Torpedo",900,39,18,Zydrine,6
+"Scourge Torpedo",900,40,18,Megacyte,2
+"Nova Cruise Missile",900,34,18,Tritanium,1447
+"Nova Cruise Missile",900,36,18,Mexallon,81
+"Nova Cruise Missile",900,37,18,Isogen,4
+"Nova Cruise Missile",900,39,18,Zydrine,1
+"Scourge Cruise Missile",900,34,18,Tritanium,1867
+"Scourge Cruise Missile",900,35,18,Pyerite,144
+"Scourge Cruise Missile",900,36,18,Mexallon,17
+"Scourge Cruise Missile",900,38,18,Nocxium,2
+"Scourge Cruise Missile",900,39,18,Zydrine,2
+"Mjolnir Cruise Missile",900,34,18,Tritanium,3084
+"Mjolnir Cruise Missile",900,35,18,Pyerite,472
+"Mjolnir Cruise Missile",900,36,18,Mexallon,68
+"Mjolnir Cruise Missile",900,39,18,Zydrine,2
+"Nova Cruise Missile",900,34,18,Tritanium,1447
+"Nova Cruise Missile",900,36,18,Mexallon,81
+"Nova Cruise Missile",900,37,18,Isogen,4
+"Nova Cruise Missile",900,39,18,Zydrine,1
+"Mjolnir Cruise Missile",900,34,18,Tritanium,3084
+"Mjolnir Cruise Missile",900,35,18,Pyerite,472
+"Mjolnir Cruise Missile",900,36,18,Mexallon,68
+"Mjolnir Cruise Missile",900,39,18,Zydrine,2
+"Scourge Cruise Missile",900,34,18,Tritanium,1867
+"Scourge Cruise Missile",900,35,18,Pyerite,144
+"Scourge Cruise Missile",900,36,18,Mexallon,17
+"Scourge Cruise Missile",900,38,18,Nocxium,2
+"Scourge Cruise Missile",900,39,18,Zydrine,2
+Apocalypse,18000,34,18,Tritanium,10608667
+Apocalypse,18000,35,18,Pyerite,2652667
+Apocalypse,18000,36,18,Mexallon,664444
+Apocalypse,18000,37,18,Isogen,165922
+Apocalypse,18000,38,18,Nocxium,41467
+Apocalypse,18000,39,18,Zydrine,10022
+Apocalypse,18000,40,18,Megacyte,3200
+Megathron,18000,34,18,Tritanium,10321889
+Megathron,18000,35,18,Pyerite,2637000
+Megathron,18000,36,18,Mexallon,646889
+Megathron,18000,37,18,Isogen,161433
+Megathron,18000,38,18,Nocxium,40300
+Megathron,18000,39,18,Zydrine,9556
+Megathron,18000,40,18,Megacyte,2933
+Tempest,18000,34,18,Tritanium,10321889
+Tempest,18000,35,18,Pyerite,2581444
+Tempest,18000,36,18,Mexallon,647667
+Tempest,18000,37,18,Isogen,161511
+Tempest,18000,38,18,Nocxium,40278
+Tempest,18000,39,18,Zydrine,9500
+Tempest,18000,40,18,Megacyte,2733
+Raven,18000,34,18,Tritanium,10608667
+Raven,18000,35,18,Pyerite,2652667
+Raven,18000,36,18,Mexallon,664444
+Raven,18000,37,18,Isogen,165911
+Raven,18000,38,18,Nocxium,41422
+Raven,18000,39,18,Zydrine,9878
+Raven,18000,40,18,Megacyte,3144
+"Sensor Booster I",1800,34,18,Tritanium,5030
+"Sensor Booster I",1800,35,18,Pyerite,78
+"Sensor Booster I",1800,37,18,Isogen,2
+"ECCM Projector I",1800,34,18,Tritanium,5662
+"ECCM Projector I",1800,35,18,Pyerite,3998
+"ECCM Projector I",1800,36,18,Mexallon,34
+"Remote Sensor Booster I",1800,34,18,Tritanium,5662
+"Remote Sensor Booster I",1800,35,18,Pyerite,3998
+"Remote Sensor Booster I",1800,36,18,Mexallon,34
+"Remote Sensor Dampener I",1800,34,18,Tritanium,252
+"Remote Sensor Dampener I",1800,35,18,Pyerite,766
+"Remote Sensor Dampener I",1800,36,18,Mexallon,1053
+"Remote Sensor Dampener I",1800,37,18,Isogen,119
+"Tracking Computer I",1800,34,18,Tritanium,949
+"Tracking Computer I",1800,40,18,Megacyte,1
+"Signal Amplifier I",900,34,18,Tritanium,413
+"Signal Amplifier I",900,35,18,Pyerite,79
+"Signal Amplifier I",900,36,18,Mexallon,148
+"Signal Amplifier I",900,37,18,Isogen,1
+"Signal Amplifier I",900,39,18,Zydrine,3
+"Tracking Enhancer I",900,34,18,Tritanium,538
+"Tracking Enhancer I",900,35,18,Pyerite,88
+"Tracking Enhancer I",900,36,18,Mexallon,369
+"Tracking Enhancer I",900,37,18,Isogen,1
+"Tracking Enhancer I",900,38,18,Nocxium,4
+"Remote Tracking Computer I",1800,34,18,Tritanium,3814
+"Remote Tracking Computer I",1800,35,18,Pyerite,3163
+"Remote Tracking Computer I",1800,36,18,Mexallon,3
+"Remote Tracking Computer I",1800,37,18,Isogen,2
+"Tracking Disruptor I",1800,34,18,Tritanium,716
+"Tracking Disruptor I",1800,35,18,Pyerite,154
+"Tracking Disruptor I",1800,36,18,Mexallon,370
+"Tracking Disruptor I",1800,37,18,Isogen,3
+"Tracking Disruptor I",1800,40,18,Megacyte,2
+"ECCM - Omni I",1800,34,18,Tritanium,236
+"ECCM - Omni I",1800,35,18,Pyerite,3413
+"ECCM - Gravimetric I",1800,34,18,Tritanium,236
+"ECCM - Gravimetric I",1800,35,18,Pyerite,3413
+"ECCM - Ladar I",1800,34,18,Tritanium,236
+"ECCM - Ladar I",1800,35,18,Pyerite,3413
+"ECCM - Magnetometric I",1800,34,18,Tritanium,236
+"ECCM - Magnetometric I",1800,35,18,Pyerite,3413
+"ECCM - Radar I",1800,34,18,Tritanium,236
+"ECCM - Radar I",1800,35,18,Pyerite,3413
+"Heat Sink I",900,34,18,Tritanium,676
+"Heat Sink I",900,36,18,Mexallon,318
+"Heat Sink I",900,37,18,Isogen,2
+"Heat Sink I",900,39,18,Zydrine,3
+"Heat Sink I",900,40,18,Megacyte,1
+"ECM - Phase Inverter I",1800,34,18,Tritanium,2884
+"ECM - Phase Inverter I",1800,35,18,Pyerite,919
+"ECM - Phase Inverter I",1800,40,18,Megacyte,1
+"ECM - Ion Field Projector I",1800,34,18,Tritanium,2884
+"ECM - Ion Field Projector I",1800,35,18,Pyerite,919
+"ECM - Ion Field Projector I",1800,40,18,Megacyte,1
+"ECM - Multispectral Jammer I",1800,37,18,Isogen,62
+"ECM - Multispectral Jammer I",1800,38,18,Nocxium,49
+"ECM - Spatial Destabilizer I",1800,34,18,Tritanium,2884
+"ECM - Spatial Destabilizer I",1800,35,18,Pyerite,919
+"ECM - Spatial Destabilizer I",1800,40,18,Megacyte,1
+"ECM - White Noise Generator I",1800,34,18,Tritanium,2884
+"ECM - White Noise Generator I",1800,35,18,Pyerite,919
+"ECM - White Noise Generator I",1800,40,18,Megacyte,1
+"Gravimetric Backup Array I",900,34,18,Tritanium,2386
+"Gravimetric Backup Array I",900,35,18,Pyerite,143
+"Gravimetric Backup Array I",900,36,18,Mexallon,249
+"LADAR Backup Array I",900,34,18,Tritanium,2386
+"LADAR Backup Array I",900,35,18,Pyerite,143
+"LADAR Backup Array I",900,36,18,Mexallon,249
+"Magnetometric Backup Array I",900,34,18,Tritanium,2386
+"Magnetometric Backup Array I",900,35,18,Pyerite,143
+"Magnetometric Backup Array I",900,36,18,Mexallon,249
+"Multi Sensor Backup Array I",900,34,18,Tritanium,1010
+"Multi Sensor Backup Array I",900,35,18,Pyerite,267
+"Multi Sensor Backup Array I",900,36,18,Mexallon,738
+"Warp Disruptor I",1800,34,18,Tritanium,502
+"Warp Disruptor I",1800,35,18,Pyerite,297
+"Warp Disruptor I",1800,36,18,Mexallon,334
+"Warp Disruptor I",1800,37,18,Isogen,197
+"Warp Disruptor I",1800,39,18,Zydrine,2
+"Medium Armor Repairer I",1800,34,18,Tritanium,2271
+"Medium Armor Repairer I",1800,35,18,Pyerite,1063
+"Medium Armor Repairer I",1800,36,18,Mexallon,906
+"Medium Armor Repairer I",1800,37,18,Isogen,1
+"Medium Armor Repairer I",1800,38,18,Nocxium,4
+"Large Armor Repairer I",2700,34,18,Tritanium,4662
+"Large Armor Repairer I",2700,35,18,Pyerite,1857
+"Large Armor Repairer I",2700,36,18,Mexallon,1027
+"Large Armor Repairer I",2700,37,18,Isogen,44
+"Large Armor Repairer I",2700,38,18,Nocxium,51
+"Small Capacitor Booster I",900,34,18,Tritanium,277
+"Small Capacitor Booster I",900,38,18,Nocxium,6
+"Small Capacitor Booster I",900,40,18,Megacyte,1
+"Heavy Capacitor Booster I",2700,34,18,Tritanium,1677
+"Heavy Capacitor Booster I",2700,35,18,Pyerite,561
+"Heavy Capacitor Booster I",2700,36,18,Mexallon,488
+"Heavy Capacitor Booster I",2700,37,18,Isogen,404
+"Heavy Capacitor Booster I",2700,38,18,Nocxium,6
+"Small Remote Shield Booster I",900,34,18,Tritanium,896
+"Small Remote Shield Booster I",900,35,18,Pyerite,3
+"Small Remote Shield Booster I",900,36,18,Mexallon,112
+"Small Remote Shield Booster I",900,37,18,Isogen,1
+"Medium Remote Shield Booster I",1800,34,18,Tritanium,1506
+"Medium Remote Shield Booster I",1800,35,18,Pyerite,924
+"Medium Remote Shield Booster I",1800,36,18,Mexallon,108
+"Large Remote Shield Booster I",1800,34,18,Tritanium,4318
+"Large Remote Shield Booster I",1800,35,18,Pyerite,3256
+"Large Remote Shield Booster I",1800,36,18,Mexallon,1
+"Medium Hull Repairer I",1800,34,18,Tritanium,511
+"Medium Hull Repairer I",1800,35,18,Pyerite,6993
+"Medium Hull Repairer I",1800,39,18,Zydrine,4
+"Medium Hull Repairer I",1800,40,18,Megacyte,9
+"Large Hull Repairer I",1800,34,18,Tritanium,518
+"Large Hull Repairer I",1800,35,18,Pyerite,7007
+"Large Hull Repairer I",1800,38,18,Nocxium,2
+"Large Hull Repairer I",1800,39,18,Zydrine,12
+"Large Hull Repairer I",1800,40,18,Megacyte,32
+"Medium Shield Extender I",900,34,18,Tritanium,1890
+"Medium Shield Extender I",900,35,18,Pyerite,456
+"Medium Shield Extender I",900,36,18,Mexallon,179
+"Medium Shield Extender I",900,37,18,Isogen,6
+"Large Shield Extender I",1800,34,18,Tritanium,3383
+"Large Shield Extender I",1800,35,18,Pyerite,2769
+"Large Shield Extender I",1800,36,18,Mexallon,181
+"Co-Processor I",900,34,18,Tritanium,2398
+"Co-Processor I",900,35,18,Pyerite,466
+"Co-Processor I",900,36,18,Mexallon,179
+"Co-Processor I",900,37,18,Isogen,1
+"Co-Processor I",900,38,18,Nocxium,4
+"Medium Proton Smartbomb I",1800,34,18,Tritanium,18831
+"Medium Proton Smartbomb I",1800,35,18,Pyerite,15610
+"Medium Proton Smartbomb I",1800,36,18,Mexallon,4
+"Medium Proton Smartbomb I",1800,38,18,Nocxium,3
+"Medium Proton Smartbomb I",1800,39,18,Zydrine,1
+"Medium Graviton Smartbomb I",1800,34,18,Tritanium,19022
+"Medium Graviton Smartbomb I",1800,35,18,Pyerite,13484
+"Medium Graviton Smartbomb I",1800,38,18,Nocxium,27
+"Medium Graviton Smartbomb I",1800,39,18,Zydrine,4
+"Medium Graviton Smartbomb I",1800,40,18,Megacyte,1
+"Medium Plasma Smartbomb I",1800,34,18,Tritanium,22160
+"Medium Plasma Smartbomb I",1800,36,18,Mexallon,2402
+"Medium Plasma Smartbomb I",1800,38,18,Nocxium,61
+"Medium Plasma Smartbomb I",1800,40,18,Megacyte,4
+"Medium EMP Smartbomb I",1800,34,18,Tritanium,22764
+"Medium EMP Smartbomb I",1800,35,18,Pyerite,18344
+"Medium EMP Smartbomb I",1800,36,18,Mexallon,28
+"Medium EMP Smartbomb I",1800,39,18,Zydrine,3
+"Large Proton Smartbomb I",2700,34,18,Tritanium,37951
+"Large Proton Smartbomb I",2700,35,18,Pyerite,30339
+"Large Proton Smartbomb I",2700,36,18,Mexallon,16
+"Large Proton Smartbomb I",2700,38,18,Nocxium,1
+"Large Proton Smartbomb I",2700,39,18,Zydrine,7
+"Large Graviton Smartbomb I",2700,34,18,Tritanium,3600
+"Large Graviton Smartbomb I",2700,35,18,Pyerite,30887
+"Large Graviton Smartbomb I",2700,38,18,Nocxium,42
+"Large Graviton Smartbomb I",2700,39,18,Zydrine,8
+"Large Graviton Smartbomb I",2700,40,18,Megacyte,8
+"Large Plasma Smartbomb I",2700,34,18,Tritanium,40924
+"Large Plasma Smartbomb I",2700,35,18,Pyerite,14320
+"Large Plasma Smartbomb I",2700,36,18,Mexallon,2112
+"Large Plasma Smartbomb I",2700,38,18,Nocxium,58
+"Large Plasma Smartbomb I",2700,39,18,Zydrine,1
+"Large Plasma Smartbomb I",2700,40,18,Megacyte,10
+"Large EMP Smartbomb I",2700,34,18,Tritanium,46329
+"Large EMP Smartbomb I",2700,35,18,Pyerite,36498
+"Large EMP Smartbomb I",2700,38,18,Nocxium,3
+"Large EMP Smartbomb I",2700,39,18,Zydrine,2
+"Large EMP Smartbomb I",2700,40,18,Megacyte,1
+"RADAR Backup Array I",900,34,18,Tritanium,2386
+"RADAR Backup Array I",900,35,18,Pyerite,143
+"RADAR Backup Array I",900,36,18,Mexallon,249
+"Micro Auxiliary Power Core I",900,34,18,Tritanium,9151
+"Micro Auxiliary Power Core I",900,35,18,Pyerite,2737
+"Micro Auxiliary Power Core I",900,36,18,Mexallon,988
+"Micro Auxiliary Power Core I",900,37,18,Isogen,150
+"Micro Auxiliary Power Core I",900,38,18,Nocxium,148
+"Drone Damage Amplifier I",900,34,18,Tritanium,1230
+"Drone Damage Amplifier I",900,35,18,Pyerite,234
+"Drone Damage Amplifier I",900,36,18,Mexallon,380
+"Drone Damage Amplifier I",900,37,18,Isogen,4
+"Drone Damage Amplifier I",900,39,18,Zydrine,6
+"Drone Damage Amplifier I",900,40,18,Megacyte,2
+"Magnetic Field Stabilizer I",900,34,18,Tritanium,8050
+"Magnetic Field Stabilizer I",900,35,18,Pyerite,1459
+"Mining Drone I",300,34,18,Tritanium,77
+"Mining Drone I",300,37,18,Isogen,4
+"Mining Drone I",300,38,18,Nocxium,13
+"Mining Drone I",300,40,18,Megacyte,1
+"Rocket Launcher I",900,34,18,Tritanium,556
+"Rocket Launcher I",900,35,18,Pyerite,278
+"125mm Railgun I",900,34,18,Tritanium,1311
+"125mm Railgun I",900,35,18,Pyerite,473
+"125mm Railgun I",900,36,18,Mexallon,103
+"125mm Railgun I",900,37,18,Isogen,2
+"X-Large Shield Booster I",2700,37,18,Isogen,1327
+"X-Large Shield Booster I",2700,38,18,Nocxium,481
+"X-Large Shield Booster I",2700,39,18,Zydrine,114
+"Medium Shield Booster I",900,35,18,Pyerite,1327
+"Medium Shield Booster I",900,36,18,Mexallon,481
+"Medium Shield Booster I",900,37,18,Isogen,113
+"Large Shield Booster I",1800,36,18,Mexallon,1327
+"Large Shield Booster I",1800,37,18,Isogen,481
+"Large Shield Booster I",1800,38,18,Nocxium,113
+"Energized EM Membrane I",900,34,18,Tritanium,10178
+"Energized EM Membrane I",900,35,18,Pyerite,6494
+"Energized EM Membrane I",900,36,18,Mexallon,7
+"Energized EM Membrane I",900,38,18,Nocxium,3
+"Energized EM Membrane I",900,40,18,Megacyte,1
+"Energized Explosive Membrane I",900,34,18,Tritanium,10178
+"Energized Explosive Membrane I",900,35,18,Pyerite,6494
+"Energized Explosive Membrane I",900,36,18,Mexallon,7
+"Energized Explosive Membrane I",900,38,18,Nocxium,3
+"Energized Explosive Membrane I",900,40,18,Megacyte,1
+"Energized Armor Layering Membrane I",900,34,18,Tritanium,10178
+"Energized Armor Layering Membrane I",900,35,18,Pyerite,6494
+"Energized Armor Layering Membrane I",900,36,18,Mexallon,7
+"Energized Armor Layering Membrane I",900,38,18,Nocxium,3
+"Energized Armor Layering Membrane I",900,40,18,Megacyte,1
+"Energized Kinetic Membrane I",900,34,18,Tritanium,10178
+"Energized Kinetic Membrane I",900,35,18,Pyerite,6494
+"Energized Kinetic Membrane I",900,36,18,Mexallon,7
+"Energized Kinetic Membrane I",900,38,18,Nocxium,3
+"Energized Kinetic Membrane I",900,40,18,Megacyte,1
+"Energized Thermic Membrane I",900,34,18,Tritanium,10178
+"Energized Thermic Membrane I",900,35,18,Pyerite,6494
+"Energized Thermic Membrane I",900,36,18,Mexallon,7
+"Energized Thermic Membrane I",900,38,18,Nocxium,3
+"Energized Thermic Membrane I",900,40,18,Megacyte,1
+"Energized Adaptive Nano Membrane I",900,34,18,Tritanium,6013
+"Energized Adaptive Nano Membrane I",900,35,18,Pyerite,4514
+"Energized Adaptive Nano Membrane I",900,36,18,Mexallon,1612
+"Energized Adaptive Nano Membrane I",900,39,18,Zydrine,1
+"Energized Adaptive Nano Membrane I",900,40,18,Megacyte,1
+Vigil,6000,34,18,Tritanium,14444
+Vigil,6000,35,18,Pyerite,5111
+Vigil,6000,36,18,Mexallon,2778
+Vigil,6000,37,18,Isogen,278
+Vigil,6000,38,18,Nocxium,83
+Vigil,6000,39,18,Zydrine,11
+Vigil,6000,40,18,Megacyte,4
+"Warp Core Stabilizer I",900,34,18,Tritanium,566
+"Warp Core Stabilizer I",900,35,18,Pyerite,504
+"Warp Core Stabilizer I",900,36,18,Mexallon,186
+"Armor EM Hardener I",900,34,18,Tritanium,12461
+"Armor EM Hardener I",900,35,18,Pyerite,5417
+"Armor EM Hardener I",900,38,18,Nocxium,3
+"Armor EM Hardener I",900,39,18,Zydrine,8
+"Armor Kinetic Hardener I",900,34,18,Tritanium,12494
+"Armor Kinetic Hardener I",900,35,18,Pyerite,6187
+"Armor Kinetic Hardener I",900,37,18,Isogen,2
+"Armor Kinetic Hardener I",900,38,18,Nocxium,7
+"Armor Kinetic Hardener I",900,39,18,Zydrine,7
+"Armor Kinetic Hardener I",900,40,18,Megacyte,1
+"Armor Explosive Hardener I",900,34,18,Tritanium,14720
+"Armor Explosive Hardener I",900,35,18,Pyerite,5174
+"Armor Explosive Hardener I",900,37,18,Isogen,94
+"Armor Explosive Hardener I",900,38,18,Nocxium,13
+"Armor Explosive Hardener I",900,39,18,Zydrine,7
+"Armor Explosive Hardener I",900,40,18,Megacyte,1
+"Armor Thermic Hardener I",900,34,18,Tritanium,13467
+"Armor Thermic Hardener I",900,35,18,Pyerite,8383
+"Armor Thermic Hardener I",900,36,18,Mexallon,570
+"Armor Thermic Hardener I",900,37,18,Isogen,18
+"Armor Thermic Hardener I",900,38,18,Nocxium,3
+"Armor Thermic Hardener I",900,39,18,Zydrine,8
+"10MN Afterburner I",1800,34,18,Tritanium,3818
+"10MN Afterburner I",1800,35,18,Pyerite,3477
+"10MN Afterburner I",1800,36,18,Mexallon,3
+"10MN Afterburner I",1800,37,18,Isogen,2
+"100MN Afterburner I",2700,34,18,Tritanium,19884
+"100MN Afterburner I",2700,35,18,Pyerite,8922
+"100MN Afterburner I",2700,36,18,Mexallon,1113
+"100MN Afterburner I",2700,37,18,Isogen,49
+"100MN Afterburner I",2700,38,18,Nocxium,24
+"100MN Afterburner I",2700,39,18,Zydrine,2
+"100MN Afterburner I",2700,40,18,Megacyte,1
+"10MN Microwarpdrive I",1800,34,18,Tritanium,17367
+"10MN Microwarpdrive I",1800,35,18,Pyerite,14709
+"10MN Microwarpdrive I",1800,36,18,Mexallon,68
+"10MN Microwarpdrive I",1800,37,18,Isogen,1
+"10MN Microwarpdrive I",1800,38,18,Nocxium,1
+"10MN Microwarpdrive I",1800,39,18,Zydrine,1
+"10MN Microwarpdrive I",1800,40,18,Megacyte,2
+"100MN Microwarpdrive I",2700,34,18,Tritanium,63753
+"100MN Microwarpdrive I",2700,35,18,Pyerite,16381
+"100MN Microwarpdrive I",2700,36,18,Mexallon,4321
+"100MN Microwarpdrive I",2700,37,18,Isogen,1006
+"100MN Microwarpdrive I",2700,38,18,Nocxium,308
+"100MN Microwarpdrive I",2700,39,18,Zydrine,56
+"100MN Microwarpdrive I",2700,40,18,Megacyte,10
+"Large Remote Capacitor Transmitter I",2700,34,18,Tritanium,35778
+"Large Remote Capacitor Transmitter I",2700,35,18,Pyerite,4679
+"Large Remote Capacitor Transmitter I",2700,38,18,Nocxium,17
+"Large Remote Capacitor Transmitter I",2700,40,18,Megacyte,8
+"Medium Remote Capacitor Transmitter I",1800,34,18,Tritanium,16271
+"Medium Remote Capacitor Transmitter I",1800,35,18,Pyerite,2127
+"Medium Remote Capacitor Transmitter I",1800,38,18,Nocxium,8
+"Medium Remote Capacitor Transmitter I",1800,40,18,Megacyte,3
+"Medium Nosferatu I",1800,34,18,Tritanium,4547
+"Medium Nosferatu I",1800,35,18,Pyerite,3208
+"Medium Nosferatu I",1800,36,18,Mexallon,274
+"Medium Nosferatu I",1800,37,18,Isogen,592
+"Medium Nosferatu I",1800,40,18,Megacyte,12
+"Heavy Nosferatu I",2700,34,18,Tritanium,12169
+"Heavy Nosferatu I",2700,35,18,Pyerite,6778
+"Heavy Nosferatu I",2700,36,18,Mexallon,1099
+"Heavy Nosferatu I",2700,37,18,Isogen,3276
+"Heavy Nosferatu I",2700,40,18,Megacyte,69
+"Medium Energy Neutralizer I",1800,34,18,Tritanium,1484
+"Medium Energy Neutralizer I",1800,35,18,Pyerite,211
+"Medium Energy Neutralizer I",1800,36,18,Mexallon,397
+"Medium Energy Neutralizer I",1800,37,18,Isogen,198
+"Medium Energy Neutralizer I",1800,39,18,Zydrine,20
+"Medium Energy Neutralizer I",1800,40,18,Megacyte,3
+"Heavy Energy Neutralizer I",2700,34,18,Tritanium,1486
+"Heavy Energy Neutralizer I",2700,35,18,Pyerite,1486
+"Heavy Energy Neutralizer I",2700,36,18,Mexallon,1486
+"Heavy Energy Neutralizer I",2700,37,18,Isogen,1486
+"Heavy Energy Neutralizer I",2700,39,18,Zydrine,50
+"Heavy Energy Neutralizer I",2700,40,18,Megacyte,24
+"Deep Core Mining Laser I",2100,34,18,Tritanium,7547
+"Deep Core Mining Laser I",2100,35,18,Pyerite,3947
+"Deep Core Mining Laser I",2100,36,18,Mexallon,2250
+"Deep Core Mining Laser I",2100,37,18,Isogen,1667
+"Deep Core Mining Laser I",2100,38,18,Nocxium,111
+"Deep Core Mining Laser I",2100,3687,280,"Electronic Parts",3
+"Deep Core Mining Laser I",2100,3689,1034,"Mechanical Parts",2
+"50mm Reinforced Steel Plates I",900,34,18,Tritanium,1982
+"50mm Reinforced Steel Plates I",900,35,18,Pyerite,98
+"50mm Reinforced Steel Plates I",900,36,18,Mexallon,181
+"50mm Reinforced Steel Plates I",900,38,18,Nocxium,1
+"100mm Reinforced Steel Plates I",900,34,18,Tritanium,751
+"100mm Reinforced Steel Plates I",900,35,18,Pyerite,226
+"100mm Reinforced Steel Plates I",900,36,18,Mexallon,311
+"100mm Reinforced Steel Plates I",900,37,18,Isogen,43
+"100mm Reinforced Steel Plates I",900,38,18,Nocxium,2
+"100mm Reinforced Steel Plates I",900,39,18,Zydrine,1
+"200mm Reinforced Steel Plates I",900,34,18,Tritanium,5244
+"200mm Reinforced Steel Plates I",900,35,18,Pyerite,3160
+"200mm Reinforced Steel Plates I",900,36,18,Mexallon,842
+"200mm Reinforced Steel Plates I",900,38,18,Nocxium,20
+"200mm Reinforced Steel Plates I",900,39,18,Zydrine,3
+"200mm Reinforced Steel Plates I",900,40,18,Megacyte,1
+"400mm Reinforced Steel Plates I",900,34,18,Tritanium,10591
+"400mm Reinforced Steel Plates I",900,35,18,Pyerite,6983
+"400mm Reinforced Steel Plates I",900,36,18,Mexallon,2503
+"400mm Reinforced Steel Plates I",900,37,18,Isogen,1
+"400mm Reinforced Steel Plates I",900,39,18,Zydrine,6
+"400mm Reinforced Steel Plates I",900,40,18,Megacyte,1
+"800mm Reinforced Steel Plates I",1800,34,18,Tritanium,12218
+"800mm Reinforced Steel Plates I",1800,35,18,Pyerite,11594
+"800mm Reinforced Steel Plates I",1800,36,18,Mexallon,8360
+"800mm Reinforced Steel Plates I",1800,37,18,Isogen,231
+"800mm Reinforced Steel Plates I",1800,38,18,Nocxium,6
+"800mm Reinforced Steel Plates I",1800,40,18,Megacyte,3
+"1600mm Reinforced Steel Plates I",2700,34,18,Tritanium,18938
+"1600mm Reinforced Steel Plates I",2700,35,18,Pyerite,18012
+"1600mm Reinforced Steel Plates I",2700,36,18,Mexallon,13619
+"1600mm Reinforced Steel Plates I",2700,37,18,Isogen,877
+"1600mm Reinforced Steel Plates I",2700,39,18,Zydrine,1
+"1600mm Reinforced Steel Plates I",2700,40,18,Megacyte,6
+"Ballistic Control System I",900,34,18,Tritanium,1351
+"Ballistic Control System I",900,36,18,Mexallon,636
+"Ballistic Control System I",900,37,18,Isogen,4
+"Ballistic Control System I",900,39,18,Zydrine,7
+"Ballistic Control System I",900,40,18,Megacyte,2
+"Shield Boost Amplifier I",1800,35,18,Pyerite,23700
+"Shield Boost Amplifier I",1800,36,18,Mexallon,574
+"Shield Boost Amplifier I",1800,38,18,Nocxium,87
+"Shield Boost Amplifier I",1800,40,18,Megacyte,17
+"Mobile Large Warp Disruptor I",4500,34,18,Tritanium,275448
+"Mobile Large Warp Disruptor I",4500,35,18,Pyerite,90358
+"Mobile Large Warp Disruptor I",4500,36,18,Mexallon,48816
+"Mobile Large Warp Disruptor I",4500,37,18,Isogen,11845
+"Mobile Large Warp Disruptor I",4500,38,18,Nocxium,3147
+"Mobile Large Warp Disruptor I",4500,39,18,Zydrine,1404
+"Mobile Large Warp Disruptor I",4500,40,18,Megacyte,356
+"Mobile Medium Warp Disruptor I",3000,34,18,Tritanium,66979
+"Mobile Medium Warp Disruptor I",3000,35,18,Pyerite,21476
+"Mobile Medium Warp Disruptor I",3000,36,18,Mexallon,10952
+"Mobile Medium Warp Disruptor I",3000,37,18,Isogen,2222
+"Mobile Medium Warp Disruptor I",3000,38,18,Nocxium,787
+"Mobile Medium Warp Disruptor I",3000,39,18,Zydrine,344
+"Mobile Medium Warp Disruptor I",3000,40,18,Megacyte,89
+"Mobile Medium Warp Disruptor I",3000,447,52,"Warp Scrambler I",6
+"Mobile Medium Warp Disruptor I",3000,3687,280,"Electronic Parts",17
+"Mobile Small Warp Disruptor I",1500,34,18,Tritanium,15992
+"Mobile Small Warp Disruptor I",1500,35,18,Pyerite,4923
+"Mobile Small Warp Disruptor I",1500,36,18,Mexallon,2237
+"Mobile Small Warp Disruptor I",1500,37,18,Isogen,260
+"Mobile Small Warp Disruptor I",1500,38,18,Nocxium,197
+"Mobile Small Warp Disruptor I",1500,39,18,Zydrine,83
+"Mobile Small Warp Disruptor I",1500,40,18,Megacyte,22
+"Mobile Small Warp Disruptor I",1500,447,52,"Warp Scrambler I",3
+"Mobile Small Warp Disruptor I",1500,3687,280,"Electronic Parts",11
+"Small Remote Armor Repairer I",900,34,18,Tritanium,896
+"Small Remote Armor Repairer I",900,35,18,Pyerite,3
+"Small Remote Armor Repairer I",900,36,18,Mexallon,112
+"Small Remote Armor Repairer I",900,37,18,Isogen,1
+"Medium Remote Armor Repairer I",1800,34,18,Tritanium,1506
+"Medium Remote Armor Repairer I",1800,35,18,Pyerite,924
+"Medium Remote Armor Repairer I",1800,36,18,Mexallon,108
+"Large Remote Armor Repairer I",2700,34,18,Tritanium,4318
+"Large Remote Armor Repairer I",2700,35,18,Pyerite,3256
+"Large Remote Armor Repairer I",2700,36,18,Mexallon,1
+"R.Db - Roden Shipyards",2500,36,18,Mexallon,89
+"R.Db - Roden Shipyards",2500,37,18,Isogen,167
+"R.Db - Roden Shipyards",2500,38,18,Nocxium,80
+"R.A.M.- Energy Tech",2500,34,18,Tritanium,556
+"R.A.M.- Energy Tech",2500,35,18,Pyerite,444
+"R.A.M.- Energy Tech",2500,36,18,Mexallon,222
+"R.A.M.- Energy Tech",2500,37,18,Isogen,82
+"R.A.M.- Energy Tech",2500,38,18,Nocxium,36
+"R.A.M.- Cybernetics",2500,34,18,Tritanium,556
+"R.A.M.- Cybernetics",2500,35,18,Pyerite,444
+"R.A.M.- Cybernetics",2500,36,18,Mexallon,222
+"R.A.M.- Cybernetics",2500,37,18,Isogen,82
+"R.A.M.- Cybernetics",2500,38,18,Nocxium,36
+"R.A.M.- Electronics",2500,34,18,Tritanium,556
+"R.A.M.- Electronics",2500,35,18,Pyerite,444
+"R.A.M.- Electronics",2500,36,18,Mexallon,222
+"R.A.M.- Electronics",2500,37,18,Isogen,82
+"R.A.M.- Electronics",2500,38,18,Nocxium,36
+"R.A.M.- Ammunition Tech",2500,34,18,Tritanium,556
+"R.A.M.- Ammunition Tech",2500,35,18,Pyerite,444
+"R.A.M.- Ammunition Tech",2500,36,18,Mexallon,222
+"R.A.M.- Ammunition Tech",2500,37,18,Isogen,82
+"R.A.M.- Ammunition Tech",2500,38,18,Nocxium,36
+"R.A.M.- Armor/Hull Tech",2500,34,18,Tritanium,556
+"R.A.M.- Armor/Hull Tech",2500,35,18,Pyerite,444
+"R.A.M.- Armor/Hull Tech",2500,36,18,Mexallon,222
+"R.A.M.- Armor/Hull Tech",2500,37,18,Isogen,82
+"R.A.M.- Armor/Hull Tech",2500,38,18,Nocxium,36
+"R.Db - Boundless Creations",2500,36,18,Mexallon,89
+"R.Db - Boundless Creations",2500,37,18,Isogen,167
+"R.Db - Boundless Creations",2500,38,18,Nocxium,80
+"R.Db - Core Complexion",2500,36,18,Mexallon,89
+"R.Db - Core Complexion",2500,37,18,Isogen,167
+"R.Db - Core Complexion",2500,38,18,Nocxium,80
+"R.Db - CreoDron",2500,36,18,Mexallon,89
+"R.Db - CreoDron",2500,37,18,Isogen,167
+"R.Db - CreoDron",2500,38,18,Nocxium,80
+"R.Db - Duvolle Labs",2500,36,18,Mexallon,89
+"R.Db - Duvolle Labs",2500,37,18,Isogen,167
+"R.Db - Duvolle Labs",2500,38,18,Nocxium,80
+"R.Db - Carthum Conglomerate",2500,36,18,Mexallon,89
+"R.Db - Carthum Conglomerate",2500,37,18,Isogen,167
+"R.Db - Carthum Conglomerate",2500,38,18,Nocxium,80
+"R.Db - Kaalakiota",2500,36,18,Mexallon,89
+"R.Db - Kaalakiota",2500,37,18,Isogen,167
+"R.Db - Kaalakiota",2500,38,18,Nocxium,80
+"R.Db - Khanid Innovation",2500,36,18,Mexallon,89
+"R.Db - Khanid Innovation",2500,37,18,Isogen,167
+"R.Db - Khanid Innovation",2500,38,18,Nocxium,80
+"R.Db - Thukker Mix",2500,36,18,Mexallon,89
+"R.Db - Thukker Mix",2500,37,18,Isogen,167
+"R.Db - Thukker Mix",2500,38,18,Nocxium,80
+"R.Db - Viziam",2500,36,18,Mexallon,89
+"R.Db - Viziam",2500,37,18,Isogen,167
+"R.Db - Viziam",2500,38,18,Nocxium,80
+"R.Db - Ishukone",2500,36,18,Mexallon,89
+"R.Db - Ishukone",2500,37,18,Isogen,167
+"R.Db - Ishukone",2500,38,18,Nocxium,80
+"R.Db - Lai Dai",2500,36,18,Mexallon,89
+"R.Db - Lai Dai",2500,37,18,Isogen,167
+"R.Db - Lai Dai",2500,38,18,Nocxium,80
+"R.A.M.- Robotics",2500,34,18,Tritanium,556
+"R.A.M.- Robotics",2500,35,18,Pyerite,444
+"R.A.M.- Robotics",2500,36,18,Mexallon,222
+"R.A.M.- Robotics",2500,37,18,Isogen,82
+"R.A.M.- Robotics",2500,38,18,Nocxium,36
+"R.A.M.- Shield Tech",2500,34,18,Tritanium,556
+"R.A.M.- Shield Tech",2500,35,18,Pyerite,444
+"R.A.M.- Shield Tech",2500,36,18,Mexallon,222
+"R.A.M.- Shield Tech",2500,37,18,Isogen,82
+"R.A.M.- Shield Tech",2500,38,18,Nocxium,36
+"R.A.M.- Starship Tech",2500,34,18,Tritanium,556
+"R.A.M.- Starship Tech",2500,35,18,Pyerite,444
+"R.A.M.- Starship Tech",2500,36,18,Mexallon,222
+"R.A.M.- Starship Tech",2500,37,18,Isogen,82
+"R.A.M.- Starship Tech",2500,38,18,Nocxium,36
+"R.A.M.- Weapon Tech",2500,34,18,Tritanium,556
+"R.A.M.- Weapon Tech",2500,35,18,Pyerite,444
+"R.A.M.- Weapon Tech",2500,36,18,Mexallon,222
+"R.A.M.- Weapon Tech",2500,37,18,Isogen,82
+"R.A.M.- Weapon Tech",2500,38,18,Nocxium,36
+"Core Probe Launcher I",2700,34,18,Tritanium,471
+"Core Probe Launcher I",2700,35,18,Pyerite,716
+"Expanded Probe Launcher I",3600,34,18,Tritanium,471
+"Expanded Probe Launcher I",3600,35,18,Pyerite,716
+"Siege Module I",54000,34,18,Tritanium,3427873
+"Siege Module I",54000,35,18,Pyerite,828117
+"Siege Module I",54000,36,18,Mexallon,314957
+"Siege Module I",54000,37,18,Isogen,52033
+"Siege Module I",54000,38,18,Nocxium,15823
+"Siege Module I",54000,39,18,Zydrine,2267
+"Siege Module I",54000,40,18,Megacyte,1133
+"Prototype Cloaking Device I",4500,34,18,Tritanium,16253
+"Prototype Cloaking Device I",4500,35,18,Pyerite,6353
+"Prototype Cloaking Device I",4500,36,18,Mexallon,778
+"Prototype Cloaking Device I",4500,37,18,Isogen,460
+"Prototype Cloaking Device I",4500,38,18,Nocxium,171
+"Prototype Cloaking Device I",4500,39,18,Zydrine,67
+"Prototype Cloaking Device I",4500,40,18,Megacyte,17
+"Prototype Cloaking Device I",4500,2349,1040,Supercomputers,2
+"Prototype Cloaking Device I",4500,2361,1040,"Hermetic Membranes",3
+"Prototype Cloaking Device I",4500,9840,1034,Transmitter,6
+"Prototype Cloaking Device I",4500,9842,1034,"Miniature Electronics",6
+"Prototype Cloaking Device I",4500,11399,18,Morphite,11
+"Prototype Cloaking Device I",4500,11483,332,"R.A.M.- Electronics",1
+"Prototype Cloaking Device I",4500,34,18,Tritanium,16253
+"Prototype Cloaking Device I",4500,35,18,Pyerite,6353
+"Prototype Cloaking Device I",4500,36,18,Mexallon,778
+"Prototype Cloaking Device I",4500,37,18,Isogen,460
+"Prototype Cloaking Device I",4500,38,18,Nocxium,171
+"Prototype Cloaking Device I",4500,39,18,Zydrine,67
+"Prototype Cloaking Device I",4500,40,18,Megacyte,17
+"Prototype Cloaking Device I",4500,2349,1040,Supercomputers,2
+"Prototype Cloaking Device I",4500,2361,1040,"Hermetic Membranes",3
+"Prototype Cloaking Device I",4500,9840,1034,Transmitter,6
+"Prototype Cloaking Device I",4500,9842,1034,"Miniature Electronics",6
+"Prototype Cloaking Device I",4500,11399,18,Morphite,11
+"Prototype Cloaking Device I",4500,11483,332,"R.A.M.- Electronics",1
+"200mm Railgun I",1800,34,18,Tritanium,4600
+"200mm Railgun I",1800,35,18,Pyerite,1583
+"200mm Railgun I",1800,36,18,Mexallon,1167
+"200mm Railgun I",1800,37,18,Isogen,63
+"200mm Railgun I",1800,38,18,Nocxium,50
+"200mm Railgun I",1800,39,18,Zydrine,9
+"350mm Railgun I",2700,34,18,Tritanium,77413
+"350mm Railgun I",2700,35,18,Pyerite,19793
+"350mm Railgun I",2700,36,18,Mexallon,5731
+"350mm Railgun I",2700,37,18,Isogen,1206
+"350mm Railgun I",2700,38,18,Nocxium,343
+"350mm Railgun I",2700,39,18,Zydrine,103
+"350mm Railgun I",2700,40,18,Megacyte,9
+Sigil,12000,34,18,Tritanium,47222
+Sigil,12000,35,18,Pyerite,14444
+Sigil,12000,36,18,Mexallon,6500
+Sigil,12000,37,18,Isogen,611
+Sigil,12000,38,18,Nocxium,278
+Sigil,12000,39,18,Zydrine,44
+Sigil,12000,40,18,Megacyte,13
+"Strip Miner I",2100,34,18,Tritanium,24663
+"Strip Miner I",2100,35,18,Pyerite,19132
+"Strip Miner I",2100,36,18,Mexallon,7806
+"Strip Miner I",2100,38,18,Nocxium,1351
+"Strip Miner I",2100,40,18,Megacyte,264
+"Arkonor Mining Crystal I",300,38,18,Nocxium,417
+"Bistot Mining Crystal I",300,38,18,Nocxium,389
+"Crokite Mining Crystal I",300,38,18,Nocxium,361
+"Dark Ochre Mining Crystal I",300,38,18,Nocxium,306
+"Gneiss Mining Crystal I",300,38,18,Nocxium,278
+"Hedbergite Mining Crystal I",300,38,18,Nocxium,250
+"Hemorphite Mining Crystal I",300,38,18,Nocxium,250
+"Jaspet Mining Crystal I",300,38,18,Nocxium,222
+"Kernite Mining Crystal I",300,38,18,Nocxium,194
+"Mercoxit Mining Crystal I",300,38,18,Nocxium,889
+"Omber Mining Crystal I",300,38,18,Nocxium,139
+"Plagioclase Mining Crystal I",300,38,18,Nocxium,111
+"Pyroxeres Mining Crystal I",300,38,18,Nocxium,83
+"Scordite Mining Crystal I",300,38,18,Nocxium,56
+"Veldspar Mining Crystal I",300,38,18,Nocxium,28
+"Spodumain Mining Crystal I",300,38,18,Nocxium,333
+"Cruise Missile Launcher I",2700,34,18,Tritanium,92
+"Cruise Missile Launcher I",2700,35,18,Pyerite,1007
+"Cruise Missile Launcher I",2700,38,18,Nocxium,7
+"Cruise Missile Launcher I",2700,39,18,Zydrine,2
+"Cruise Missile Launcher I",2700,40,18,Megacyte,9
+"Target Painter I",1800,34,18,Tritanium,840
+"Target Painter I",1800,35,18,Pyerite,183
+"Target Painter I",1800,36,18,Mexallon,470
+"Target Painter I",1800,37,18,Isogen,4
+"Target Painter I",1800,40,18,Megacyte,2
+"Vespa I",600,34,18,Tritanium,2631
+"Vespa I",600,35,18,Pyerite,542
+"Vespa I",600,36,18,Mexallon,113
+"Vespa I",600,39,18,Zydrine,2
+"Valkyrie I",600,34,18,Tritanium,2724
+"Valkyrie I",600,35,18,Pyerite,300
+"Valkyrie I",600,36,18,Mexallon,187
+"Valkyrie I",600,37,18,Isogen,4
+"Valkyrie I",600,38,18,Nocxium,4
+"Ice Harvester I",2100,34,18,Tritanium,30710
+"Ice Harvester I",2100,35,18,Pyerite,17250
+"Ice Harvester I",2100,36,18,Mexallon,4921
+"Ice Harvester I",2100,37,18,Isogen,1527
+"Ice Harvester I",2100,38,18,Nocxium,597
+"Ice Harvester I",2100,39,18,Zydrine,150
+"Ice Harvester I",2100,40,18,Megacyte,256
+Ferox,15000,34,18,Tritanium,2555556
+Ferox,15000,35,18,Pyerite,666667
+Ferox,15000,36,18,Mexallon,194444
+Ferox,15000,37,18,Isogen,22222
+Ferox,15000,38,18,Nocxium,17222
+Ferox,15000,39,18,Zydrine,4222
+Ferox,15000,40,18,Megacyte,889
+Coercer,9000,34,18,Tritanium,55860
+Coercer,9000,35,18,Pyerite,20333
+Coercer,9000,36,18,Mexallon,5413
+Coercer,9000,37,18,Isogen,1137
+Coercer,9000,39,18,Zydrine,99
+Coercer,9000,40,18,Megacyte,20
+Thrasher,9000,34,18,Tritanium,47907
+Thrasher,9000,35,18,Pyerite,11483
+Thrasher,9000,36,18,Mexallon,3977
+Thrasher,9000,37,18,Isogen,1757
+Thrasher,9000,39,18,Zydrine,90
+Thrasher,9000,40,18,Megacyte,13
+Catalyst,9000,34,18,Tritanium,52007
+Catalyst,9000,35,18,Pyerite,14667
+Catalyst,9000,36,18,Mexallon,6427
+Catalyst,9000,38,18,Nocxium,269
+Catalyst,9000,39,18,Zydrine,46
+Catalyst,9000,40,18,Megacyte,27
+Cormorant,9000,34,18,Tritanium,39253
+Cormorant,9000,35,18,Pyerite,11863
+Cormorant,9000,36,18,Mexallon,5107
+Cormorant,9000,37,18,Isogen,1070
+Cormorant,9000,38,18,Nocxium,332
+Cormorant,9000,39,18,Zydrine,107
+Cormorant,9000,40,18,Megacyte,9
+Brutix,15000,34,18,Tritanium,3111111
+Brutix,15000,35,18,Pyerite,700000
+Brutix,15000,36,18,Mexallon,244444
+Brutix,15000,38,18,Nocxium,12778
+Brutix,15000,39,18,Zydrine,2444
+Brutix,15000,40,18,Megacyte,1444
+Cyclone,15000,34,18,Tritanium,3222222
+Cyclone,15000,35,18,Pyerite,766667
+Cyclone,15000,36,18,Mexallon,188889
+Cyclone,15000,37,18,Isogen,58889
+Cyclone,15000,39,18,Zydrine,3111
+Cyclone,15000,40,18,Megacyte,1667
+Prophecy,15000,34,18,Tritanium,4111111
+Prophecy,15000,35,18,Pyerite,777778
+Prophecy,15000,36,18,Mexallon,211111
+Prophecy,15000,37,18,Isogen,34444
+Prophecy,15000,39,18,Zydrine,3000
+Prophecy,15000,40,18,Megacyte,1111
+Covetor,12000,34,18,Tritanium,2222222
+Covetor,12000,35,18,Pyerite,666667
+Covetor,12000,36,18,Mexallon,66667
+Covetor,12000,37,18,Isogen,44444
+Covetor,12000,38,18,Nocxium,4444
+Covetor,12000,39,18,Zydrine,1111
+Covetor,12000,40,18,Megacyte,333
+Procurer,12000,34,18,Tritanium,1555556
+Procurer,12000,35,18,Pyerite,466667
+Procurer,12000,36,18,Mexallon,46667
+Procurer,12000,37,18,Isogen,31111
+Procurer,12000,38,18,Nocxium,3111
+Procurer,12000,39,18,Zydrine,778
+Procurer,12000,40,18,Megacyte,233
+Retriever,12000,34,18,Tritanium,1888889
+Retriever,12000,35,18,Pyerite,566667
+Retriever,12000,36,18,Mexallon,56667
+Retriever,12000,37,18,Isogen,37778
+Retriever,12000,38,18,Nocxium,3778
+Retriever,12000,39,18,Zydrine,944
+Retriever,12000,40,18,Megacyte,283
+"Strip Miner I",2100,34,18,Tritanium,24663
+"Strip Miner I",2100,35,18,Pyerite,19132
+"Strip Miner I",2100,36,18,Mexallon,7806
+"Strip Miner I",2100,38,18,Nocxium,1351
+"Strip Miner I",2100,40,18,Megacyte,264
+"Mobile Large Warp Disruptor I",4500,447,52,"Warp Scrambler I",9
+"Mobile Large Warp Disruptor I",4500,3687,280,"Electronic Parts",22
+Charon,1500000,21009,873,"Capital Propulsion Engine",11
+Charon,1500000,21017,873,"Capital Armor Plates",14
+Charon,1500000,21027,873,"Capital Cargo Bay",106
+Charon,1500000,21037,873,"Capital Construction Parts",51
+Fenrir,1500000,21009,873,"Capital Propulsion Engine",28
+Fenrir,1500000,21017,873,"Capital Armor Plates",13
+Fenrir,1500000,21027,873,"Capital Cargo Bay",83
+Fenrir,1500000,21037,873,"Capital Construction Parts",49
+Obelisk,1500000,21009,873,"Capital Propulsion Engine",17
+Obelisk,1500000,21017,873,"Capital Armor Plates",16
+Obelisk,1500000,21027,873,"Capital Cargo Bay",89
+Obelisk,1500000,21037,873,"Capital Construction Parts",56
+Providence,1500000,21009,873,"Capital Propulsion Engine",22
+Providence,1500000,21017,873,"Capital Armor Plates",17
+Providence,1500000,21027,873,"Capital Cargo Bay",83
+Providence,1500000,21037,873,"Capital Construction Parts",53
+"Small Tractor Beam I",900,34,18,Tritanium,27778
+"Small Tractor Beam I",900,35,18,Pyerite,12222
+"Small Tractor Beam I",900,36,18,Mexallon,10000
+"Small Tractor Beam I",900,37,18,Isogen,2778
+"Small Tractor Beam I",900,38,18,Nocxium,389
+"Small Tractor Beam I",900,39,18,Zydrine,82
+"Small Tractor Beam I",900,40,18,Megacyte,44
+"Armored Warfare Link - Damage Control I",1800,34,18,Tritanium,949
+"Armored Warfare Link - Damage Control I",1800,37,18,Isogen,111
+"Armored Warfare Link - Damage Control I",1800,38,18,Nocxium,56
+"Armored Warfare Link - Damage Control I",1800,40,18,Megacyte,11
+"Armored Warfare Link - Damage Control I",1800,2346,1040,"Synthetic Synapses",3
+"Armored Warfare Link - Passive Defense I",3600,34,18,Tritanium,949
+"Armored Warfare Link - Passive Defense I",3600,37,18,Isogen,111
+"Armored Warfare Link - Passive Defense I",3600,38,18,Nocxium,56
+"Armored Warfare Link - Passive Defense I",3600,40,18,Megacyte,11
+"Armored Warfare Link - Passive Defense I",3600,2346,1040,"Synthetic Synapses",3
+"Armored Warfare Link - Rapid Repair I",3600,34,18,Tritanium,949
+"Armored Warfare Link - Rapid Repair I",3600,37,18,Isogen,111
+"Armored Warfare Link - Rapid Repair I",3600,38,18,Nocxium,56
+"Armored Warfare Link - Rapid Repair I",3600,40,18,Megacyte,11
+"Armored Warfare Link - Rapid Repair I",3600,2346,1040,"Synthetic Synapses",3
+"Information Warfare Link - Electronic Superiority I",3600,34,18,Tritanium,949
+"Information Warfare Link - Electronic Superiority I",3600,37,18,Isogen,111
+"Information Warfare Link - Electronic Superiority I",3600,38,18,Nocxium,56
+"Information Warfare Link - Electronic Superiority I",3600,40,18,Megacyte,11
+"Information Warfare Link - Electronic Superiority I",3600,2346,1040,"Synthetic Synapses",3
+"Information Warfare Link - Recon Operation I",3600,34,18,Tritanium,949
+"Information Warfare Link - Recon Operation I",3600,37,18,Isogen,111
+"Information Warfare Link - Recon Operation I",3600,38,18,Nocxium,56
+"Information Warfare Link - Recon Operation I",3600,40,18,Megacyte,11
+"Information Warfare Link - Recon Operation I",3600,2346,1040,"Synthetic Synapses",3
+"Information Warfare Link - Sensor Integrity I",3600,34,18,Tritanium,949
+"Information Warfare Link - Sensor Integrity I",3600,37,18,Isogen,111
+"Information Warfare Link - Sensor Integrity I",3600,40,18,Megacyte,11
+"Information Warfare Link - Sensor Integrity I",3600,2346,1040,"Synthetic Synapses",3
+"Mining Foreman Link - Harvester Capacitor Efficiency I",3600,34,18,Tritanium,949
+"Mining Foreman Link - Harvester Capacitor Efficiency I",3600,37,18,Isogen,111
+"Mining Foreman Link - Harvester Capacitor Efficiency I",3600,38,18,Nocxium,56
+"Mining Foreman Link - Harvester Capacitor Efficiency I",3600,40,18,Megacyte,11
+"Mining Foreman Link - Harvester Capacitor Efficiency I",3600,2346,1040,"Synthetic Synapses",3
+"Mining Foreman Link - Laser Optimization I",3600,34,18,Tritanium,949
+"Mining Foreman Link - Laser Optimization I",3600,37,18,Isogen,111
+"Mining Foreman Link - Laser Optimization I",3600,38,18,Nocxium,56
+"Mining Foreman Link - Laser Optimization I",3600,40,18,Megacyte,11
+"Mining Foreman Link - Laser Optimization I",3600,2346,1040,"Synthetic Synapses",3
+"Mining Foreman Link - Mining Laser Field Enhancement I",3600,34,18,Tritanium,949
+"Mining Foreman Link - Mining Laser Field Enhancement I",3600,37,18,Isogen,111
+"Mining Foreman Link - Mining Laser Field Enhancement I",3600,38,18,Nocxium,56
+"Mining Foreman Link - Mining Laser Field Enhancement I",3600,40,18,Megacyte,11
+"Mining Foreman Link - Mining Laser Field Enhancement I",3600,2346,1040,"Synthetic Synapses",3
+"Siege Warfare Link - Active Shielding I",1800,34,18,Tritanium,949
+"Siege Warfare Link - Active Shielding I",1800,37,18,Isogen,111
+"Siege Warfare Link - Active Shielding I",1800,38,18,Nocxium,56
+"Siege Warfare Link - Active Shielding I",1800,40,18,Megacyte,11
+"Siege Warfare Link - Active Shielding I",1800,2346,1040,"Synthetic Synapses",3
+"Siege Warfare Link - Shield Efficiency I",3600,34,18,Tritanium,949
+"Siege Warfare Link - Shield Efficiency I",3600,37,18,Isogen,111
+"Siege Warfare Link - Shield Efficiency I",3600,38,18,Nocxium,56
+"Siege Warfare Link - Shield Efficiency I",3600,40,18,Megacyte,11
+"Siege Warfare Link - Shield Efficiency I",3600,2346,1040,"Synthetic Synapses",3
+"Siege Warfare Link - Shield Harmonizing I",1800,34,18,Tritanium,949
+"Siege Warfare Link - Shield Harmonizing I",1800,37,18,Isogen,111
+"Siege Warfare Link - Shield Harmonizing I",1800,38,18,Nocxium,56
+"Siege Warfare Link - Shield Harmonizing I",1800,40,18,Megacyte,11
+"Siege Warfare Link - Shield Harmonizing I",1800,2346,1040,"Synthetic Synapses",3
+"Skirmish Warfare Link - Evasive Maneuvers I",1800,34,18,Tritanium,949
+"Skirmish Warfare Link - Evasive Maneuvers I",1800,37,18,Isogen,111
+"Skirmish Warfare Link - Evasive Maneuvers I",1800,40,18,Megacyte,11
+"Skirmish Warfare Link - Evasive Maneuvers I",1800,2346,1040,"Synthetic Synapses",3
+"Skirmish Warfare Link - Interdiction Maneuvers I",3600,34,18,Tritanium,949
+"Skirmish Warfare Link - Interdiction Maneuvers I",3600,37,18,Isogen,111
+"Skirmish Warfare Link - Interdiction Maneuvers I",3600,38,18,Nocxium,56
+"Skirmish Warfare Link - Interdiction Maneuvers I",3600,40,18,Megacyte,11
+"Skirmish Warfare Link - Interdiction Maneuvers I",3600,2346,1040,"Synthetic Synapses",3
+"Skirmish Warfare Link - Rapid Deployment I",3600,34,18,Tritanium,949
+"Skirmish Warfare Link - Rapid Deployment I",3600,37,18,Isogen,111
+"Skirmish Warfare Link - Rapid Deployment I",3600,38,18,Nocxium,56
+"Skirmish Warfare Link - Rapid Deployment I",3600,40,18,Megacyte,11
+"Skirmish Warfare Link - Rapid Deployment I",3600,2346,1040,"Synthetic Synapses",3
+"Nova Heavy Assault Missile",600,34,18,Tritanium,351
+"Nova Heavy Assault Missile",600,35,18,Pyerite,119
+"Nova Heavy Assault Missile",600,38,18,Nocxium,1
+"Drone Navigation Computer I",1800,34,18,Tritanium,13333
+"Drone Navigation Computer I",1800,35,18,Pyerite,14444
+"Drone Navigation Computer I",1800,36,18,Mexallon,61
+"Drone Navigation Computer I",1800,37,18,Isogen,2
+"Drone Navigation Computer I",1800,38,18,Nocxium,2
+"Drone Navigation Computer I",1800,40,18,Megacyte,1
+"Drone Link Augmentor I",2700,34,18,Tritanium,5556
+"Drone Link Augmentor I",2700,35,18,Pyerite,2222
+"Drone Link Augmentor I",2700,36,18,Mexallon,61
+"Drone Link Augmentor I",2700,37,18,Isogen,2
+"Drone Link Augmentor I",2700,38,18,Nocxium,2
+"Drone Link Augmentor I",2700,39,18,Zydrine,56
+"Drone Link Augmentor I",2700,40,18,Megacyte,11
+"Omnidirectional Tracking Link I",1800,34,18,Tritanium,444
+"Omnidirectional Tracking Link I",1800,35,18,Pyerite,111
+"Omnidirectional Tracking Link I",1800,40,18,Megacyte,1
+"Nova Heavy Assault Missile",600,34,18,Tritanium,351
+"Nova Heavy Assault Missile",600,35,18,Pyerite,119
+"Nova Heavy Assault Missile",600,38,18,Nocxium,1
+"Heavy Armor Maintenance Bot I",900,34,18,Tritanium,10973
+"Heavy Armor Maintenance Bot I",900,35,18,Pyerite,830
+"Heavy Armor Maintenance Bot I",900,36,18,Mexallon,299
+"Heavy Armor Maintenance Bot I",900,37,18,Isogen,450
+"Heavy Armor Maintenance Bot I",900,38,18,Nocxium,30
+"Heavy Shield Maintenance Bot I",900,34,18,Tritanium,10973
+"Heavy Shield Maintenance Bot I",900,35,18,Pyerite,830
+"Heavy Shield Maintenance Bot I",900,36,18,Mexallon,299
+"Heavy Shield Maintenance Bot I",900,37,18,Isogen,450
+"Heavy Shield Maintenance Bot I",900,38,18,Nocxium,30
+"Light Armor Maintenance Bot I",300,34,18,Tritanium,378
+"Light Armor Maintenance Bot I",300,35,18,Pyerite,62
+"Light Armor Maintenance Bot I",300,36,18,Mexallon,23
+"Light Armor Maintenance Bot I",300,37,18,Isogen,19
+"Light Armor Maintenance Bot I",300,38,18,Nocxium,2
+"Light Shield Maintenance Bot I",300,34,18,Tritanium,378
+"Light Shield Maintenance Bot I",300,35,18,Pyerite,62
+"Light Shield Maintenance Bot I",300,36,18,Mexallon,23
+"Light Shield Maintenance Bot I",300,37,18,Isogen,19
+"Light Shield Maintenance Bot I",300,38,18,Nocxium,2
+"Medium Armor Maintenance Bot I",600,34,18,Tritanium,2747
+"Medium Armor Maintenance Bot I",600,35,18,Pyerite,208
+"Medium Armor Maintenance Bot I",600,36,18,Mexallon,76
+"Medium Armor Maintenance Bot I",600,37,18,Isogen,116
+"Medium Armor Maintenance Bot I",600,38,18,Nocxium,7
+"Medium Shield Maintenance Bot I",600,34,18,Tritanium,2747
+"Medium Shield Maintenance Bot I",600,35,18,Pyerite,208
+"Medium Shield Maintenance Bot I",600,36,18,Mexallon,76
+"Medium Shield Maintenance Bot I",600,37,18,Isogen,116
+"Medium Shield Maintenance Bot I",600,38,18,Nocxium,7
+"Warden I",900,34,18,Tritanium,516
+"Warden I",900,35,18,Pyerite,9929
+"Warden I",900,38,18,Nocxium,4
+"Warden I",900,40,18,Megacyte,9
+"Garde I",900,34,18,Tritanium,516
+"Garde I",900,35,18,Pyerite,9929
+"Garde I",900,38,18,Nocxium,4
+"Garde I",900,40,18,Megacyte,9
+"Curator I",900,34,18,Tritanium,516
+"Curator I",900,35,18,Pyerite,9929
+"Curator I",900,38,18,Nocxium,4
+"Curator I",900,40,18,Megacyte,9
+"Bouncer I",900,34,18,Tritanium,516
+"Bouncer I",900,35,18,Pyerite,9929
+"Bouncer I",900,38,18,Nocxium,4
+"Bouncer I",900,40,18,Megacyte,9
+"Mining Laser Upgrade I",900,34,18,Tritanium,676
+"Mining Laser Upgrade I",900,36,18,Mexallon,318
+"Mining Laser Upgrade I",900,37,18,Isogen,2
+"Mining Laser Upgrade I",900,39,18,Zydrine,3
+"Mining Laser Upgrade I",900,40,18,Megacyte,1
+"Ice Harvester Upgrade I",900,34,18,Tritanium,676
+"Ice Harvester Upgrade I",900,36,18,Mexallon,318
+"Ice Harvester Upgrade I",900,37,18,Isogen,2
+"Ice Harvester Upgrade I",900,39,18,Zydrine,3
+"Ice Harvester Upgrade I",900,40,18,Megacyte,1
+"Relic Analyzer I",1800,34,18,Tritanium,840
+"Relic Analyzer I",1800,35,18,Pyerite,183
+"Relic Analyzer I",1800,36,18,Mexallon,470
+"Relic Analyzer I",1800,37,18,Isogen,4
+"Relic Analyzer I",1800,40,18,Megacyte,2
+"Data Analyzer I",1800,34,18,Tritanium,840
+"Data Analyzer I",1800,35,18,Pyerite,183
+"Data Analyzer I",1800,36,18,Mexallon,470
+"Data Analyzer I",1800,37,18,Isogen,4
+"Data Analyzer I",1800,40,18,Megacyte,2
+"Scourge Heavy Assault Missile",600,34,18,Tritanium,820
+"Scourge Heavy Assault Missile",600,35,18,Pyerite,2
+"Scourge Heavy Assault Missile",600,38,18,Nocxium,2
+"Large Remote Hull Repairer I",2700,34,18,Tritanium,6219
+"Large Remote Hull Repairer I",2700,35,18,Pyerite,4689
+"Large Remote Hull Repairer I",2700,36,18,Mexallon,3
+"Warp Disruption Field Generator I",3600,34,18,Tritanium,66156
+"Warp Disruption Field Generator I",3600,35,18,Pyerite,36064
+"Warp Disruption Field Generator I",3600,36,18,Mexallon,17147
+"Warp Disruption Field Generator I",3600,37,18,Isogen,9360
+"Warp Disruption Field Generator I",3600,38,18,Nocxium,2824
+"Warp Disruption Field Generator I",3600,39,18,Zydrine,102
+"Warp Disruption Field Generator I",3600,40,18,Megacyte,20
+"Capital Tractor Beam I",36000,34,18,Tritanium,149936
+"Capital Tractor Beam I",36000,35,18,Pyerite,82482
+"Capital Tractor Beam I",36000,36,18,Mexallon,13778
+"Capital Tractor Beam I",36000,37,18,Isogen,9944
+"Capital Tractor Beam I",36000,38,18,Nocxium,6056
+"Capital Tractor Beam I",36000,39,18,Zydrine,5900
+"Capital Tractor Beam I",36000,40,18,Megacyte,1509
+"Bomb Launcher I",3600,34,18,Tritanium,27378
+"Bomb Launcher I",3600,35,18,Pyerite,9974
+"Bomb Launcher I",3600,36,18,Mexallon,2988
+"Bomb Launcher I",3600,37,18,Isogen,1156
+"Bomb Launcher I",3600,38,18,Nocxium,569
+"Bomb Launcher I",3600,39,18,Zydrine,207
+"Bomb Launcher I",3600,40,18,Megacyte,117
+"Triage Module I",54000,34,18,Tritanium,3427873
+"Triage Module I",54000,35,18,Pyerite,828117
+"Triage Module I",54000,36,18,Mexallon,314957
+"Triage Module I",54000,37,18,Isogen,52033
+"Triage Module I",54000,38,18,Nocxium,15823
+"Triage Module I",54000,39,18,Zydrine,2267
+"Triage Module I",54000,40,18,Megacyte,1133
+"Medium Remote Hull Repairer I",1800,34,18,Tritanium,5182
+"Medium Remote Hull Repairer I",1800,35,18,Pyerite,3907
+"Medium Remote Hull Repairer I",1800,36,18,Mexallon,2
+"Small Remote Hull Repairer I",900,34,18,Tritanium,4318
+"Small Remote Hull Repairer I",900,35,18,Pyerite,3256
+"Small Remote Hull Repairer I",900,36,18,Mexallon,1
+Magnate,6000,34,18,Tritanium,13889
+Magnate,6000,35,18,Pyerite,6111
+Magnate,6000,36,18,Mexallon,4000
+Magnate,6000,37,18,Isogen,167
+Magnate,6000,38,18,Nocxium,67
+Magnate,6000,39,18,Zydrine,7
+Magnate,6000,40,18,Megacyte,2
+Myrmidon,15000,34,18,Tritanium,3166667
+Myrmidon,15000,35,18,Pyerite,711111
+Myrmidon,15000,36,18,Mexallon,233333
+Myrmidon,15000,38,18,Nocxium,14444
+Myrmidon,15000,39,18,Zydrine,2778
+Myrmidon,15000,40,18,Megacyte,1333
+Hurricane,15000,34,18,Tritanium,3000000
+Hurricane,15000,35,18,Pyerite,755556
+Hurricane,15000,36,18,Mexallon,211111
+Hurricane,15000,37,18,Isogen,55556
+Hurricane,15000,39,18,Zydrine,3556
+Hurricane,15000,40,18,Megacyte,1444
+Harbinger,15000,34,18,Tritanium,3888889
+Harbinger,15000,35,18,Pyerite,833333
+Harbinger,15000,36,18,Mexallon,205556
+Harbinger,15000,37,18,Isogen,33333
+Harbinger,15000,39,18,Zydrine,3333
+Harbinger,15000,40,18,Megacyte,1333
+Drake,15000,34,18,Tritanium,2777778
+Drake,15000,35,18,Pyerite,680078
+Drake,15000,36,18,Mexallon,188889
+Drake,15000,37,18,Isogen,20000
+Drake,15000,38,18,Nocxium,16667
+Drake,15000,39,18,Zydrine,4003
+Drake,15000,40,18,Megacyte,944
+"Inferno Heavy Assault Missile",600,34,18,Tritanium,716
+"Inferno Heavy Assault Missile",600,35,18,Pyerite,2
+"Inferno Heavy Assault Missile",600,36,18,Mexallon,6
+"Inferno Heavy Assault Missile",600,38,18,Nocxium,3
+"Mjolnir Heavy Assault Missile",600,34,18,Tritanium,496
+"Mjolnir Heavy Assault Missile",600,35,18,Pyerite,220
+"Mjolnir Heavy Assault Missile",600,38,18,Nocxium,2
+"Scourge Heavy Assault Missile",600,34,18,Tritanium,820
+"Scourge Heavy Assault Missile",600,35,18,Pyerite,2
+"Scourge Heavy Assault Missile",600,38,18,Nocxium,2
+"Mjolnir Heavy Assault Missile",600,34,18,Tritanium,496
+"Mjolnir Heavy Assault Missile",600,35,18,Pyerite,220
+"Mjolnir Heavy Assault Missile",600,38,18,Nocxium,2
+"Inferno Heavy Assault Missile",600,34,18,Tritanium,716
+"Inferno Heavy Assault Missile",600,35,18,Pyerite,2
+"Inferno Heavy Assault Missile",600,36,18,Mexallon,6
+"Inferno Heavy Assault Missile",600,38,18,Nocxium,3
+"Signal Distortion Amplifier I",900,34,18,Tritanium,676
+"Signal Distortion Amplifier I",900,36,18,Mexallon,318
+"Signal Distortion Amplifier I",900,37,18,Isogen,2
+"Signal Distortion Amplifier I",900,39,18,Zydrine,3
+"Signal Distortion Amplifier I",900,40,18,Megacyte,1
+"Heavy Assault Missile Launcher I",1800,34,18,Tritanium,3258
+"Heavy Assault Missile Launcher I",1800,35,18,Pyerite,2926
+"Heavy Assault Missile Launcher I",1800,38,18,Nocxium,7
+"Heavy Assault Missile Launcher I",1800,39,18,Zydrine,2
+"Gas Cloud Harvester I",900,34,18,Tritanium,23402
+"Gas Cloud Harvester I",900,35,18,Pyerite,15333
+"Gas Cloud Harvester I",900,36,18,Mexallon,6699
+"Gas Cloud Harvester I",900,38,18,Nocxium,1507
+"Gas Cloud Harvester I",900,40,18,Megacyte,241
+"Large Salvage Tackle I",4500,25590,754,"Contaminated Nanite Compound",67
+"Large Salvage Tackle I",4500,25601,754,"Fried Interface Circuit",100
+"Large Salvage Tackle I",4500,25605,754,"Armor Plates",89
+"Large Ionic Field Projector I",4500,25597,754,"Damaged Artificial Neural Network",89
+"Large Ionic Field Projector I",4500,25599,754,"Charred Micro Circuit",111
+"Large Ionic Field Projector I",4500,25600,754,"Burned Logic Circuit",111
+"Large Targeting System Subcontroller I",4500,25597,754,"Damaged Artificial Neural Network",89
+"Large Targeting System Subcontroller I",4500,25599,754,"Charred Micro Circuit",111
+"Large Targeting System Subcontroller I",4500,25600,754,"Burned Logic Circuit",111
+"Salvager I",2700,34,18,Tritanium,840
+"Salvager I",2700,35,18,Pyerite,183
+"Salvager I",2700,36,18,Mexallon,470
+"Salvager I",2700,37,18,Isogen,4
+"Salvager I",2700,40,18,Megacyte,2
+"Small Salvage Tackle I",1500,25590,754,"Contaminated Nanite Compound",3
+"Small Salvage Tackle I",1500,25601,754,"Fried Interface Circuit",4
+"Small Salvage Tackle I",1500,25605,754,"Armor Plates",4
+"Medium Salvage Tackle I",3000,25590,754,"Contaminated Nanite Compound",13
+"Medium Salvage Tackle I",3000,25601,754,"Fried Interface Circuit",20
+"Medium Salvage Tackle I",3000,25605,754,"Armor Plates",18
+"Capital Salvage Tackle I",6000,25590,754,"Contaminated Nanite Compound",333
+"Capital Salvage Tackle I",6000,25601,754,"Fried Interface Circuit",500
+"Capital Salvage Tackle I",6000,25605,754,"Armor Plates",444
+"Small Ionic Field Projector I",1500,25597,754,"Damaged Artificial Neural Network",3
+"Small Ionic Field Projector I",1500,25599,754,"Charred Micro Circuit",4
+"Small Ionic Field Projector I",1500,25600,754,"Burned Logic Circuit",4
+"Medium Ionic Field Projector I",3000,25597,754,"Damaged Artificial Neural Network",18
+"Medium Ionic Field Projector I",3000,25599,754,"Charred Micro Circuit",22
+"Medium Ionic Field Projector I",3000,25600,754,"Burned Logic Circuit",22
+"Capital Ionic Field Projector I",6000,25597,754,"Damaged Artificial Neural Network",444
+"Capital Ionic Field Projector I",6000,25599,754,"Charred Micro Circuit",556
+"Capital Ionic Field Projector I",6000,25600,754,"Burned Logic Circuit",556
+"Small Targeting System Subcontroller I",1500,25597,754,"Damaged Artificial Neural Network",3
+"Small Targeting System Subcontroller I",1500,25599,754,"Charred Micro Circuit",4
+"Small Targeting System Subcontroller I",1500,25600,754,"Burned Logic Circuit",4
+"Medium Targeting System Subcontroller I",3000,25597,754,"Damaged Artificial Neural Network",18
+"Medium Targeting System Subcontroller I",3000,25599,754,"Charred Micro Circuit",22
+"Medium Targeting System Subcontroller I",3000,25600,754,"Burned Logic Circuit",22
+"Capital Targeting System Subcontroller I",6000,25597,754,"Damaged Artificial Neural Network",444
+"Capital Targeting System Subcontroller I",6000,25599,754,"Charred Micro Circuit",556
+"Capital Targeting System Subcontroller I",6000,25600,754,"Burned Logic Circuit",556
+"Scan Acquisition Array I",1800,34,18,Tritanium,7252
+"Scan Acquisition Array I",1800,35,18,Pyerite,104
+"Scan Acquisition Array I",1800,36,18,Mexallon,3
+"Scan Acquisition Array I",1800,37,18,Isogen,8
+"Scan Acquisition Array I",1800,38,18,Nocxium,1
+"Scan Acquisition Array I",1800,11399,18,Morphite,2
+"Survey Probe Launcher I",2700,34,18,Tritanium,471
+"Survey Probe Launcher I",2700,35,18,Pyerite,716
+"Rapid Heavy Missile Launcher I",2700,34,18,Tritanium,106
+"Rapid Heavy Missile Launcher I",2700,35,18,Pyerite,1167
+"Rapid Heavy Missile Launcher I",2700,38,18,Nocxium,8
+"Rapid Heavy Missile Launcher I",2700,39,18,Zydrine,2
+"Rapid Heavy Missile Launcher I",2700,40,18,Megacyte,10
+Venture,6000,34,18,Tritanium,24889
+Venture,6000,35,18,Pyerite,7444
+Venture,6000,36,18,Mexallon,744
+Venture,6000,37,18,Isogen,444
+Venture,6000,38,18,Nocxium,50
+Venture,6000,39,18,Zydrine,11
+"Heavy Hull Maintenance Bot I",900,34,18,Tritanium,10973
+"Heavy Hull Maintenance Bot I",900,35,18,Pyerite,830
+"Heavy Hull Maintenance Bot I",900,36,18,Mexallon,299
+"Heavy Hull Maintenance Bot I",900,37,18,Isogen,450
+"Heavy Hull Maintenance Bot I",900,38,18,Nocxium,30
+"Medium Hull Maintenance Bot I",600,34,18,Tritanium,2747
+"Medium Hull Maintenance Bot I",600,35,18,Pyerite,208
+"Medium Hull Maintenance Bot I",600,36,18,Mexallon,76
+"Medium Hull Maintenance Bot I",600,37,18,Isogen,116
+"Medium Hull Maintenance Bot I",600,38,18,Nocxium,7
+"Light Hull Maintenance Bot I",300,34,18,Tritanium,378
+"Light Hull Maintenance Bot I",300,35,18,Pyerite,62
+"Light Hull Maintenance Bot I",300,36,18,Mexallon,23
+"Light Hull Maintenance Bot I",300,37,18,Isogen,19
+"Light Hull Maintenance Bot I",300,38,18,Nocxium,2
+"Omnidirectional Tracking Enhancer I",900,34,18,Tritanium,538
+"Omnidirectional Tracking Enhancer I",900,35,18,Pyerite,88
+"Omnidirectional Tracking Enhancer I",900,36,18,Mexallon,369
+"Omnidirectional Tracking Enhancer I",900,37,18,Isogen,1
+"Omnidirectional Tracking Enhancer I",900,38,18,Nocxium,4
