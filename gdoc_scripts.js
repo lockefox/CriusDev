@@ -1050,7 +1050,7 @@ function AllTeams(header_bool, verbose_bool, test_server)
 							header_array.push("solarSystemName");
 		if(verbose_bool)	header_array.push("solarSystemID");
 		if(verbose_bool)	header_array.push("teamID");
-							header_array.push("teamName-XX");
+							header_array.push("teamName");
 							header_array.push("Activity");
 		if(verbose_bool)	header_array.push("bonusGroups");
 							header_array.push("bonusGroupName");
@@ -1076,8 +1076,10 @@ function AllTeams(header_bool, verbose_bool, test_server)
 		var expiryTime		= teams_obj["items"][teamIndx]["expiryTime"];
 		var teamSalary		= teams_obj["items"][teamIndx]["costModifier"];
 		
-		var teamActivity	= "TODO"; //NOT REPORTED IN CREST FEED
-		var teamName		= "TODO"; //NOT REPORTED IN CREST FEED	
+		var teamActivityID	= teams_obj["items"][teamIndx]["activity"]; //NOT REPORTED IN CREST FEED
+		var teamActivity 	= JobType[teamActivityID]
+		var teamNameRaw		= teams_obj["items"][teamIndx]["name"]; //NOT REPORTED IN CREST FEED	
+		var teamName		= teamNameRaw.replace("<br>","-");
 		
 		/*--JAVASCRIPT IS AN ASSHOLE--*/
 		var timeString = expiryTime.replace(/-/g, "/");
@@ -1147,7 +1149,7 @@ function AllAuctions(header_bool, verbose_bool, test_server)
 							header_array.push("solarSystemName");
 		if(verbose_bool)	header_array.push("solarSystemID");
 		if(verbose_bool)	header_array.push("teamID");
-							header_array.push("teamName-XX");
+							header_array.push("teamName");
 							header_array.push("Activity");
 		if(verbose_bool)	header_array.push("bonusGroups");
 							header_array.push("bonusGroupName");
@@ -1176,8 +1178,11 @@ function AllAuctions(header_bool, verbose_bool, test_server)
 		var expiryTime		= teams_obj["items"][teamIndx]["auctionExpiryTime"];
 		var teamSalary		= teams_obj["items"][teamIndx]["costModifier"];
 		
-		var teamActivity	= "TODO"; //NOT REPORTED IN CREST FEED
-		var teamName		= "TODO"; //NOT REPORTED IN CREST FEED	
+		var teamActivityID	= teams_obj["items"][teamIndx]["activity"]; //NOT REPORTED IN CREST FEED
+		var teamActivity 	= JobType[teamActivityID]
+		var teamNameRaw		= teams_obj["items"][teamIndx]["name"]; //NOT REPORTED IN CREST FEED	
+		var teamName		= teamNameRaw.replace("<br>","-");
+
 				
 		/*--JAVASCRIPT IS AN ASSHOLE--*/
 		var timeString = expiryTime.replace(/-/g, "/");
