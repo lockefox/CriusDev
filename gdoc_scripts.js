@@ -916,12 +916,12 @@ function getAvgVolume(days,item_id,region_id)
 function getVolumes(days,item_id,region_id)
 {
   var market_obj = {};
-  market_obj = __fetchCrest_market(item_id,region_id);
+  market_obj = __fetchCrest_market(region_id,item_id);
   
   var date_range = [];
   date_range = date_array(days);
   
-  var volumes = 0;
+  var volumes = [];
   for (var index = 0; index < market_obj["items"].length; index ++)
   {
     var API_date = market_obj["items"][index]["date"];
@@ -929,7 +929,7 @@ function getVolumes(days,item_id,region_id)
     {
       if (date_range[indx2] == API_date)
       {
-        volumes += market_obj["items"][index]["volume"];
+        volumes.push(market_obj["items"][index]["volume"]);
         break;        
       }
     }
