@@ -913,6 +913,19 @@ function getAvgVolume(days,item_id,region_id)
   return volumes/days;
 }
 
+function group_getAvgVolume(days,item_id_list,region_id)
+{
+	var return_list = [];
+	for (var index=0; index < item_id_list.length; index++)
+	{
+		var avgVol = getAvgVolume(days,item_id_list[index],region_id)
+		return_list.push(avgVol)
+		//Utilities.sleep(100)
+	}
+	
+	return return_list
+}
+
 function getVolumes(days,item_id,region_id)
 {
   var market_obj = {};
@@ -937,6 +950,53 @@ function getVolumes(days,item_id,region_id)
   }
 
   return volumes;
+}
+
+function group_getAvgPrices(days,item_id_list,region_id,reverse_bool)
+{
+	var return_list	=[]
+	for(var index=0; index < item_id_list.length; index++)
+	{
+		var tmp_list = getAvgPrices(days,item_id_list[index],region_id,reverse_bool)
+		return_list.push(tmp_list)
+		//Utilities.sleep(100)
+	}
+	return return_list
+}
+function getAvgPrices(days,item_id,region_id,reverse_bool)
+{
+  var market_obj = {};
+  market_obj = __fetchCrest_market(region_id,item_id);
+  
+  var date_range = [];
+  date_range = date_array(days);
+  
+  var prices = [];
+  for (var index = 0; index < market_obj["items"].length; index ++)
+  {
+    var API_date = market_obj["items"][index]["date"];
+    for (var indx2 = 0; indx2 < date_range.length; indx2++)
+    {
+      if (date_range[indx2] == API_date)
+      {
+        prices.push(market_obj["items"][index]["avgPrice"]);
+        break;        
+      }
+    }
+
+  }
+
+  if (reverse_bool)
+  {
+	var rev_prices = [];
+	for (var index = prices.length; index > 0; index --)
+	{
+		rev_prices.push(prices[index-1]);
+	}
+	
+	prices = rev_prices;
+  }
+  return prices;
 }
 
 function AllItemPrices(header_bool, test_server)
