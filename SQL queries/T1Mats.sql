@@ -1,4 +1,4 @@
-SELECT conv1.typeName, times.time, mats.materialtypeID, conv2.groupID, conv2.typeName,mats.quantity
+SELECT conv1.typeName, times.time, mats.materialtypeID, conv2.groupID, conv2.typeName as `matsTypeName`,mats.quantity
 FROM industryactivitymaterials mats
 JOIN industryactivityproducts prods ON (mats.typeID=prods.typeID)
 JOIN industryactivity times ON (times.typeID = mats.typeID AND times.activityID=1) -- only get mfg times
@@ -9,4 +9,4 @@ LEFT JOIN invmetatypes meta on (conv1.typeID = meta.parentTypeID)
 WHERE conv1.marketGroupID IS NOT null
 AND (meta.metaGroupID = 2 OR conv1.groupID in (332,873))
 AND mats.activityID = 1
-AND conv1.groupID NOT IN (773, 774, 775, 776, 777, 778, 779, 781, 782, 786, 787,1233, 1223) -- filter out rigs
+AND conv1.groupID NOT IN (773, 774, 775, 776, 777, 778, 779, 781, 782, 786, 787,1233, 1223, 1232, 1234) -- filter out rigs
