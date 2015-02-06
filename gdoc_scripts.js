@@ -1317,6 +1317,88 @@ function AllAuctions(header_bool, verbose_bool, test_server)
 	return return_array;
 }
 
+function fetch_EC_prices(priceIDs,locationID,buy_sell,price_volume,cachebuster){
+	//Shamelessly stolen from https://github.com/fuzzysteve/eve-googledocs-script/blob/master/EveCentralPrices.gs
+	//updated to suit average needs
+	if (typeof systemID == 'undefined'){
+		locationID=30000142;
+	}
+	if (typeof priceIDs == 'undefined'){
+		throw 'need typeids';
+	}
+	if (typeof price_key == 'undefined'){
+		buy_sell = false;
+	}
+	if (typeof price_volume == 'undefined'){
+		price_volume = true;
+	}
+	if (typeof cachebuster == 'undefined'){
+		cachebuster=1;
+	}
+  
+	var location_key = '';
+	var locationID_str = String(locationID);
+	var locationType = Number(locationID_str.charAt(0));
+	if(locationType == 1){
+		location_key = '&regionlimit';
+	}
+	else if (locationType == 3){
+		location_key = '&usesystem';
+	}
+	else if (locationType == 6){
+		location_key = '&usestation';
+	}
+	else{
+		throw 'unsupported locationID';
+	}
+
+	var prices = new Array();
+	var dirtyTypeIds = new Array();
+	var cleanTypeIds = new Array();
+	var url="http://api.eve-central.com/api/marketstat?cachebuster="+cachebuster+location_key+locationID+"&typeid=";
+	priceIDs.forEach (function (row) {
+	row.forEach ( function (cell) {
+		if (typeof(cell) === 'number' ) {
+			dirtyTypeIds.push(cell);
+		}
+		});
+	});
+	cleanTypeIds = dirtyTypeIds.filter(function(v,i,a) {
+		return a.indexOf(v)===i;
+	});
+	var parameters = {method : "post", payload : ""};
+
+	var o,j,temparray,chunk = 100;
+	for (o=0,j=cleanTypeIds.length; o < j; o+=chunk) {
+		temparray = cleanTypeIds.slice(o,o+chunk);
+		var xmlFeed = UrlFetchApp.fetch(url+temparray.join("&typeid="), parameters).getContentText();
+		var xml = XmlService.parse(xmlFeed);
+		if(xml) {
+			var rows=xml.getRootElement().getChild("marketstat").getChildren("type");
+			for(var i = 0; i < rows.length; i++) {
+				if (buy_sell){
+					if(price_volume){
+						var price=[parseInt(rows[i].getChild("buy").getChild("volume").getValue())];
+					}
+					else{
+						var price=[parseFloat(rows[i].getChild("buy").getChild("max").getValue())];
+					}
+				}
+				else{
+					if(price_volume){
+						var price=[parseFloat(rows[i].getChild("sell").getChild("min").getValue())];
+					}
+					else{
+						var price=[parseInt(rows[i].getChild("sell").getChild("volume").getValue())];
+					}
+				}
+				prices.push(price);       
+			}
+		}
+	}
+	return prices;
+}
+
 var fuel_perhour_conv = {
     "12235":40,
     "12236":40,
