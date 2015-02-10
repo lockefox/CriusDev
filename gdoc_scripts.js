@@ -180,6 +180,7 @@ function fetchRawAPI(keyID,vCode,API_string,add_args,test_server)
   }
   return info
 }
+
 ////	FETCH FUNCS		////
 function __fetchCrest_market(region_id,item_id)
 {
@@ -237,98 +238,8 @@ function __fetchMarketPrices(test_server)
   return json_obj;
 }
 
-function __fetchTeams(test_server)
+function API_validateKey(keyID, vCode, expected_type, CAK_mask, test_server)
 {
-  var base_url="";
-  
-  if(test_server) base_url = test_CREST_URL;
-  else base_url = base_CREST_URL;
-//  if(test_server === undefined) base_url = base_CREST_URL; //allow switching between test/live server (for debug)
-//  else base_url = test_CREST_URL;
-//  
-  var parameters = {
-    method : "get",
-    user_agent : "Lockefox @HLIBindustry GDOC scripts",
-  }
-  var url = base_url+"industry/teams/";
-  Utilities.sleep(1000);
-  var text = UrlFetchApp.fetch(url,parameters);
-  var json_obj = JSON.parse(text);
-  
-  return json_obj;
-}
-
-function __fetchAuctions(test_server)
-{
-  var base_url="";
-  
-  if(test_server) base_url = test_CREST_URL;
-  else base_url = base_CREST_URL;
-//  if(test_server === undefined) base_url = base_CREST_URL; //allow switching between test/live server (for debug)
-//  else base_url = test_CREST_URL;
-//  
-  var parameters = {
-    method : "get",
-    user_agent : "Lockefox @HLIBindustry GDOC scripts",
-  }
-  var url = base_url+"industry/teams/auction/";
-  Utilities.sleep(1000);
-  var text = UrlFetchApp.fetch(url,parameters);
-  var json_obj = JSON.parse(text);
-  
-  return json_obj;
-}
-
-function __fetchAllTeamSpecialities(test_server)
-{
-  var base_url="";
-  
-  if(test_server) base_url = test_CREST_URL;
-  else base_url = base_CREST_URL;
-//  if(test_server === undefined) base_url = base_CREST_URL; //allow switching between test/live server (for debug)
-//  else base_url = test_CREST_URL;
-//  
-  var parameters = {
-    method : "get",
-    user_agent : "Lockefox @HLIBindustry GDOC scripts",
-  }
-  var url = base_url+"industry/specialities/";
-  Utilities.sleep(1000);
-  var text = UrlFetchApp.fetch(url,parameters);
-  var json_obj = JSON.parse(text);
-  
-  
-  var spec_lookup = {};
-  for(var teamNum = 0; teamNum < json_obj["items"].length; teamNum++)
-  {
-	var teamID = json_obj["items"][teamNum]["id"];
-	spec_lookup[teamID] = json_obj["items"][teamNum];
-  }
-  return spec_lookup;
-}
-
-function __fetchTeamSpecialities(specID, test_server)
-{
-  var base_url="";
-  
-  if(test_server) base_url = test_CREST_URL;
-  else base_url = base_CREST_URL;
-//  if(test_server === undefined) base_url = base_CREST_URL; //allow switching between test/live server (for debug)
-//  else base_url = test_CREST_URL;
-//  
-  var parameters = {
-    method : "get",
-    user_agent : "Lockefox @HLIBindustry GDOC scripts",
-  }
-  var url = base_url+"industry/specialities/"+specID+"/";
-  Utilities.sleep(1000);
-  var text = UrlFetchApp.fetch(url,parameters);
-  var json_obj = JSON.parse(text);
-  
-  return json_obj;
-}
-
-function API_validateKey(keyID, vCode, expected_type, CAK_mask, test_server){
    //Takes API info and throws errors if bad
   
   var parameters = {
@@ -951,7 +862,19 @@ function getVolumes(days,item_id,region_id)
 
   return volumes;
 }
-
+function getAvgPrices_EXP(days, item_id_arry, region_id, reverse_bool)
+{
+	var item_list = new Array();
+	item_id_arry.forEach (function(row){
+		row.forEach (function(cell){
+			if(typeof(cell) === 'number'){
+				item_list.push(cell);
+			}
+		});
+	});
+	
+	
+}
 function group_getAvgPrices(days,item_id_list,region_id,reverse_bool)
 {
 	var return_list	=[]
@@ -963,6 +886,7 @@ function group_getAvgPrices(days,item_id_list,region_id,reverse_bool)
 	}
 	return return_list
 }
+
 function getAvgPrices(days,item_id,region_id,reverse_bool)
 {
   var market_obj = {};
@@ -1097,224 +1021,6 @@ function AllSystemIndexes(header_bool, test_server)
 	return_array.push(systemLine);
   }
   return return_array;
-}
-
-function AllTeams(header_bool, verbose_bool, test_server)
-{
-	var return_array=[];
-  var now_time = new Date().getTime()
-	if(header_bool)
-	{
-		var header_array = [];
-		
-							header_array.push("solarSystemName");
-		if(verbose_bool)	header_array.push("solarSystemID");
-		if(verbose_bool)	header_array.push("teamID");
-							header_array.push("teamName");
-							header_array.push("Activity");
-		if(verbose_bool)	header_array.push("bonusGroups");
-							header_array.push("bonusGroupName");
-							header_array.push("bonusType");
-							header_array.push("bonusValue");
-							header_array.push("teamSalary");
-		if(verbose_bool)	header_array.push("expireDate");
-      						header_array.push("timeRemaining (D:H:M)");
-		
-		return_array.push(header_array);
-	}
-	
-	var teams_obj = {};
-  teams_obj = __fetchTeams(test_server);
-  var spec_lookup = {}
-  spec_lookup = __fetchAllTeamSpecialities(test_server);
-  
-  for(var teamIndx = 0; teamIndx < teams_obj["items"].length; teamIndx++)
-	{
-		var solarSystemName = teams_obj["items"][teamIndx]["solarSystem"]["name"];
-		var solarSystemID   = teams_obj["items"][teamIndx]["solarSystem"]["id"];
-		var teamID			= teams_obj["items"][teamIndx]["id"];
-		var expiryTime		= teams_obj["items"][teamIndx]["expiryTime"];
-		var teamSalary		= teams_obj["items"][teamIndx]["costModifier"];
-		
-		var teamActivityID	= teams_obj["items"][teamIndx]["activity"]; //NOT REPORTED IN CREST FEED
-		var teamActivity 	= JobType[teamActivityID]
-		var teamNameRaw		= teams_obj["items"][teamIndx]["name"]; //NOT REPORTED IN CREST FEED	
-		var teamName		= teamNameRaw.replace("<br>","-");
-		
-		/*--JAVASCRIPT IS AN ASSHOLE--*/
-		var timeString = expiryTime.replace(/-/g, "/");
-		timeString = timeString.replace(/T/g," ");
-		timeString = timeString + " GMT";
-		/*--UTC->JS time string --*/
-          
-		var exp_time = new Date(timeString);
-
-		var dif_time = exp_time.getTime() - now_time; //ms difference in times
-		var dif_days = Math.round(  dif_time / 86400000);
-		var dif_hrs  = Math.round(( dif_time % 86400000) / 3600000);
-		var dif_mins = Math.round(((dif_time % 86400000) % 3600000) / 60000);
-		
-		for(var workerIndx = 0; workerIndx < teams_obj["items"][teamIndx]["workers"].length; workerIndx++)
-		{
-			var worker_line = [];
-			var bonusType  = teams_obj["items"][teamIndx]["workers"][workerIndx]["bonus"]["bonusType"];
-			var bonusValue = teams_obj["items"][teamIndx]["workers"][workerIndx]["bonus"]["value"];
-			var specID	   = teams_obj["items"][teamIndx]["workers"][workerIndx]["specialization"]["id"];
-			var specialty_obj = {};
-			
-			if (specID in spec_lookup)
-				specialty_obj = spec_lookup[specID]
-			else//should probably never happen, but secondary lookup for error coverage
-				specialty_obj = __fetchTeamSpecialities(specID, test_server);
-			
-			var bonusGroups = [];
-			var bonusGroupName = specialty_obj["name"];
-			
-			for(var idNum = 0; idNum < specialty_obj["groups"].length; idNum++)
-			{
-				bonusGroups.push(specialty_obj["groups"][idNum]["id"])
-			}
-			
-          
-								worker_line.push(       solarSystemName);
-			if(verbose_bool)	worker_line.push(Number(solarSystemID));
-			if(verbose_bool)	worker_line.push(teamID);
-								worker_line.push(teamName);
-								worker_line.push(teamActivity);
-			if(verbose_bool)	worker_line.push(bonusGroups.join());
-								worker_line.push(bonusGroupName);
-								worker_line.push(bonusType);
-								worker_line.push(Number(bonusValue));
-								worker_line.push(Number(teamSalary));
-			if(verbose_bool)	worker_line.push(expiryTime+"Z");
-								worker_line.push(dif_days+":"+dif_hrs+":"+dif_mins);
-			return_array.push(worker_line)
-        
-        }
-     
-	}
-	return return_array
-}
-
-function AllAuctions(header_bool, verbose_bool, test_server)
-{
-	var return_array = [];
-	
-	var now_time = new Date().getTime();
-	
-	if(header_bool)
-	{
-		var header_array = [];
-		
-							header_array.push("solarSystemName");
-		if(verbose_bool)	header_array.push("solarSystemID");
-		if(verbose_bool)	header_array.push("teamID");
-							header_array.push("teamName");
-							header_array.push("Activity");
-		if(verbose_bool)	header_array.push("bonusGroups");
-							header_array.push("bonusGroupName");
-							header_array.push("bonusType");
-							header_array.push("bonusValue");
-							header_array.push("teamSalary");
-							header_array.push("topBidValue");
-		if(verbose_bool)	header_array.push("topBidSystemID");
-							header_array.push("topBidSystemName");
-		if(verbose_bool)	header_array.push("expireDate");
-      						header_array.push("timeRemaining (D:H:M)");
-		
-		return_array.push(header_array);
-	}
-	
-	var teams_obj = {};
-	teams_obj = __fetchAuctions(test_server);
-	var spec_lookup = {};
-	spec_lookup = __fetchAllTeamSpecialities(test_server);
-	
-	for(var teamIndx = 0; teamIndx < teams_obj["items"].length; teamIndx++)
-	{
-		var solarSystemName = teams_obj["items"][teamIndx]["solarSystem"]["name"];
-		var solarSystemID   = teams_obj["items"][teamIndx]["solarSystem"]["id"];
-		var teamID			= teams_obj["items"][teamIndx]["id"];
-		var expiryTime		= teams_obj["items"][teamIndx]["auctionExpiryTime"];
-		var teamSalary		= teams_obj["items"][teamIndx]["costModifier"];
-		
-		var teamActivityID	= teams_obj["items"][teamIndx]["activity"]; //NOT REPORTED IN CREST FEED
-		var teamActivity 	= JobType[teamActivityID]
-		var teamNameRaw		= teams_obj["items"][teamIndx]["name"]; //NOT REPORTED IN CREST FEED	
-		var teamName		= teamNameRaw.replace("<br>","-");
-
-				
-		/*--JAVASCRIPT IS AN ASSHOLE--*/
-		var timeString = expiryTime.replace(/-/g, "/");
-		timeString = timeString.replace(/T/g," ");
-		timeString = timeString + " GMT";
-		/*--UTC->JS time string --*/
-			
-		var exp_time = new Date(timeString);
-		
-		var dif_time = exp_time.getTime() - now_time; //ms difference in times
-		var dif_days = Math.round(  dif_time / 86400000);
-		var dif_hrs  = Math.round(( dif_time % 86400000) / 3600000);
-		var dif_mins = Math.round(((dif_time % 86400000) % 3600000) / 60000);
-		
-		var topBidValue = 0;
-		var topBidSystemID = 0;
-		var topBidSystemName = "";
-		for (var bidNum = 0; bidNum < teams_obj["items"][teamIndx]["solarSystemBids"].length; bidNum++)
-		{
-			var bidAmount = teams_obj["items"][teamIndx]["solarSystemBids"][bidNum]["bidAmount"];
-			
-			if (bidAmount > topBidValue)
-			{
-				topBidValue		 = bidAmount;
-				topBidSystemID   = teams_obj["items"][teamIndx]["solarSystemBids"][bidNum]["solarSystem"]["id"];
-				topBidSystemName = teams_obj["items"][teamIndx]["solarSystemBids"][bidNum]["solarSystem"]["name"];
-			}
-		}
-		
-		for(var workerIndx = 0; workerIndx < teams_obj["items"][teamIndx]["workers"].length; workerIndx++)
-		{
-			var worker_line = [];
-			var bonusType  = teams_obj["items"][teamIndx]["workers"][workerIndx]["bonus"]["bonusType"];
-			var bonusValue = teams_obj["items"][teamIndx]["workers"][workerIndx]["bonus"]["value"];
-			var specID	   = teams_obj["items"][teamIndx]["workers"][workerIndx]["specialization"]["id"];
-			var specialty_obj = {};
-			
-			if (specID in spec_lookup)
-				specialty_obj = spec_lookup[specID]
-			else//should probably never happen, but secondary lookup for error coverage
-				specialty_obj = __fetchTeamSpecialities(specID, test_server);
-			
-			var bonusGroups = [];
-			var bonusGroupName = specialty_obj["name"];
-			
-			for(var idNum = 0; idNum < specialty_obj["groups"].length; idNum++)
-			{
-				bonusGroups.push(specialty_obj["groups"][idNum]["id"])
-			}
-			
-          
-								worker_line.push(       solarSystemName);
-			if(verbose_bool)	worker_line.push(Number(solarSystemID));
-			if(verbose_bool)	worker_line.push(       teamID);
-								worker_line.push(       teamName);
-								worker_line.push(       teamActivity);
-			if(verbose_bool)	worker_line.push(       bonusGroups.join());
-								worker_line.push(       bonusGroupName);
-								worker_line.push(       bonusType);
-								worker_line.push(Number(bonusValue));
-								worker_line.push(Number(teamSalary));
-								worker_line.push(Number(topBidValue));
-			if(verbose_bool)	worker_line.push(Number(topBidSystemID));
-								worker_line.push(       topBidSystemName);
-			if(verbose_bool)	worker_line.push(       expiryTime+"Z");
-								worker_line.push(       dif_days+":"+dif_hrs+":"+dif_mins);
-			return_array.push(worker_line)
-        
-        }
-     
-	}
-	return return_array;
 }
 
 function fetch_EC_prices(priceIDs,locationID,buy_sell,price_volume,cachebuster){
