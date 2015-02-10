@@ -17,6 +17,10 @@ var base_CREST_URL = "http://public-crest.eveonline.com/";
 var test_CREST_URL = "http://public-crest-sisi.testeveonline.com/";
 var base_API_URL = "https://api.eveonline.com/char/AssetList.xml.aspx?";
 var jobType ={};
+
+var min_wait = 10;
+var max_wait = 500;
+
 JobType = {1:"Manufacturing",
 		3:"Researching Time Efficiency",
 		4:"Researching Material Efficiency",
@@ -188,7 +192,9 @@ function __fetchCrest_market(region_id,item_id)
     method : "get",
     user_agent : "Lockefox @HLIBindustry GDOC scripts",
   }
-
+  
+  var sleeptime = min_wait + (max_wait - min_wait)*Math.random();
+  Utilities.sleep(sleeptime);
   var url = base_CREST_URL+"market/"+region_id+"/types/"+item_id+"/history/"
   var text = UrlFetchApp.fetch(url,parameters);
   var json_obj = JSON.parse(text);
