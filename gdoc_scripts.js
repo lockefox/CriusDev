@@ -827,9 +827,22 @@ function getAvgVolume(days,item_id,region_id)
 function group_getAvgVolume(days,item_id_list,region_id)
 {
 	var return_list = [];
-	for (var index=0; index < item_id_list.length; index++)
+	var item_list = new Array();
+	item_id_list.forEach (function(row){
+		row.forEach (function(cell){
+			if(typeof(cell) === 'number'){
+				item_list.push(cell);
+			}
+		});
+	});
+	var cleanTypeIds = new Array();
+	cleanTypeIds = item_list.filter(function(v,i,a) {
+		return a.indexOf(v)===i;
+	});
+	
+	for (var index=0; index < cleanTypeIds.length; index++)
 	{
-		var avgVol = getAvgVolume(days,item_id_list[index],region_id)
+		var avgVol = getAvgVolume(days,cleanTypeIds[index],region_id)
 		return_list.push(avgVol)
 		//Utilities.sleep(100)
 	}
@@ -862,25 +875,25 @@ function getVolumes(days,item_id,region_id)
 
   return volumes;
 }
-function getAvgPrices_EXP(days, item_id_arry, region_id, reverse_bool)
+
+function group_getAvgPrices(days,item_id_list,region_id,reverse_bool)
 {
+	var return_list	=[]
 	var item_list = new Array();
-	item_id_arry.forEach (function(row){
+	item_id_list.forEach (function(row){
 		row.forEach (function(cell){
 			if(typeof(cell) === 'number'){
 				item_list.push(cell);
 			}
 		});
 	});
-	
-	
-}
-function group_getAvgPrices(days,item_id_list,region_id,reverse_bool)
-{
-	var return_list	=[]
-	for(var index=0; index < item_id_list.length; index++)
+	var cleanTypeIds = new Array();
+	cleanTypeIds = item_list.filter(function(v,i,a) {
+		return a.indexOf(v)===i;
+	});
+	for(var index=0; index < cleanTypeIds.length; index++)
 	{
-		var tmp_list = getAvgPrices(days,item_id_list[index],region_id,reverse_bool)
+		var tmp_list = getAvgPrices(days,cleanTypeIds[index],region_id,reverse_bool)
 		return_list.push(tmp_list)
 		//Utilities.sleep(100)
 	}
