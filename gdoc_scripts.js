@@ -1065,13 +1065,13 @@ function fetch_EC_prices(priceIDs,locationID,buy_sell,price_volume,cachebuster){
 	var locationID_str = String(locationID);
 	var locationType = Number(locationID_str.charAt(0));
 	if(locationType == 1){
-		location_key = '&regionlimit';
+		location_key = '&regionlimit=';
 	}
 	else if (locationType == 3){
-		location_key = '&usesystem';
+		location_key = '&usesystem=';
 	}
 	else if (locationType == 6){
-		location_key = '&usestation';
+		location_key = '&usestation=';
 	}
 	else{
 		throw 'unsupported locationID';
