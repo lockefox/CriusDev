@@ -1103,10 +1103,10 @@ function fetch_EC_prices(priceIDs,locationID,buy_sell,price_volume,cachebuster){
 			for(var i = 0; i < rows.length; i++) {
 				if (buy_sell){
 					if(price_volume){
-						var price=[parseInt(rows[i].getChild("buy").getChild("volume").getValue())];
+						var price=[parseFloat(rows[i].getChild("buy").getChild("max").getValue())];
 					}
 					else{
-						var price=[parseFloat(rows[i].getChild("buy").getChild("max").getValue())];
+						var price=[parseInt(rows[i].getChild("buy").getChild("volume").getValue())];
 					}
 				}
 				else{
