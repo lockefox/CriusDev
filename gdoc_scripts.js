@@ -39,7 +39,7 @@ function isInArray(value, array) {
   return array.indexOf(value) > -1;
 }
 
-function lshift(data_array, shift_count){//shifts an array left.  DESTRUCTIVE!
+function lshift(data_array, shift_count){//shifts an array left.	DESTRUCTIVE!
   var hold_array = [];
   var filler ="";
   
@@ -212,9 +212,9 @@ function __fetchSystemIndexes(test_server)
   
   if(test_server) base_url = test_CREST_URL;
   else base_url = base_CREST_URL;
-  //  if(test_server === undefined) base_url = base_CREST_URL; //allow switching between test/live server (for debug)
-  //  else base_url = test_CREST_URL;
-  //  
+  //	if(test_server === undefined) base_url = base_CREST_URL; //allow switching between test/live server (for debug)
+  //	else base_url = test_CREST_URL;
+  //	
   var parameters = {
     method : "get",
     user_agent : "Lockefox @HLIBindustry GDOC scripts",
@@ -233,9 +233,9 @@ function __fetchMarketPrices(test_server)
   
   if(test_server) base_url = test_CREST_URL;
   else base_url = base_CREST_URL;
-  //  if(test_server === undefined) base_url = base_CREST_URL; //allow switching between test/live server (for debug)
-  //  else base_url = test_CREST_URL;
-  //  
+  //	if(test_server === undefined) base_url = base_CREST_URL; //allow switching between test/live server (for debug)
+  //	else base_url = test_CREST_URL;
+  //	
   var parameters = {
     method : "get",
     user_agent : "Lockefox @HLIBindustry GDOC scripts",
@@ -277,7 +277,8 @@ function API_validateKey(keyID, vCode, expected_type, CAK_mask, test_server)
   var keytype = infoXML.eveapi.result.key.getAttribute("type").getValue();
   
   if (keytype != expected_type){
-    throw "Invalid key type:" +  keytype + "Expected: " + expected_type;
+    if (!(keytype == "Account" && expected_type == "Character"))
+      throw "Invalid key type:" +	keytype + "Expected: " + expected_type;
   }
   
   if ((Number(accessMask) & CAK_mask) == 0){
@@ -384,7 +385,7 @@ function getPOS(keyID, vCode, header_bool, verbose_bool, test_server)
   {
     var tower_line = [];
     
-    var towerID   = POSList[towerNum].getAttribute("itemid").getValue();
+    var towerID	 = POSList[towerNum].getAttribute("itemid").getValue();
     var towerName = "";
     if(can_Locations)
       towerName = towerName_conv[towerID];
@@ -424,7 +425,7 @@ function getPOS(keyID, vCode, header_bool, verbose_bool, test_server)
       for(var invRow = 0; invRow < detList.length; invRow++)
       {
         var contents_id = detList[invRow].getAttribute("typeid").getValue();
-        var quantity    = Number(detList[invRow].getAttribute("quantity").getValue());
+        var quantity		= Number(detList[invRow].getAttribute("quantity").getValue());
         if		(contents_id == stront)
           strt_remain = quantity;
         else if (charters.indexOf(contents_id) > -1)
@@ -441,23 +442,23 @@ function getPOS(keyID, vCode, header_bool, verbose_bool, test_server)
     }
     
     if (verbose_bool)	tower_line.push(Number(towerID));
-    if (can_Locations)	tower_line.push(       towerName);
+    if (can_Locations)	tower_line.push(			 towerName);
     if (verbose_bool)	tower_line.push(Number(towerTypeID));
-    tower_line.push(       POS_typeID_conv[towerTypeID]);
+    tower_line.push(			 POS_typeID_conv[towerTypeID]);
     if (verbose_bool)	tower_line.push(Number(solarSystemID));
-    tower_line.push(       solarSystemName);
+    tower_line.push(			 solarSystemName);
     if (verbose_bool)	tower_line.push(Number(moonID));
-    tower_line.push(       moonName);
-    tower_line.push(       POS_status[Number(POSList[towerNum].getAttribute("state").getValue())]);
-    if (verbose_bool)	tower_line.push(       POSList[towerNum].getAttribute("statetimestamp"));
-    if (verbose_bool)	tower_line.push(       POSList[towerNum].getAttribute("onlinetimestamp"));
-    if (verbose_bool)	tower_line.push(       POSList[towerNum].getAttribute("standingownerid"));
-    if (verbose_bool)	tower_line.push(       POSList[towerNum].getAttribute("standingownerid"));
-    if (can_POSDetails)	tower_line.push(       fuel_remain);
-    if (can_POSDetails)	tower_line.push(       chrt_remain);
-    if (can_POSDetails)	tower_line.push(       strt_remain);
-    if (can_POSDetails)	tower_line.push(       fuel_time_h);
-    if (can_POSDetails)	tower_line.push(       strt_time_h);
+    tower_line.push(			 moonName);
+    tower_line.push(			 POS_status[Number(POSList[towerNum].getAttribute("state").getValue())]);
+    if (verbose_bool)	tower_line.push(			 POSList[towerNum].getAttribute("statetimestamp"));
+    if (verbose_bool)	tower_line.push(			 POSList[towerNum].getAttribute("onlinetimestamp"));
+    if (verbose_bool)	tower_line.push(			 POSList[towerNum].getAttribute("standingownerid"));
+    if (verbose_bool)	tower_line.push(			 POSList[towerNum].getAttribute("standingownerid"));
+    if (can_POSDetails)	tower_line.push(			 fuel_remain);
+    if (can_POSDetails)	tower_line.push(			 chrt_remain);
+    if (can_POSDetails)	tower_line.push(			 strt_remain);
+    if (can_POSDetails)	tower_line.push(			 fuel_time_h);
+    if (can_POSDetails)	tower_line.push(			 strt_time_h);
     
     return_array.push(tower_line);
   }
@@ -548,13 +549,13 @@ function getFacilities(keyID, vCode, header_bool, verbose_bool, test_server)
     var facName = facName_conv[facID];
     
     if (verbose_bool)	fac_line.push(Number(facID));
-    if (can_Locations)	fac_line.push(       facName);
+    if (can_Locations)	fac_line.push(			 facName);
     if (verbose_bool)	fac_line.push(Number(facList[rowNum].getAttribute("typeid").getValue()));
-    fac_line.push(       facList[rowNum].getAttribute("typename").getValue());
+    fac_line.push(			 facList[rowNum].getAttribute("typename").getValue());
     if (verbose_bool)	fac_line.push(Number(facList[rowNum].getAttribute("solarsystemid").getValue()));
-    fac_line.push(       facList[rowNum].getAttribute("solarsystemname").getValue());
+    fac_line.push(			 facList[rowNum].getAttribute("solarsystemname").getValue());
     if (verbose_bool)	fac_line.push(Number(facList[rowNum].getAttribute("regionid").getValue()));
-    fac_line.push(       facList[rowNum].getAttribute("regionname").getValue());
+    fac_line.push(			 facList[rowNum].getAttribute("regionname").getValue());
     if (verbose_bool)	fac_line.push(Number(facList[rowNum].getAttribute("starbasemodifier").getValue()));
     fac_line.push(Number(facList[rowNum].getAttribute("tax").getValue()));
     
@@ -595,7 +596,7 @@ function getLocations(keyID, vCode, csv_ID_list, test_server)
   
   for (var itemNum = 0; itemNum < nameList.length; itemNum ++)
   {
-    var itemID   = nameList[itemNum].getAttribute("itemid").getValue();
+    var itemID	 = nameList[itemNum].getAttribute("itemid").getValue();
     var itemName = nameList[itemNum].getAttribute("itemname").getValue();
     
     //NOTE: itemID is a string!!
@@ -700,7 +701,7 @@ function getIndustryJobs(keyID, vCode, header_bool, verbose_bool, test_server)
   {
     job_line = [];
     
-    var activityID   = Number(jobList[jobNum].getAttribute("activityid").getValue());	
+    var activityID	 = Number(jobList[jobNum].getAttribute("activityid").getValue());	
     var activityName = "";
     try{
       activityName = jobType_arr[activityID];
@@ -709,10 +710,10 @@ function getIndustryJobs(keyID, vCode, header_bool, verbose_bool, test_server)
     }
     
     var facilityID = jobList[jobNum].getAttribute("facilityid").getValue();
-    var stationID  = jobList[jobNum].getAttribute("stationid").getValue();
+    var stationID	= jobList[jobNum].getAttribute("stationid").getValue();
     
     var facilityName = "";
-    var stationName  = "";
+    var stationName	= "";
     
     if (facilityID in location_lookup)
       facilityName = location_lookup[facilityID]
@@ -808,6 +809,88 @@ function getIndustryJobs(keyID, vCode, header_bool, verbose_bool, test_server)
   return return_array;
 }
 
+function getSkills(keyID, vCode, characterID, production_skills, science_skills, refining_skills, test_server)
+{
+  if (typeof characterID == 'undefined')
+    throw 'need characterID';
+  if (typeof production_skills == 'undefined')
+    production_skills = true;		
+  if (typeof science_skills == 'undefined')
+    science_skills = true;
+  if (typeof refining_skills == 'undefined')
+    refining_skills = true;	
+  if (typeof test_server == 'undefined')
+    test_server = false;		
+  
+  try{
+    var can_Locations = true;
+    API_validateKey(keyID, vCode, "Character", 8, test_server);
+  }catch (badkey){
+    return badkey;
+  }
+  
+  parameters = {
+    method : "post",
+    payload :
+    "keyID=" + encodeURIComponent(keyID) +
+    "&vCode=" + encodeURIComponent(vCode) +
+    "&characterID=" + encodeURIComponent(characterID),
+    user_agent : "Lockefox @HLIBindustry GDOC scripts",
+  };
+  Utilities.sleep(1000);
+  var API_addr = "";
+  var call_mod = "char";
+  
+  if(test_server) API_addr = "https://api.testeveonline.com/";
+  else API_addr = "https://api.eveonline.com/";
+  
+  var api_query = API_addr+call_mod+"/CharacterSheet.xml.aspx?"//keyID="+keyID+"&vCode="+vCode;
+  var char_api = UrlFetchApp.fetch(api_query, parameters).getContentText();;
+  var charXML = Xml.parse(char_api,true);
+  
+  var findRowset = charXML.eveapi.result.getElements("rowset");
+  var skills_indx = 0;
+  
+  for (skills_indx = 0; skills_indx < findRowset.length; skills_indx++)
+  {
+    //debug.push(findRowset[skills_indx].getAttribute("name").getValue());
+    if(findRowset[skills_indx].getAttribute("name").getValue() == "skills")
+      break; //set skill_indx to whatever index we find "skills"
+  }
+  if (skills_indx >= findRowset.length)
+    throw "unable to find 'skills' subset on char sheet";
+  
+  var skillList = charXML.eveapi.result.rowset[skills_indx].getElements("row");		
+  
+  var return_array = [];	
+  for(var skill_row = 0; skill_row < skillList.length; skill_row++)
+  {
+    
+    var skillID = Number(skillList[skill_row].getAttribute("typeid").getValue());
+    var skill_lvl = Number(skillList[skill_row].getAttribute("level").getValue());
+    
+    var tmp_row = [];
+    var groupID = 0
+    if (skillID in skill_name_lookup)
+      tmp_row.push(skill_name_lookup[skillID]);
+    else
+      continue;
+    tmp_row.push(skill_lvl);
+    if (skillID in skill_group_lookup)
+      groupID = skill_group_lookup[skillID];
+    else
+      continue;
+    
+    if		(groupID == 268 && production_skills)
+      return_array.push(tmp_row);
+    else if (groupID == 270 && science_skills)
+      return_array.push(tmp_row);
+    else if (groupID == 1218 && refining_skills)
+      return_array.push(tmp_row);
+  }
+  return return_array;
+}
+
 function getAvgVolume(days,item_id,region_id)
 {
   var market_obj = {};
@@ -825,7 +908,7 @@ function getAvgVolume(days,item_id,region_id)
       if (date_range[indx2] == API_date)
       {
         volumes += market_obj["items"][index]["volume"];
-        break;        
+        break;				
       }
     }
     
@@ -877,7 +960,7 @@ function getVolumes(days,item_id,region_id)
       if (date_range[indx2] == API_date)
       {
         volumes.push(market_obj["items"][index]["volume"]);
-        break;        
+        break;				
       }
     }
     
@@ -927,7 +1010,7 @@ function getAvgPrices(days,item_id,region_id,reverse_bool)
       if (date_range[indx2] == API_date)
       {
         prices.push(market_obj["items"][index]["avgPrice"]);
-        break;        
+        break;				
       }
     }
     
@@ -1003,7 +1086,7 @@ function AllSystemIndexes(header_bool, test_server)
     {
       
       var activityID = Number(system_index_obj["items"][index]["systemCostIndices"][cost_index]["activityID"]);
-      var costIndex  = Number(system_index_obj["items"][index]["systemCostIndices"][cost_index]["costIndex"]);
+      var costIndex	= Number(system_index_obj["items"][index]["systemCostIndices"][cost_index]["costIndex"]);
       
       /*--Could replace with a costIndicies[activityID]=costIndex--*/
       if		(1 == activityID)
@@ -1046,7 +1129,7 @@ function AllSystemIndexes(header_bool, test_server)
   return return_array;
 }
 
-function fetch_EC_prices(priceIDs,locationID,header_keys,header_bool,cachebuster){
+function fetch_EC_prices(priceIDs,locationID,header_keys,header_bool,buy_sell,price_volume,cachebuster){
   //Shamelessly stolen from https://github.com/fuzzysteve/eve-googledocs-script/blob/master/EveCentralPrices.gs
   //updated to suit average needs
   if (typeof locationID == 'undefined'){
@@ -1074,7 +1157,7 @@ function fetch_EC_prices(priceIDs,locationID,header_keys,header_bool,cachebuster
   
   buy_volume = buy_avg = buy_max = buy_min = buy_stddev = buy_median = buy_percentile = false;
   sell_volume = sell_avg = sell_max = sell_min = sell_stddev = sell_median = sell_percentile = false;
-  //done badly to assure known order.  Rather than screwing with indexOf
+  //done badly to assure known order.	Rather than screwing with indexOf
   if (isInArray("typeid",requested_header)){
     header.push("typeid");
     typeid = true;
@@ -1134,7 +1217,7 @@ function fetch_EC_prices(priceIDs,locationID,header_keys,header_bool,cachebuster
   if (isInArray("sell_percentile",requested_header)){
     header.push("sell_percentile");
     sell_percentile = true;
-  };  
+  };	
   //***---***//
   
   var location_key = '';
@@ -1214,7 +1297,7 @@ function fetch_EC_prices(priceIDs,locationID,header_keys,header_bool,cachebuster
         if(sell_percentile)
           price.push(parseFloat(rows[i].getChild("sell").getChild("percentile").getValue()));
         
-        prices.push(price);       
+        prices.push(price);			 
       }
     }
   }
@@ -1353,6 +1436,816 @@ var POS_typeID_conv = {
   "27788":"True Sansha Control Tower Medium",
   "27790":"True Sansha Control Tower Small"
 };
+var skill_name_lookup = {
+  3300:"Gunnery",
+  3301:"Small Hybrid Turret",
+  3302:"Small Projectile Turret",
+  3303:"Small Energy Turret",
+  3304:"Medium Hybrid Turret",
+  3305:"Medium Projectile Turret",
+  3306:"Medium Energy Turret",
+  3307:"Large Hybrid Turret",
+  3308:"Large Projectile Turret",
+  3309:"Large Energy Turret",
+  3310:"Rapid Firing",
+  3311:"Sharpshooter",
+  3312:"Motion Prediction",
+  3315:"Surgical Strike",
+  3316:"Controlled Bursts",
+  3317:"Trajectory Analysis",
+  11082:"Small Railgun Specialization",
+  11083:"Small Beam Laser Specialization",
+  11084:"Small Autocannon Specialization",
+  12201:"Small Artillery Specialization",
+  12202:"Medium Artillery Specialization",
+  12203:"Large Artillery Specialization",
+  12204:"Medium Beam Laser Specialization",
+  12205:"Large Beam Laser Specialization",
+  12206:"Medium Railgun Specialization",
+  12207:"Large Railgun Specialization",
+  12208:"Medium Autocannon Specialization",
+  12209:"Large Autocannon Specialization",
+  12210:"Small Blaster Specialization",
+  12211:"Medium Blaster Specialization",
+  12212:"Large Blaster Specialization",
+  12213:"Small Pulse Laser Specialization",
+  12214:"Medium Pulse Laser Specialization",
+  12215:"Large Pulse Laser Specialization",
+  20327:"Capital Energy Turret",
+  21666:"Capital Hybrid Turret",
+  21667:"Capital Projectile Turret",
+  22043:"Tactical Weapon Reconfiguration",
+  24563:"Doomsday Operation",
+  3319:"Missile Launcher Operation",
+  3320:"Rockets",
+  3321:"Light Missiles",
+  3322:"Auto-Targeting Missiles",
+  3323:"Defender Missiles",
+  3324:"Heavy Missiles",
+  3325:"Torpedoes",
+  3326:"Cruise Missiles",
+  12441:"Missile Bombardment",
+  12442:"Missile Projection",
+  20209:"Rocket Specialization",
+  20210:"Light Missile Specialization",
+  20211:"Heavy Missile Specialization",
+  20212:"Cruise Missile Specialization",
+  20213:"Torpedo Specialization",
+  20312:"Guided Missile Precision",
+  20314:"Target Navigation Prediction",
+  20315:"Warhead Upgrades",
+  21071:"Rapid Launch",
+  21668:"Citadel Torpedoes",
+  25718:"Heavy Assault Missile Specialization",
+  25719:"Heavy Assault Missiles",
+  28073:"Bomb Deployment",
+  32435:"Citadel Cruise Missiles",
+  3184:"ORE Industrial",
+  3327:"Spaceship Command",
+  3328:"Gallente Frigate",
+  3329:"Minmatar Frigate",
+  3330:"Caldari Frigate",
+  3331:"Amarr Frigate",
+  3332:"Gallente Cruiser",
+  3333:"Minmatar Cruiser",
+  3334:"Caldari Cruiser",
+  3335:"Amarr Cruiser",
+  3336:"Gallente Battleship",
+  3337:"Minmatar Battleship",
+  3338:"Caldari Battleship",
+  3339:"Amarr Battleship",
+  3340:"Gallente Industrial",
+  3341:"Minmatar Industrial",
+  3342:"Caldari Industrial",
+  3343:"Amarr Industrial",
+  3344:"Gallente Titan",
+  3345:"Minmatar Titan",
+  3346:"Caldari Titan",
+  3347:"Amarr Titan",
+  12092:"Interceptors",
+  12093:"Covert Ops",
+  12095:"Assault Frigates",
+  12096:"Logistics",
+  12098:"Interdictors",
+  16591:"Heavy Assault Cruisers",
+  17940:"Mining Barge",
+  19719:"Transport Ships",
+  20342:"Advanced Spaceship Command",
+  20524:"Amarr Freighter",
+  20525:"Amarr Dreadnought",
+  20526:"Caldari Freighter",
+  20527:"Gallente Freighter",
+  20528:"Minmatar Freighter",
+  20530:"Caldari Dreadnought",
+  20531:"Gallente Dreadnought",
+  20532:"Minmatar Dreadnought",
+  20533:"Capital Ships",
+  22551:"Exhumers",
+  22761:"Recon Ships",
+  23950:"Command Ships",
+  24311:"Amarr Carrier",
+  24312:"Caldari Carrier",
+  24313:"Gallente Carrier",
+  24314:"Minmatar Carrier",
+  28374:"Capital Industrial Ships",
+  28609:"Heavy Interdiction Cruisers",
+  28615:"Electronic Attack Ships",
+  28656:"Black Ops",
+  28667:"Marauders",
+  29029:"Jump Freighters",
+  29637:"Industrial Command Ships",
+  30650:"Amarr Strategic Cruiser",
+  30651:"Caldari Strategic Cruiser",
+  30652:"Gallente Strategic Cruiser",
+  30653:"Minmatar Strategic Cruiser",
+  32918:"Mining Frigate",
+  33091:"Amarr Destroyer",
+  33092:"Caldari Destroyer",
+  33093:"Gallente Destroyer",
+  33094:"Minmatar Destroyer",
+  33095:"Amarr Battlecruiser",
+  33096:"Caldari Battlecruiser",
+  33097:"Gallente Battlecruiser",
+  33098:"Minmatar Battlecruiser",
+  33856:"Expedition Frigates",
+  34327:"ORE Freighter",
+  34390:"Amarr Tactical Destroyer",
+  3348:"Leadership",
+  3349:"Skirmish Warfare",
+  3350:"Siege Warfare",
+  3351:"Siege Warfare Specialist",
+  3352:"Information Warfare Specialist",
+  3354:"Warfare Link Specialist",
+  11569:"Armored Warfare Specialist",
+  11572:"Skirmish Warfare Specialist",
+  11574:"Wing Command",
+  20494:"Armored Warfare",
+  20495:"Information Warfare",
+  22536:"Mining Foreman",
+  22552:"Mining Director",
+  24764:"Fleet Command",
+  3363:"Corporation Management",
+  3368:"Diplomatic Relations",
+  3373:"Starbase Defense Management",
+  3731:"Megacorp Management",
+  3732:"Empire Control",
+  11584:"Anchoring",
+  12241:"Sovereignty",
+  3380:"Industry",
+  3387:"Mass Production",
+  3388:"Advanced Industry",
+  3395:"Advanced Small Ship Construction",
+  3396:"Advanced Industrial Ship Construction",
+  3397:"Advanced Medium Ship Construction",
+  3398:"Advanced Large Ship Construction",
+  3400:"Outpost Construction",
+  22242:"Capital Ship Construction",
+  24268:"Supply Chain Management",
+  24625:"Advanced Mass Production",
+  26224:"Drug Manufacturing",
+  26252:"Jury Rigging",
+  26253:"Armor Rigging",
+  26254:"Astronautics Rigging",
+  26255:"Drones Rigging",
+  26256:"Electronic Superiority Rigging",
+  26257:"Projectile Weapon Rigging",
+  26258:"Energy Weapon Rigging",
+  26259:"Hybrid Weapon Rigging",
+  26260:"Launcher Rigging",
+  26261:"Shield Rigging",
+  3402:"Science",
+  3403:"Research",
+  3406:"Laboratory Operation",
+  3408:"Sleeper Encryption Methods",
+  3409:"Metallurgy",
+  11433:"High Energy Physics",
+  11441:"Plasma Physics",
+  11442:"Nanite Engineering",
+  11443:"Hydromagnetic Physics",
+  11444:"Amarr Starship Engineering",
+  11445:"Minmatar Starship Engineering",
+  11446:"Graviton Physics",
+  11447:"Laser Physics",
+  11448:"Electromagnetic Physics",
+  11449:"Rocket Science",
+  11450:"Gallente Starship Engineering",
+  11451:"Nuclear Physics",
+  11452:"Mechanical Engineering",
+  11453:"Electronic Engineering",
+  11454:"Caldari Starship Engineering",
+  11455:"Quantum Physics",
+  11487:"Astronautic Engineering",
+  11529:"Molecular Engineering",
+  12179:"Research Project Management",
+  20433:"Talocan Technology",
+  21789:"Sleeper Technology",
+  21790:"Caldari Encryption Methods",
+  21791:"Minmatar Encryption Methods",
+  23087:"Amarr Encryption Methods",
+  23121:"Gallente Encryption Methods",
+  23123:"Takmahl Technology",
+  23124:"Yan Jung Technology",
+  24270:"Scientific Networking",
+  24624:"Advanced Laboratory Operation",
+  30324:"Defensive Subsystem Technology",
+  30325:"Engineering Subsystem Technology",
+  30326:"Electronic Subsystem Technology",
+  30327:"Offensive Subsystem Technology",
+  30788:"Propulsion Subsystem Technology",
+  3427:"Electronic Warfare",
+  3433:"Sensor Linking",
+  3434:"Weapon Disruption",
+  3435:"Propulsion Jamming",
+  4411:"Target Breaker Amplification",
+  11579:"Cloaking",
+  19759:"Long Distance Jamming",
+  19760:"Frequency Modulation",
+  19761:"Signal Dispersion",
+  19766:"Signal Suppression",
+  19767:"Turret Destabilization",
+  19921:"Target Painting",
+  19922:"Signature Focusing",
+  27906:"Tactical Logistics Reconfiguration",
+  27911:"Projected Electronic Counter Measures",
+  3436:"Drones",
+  3437:"Drone Avionics",
+  3438:"Mining Drone Operation",
+  3439:"Repair Drone Operation",
+  3440:"Salvage Drone Operation",
+  3441:"Heavy Drone Operation",
+  3442:"Drone Interfacing",
+  12305:"Drone Navigation",
+  12484:"Amarr Drone Specialization",
+  12485:"Minmatar Drone Specialization",
+  12486:"Gallente Drone Specialization",
+  12487:"Caldari Drone Specialization",
+  23069:"Fighters",
+  23566:"Advanced Drone Avionics",
+  23594:"Sentry Drone Interfacing",
+  23606:"Drone Sharpshooting",
+  23618:"Drone Durability",
+  24241:"Light Drone Operation",
+  24613:"Advanced Drone Interfacing",
+  32339:"Fighter Bombers",
+  33699:"Medium Drone Operation",
+  3443:"Trade",
+  3444:"Retail",
+  3446:"Broker Relations",
+  3447:"Visibility",
+  16594:"Procurement",
+  16595:"Daytrading",
+  16596:"Wholesale",
+  16597:"Margin Trading",
+  16598:"Marketing",
+  16622:"Accounting",
+  18580:"Tycoon",
+  25233:"Corporation Contracting",
+  25235:"Contracting",
+  33467:"Customs Code Expertise",
+  3449:"Navigation",
+  3450:"Afterburner",
+  3451:"Fuel Conservation",
+  3452:"Acceleration Control",
+  3453:"Evasive Maneuvering",
+  3454:"High Speed Maneuvering",
+  3455:"Warp Drive Operation",
+  3456:"Jump Drive Operation",
+  4385:"Micro Jump Drive Operation",
+  21603:"Cynosural Field Theory",
+  21610:"Jump Fuel Conservation",
+  21611:"Jump Drive Calibration",
+  24562:"Jump Portal Generation",
+  3355:"Social",
+  3356:"Negotiation",
+  3357:"Diplomacy",
+  3358:"Fast Talk",
+  3359:"Connections",
+  3361:"Criminal Connections",
+  3893:"Mining Connections",
+  3894:"Distribution Connections",
+  3895:"Security Connections",
+  3416:"Shield Operation",
+  3419:"Shield Management",
+  3420:"Tactical Shield Manipulation",
+  3422:"Shield Emission Systems",
+  3425:"Shield Upgrades",
+  11566:"Thermic Shield Compensation",
+  12365:"EM Shield Compensation",
+  12366:"Kinetic Shield Compensation",
+  12367:"Explosive Shield Compensation",
+  21059:"Shield Compensation",
+  21802:"Capital Shield Operation",
+  24571:"Capital Shield Emission Systems",
+  3392:"Mechanics",
+  3393:"Repair Systems",
+  3394:"Hull Upgrades",
+  16069:"Remote Armor Repair Systems",
+  21803:"Capital Repair Systems",
+  22806:"EM Armor Compensation",
+  22807:"Explosive Armor Compensation",
+  22808:"Kinetic Armor Compensation",
+  22809:"Thermic Armor Compensation",
+  24568:"Capital Remote Armor Repair Systems",
+  27902:"Remote Hull Repair Systems",
+  27936:"Capital Remote Hull Repair Systems",
+  32797:"Armor Resistance Phasing",
+  33078:"Armor Layering",
+  3428:"Long Range Targeting",
+  3429:"Target Management",
+  3430:"Advanced Target Management",
+  3431:"Signature Analysis",
+  32999:"Magnetometric Sensor Compensation",
+  33000:"Gravimetric Sensor Compensation",
+  33001:"Ladar Sensor Compensation",
+  33002:"Radar Sensor Compensation",
+  3318:"Weapon Upgrades",
+  3413:"Power Grid Management",
+  3417:"Capacitor Systems Operation",
+  3418:"Capacitor Management",
+  3421:"Energy Pulse Weapons",
+  3423:"Capacitor Emission Systems",
+  3424:"Energy Grid Upgrades",
+  3426:"CPU Management",
+  3432:"Electronics Upgrades",
+  11207:"Advanced Weapon Upgrades",
+  24572:"Capital Capacitor Emission Systems",
+  28164:"Thermodynamics",
+  28879:"Nanite Operation",
+  28880:"Nanite Interfacing",
+  3412:"Astrometrics",
+  3551:"Survey",
+  13278:"Archaeology",
+  21718:"Hacking",
+  25739:"Astrometric Rangefinding",
+  25810:"Astrometric Pinpointing",
+  25811:"Astrometric Acquisition",
+  3385:"Reprocessing",
+  3386:"Mining",
+  3389:"Reprocessing Efficiency",
+  3410:"Astrogeology",
+  11395:"Deep Core Mining",
+  12180:"Arkonor Processing",
+  12181:"Bistot Processing",
+  12182:"Crokite Processing",
+  12183:"Dark Ochre Processing",
+  12184:"Gneiss Processing",
+  12185:"Hedbergite Processing",
+  12186:"Hemorphite Processing",
+  12187:"Jaspet Processing",
+  12188:"Kernite Processing",
+  12189:"Mercoxit Processing",
+  12190:"Omber Processing",
+  12191:"Plagioclase Processing",
+  12192:"Pyroxeres Processing",
+  12193:"Scordite Processing",
+  12194:"Spodumain Processing",
+  12195:"Veldspar Processing",
+  12196:"Scrapmetal Processing",
+  16281:"Ice Harvesting",
+  18025:"Ice Processing",
+  22578:"Mining Upgrades",
+  25544:"Gas Cloud Harvesting",
+  25863:"Salvaging",
+  28585:"Industrial Reconfiguration",
+  3405:"Biology",
+  3411:"Cybernetics",
+  24242:"Infomorph Psychology",
+  24606:"Cloning Facility Operation",
+  25530:"Neurotoxin Recovery",
+  25538:"Neurotoxin Control",
+  33399:"Infomorph Synchronizing",
+  33407:"Advanced Infomorph Psychology",
+  30532:"Amarr Defensive Systems",
+  30536:"Amarr Electronic Systems",
+  30537:"Amarr Offensive Systems",
+  30538:"Amarr Propulsion Systems",
+  30539:"Amarr Engineering Systems",
+  30540:"Gallente Defensive Systems",
+  30541:"Gallente Electronic Systems",
+  30542:"Caldari Electronic Systems",
+  30543:"Minmatar Electronic Systems",
+  30544:"Caldari Defensive Systems",
+  30545:"Minmatar Defensive Systems",
+  30546:"Gallente Engineering Systems",
+  30547:"Minmatar Engineering Systems",
+  30548:"Caldari Engineering Systems",
+  30549:"Caldari Offensive Systems",
+  30550:"Gallente Offensive Systems",
+  30551:"Minmatar Offensive Systems",
+  30552:"Caldari Propulsion Systems",
+  30553:"Gallente Propulsion Systems",
+  30554:"Minmatar Propulsion Systems",
+  2403:"Advanced Planetology",
+  2406:"Planetology",
+  2495:"Interplanetary Consolidation",
+  2505:"Command Center Upgrades",
+  13279:"Remote Sensing"
+}
+var skill_group_lookup = {
+  3300:255,
+  3301:255,
+  3302:255,
+  3303:255,
+  3304:255,
+  3305:255,
+  3306:255,
+  3307:255,
+  3308:255,
+  3309:255,
+  3310:255,
+  3311:255,
+  3312:255,
+  3315:255,
+  3316:255,
+  3317:255,
+  11082:255,
+  11083:255,
+  11084:255,
+  12201:255,
+  12202:255,
+  12203:255,
+  12204:255,
+  12205:255,
+  12206:255,
+  12207:255,
+  12208:255,
+  12209:255,
+  12210:255,
+  12211:255,
+  12212:255,
+  12213:255,
+  12214:255,
+  12215:255,
+  20327:255,
+  21666:255,
+  21667:255,
+  22043:255,
+  24563:255,
+  3319:256,
+  3320:256,
+  3321:256,
+  3322:256,
+  3323:256,
+  3324:256,
+  3325:256,
+  3326:256,
+  12441:256,
+  12442:256,
+  20209:256,
+  20210:256,
+  20211:256,
+  20212:256,
+  20213:256,
+  20312:256,
+  20314:256,
+  20315:256,
+  21071:256,
+  21668:256,
+  25718:256,
+  25719:256,
+  28073:256,
+  32435:256,
+  3184:257,
+  3327:257,
+  3328:257,
+  3329:257,
+  3330:257,
+  3331:257,
+  3332:257,
+  3333:257,
+  3334:257,
+  3335:257,
+  3336:257,
+  3337:257,
+  3338:257,
+  3339:257,
+  3340:257,
+  3341:257,
+  3342:257,
+  3343:257,
+  3344:257,
+  3345:257,
+  3346:257,
+  3347:257,
+  12092:257,
+  12093:257,
+  12095:257,
+  12096:257,
+  12098:257,
+  16591:257,
+  17940:257,
+  19719:257,
+  20342:257,
+  20524:257,
+  20525:257,
+  20526:257,
+  20527:257,
+  20528:257,
+  20530:257,
+  20531:257,
+  20532:257,
+  20533:257,
+  22551:257,
+  22761:257,
+  23950:257,
+  24311:257,
+  24312:257,
+  24313:257,
+  24314:257,
+  28374:257,
+  28609:257,
+  28615:257,
+  28656:257,
+  28667:257,
+  29029:257,
+  29637:257,
+  30650:257,
+  30651:257,
+  30652:257,
+  30653:257,
+  32918:257,
+  33091:257,
+  33092:257,
+  33093:257,
+  33094:257,
+  33095:257,
+  33096:257,
+  33097:257,
+  33098:257,
+  33856:257,
+  34327:257,
+  34390:257,
+  3348:258,
+  3349:258,
+  3350:258,
+  3351:258,
+  3352:258,
+  3354:258,
+  11569:258,
+  11572:258,
+  11574:258,
+  20494:258,
+  20495:258,
+  22536:258,
+  22552:258,
+  24764:258,
+  3363:266,
+  3368:266,
+  3373:266,
+  3731:266,
+  3732:266,
+  11584:266,
+  12241:266,
+  3380:268,
+  3387:268,
+  3388:268,
+  3395:268,
+  3396:268,
+  3397:268,
+  3398:268,
+  3400:268,
+  22242:268,
+  24268:268,
+  24625:268,
+  26224:268,
+  26252:269,
+  26253:269,
+  26254:269,
+  26255:269,
+  26256:269,
+  26257:269,
+  26258:269,
+  26259:269,
+  26260:269,
+  26261:269,
+  3402:270,
+  3403:270,
+  3406:270,
+  3408:270,
+  3409:270,
+  11433:270,
+  11441:270,
+  11442:270,
+  11443:270,
+  11444:270,
+  11445:270,
+  11446:270,
+  11447:270,
+  11448:270,
+  11449:270,
+  11450:270,
+  11451:270,
+  11452:270,
+  11453:270,
+  11454:270,
+  11455:270,
+  11487:270,
+  11529:270,
+  12179:270,
+  20433:270,
+  21789:270,
+  21790:270,
+  21791:270,
+  23087:270,
+  23121:270,
+  23123:270,
+  23124:270,
+  24270:270,
+  24624:270,
+  30324:270,
+  30325:270,
+  30326:270,
+  30327:270,
+  30788:270,
+  3427:272,
+  3433:272,
+  3434:272,
+  3435:272,
+  4411:272,
+  11579:272,
+  19759:272,
+  19760:272,
+  19761:272,
+  19766:272,
+  19767:272,
+  19921:272,
+  19922:272,
+  27906:272,
+  27911:272,
+  3436:273,
+  3437:273,
+  3438:273,
+  3439:273,
+  3440:273,
+  3441:273,
+  3442:273,
+  12305:273,
+  12484:273,
+  12485:273,
+  12486:273,
+  12487:273,
+  23069:273,
+  23566:273,
+  23594:273,
+  23606:273,
+  23618:273,
+  24241:273,
+  24613:273,
+  32339:273,
+  33699:273,
+  3443:274,
+  3444:274,
+  3446:274,
+  3447:274,
+  16594:274,
+  16595:274,
+  16596:274,
+  16597:274,
+  16598:274,
+  16622:274,
+  18580:274,
+  25233:274,
+  25235:274,
+  33467:274,
+  3449:275,
+  3450:275,
+  3451:275,
+  3452:275,
+  3453:275,
+  3454:275,
+  3455:275,
+  3456:275,
+  4385:275,
+  21603:275,
+  21610:275,
+  21611:275,
+  24562:275,
+  3355:278,
+  3356:278,
+  3357:278,
+  3358:278,
+  3359:278,
+  3361:278,
+  3893:278,
+  3894:278,
+  3895:278,
+  3416:1209,
+  3419:1209,
+  3420:1209,
+  3422:1209,
+  3425:1209,
+  11566:1209,
+  12365:1209,
+  12366:1209,
+  12367:1209,
+  21059:1209,
+  21802:1209,
+  24571:1209,
+  3392:1210,
+  3393:1210,
+  3394:1210,
+  16069:1210,
+  21803:1210,
+  22806:1210,
+  22807:1210,
+  22808:1210,
+  22809:1210,
+  24568:1210,
+  27902:1210,
+  27936:1210,
+  32797:1210,
+  33078:1210,
+  3428:1213,
+  3429:1213,
+  3430:1213,
+  3431:1213,
+  32999:1213,
+  33000:1213,
+  33001:1213,
+  33002:1213,
+  3318:1216,
+  3413:1216,
+  3417:1216,
+  3418:1216,
+  3421:1216,
+  3423:1216,
+  3424:1216,
+  3426:1216,
+  3432:1216,
+  11207:1216,
+  24572:1216,
+  28164:1216,
+  28879:1216,
+  28880:1216,
+  3412:1217,
+  3551:1217,
+  13278:1217,
+  21718:1217,
+  25739:1217,
+  25810:1217,
+  25811:1217,
+  3385:1218,
+  3386:1218,
+  3389:1218,
+  3410:1218,
+  11395:1218,
+  12180:1218,
+  12181:1218,
+  12182:1218,
+  12183:1218,
+  12184:1218,
+  12185:1218,
+  12186:1218,
+  12187:1218,
+  12188:1218,
+  12189:1218,
+  12190:1218,
+  12191:1218,
+  12192:1218,
+  12193:1218,
+  12194:1218,
+  12195:1218,
+  12196:1218,
+  16281:1218,
+  18025:1218,
+  22578:1218,
+  25544:1218,
+  25863:1218,
+  28585:1218,
+  3405:1220,
+  3411:1220,
+  24242:1220,
+  24606:1220,
+  25530:1220,
+  25538:1220,
+  33399:1220,
+  33407:1220,
+  30532:1240,
+  30536:1240,
+  30537:1240,
+  30538:1240,
+  30539:1240,
+  30540:1240,
+  30541:1240,
+  30542:1240,
+  30543:1240,
+  30544:1240,
+  30545:1240,
+  30546:1240,
+  30547:1240,
+  30548:1240,
+  30549:1240,
+  30550:1240,
+  30551:1240,
+  30552:1240,
+  30553:1240,
+  30554:1240,
+  2403:1241,
+  2406:1241,
+  2495:1241,
+  2505:1241,
+  13279:1241
+}
 var POS_status = [
   "Unanchored",
   "Anchored - Offline",
