@@ -5,12 +5,10 @@ Contact info
 - Blog: eve-prosper.blogspot.com
 Purpose:
 A suite of API/CREST scraping tools for use in Google sheets for EVE Online data
-
 Legal:
 API/CREST is property of CCP hf. 
 Code is distributed free-of-charge, and should not be used for commercial gain
 Code is open source, but notification is appreciated on any modifications
-
 Developed as part of the CriusDev project: https://github.com/lockefox/CriusDev
 */
 var base_CREST_URL = "https://public-crest.eveonline.com/";
@@ -917,6 +915,37 @@ function getAvgVolume(days,item_id,region_id)
   return volumes/days;
 }
 
+function getCRESTprices(item_id, region_id, header_bool)
+{
+  var market_obj = {};
+  market_obj = __fetchCrest_market(region_id,item_id);
+  
+  
+  var return_struct = [];
+  if(header_bool)
+  {
+    row = []
+    row.push("date");
+    row.push("lowPrice");
+    row.push("highPrice");
+    row.push("avgPrice");
+    row.push("volume");
+    row.push("orderCount");
+    return_struct.push(row);
+  }
+  for (var index = 0; index < market_obj["items"].length; index++)
+  {
+    var row = [];
+    row.push(market_obj["items"][index]["date"]);
+    row.push(market_obj["items"][index]["lowPrice"]);
+    row.push(market_obj["items"][index]["highPrice"]);
+    row.push(market_obj["items"][index]["avgPrice"]);
+    row.push(market_obj["items"][index]["volume"]);
+    row.push(market_obj["items"][index]["orderCount"]);
+    return_struct.push(row);
+  }
+  return return_struct;
+}
 function group_getAvgVolume(days,item_id_list,region_id)
 {
   var return_list = [];
