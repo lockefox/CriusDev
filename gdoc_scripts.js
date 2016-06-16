@@ -11,8 +11,8 @@ Code is distributed free-of-charge, and should not be used for commercial gain
 Code is open source, but notification is appreciated on any modifications
 Developed as part of the CriusDev project: https://github.com/lockefox/CriusDev
 */
-var base_CREST_URL = "https://public-crest.eveonline.com/";
-var test_CREST_URL = "https://public-crest-sisi.testeveonline.com/";
+var base_CREST_URL = "https://crest-tq.eveonline.com/";
+var test_CREST_URL = "https://api-sisi.testeveonline.com/";
 var base_API_URL = "https://api.eveonline.com/char/AssetList.xml.aspx?";
 var jobType ={};
 
