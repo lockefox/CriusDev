@@ -197,7 +197,7 @@ function __fetchCrest_market(region_id,item_id)
   
   var sleeptime = min_wait + (max_wait - min_wait)*Math.random();
   Utilities.sleep(sleeptime);
-  var url = base_CREST_URL+"market/"+region_id+"/types/"+item_id+"/history/"
+  var url = base_CREST_URL+"market/"+region_id+"history/?type="+base_CREST_URL+"inventory/types/"+item_id+"/"
   var text = UrlFetchApp.fetch(url,parameters);
   var json_obj = JSON.parse(text);
   
